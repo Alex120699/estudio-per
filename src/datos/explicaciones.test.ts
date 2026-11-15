@@ -20,8 +20,8 @@ describe('explicaciones.json', () => {
     }
   })
 
-  it('la UT 2 está completa (piloto)', () => {
-    const ut2 = preguntas.filter((p) => p.unidad === 2)
-    expect(ut2.filter((p) => !explicacionDe(p.id)).map((p) => p.id)).toEqual([])
+  it.each([2, 6])('la UT %i está completa', (unidad) => {
+    const lista = preguntas.filter((p) => p.unidad === unidad)
+    expect(lista.filter((p) => !explicacionDe(p.id)).map((p) => p.id)).toEqual([])
   })
 })
