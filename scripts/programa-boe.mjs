@@ -157,7 +157,8 @@ async function main() {
   for (const u of unidades) {
     const f = filas.find((x) => x.ut === u.numero);
     const [n, maxErr, minOk, maxErrComp, minOkComp] = f.v;
-    u.nombreCuadro = f.nombreCuadro;
+    // El cuadro del BOE escribe «Reglamento (Ripa)»; se normaliza la sigla para mostrarla.
+    u.nombreCuadro = f.nombreCuadro.replace('(Ripa)', '(RIPA)');
     u.bloque = bloquePnb.has(u.numero) ? 'PNB' : 'PER';
     u.preguntas = n;
     u.maxErrores = maxErr;
