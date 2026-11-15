@@ -20,7 +20,7 @@ describe('explicaciones.json', () => {
     }
   })
 
-  it.each([1, 2, 3, 4, 5, 6, 7, 8])('la UT %i está completa', (unidad) => {
+  it.each([1, 2, 3, 4, 5, 6, 7, 8, 9])('la UT %i está completa', (unidad) => {
     const lista = preguntas.filter((p) => p.unidad === unidad)
     expect(lista.filter((p) => !explicacionDe(p.id)).map((p) => p.id)).toEqual([])
   })
