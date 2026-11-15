@@ -1,0 +1,73 @@
+{
+  "_comentario": "Exámenes oficiales del PER. 'formato' indica el parser: 'andalucia' (cuestionario con cabeceras de UT + plantilla escaneada aparte) o 'baleares' (respuesta correcta tras cada pregunta). 'correcciones' recoge erratas publicadas oficialmente en la plantilla (número de pregunta → letra correcta).",
+  "examenes": [
+    {
+      "id": "and-2026-1-A",
+      "comunidad": "Andalucía",
+      "convocatoria": "2026-1",
+      "fecha": "2026-03-21",
+      "modelo": "A",
+      "formato": "andalucia",
+      "pagina": "https://www.juntadeandalucia.es/organismos/culturapatrimoniohistoricoydeporte/areas/deporte/formacion-investigacion-innovacion/titulaciones-nauticas/paginas/pruebas-nauticas-cuestionarios-soluciones-1-2026.html",
+      "examen": "https://www.juntadeandalucia.es/sites/default/files/inline-files/2026/03/2026_1-C_PER_modelo_A.pdf",
+      "plantilla": "https://www.juntadeandalucia.es/sites/default/files/inline-files/2026/03/2026_1-SOL_PER_modelo_A.pdf"
+    },
+    {
+      "id": "and-2026-1-B",
+      "comunidad": "Andalucía",
+      "convocatoria": "2026-1",
+      "fecha": "2026-03-21",
+      "modelo": "B",
+      "formato": "andalucia",
+      "pagina": "https://www.juntadeandalucia.es/organismos/culturapatrimoniohistoricoydeporte/areas/deporte/formacion-investigacion-innovacion/titulaciones-nauticas/paginas/pruebas-nauticas-cuestionarios-soluciones-1-2026.html",
+      "examen": "https://www.juntadeandalucia.es/sites/default/files/inline-files/2026/03/2026_1-C_PER_modelo_B.pdf",
+      "plantilla": "https://www.juntadeandalucia.es/sites/default/files/inline-files/2026/03/2026_1-SOL_PER_modelo_B.pdf"
+    },
+    {
+      "id": "and-2026-2-A",
+      "comunidad": "Andalucía",
+      "convocatoria": "2026-2",
+      "modelo": "A",
+      "formato": "andalucia",
+      "pagina": "https://www.juntadeandalucia.es/organismos/culturapatrimoniohistoricoydeporte/areas/deporte/formacion-investigacion-innovacion/titulaciones-nauticas/paginas/pruebas-nauticas-cuestionarios-soluciones-2-2026.html",
+      "examen": "https://www.juntadeandalucia.es/sites/default/files/inline-files/2026/06/2026_2-C_PER_modelo_A.pdf",
+      "plantilla": "https://www.juntadeandalucia.es/sites/default/files/inline-files/2026/06/2026_2-SOL_PER_modelo_A.pdf",
+      "fecha": "2026-06-13"
+    },
+    {
+      "id": "and-2025-3-A",
+      "comunidad": "Andalucía",
+      "convocatoria": "2025-3",
+      "fecha": "2025-11-15",
+      "modelo": "A",
+      "formato": "andalucia",
+      "pagina": "https://www.juntadeandalucia.es/organismos/culturapatrimoniohistoricoydeporte/areas/deporte/formacion-investigacion-innovacion/titulaciones-nauticas/paginas/pruebas-nauticas-cuestionarios-soluciones-3-2025.html",
+      "examen": "https://www.juntadeandalucia.es/sites/default/files/inline-files/2025/11/2025_3-C_PER_modelo_A.pdf",
+      "plantilla": "https://www.juntadeandalucia.es/sites/default/files/inline-files/2025/11/2025_3-SOL_PER_modelo_A.pdf",
+      "correcciones": {
+        "11": {
+          "correcta": "c",
+          "motivo": "Nota informativa del Tribunal Calificador Único: error al consignar la respuesta correcta en la plantilla (PER, pregunta 11 modelo A, opción c)"
+        }
+      }
+    },
+    {
+      "id": "bal-2026-09-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2026-09",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2026_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI569148&id=569148"
+    },
+    {
+      "id": "bal-2026-09-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2026-09",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2026_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI569107&id=569107"
+    }
+  ]
+}

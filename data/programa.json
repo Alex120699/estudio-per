@@ -1,0 +1,1258 @@
+{
+  "fuente": {
+    "norma": "Real Decreto 875/2014, de 10 de octubre, por el que se regulan las titulaciones náuticas para el gobierno de las embarcaciones de recreo",
+    "id": "BOE-A-2014-10344",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-10344",
+    "apartado": "Anexo II, 3. Patrón de Embarcaciones de Recreo (PER)",
+    "redaccionAnexoII": "Modificado por el art. 3.13 del Real Decreto 238/2019, de 5 de abril (BOE-A-2019-6481), en vigor desde el 01/07/2019",
+    "ultimaActualizacionConsolidado": "30/12/2025",
+    "generado": "2026-11-15"
+  },
+  "examen": {
+    "completo": {
+      "preguntas": 45,
+      "opcionesPorPregunta": 4,
+      "duracion": "1 hora y 30 minutos",
+      "minAciertos": 32,
+      "maxErroresPorUnidad": {
+        "5": 2,
+        "6": 5,
+        "11": 2
+      }
+    },
+    "complementarioPNB": {
+      "descripcion": "Para quien tiene el título de PNB o ha aprobado su examen teórico: solo UT 7 a 11",
+      "unidades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "preguntas": 18,
+      "duracion": "45 minutos",
+      "minAciertos": 15,
+      "maxErroresTotales": 3,
+      "maxErroresPorUnidad": {
+        "11": 2
+      }
+    },
+    "equivalenciaPNB": {
+      "descripcion": "Si no se aprueba el PER pero sí con las exigencias del PNB (UT 1 a 6), se reconoce el aprobado del PNB durante dos convocatorias",
+      "unidades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "preguntas": 27,
+      "minAciertos": 17,
+      "maxErroresPorUnidad": {
+        "5": 2,
+        "6": 5
+      }
+    },
+    "notas": [
+      "En cada Resolución de Convocatorias se especificará la normativa IALA en la que se basarán los exámenes (marcas laterales: Región A)."
+    ]
+  },
+  "unidades": [
+    {
+      "numero": 1,
+      "nombre": "Nomenclatura náutica",
+      "nombreCuadro": "Nomenclatura Náutica",
+      "bloque": "PNB",
+      "preguntas": 4,
+      "maxErrores": null,
+      "minAciertos": null,
+      "maxErroresComplementario": null,
+      "minAciertosComplementario": null,
+      "apartados": [
+        {
+          "codigo": "1.1",
+          "titulo": "Casco",
+          "contenido": [
+            {
+              "texto": "Casco y cubierta."
+            },
+            {
+              "texto": "Proa y popa."
+            },
+            {
+              "texto": "Línea y plano de crujía, para definir: Estribor y babor."
+            },
+            {
+              "texto": "Costados, amura, través y aleta."
+            },
+            {
+              "texto": "Plano de flotación, para definir: Obra viva (carena) y obra muerta."
+            },
+            {
+              "texto": "Bañera e imbornales."
+            },
+            {
+              "texto": "Escotillas, escotilla principal."
+            },
+            {
+              "texto": "Lumbreras y manguerotes ventilación."
+            },
+            {
+              "texto": "Portillos y tragaluces."
+            },
+            {
+              "texto": "Pasamanos, candeleros y guardamancebos."
+            }
+          ]
+        },
+        {
+          "codigo": "1.2",
+          "titulo": "Estructura",
+          "contenido": [
+            {
+              "texto": "Quilla, roda, codaste, cuadernas, baos, borda, regala, mamparos, plan y sentina."
+            },
+            {
+              "texto": "Grifos de fondo."
+            },
+            {
+              "texto": "Bombas de achique."
+            }
+          ]
+        },
+        {
+          "codigo": "1.3",
+          "titulo": "Equipo de fondeo",
+          "contenido": [
+            {
+              "texto": "Molinete: Barbotén, embrague y freno."
+            },
+            {
+              "texto": "Línea de fondeo. Grillete de unión. Partes del ancla sin cepo."
+            },
+            {
+              "texto": "Forma del ancla de arado, del ancla Danforth y del rezón."
+            },
+            {
+              "texto": "En referencia al ancla y la maniobra de fondeo, definiciones de: Virar, filar, a la pendura, a pique, levar, zarpar, clara y libre."
+            }
+          ]
+        },
+        {
+          "codigo": "1.4",
+          "titulo": "Timón",
+          "contenido": [
+            {
+              "texto": "Partes del timón: Caña o rueda, mecha, limera, guardines y pala."
+            }
+          ]
+        },
+        {
+          "codigo": "1.5",
+          "titulo": "Hélice",
+          "contenido": [
+            {
+              "texto": "Partes de la hélice: Eje, bocina, núcleo, palas y capacete."
+            },
+            {
+              "texto": "Hélice dextrógira y hélice levógira."
+            },
+            {
+              "texto": "Hélices gemelas de giro al exterior."
+            },
+            {
+              "texto": "Hélice de palas abatibles."
+            }
+          ]
+        },
+        {
+          "codigo": "1.6",
+          "titulo": "Dimensiones",
+          "contenido": [
+            {
+              "texto": "Eslora, manga y manga máxima, puntal, franco bordo, calado de proa, calado de popa, calado medio y asiento."
+            },
+            {
+              "texto": "Desplazamiento máximo en embarcaciones de recreo."
+            }
+          ]
+        },
+        {
+          "codigo": "1.7",
+          "titulo": "Terminología",
+          "contenido": [
+            {
+              "texto": "Escorar y adrizar. Barlovento y sotavento."
+            }
+          ]
+        }
+      ],
+      "excluido": []
+    },
+    {
+      "numero": 2,
+      "nombre": "Elementos de amarre y fondeo",
+      "nombreCuadro": "Elementos de amarre y fondeo",
+      "bloque": "PNB",
+      "preguntas": 2,
+      "maxErrores": null,
+      "minAciertos": null,
+      "maxErroresComplementario": null,
+      "minAciertosComplementario": null,
+      "apartados": [
+        {
+          "codigo": "2.1",
+          "titulo": "Elementos de amarre",
+          "contenido": [
+            {
+              "texto": "Definiciones de: Noray, muertos, boyas, defensas, bichero, chicote, seno, firme y gaza, guía-cabos, roldana, bitas y cornamusas."
+            }
+          ]
+        },
+        {
+          "codigo": "2.2",
+          "titulo": "Nudos",
+          "contenido": [
+            {
+              "texto": "Indicar para qué se emplean los siguientes nudos: Llano, vuelta de rezón, ballestrinque y as de guía."
+            }
+          ]
+        },
+        {
+          "codigo": "2.3",
+          "titulo": "Fondeo",
+          "contenido": [
+            {
+              "texto": "Elección del lugar de fondeo y del tenedero."
+            },
+            {
+              "texto": "Fondeo a la gira con un ancla: Maniobra, longitud del fondeo, círculo de borneo."
+            },
+            {
+              "texto": "Garreo."
+            },
+            {
+              "texto": "Vigilancia durante el fondeo: Marcas, alarma de sonda."
+            },
+            {
+              "texto": "Orinque."
+            },
+            {
+              "texto": "Maniobra de levar el ancla."
+            }
+          ]
+        }
+      ],
+      "excluido": []
+    },
+    {
+      "numero": 3,
+      "nombre": "Seguridad en la mar",
+      "nombreCuadro": "Seguridad",
+      "bloque": "PNB",
+      "preguntas": 4,
+      "maxErrores": null,
+      "minAciertos": null,
+      "maxErroresComplementario": null,
+      "minAciertosComplementario": null,
+      "apartados": [
+        {
+          "codigo": "3.1",
+          "titulo": "Estabilidad",
+          "contenido": [
+            {
+              "texto": "Definiciones de:",
+              "sub": [
+                {
+                  "texto": "Movimiento de balance y cabezada."
+                },
+                {
+                  "texto": "Estabilidad estática transversal y longitudinal (sin entrar en su estudio)."
+                }
+              ]
+            },
+            {
+              "texto": "Forma de gobernar para evitar balances y cabezadas."
+            },
+            {
+              "texto": "Importancia de no atravesarse a la mar."
+            }
+          ]
+        },
+        {
+          "codigo": "3.2",
+          "titulo": "Comprobaciones antes de hacerse a la mar",
+          "contenido": [
+            {
+              "texto": "Ser consciente de la necesidad e importancia de realizar una serie de comprobaciones previas a la salida a la mar."
+            },
+            {
+              "texto": "Poder enumerar las siguientes:",
+              "sub": [
+                {
+                  "texto": "Niveles de aceite, filtros decantación de agua e impurezas, líquido refrigerante, refrigeración, correa del alternador, nivel de combustible, agua dulce, baterías, luces de navegación, equipo de radio, estanqueidad, sistema de gobierno y propulsión, ausencia de gases explosivos, fugas de aceite o combustible, parte meteorológico, existencia y estado de elementos de seguridad (chalecos, aros salvavidas, equipo pirotécnico y extintores)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "3.3",
+          "titulo": "Medidas a tomar a bordo con mal tiempo",
+          "contenido": [
+            {
+              "texto": "Estiba y trinca a son de mar."
+            },
+            {
+              "texto": "Revisión de todas las aberturas. Cierre de grifos de fondo."
+            },
+            {
+              "texto": "Derrota a seguir: Capear o correr el temporal."
+            },
+            {
+              "texto": "Riesgos de una costa a sotavento."
+            }
+          ]
+        },
+        {
+          "codigo": "3.4",
+          "titulo": "Tormentas eléctricas",
+          "contenido": [
+            {
+              "texto": "Protección de las tormentas eléctricas e influencia en la aguja."
+            }
+          ]
+        },
+        {
+          "codigo": "3.5",
+          "titulo": "Baja visibilidad",
+          "contenido": [
+            {
+              "texto": "Precauciones en la navegación con niebla, el reflector radar, evitar el tráfico marítimo."
+            },
+            {
+              "texto": "Precauciones para la navegación nocturna."
+            }
+          ]
+        },
+        {
+          "codigo": "3.6",
+          "titulo": "Aguas someras",
+          "contenido": [
+            {
+              "texto": "Definición de aguas someras."
+            },
+            {
+              "texto": "Precauciones en la navegación en aguas someras."
+            }
+          ]
+        },
+        {
+          "codigo": "3.7",
+          "titulo": "Material de seguridad",
+          "contenido": [
+            {
+              "texto": "Descripción, recomendaciones de uso y estiba de los siguientes elementos:",
+              "sub": [
+                {
+                  "texto": "Chalecos salvavidas."
+                },
+                {
+                  "texto": "Arneses y líneas de vida."
+                },
+                {
+                  "texto": "Aros salvavidas y balsas salvavidas."
+                },
+                {
+                  "texto": "Bengalas de mano, cohetes con luz roja y paracaídas y señales fumígenas flotantes."
+                },
+                {
+                  "texto": "Espejo de señales y bocina de niebla."
+                },
+                {
+                  "texto": "Extintores portátiles y baldes contra-incendios."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "3.8",
+          "titulo": "Hombre al agua",
+          "contenido": [
+            {
+              "texto": "Prevención para evitar una situación de hombre al agua: Arnés de seguridad, iluminación."
+            },
+            {
+              "texto": "Hombre al agua: Librar la hélice, señalización del náufrago, balizamiento individual, lanzamiento de ayudas."
+            },
+            {
+              "texto": "Maniobras de aproximación cuando se ve al náufrago: Maniobra de Anderson y maniobra de Boutakow."
+            },
+            {
+              "texto": "Maniobras de búsqueda cuando no se ve al náufrago: Exploración en espiral cuadrada y exploración por sectores."
+            },
+            {
+              "texto": "Uso del sistema de navegación por satélite (GNSS) en caso de caída de hombre al agua."
+            },
+            {
+              "texto": "Precauciones durante la recogida."
+            },
+            {
+              "texto": "Reanimación de un náufrago: Respiración boca a boca y masaje cardiaco."
+            },
+            {
+              "texto": "Hipotermia: Concepto y medidas a tomar."
+            }
+          ]
+        },
+        {
+          "codigo": "3.9",
+          "titulo": "Remolque",
+          "contenido": [
+            {
+              "texto": "Maniobra de aproximación, dar y tomar el remolque, forma de navegar el remolcador y el remolcado."
+            }
+          ]
+        },
+        {
+          "codigo": "3.10",
+          "titulo": "Salvamento Marítimo",
+          "contenido": [
+            {
+              "texto": "Además de mediante el uso de la estación radio de a bordo, forma de contactar con S.M: 112 y 900 202 202."
+            }
+          ]
+        }
+      ],
+      "excluido": []
+    },
+    {
+      "numero": 4,
+      "nombre": "Legislación",
+      "nombreCuadro": "Legislación",
+      "bloque": "PNB",
+      "preguntas": 2,
+      "maxErrores": null,
+      "minAciertos": null,
+      "maxErroresComplementario": null,
+      "minAciertosComplementario": null,
+      "apartados": [
+        {
+          "codigo": "4.1",
+          "titulo": "Normas que afectan a las embarcaciones de recreo",
+          "contenido": [
+            {
+              "texto": "Respecto al tráfico marítimo y navegación interior en los puertos."
+            }
+          ]
+        },
+        {
+          "codigo": "4.2",
+          "titulo": "Limitaciones a la navegación",
+          "contenido": [
+            {
+              "texto": "En lugares próximos a la costa."
+            },
+            {
+              "texto": "En playas no balizadas."
+            },
+            {
+              "texto": "En playas balizadas y canales de acceso."
+            },
+            {
+              "texto": "En reservas marinas."
+            }
+          ]
+        },
+        {
+          "codigo": "4.3",
+          "titulo": "Buzos y bañistas",
+          "contenido": [
+            {
+              "texto": "Precauciones a tomar ante la presencia de:",
+              "sub": [
+                {
+                  "texto": "Bañistas."
+                },
+                {
+                  "texto": "Buzos. Banderas «Alfa» del código Internacional de señales y «Bravo» modificada."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "4.4",
+          "titulo": "Prevención de la contaminación",
+          "contenido": [
+            {
+              "texto": "Idea sobre el régimen de descargas y vertidos al mar de las embarcaciones de recreo, según la Orden FOM 1144/2003, de 28 de abril, o aquella que la pudiera sustituir."
+            },
+            {
+              "texto": "Idea sobre el régimen de entrega de desechos generados por las embarcaciones de recreo, según el Real Decreto 1381/2002, de 20 de diciembre, o aquel que lo pudiera sustituir."
+            },
+            {
+              "texto": "Régimen de vertido de basuras al mar según el capítulo V del Convenio Internacional MARPOL:",
+              "sub": [
+                {
+                  "texto": "Ámbito de aplicación (regla 2)."
+                },
+                {
+                  "texto": "Prohibición general de la descarga de basuras en el mar (regla 3)."
+                },
+                {
+                  "texto": "Descarga de basuras fuera de las zonas especiales (regla 4)."
+                },
+                {
+                  "texto": "Descarga de basuras dentro de zonas especiales, caso concreto del Mediterráneo (regla 6)."
+                }
+              ]
+            },
+            {
+              "texto": "Responsabilidad del patrón por contaminación."
+            },
+            {
+              "texto": "Conducta ante un avistamiento de contaminación durante la navegación: Obligación de informar."
+            }
+          ]
+        },
+        {
+          "codigo": "4.5",
+          "titulo": "Pabellón nacional",
+          "contenido": [
+            {
+              "texto": "Bandera nacional en embarcaciones de recreo."
+            },
+            {
+              "texto": "Uso de la bandera de la Comunidad Autónoma."
+            }
+          ]
+        },
+        {
+          "codigo": "4.6",
+          "titulo": "Salvamento",
+          "contenido": [
+            {
+              "texto": "Obligación de prestar auxilio a las personas según el párrafo 1, regla 33, capítulo V, del convenio internacional SOLAS."
+            }
+          ]
+        },
+        {
+          "codigo": "4.7",
+          "titulo": "Protección de espacios naturales del medio marino",
+          "contenido": [
+            {
+              "texto": "Zonas Especialmente Protegidas de Importancia para el Mediterráneo (ZEPIM)."
+            },
+            {
+              "texto": "Caso concreto en el Mediterráneo: praderas de Posidonia Oceánica."
+            }
+          ]
+        }
+      ],
+      "excluido": []
+    },
+    {
+      "numero": 5,
+      "nombre": "Balizamiento",
+      "nombreCuadro": "Balizamiento",
+      "bloque": "PNB",
+      "preguntas": 5,
+      "maxErrores": 2,
+      "minAciertos": 3,
+      "maxErroresComplementario": null,
+      "minAciertosComplementario": null,
+      "apartados": [
+        {
+          "codigo": "5.1",
+          "titulo": "Normativa IALA",
+          "contenido": [
+            {
+              "texto": "Marcas laterales región A, marcas cardinales, marcas de peligro aislado, marcas de aguas navegables y marcas especiales."
+            }
+          ]
+        }
+      ],
+      "excluido": []
+    },
+    {
+      "numero": 6,
+      "nombre": "Reglamento Internacional para Prevenir Abordajes en la Mar (RIPA)",
+      "nombreCuadro": "Reglamento (Ripa)",
+      "bloque": "PNB",
+      "preguntas": 10,
+      "maxErrores": 5,
+      "minAciertos": 5,
+      "maxErroresComplementario": null,
+      "minAciertosComplementario": null,
+      "apartados": [
+        {
+          "codigo": "6.1",
+          "titulo": "Generalidades",
+          "contenido": [
+            {
+              "texto": "Reglas 1 a 3."
+            }
+          ]
+        },
+        {
+          "codigo": "6.2",
+          "titulo": "Reglas de rumbo y gobierno",
+          "contenido": [
+            {
+              "texto": "Reglas 4 a 19."
+            }
+          ]
+        },
+        {
+          "codigo": "6.3",
+          "titulo": "Luces y Marcas",
+          "contenido": [
+            {
+              "texto": "Reglas 20, 21 y 23 a 31."
+            }
+          ]
+        },
+        {
+          "codigo": "6.4",
+          "titulo": "Señales acústicas y luminosas",
+          "contenido": [
+            {
+              "texto": "Reglas 32 a 37."
+            }
+          ]
+        },
+        {
+          "codigo": "6.5",
+          "titulo": "Señales de peligro",
+          "contenido": [
+            {
+              "texto": "Anexo IV."
+            }
+          ]
+        }
+      ],
+      "excluido": [
+        "Regla 22 y Anexos I, II y III.",
+        "Cualquier interpretación que no se ajuste a lo escrito textualmente en el Reglamento."
+      ]
+    },
+    {
+      "numero": 7,
+      "nombre": "Maniobra y navegación",
+      "nombreCuadro": "Maniobra",
+      "bloque": "PER",
+      "preguntas": 2,
+      "maxErrores": null,
+      "minAciertos": null,
+      "maxErroresComplementario": null,
+      "minAciertosComplementario": null,
+      "apartados": [
+        {
+          "codigo": "7.1",
+          "titulo": "Amarras",
+          "contenido": [
+            {
+              "texto": "Definiciones de:",
+              "sub": [
+                {
+                  "texto": "Encapillar una gaza al noray, amarrar por seno, tomar vueltas y hacer firme."
+                },
+                {
+                  "texto": "Cobrar, virar, tesar, templar, amollar, lascar, arriar y largar."
+                },
+                {
+                  "texto": "Adujar."
+                },
+                {
+                  "texto": "Largo, través, esprín y codera."
+                }
+              ]
+            },
+            {
+              "texto": "Descripción de los efectos producidos al cobrar de cada una de las amarras, estando el barco atracado costado al muelle."
+            },
+            {
+              "texto": "Utilización de las amarras según viento y corriente."
+            }
+          ]
+        },
+        {
+          "codigo": "7.2",
+          "titulo": "Gobierno con caña o rueda",
+          "contenido": [
+            {
+              "texto": "Definiciones de: Velocidad de gobierno y arrancada."
+            },
+            {
+              "texto": "Nombrar las tres fases de la curva de evolución en marcha avante y tener conocimiento de la importancia del rabeo de la popa."
+            },
+            {
+              "texto": "Describir:",
+              "sub": [
+                {
+                  "texto": "El efecto de la corriente de expulsión y de la presión lateral de las palas sobre una embarcación que se encuentre, parada sin arrancada, con el timón a la vía y da máquina atrás."
+                },
+                {
+                  "texto": "El efecto combinado hélice - timón con arrancada avante y máquina atrás."
+                },
+                {
+                  "texto": "La ciaboga con una hélice."
+                },
+                {
+                  "texto": "La ciaboga con dos hélices gemelas de giro al exterior."
+                },
+                {
+                  "texto": "Agentes que influyen en la maniobra:",
+                  "sub": [
+                    {
+                      "texto": "Viento, corriente y olas."
+                    },
+                    {
+                      "texto": "Concepto de abatimiento y deriva."
+                    },
+                    {
+                      "texto": "Libre a sotavento."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "7.3",
+          "titulo": "Maniobras",
+          "contenido": [
+            {
+              "texto": "Atraque y desatraque en punta (proa y popa) y costado al muelle."
+            },
+            {
+              "texto": "Amarrar: Cabos que deben darse, forma de hacerlos firme y orden en el que hacerlo, para los tipos de atraque del punto anterior."
+            },
+            {
+              "texto": "Desamarrar: Orden en que largar los cabos de acuerdo al tipo de atraque y maniobra a realizar para desatracar."
+            },
+            {
+              "texto": "Abarloarse a otra embarcación, independientemente del tipo que sean ambas."
+            },
+            {
+              "texto": "Amarrar a una boya."
+            }
+          ]
+        }
+      ],
+      "excluido": []
+    },
+    {
+      "numero": 8,
+      "nombre": "Emergencias en la mar",
+      "nombreCuadro": "Emergencias en la mar",
+      "bloque": "PER",
+      "preguntas": 3,
+      "maxErrores": null,
+      "minAciertos": null,
+      "maxErroresComplementario": null,
+      "minAciertosComplementario": null,
+      "apartados": [
+        {
+          "codigo": "8.1",
+          "titulo": "Accidentes personales",
+          "contenido": [
+            {
+              "texto": "Tratamiento de urgencia de heridas, contusiones, hemorragias, quemaduras (incluidas las originadas por el sol), insolación y mal de mar o mareo."
+            },
+            {
+              "texto": "Además de mediante el uso de la estación radio de a bordo, forma de contactar con el servicio Radio-Médico español: telefonía móvil. Horarios."
+            },
+            {
+              "texto": "Importancia de llevar la guía médica del ISM a bordo y cómo conseguirla."
+            }
+          ]
+        },
+        {
+          "codigo": "8.2",
+          "titulo": "Varada involuntaria",
+          "contenido": [
+            {
+              "texto": "Descripción de las medidas a tomar para salir de la embarrancada."
+            }
+          ]
+        },
+        {
+          "codigo": "8.3",
+          "titulo": "Abordaje",
+          "contenido": [
+            {
+              "texto": "Medidas a tomar y reconocimiento de averías."
+            }
+          ]
+        },
+        {
+          "codigo": "8.4",
+          "titulo": "Vías de agua e inundación",
+          "contenido": [
+            {
+              "texto": "Puntos de mayor riesgo, bocina, limera del timón, orificios y grifos de fondo, manguitos, abrazaderas."
+            },
+            {
+              "texto": "Medidas a tomar tras la vía de agua: Achique con bomba manual y/o eléctrica (uso e importancia de un buen mantenimiento).Taponamiento con espiches y colchonetas."
+            }
+          ]
+        },
+        {
+          "codigo": "8.5",
+          "titulo": "Prevención de incendios y explosiones",
+          "contenido": [
+            {
+              "texto": "Lugares de riesgo: Cocinas, cámaras de motores, tomas de combustible, baterías, instalación eléctrica, pañol o cofre de pinturas."
+            },
+            {
+              "texto": "Factores que han de concurrir para que se produzca un incendio: Teoría del tetraedro del fuego."
+            },
+            {
+              "texto": "Clasificación UNE de los incendios, definir las siguientes clases: A, B, C y F."
+            },
+            {
+              "texto": "El agua como agente extintor, precauciones."
+            },
+            {
+              "texto": "Extintores: Extintores válidos para la extinción de incendios clase B, utilización básica de un extintor de polvo seco, uso óptimo y como atacar las llamas. Comprobaciones básicas periódicas de mantenimiento."
+            },
+            {
+              "texto": "Modo de proceder al declararse un incendio."
+            },
+            {
+              "texto": "Procedimientos de extinción: Conocimiento básico de las técnicas de enfriamiento, sofocación, dispersión o aislamiento del combustible e inhibición de la reacción en cadena."
+            },
+            {
+              "texto": "Socairear el fuego, rumbo para que el viento aparente sea cero."
+            }
+          ]
+        },
+        {
+          "codigo": "8.6",
+          "titulo": "Abandono de la embarcación",
+          "contenido": [
+            {
+              "texto": "Medidas a tomar antes de abandonar la embarcación."
+            },
+            {
+              "texto": "Forma de abandonar la embarcación: Supuesto de un abandono sin disponibilidad de balsa salvavidas."
+            },
+            {
+              "texto": "Permanencia en el agua después de un abandono."
+            },
+            {
+              "texto": "Uso de las señales pirotécnicas."
+            }
+          ]
+        }
+      ],
+      "excluido": []
+    },
+    {
+      "numero": 9,
+      "nombre": "Meteorología",
+      "nombreCuadro": "Meteorología",
+      "bloque": "PER",
+      "preguntas": 4,
+      "maxErrores": null,
+      "minAciertos": null,
+      "maxErroresComplementario": null,
+      "minAciertosComplementario": null,
+      "apartados": [
+        {
+          "codigo": "9.1",
+          "titulo": "Importancia del tiempo meteorológico en la seguridad de la navegación",
+          "contenido": [
+            {
+              "texto": "Formas de obtener la previsión meteorológica."
+            }
+          ]
+        },
+        {
+          "codigo": "9.2",
+          "titulo": "Presión atmosférica",
+          "contenido": [
+            {
+              "texto": "Definición, unidades de medida y valor normal."
+            },
+            {
+              "texto": "Medida de la presión atmosférica con el barómetro aneroide."
+            },
+            {
+              "texto": "Definición de líneas isobaras."
+            }
+          ]
+        },
+        {
+          "codigo": "9.3",
+          "titulo": "Temperatura",
+          "contenido": [
+            {
+              "texto": "Definición y unidades de medida (escala centígrada)."
+            }
+          ]
+        },
+        {
+          "codigo": "9.4",
+          "titulo": "Borrascas y Anticiclones",
+          "contenido": [
+            {
+              "texto": "Definición."
+            },
+            {
+              "texto": "Circulación general del viento en el hemisferio norte en estas formaciones."
+            },
+            {
+              "texto": "Trayectoria de las borrascas."
+            }
+          ]
+        },
+        {
+          "codigo": "9.5",
+          "titulo": "Viento",
+          "contenido": [
+            {
+              "texto": "Definiciones de: Rolar, caer, refrescar, racha y calmar."
+            },
+            {
+              "texto": "Anemómetro, veletas y catavientos."
+            },
+            {
+              "texto": "Viento real, relativo y aparente: definiciones, sin cálculos."
+            },
+            {
+              "texto": "Utilidad de la escala de Beaufort y necesidad de llevarla a bordo."
+            }
+          ]
+        },
+        {
+          "codigo": "9.6",
+          "titulo": "Brisas costeras",
+          "contenido": [
+            {
+              "texto": "Terral y virazón."
+            }
+          ]
+        },
+        {
+          "codigo": "9.7",
+          "titulo": "Mar",
+          "contenido": [
+            {
+              "texto": "Conceptos de: Intensidad, persistencia y fecht."
+            },
+            {
+              "texto": "Utilidad de la escala de Douglas y necesidad de llevarla a bordo."
+            }
+          ]
+        }
+      ],
+      "excluido": [
+        "Memorizar las escalas de Beaufort y de Douglas."
+      ]
+    },
+    {
+      "numero": 10,
+      "nombre": "Teoría de navegación",
+      "nombreCuadro": "Teoría de navegación",
+      "bloque": "PER",
+      "preguntas": 5,
+      "maxErrores": null,
+      "minAciertos": null,
+      "maxErroresComplementario": null,
+      "minAciertosComplementario": null,
+      "apartados": [
+        {
+          "codigo": "10.1",
+          "titulo": "Esfera Terrestre",
+          "contenido": [
+            {
+              "texto": "Definiciones de: Eje, polos, Ecuador, meridianos y paralelos, meridiano cero, meridiano del lugar, latitud y longitud."
+            }
+          ]
+        },
+        {
+          "codigo": "10.2",
+          "titulo": "Cartas mercatorianas",
+          "contenido": [
+            {
+              "texto": "Cartas de navegación costera, recalada, portulanos y cartuchos."
+            },
+            {
+              "texto": "Información que proporcionan las cartas: Accidentes de la costa, accidentes del terreno, puntos de referencia, luces, marcas, balizas, peligros, zonas prohibidas."
+            },
+            {
+              "texto": "Signos y abreviaturas más importantes utilizadas en las cartas náuticas: Faros, sondas, naturaleza del fondo, veriles, declinación magnética."
+            }
+          ]
+        },
+        {
+          "codigo": "10.3",
+          "titulo": "Publicaciones náuticas",
+          "contenido": [
+            {
+              "texto": "Somera descripción de los derroteros, guías náuticas para la navegación de recreo y libros de faros."
+            }
+          ]
+        },
+        {
+          "codigo": "10.4",
+          "titulo": "Unidad de distancia. Unidad de velocidad",
+          "contenido": [
+            {
+              "texto": "Milla náutica: Definición y su equivalencia en metros."
+            },
+            {
+              "texto": "Escalas de latitudes y longitudes en las cartas mercatorianas."
+            },
+            {
+              "texto": "Forma de medir las distancias en la carta."
+            },
+            {
+              "texto": "Nudo: Definición."
+            },
+            {
+              "texto": "Corredera, qué es y para qué sirve."
+            },
+            {
+              "texto": "Coeficiente de corredera: Su aplicación."
+            },
+            {
+              "texto": "Sonda, qué es y para qué sirve."
+            },
+            {
+              "texto": "Concepto de Hora Reloj Bitácora."
+            }
+          ]
+        },
+        {
+          "codigo": "10.5",
+          "titulo": "Declinación magnética",
+          "contenido": [
+            {
+              "texto": "Definición."
+            },
+            {
+              "texto": "Forma de actualizarla."
+            }
+          ]
+        },
+        {
+          "codigo": "10.6",
+          "titulo": "Aguja náutica",
+          "contenido": [
+            {
+              "texto": "Descripción sucinta de la aguja náutica. Instalación, perturbaciones."
+            },
+            {
+              "texto": "Definición del desvío de la aguja."
+            },
+            {
+              "texto": "Concepto de la tablilla de desvíos."
+            }
+          ]
+        },
+        {
+          "codigo": "10.7",
+          "titulo": "Corrección total",
+          "contenido": [
+            {
+              "texto": "Definición."
+            },
+            {
+              "texto": "Cálculo a partir de la declinación y el desvío."
+            }
+          ]
+        },
+        {
+          "codigo": "10.8",
+          "titulo": "Rumbos",
+          "contenido": [
+            {
+              "texto": "Definición de rumbo verdadero, magnético y de aguja."
+            },
+            {
+              "texto": "Relación entre ellos."
+            },
+            {
+              "texto": "Forma de medir los rumbos: circular y cuadrantal."
+            },
+            {
+              "texto": "Convertir un valor cuadrantal a circular (y no al revés)."
+            }
+          ]
+        },
+        {
+          "codigo": "10.9",
+          "titulo": "Líneas de posición",
+          "contenido": [
+            {
+              "texto": "Definición de: Enfilaciones, oposiciones, demoras, distancias y veriles."
+            },
+            {
+              "texto": "Obtención de líneas de posición con la aguja y conversión de éstas en verdaderas para su trazado en la carta."
+            },
+            {
+              "texto": "Empleo de las enfilaciones, demoras y sondas como líneas de posición de seguridad."
+            },
+            {
+              "texto": "Condiciones que han de darse para que las líneas de posición sean fiables."
+            }
+          ]
+        },
+        {
+          "codigo": "10.10",
+          "titulo": "Marcación",
+          "contenido": [
+            {
+              "texto": "Definición."
+            },
+            {
+              "texto": "Forma de medirla: Circular y semicircular."
+            },
+            {
+              "texto": "Relación entre rumbo, demora y marcación."
+            }
+          ]
+        },
+        {
+          "codigo": "10.11",
+          "titulo": "Ayudas a la navegación",
+          "contenido": [
+            {
+              "texto": "Marcas. Luces y señales marítimas: Faros y balizas."
+            }
+          ]
+        },
+        {
+          "codigo": "10.12",
+          "titulo": "Mareas",
+          "contenido": [
+            {
+              "texto": "Concepto y utilidad de su conocimiento."
+            },
+            {
+              "texto": "Referencia de las sondas, definiciones de: Cero hidrográfico, sonda en el LAT, amplitud de la marea, duración de la marea."
+            },
+            {
+              "texto": "Influencia de fenómenos meteorológicos: Viento y presión atmosférica."
+            }
+          ]
+        },
+        {
+          "codigo": "10.13",
+          "titulo": "Viento y corriente",
+          "contenido": [
+            {
+              "texto": "Influencia del viento y la corriente en la navegación. Conceptos de abatimiento y deriva; su efecto sobre la embarcación dependiendo de la obra viva y muerta de ésta."
+            }
+          ]
+        }
+      ],
+      "excluido": [
+        "Memorizar las escalas de las cartas.",
+        "Tipos de correderas y su funcionamiento."
+      ]
+    },
+    {
+      "numero": 11,
+      "nombre": "Carta de navegación",
+      "nombreCuadro": "Carta de navegación",
+      "bloque": "PER",
+      "preguntas": 4,
+      "maxErrores": 2,
+      "minAciertos": 2,
+      "maxErroresComplementario": 2,
+      "minAciertosComplementario": 2,
+      "apartados": [
+        {
+          "codigo": "11.1",
+          "titulo": "Coordenadas",
+          "contenido": [
+            {
+              "texto": "Dado un punto en la carta, conocer sus coordenadas."
+            },
+            {
+              "texto": "Dadas las coordenadas de un punto, situarlo en la carta."
+            }
+          ]
+        },
+        {
+          "codigo": "11.2",
+          "titulo": "Distancia y Rumbo directo",
+          "contenido": [
+            {
+              "texto": "Forma de medir las distancias sobre la carta."
+            },
+            {
+              "texto": "Forma de trazar y medir los rumbos."
+            }
+          ]
+        },
+        {
+          "codigo": "11.3",
+          "titulo": "Corrección total",
+          "contenido": [
+            {
+              "texto": "Cálculo de la corrección total a partir de una enfilación u oposición."
+            },
+            {
+              "texto": "Cálculo de la corrección total a partir del desvío y la declinación magnética (dato aportado u obtenido de la carta)."
+            }
+          ]
+        },
+        {
+          "codigo": "11.4",
+          "titulo": "Rumbo verdadero y Rumbo de aguja (en ausencia de viento y corriente)",
+          "contenido": [
+            {
+              "texto": "Dadas la situación de salida y de llegada: Calcular el rumbo de aguja."
+            },
+            {
+              "texto": "Dadas la situación de salida, la Hrb (de la salida), situación de llegada y la velocidad de la embarcación: Calcular el rumbo de aguja y la hora de llegada."
+            },
+            {
+              "texto": "Dada la situación de salida: Calcular el rumbo de aguja para pasar a una distancia determinada de la costa o peligro. (Excluida la distancia mínima)."
+            }
+          ]
+        },
+        {
+          "codigo": "11.5",
+          "titulo": "Situación de estima (en ausencia de viento y corriente)",
+          "contenido": [
+            {
+              "texto": "Dada la situación de salida, la Hrb, la velocidad de la embarcación y el rumbo de aguja: Calcular la situación de estima a una hora determinada."
+            }
+          ]
+        },
+        {
+          "codigo": "11.6",
+          "titulo": "Situación verdadera",
+          "contenido": [
+            {
+              "texto": "Obtener la situación por la intersección de dos de las siguientes líneas de posición simultáneas: Distancias, línea isobática, enfilaciones, oposiciones y demoras."
+            },
+            {
+              "texto": "Para obtener la situación con demoras, los datos podrán ser: Demora verdadera, demora de aguja y/o marcación, teniendo que convertir las dos últimas en demoras verdaderas para su trazado en la carta."
+            }
+          ]
+        },
+        {
+          "codigo": "11.7",
+          "titulo": "Mareas",
+          "contenido": [
+            {
+              "texto": "Cálculo de la sonda en el momento de la pleamar y en el de la bajamar (se preguntará como cuestión independiente de los ejercicios de navegación, referida siempre a la hora del anuario)."
+            }
+          ]
+        }
+      ],
+      "excluido": []
+    }
+  ]
+}
