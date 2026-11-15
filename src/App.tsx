@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import Apuntes from './componentes/Apuntes'
+import { idSeccion } from './logica/apuntes'
 import ConfigurarTema from './componentes/ConfigurarTema'
 import Estadisticas from './componentes/Estadisticas'
 import Inicio from './componentes/Inicio'
@@ -48,7 +49,7 @@ export default function App() {
   const [pantalla, setPantalla] = useState<Pantalla>('inicio')
   const [sesion, setSesion] = useState<Sesion | null>(sesionGuardada)
   const { historial, contexto, error: errorHistorial, recargar } = useHistorial()
-  const [apuntes, setApuntes] = useState<{ unidad: number | null; volver: Pantalla }>({ unidad: null, volver: 'inicio' })
+  const [apuntes, setApuntes] = useState<{ unidad: number | null; seccion?: string; volver: Pantalla }>({ unidad: null, volver: 'inicio' })
   // Al volver de los apuntes se recupera la posición en la pantalla de origen.
   const scrollGuardado = useRef<number | null>(null)
 
@@ -57,16 +58,23 @@ export default function App() {
     guardarEnCurso(sesion)
   }, [sesion])
   useEffect(() => {
+    // En los apuntes se va al principio o, si se pidió un apartado concreto, a ese apartado.
+    const destino = pantalla === 'apuntes' && apuntes.seccion ? document.getElementById(idSeccion(apuntes.seccion)) : null
+    if (destino) {
+      destino.scrollIntoView({ block: 'start' })
+      return
+    }
     const y = pantalla === 'apuntes' ? 0 : (scrollGuardado.current ?? 0)
     if (pantalla !== 'apuntes') scrollGuardado.current = null
     window.scrollTo(0, y)
-  }, [pantalla, sesion?.actual, apuntes.unidad])
+  }, [pantalla, sesion?.actual, apuntes.unidad, apuntes.seccion])
 
-  function abrirApuntes(unidad: number | null) {
+  /** Abre los apuntes de una unidad (null = índice), opcionalmente en un apartado («2.3»). */
+  function abrirApuntes(unidad: number | null, seccion?: string) {
     if (pantalla !== 'apuntes') {
       scrollGuardado.current = window.scrollY
-      setApuntes({ unidad, volver: pantalla })
-    } else setApuntes((a) => ({ ...a, unidad }))
+      setApuntes({ unidad, seccion, volver: pantalla })
+    } else setApuntes((a) => ({ ...a, unidad, seccion }))
     setPantalla('apuntes')
   }
 
@@ -142,7 +150,7 @@ export default function App() {
     return (
       <Apuntes
         unidad={apuntes.unidad}
-        onElegir={abrirApuntes}
+        onElegir={(u) => abrirApuntes(u)}
         onVolver={() => setPantalla(apuntes.volver)}
         textoVolver={VOLVER_A[apuntes.volver]}
       />

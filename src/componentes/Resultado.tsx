@@ -4,6 +4,7 @@ import type { ResumenSesion, Sesion } from '../logica/sesion'
 import type { Pregunta } from '../tipos/preguntas'
 import { programa } from '../tipos/programa'
 import Figura from './Figura'
+import Explicacion from './Explicacion'
 import Fuentes from './Fuentes'
 
 interface Props {
@@ -13,7 +14,7 @@ interface Props {
   caja: ReadonlyMap<string, EntradaCaja>
   onInicio: () => void
   onRepetir: () => void
-  onApuntes: (unidad: number) => void
+  onApuntes: (unidad: number, seccion?: string) => void
 }
 
 const LETRAS = ['a', 'b', 'c', 'd']
@@ -146,12 +147,7 @@ export default function Resultado({ sesion, preguntas, resumen, caja, onInicio, 
               </ul>
               {elegida === null && <p className="en-blanco">Sin responder</p>}
               {estadoCaja(caja.get(p.id), repaso) && <p className="estado-caja">{estadoCaja(caja.get(p.id), repaso)}</p>}
-              {p.explicacion && <p className="explicacion">{p.explicacion}</p>}
-              {elegida !== p.correcta && (
-                <button className="enlace-apuntes" onClick={() => onApuntes(p.unidad)}>
-                  Repasar en los apuntes: UT {p.unidad} · {unidad(p.unidad).nombreCuadro} →
-                </button>
-              )}
+              <Explicacion pregunta={p} enlaceSiempre={elegida !== p.correcta} onApuntes={onApuntes} />
               <Fuentes pregunta={p} />
             </li>
           ))}

@@ -25,7 +25,6 @@ export interface Pregunta {
   opciones: [string, string, string, string]
   /** Índice 0–3 de la opción correcta. */
   correcta: number
-  explicacion?: string
   /** Ruta relativa a la raíz del sitio, p. ej. «img/bal-2019-04-A-40.webp». */
   imagen?: string
   requiereCarta: boolean

@@ -140,6 +140,9 @@ h2 { font-size: 1.15rem; }
 .fuentes summary { cursor: pointer; }
 .fuentes ul { margin: 4px 0 0; padding-left: 18px; }
 .nota-revision { margin-bottom: 6px !important; }
+.explicacion { margin: 8px 0 4px; }
+.explicacion p { margin: 0 0 6px; }
+.aviso-explicacion { font-size: 0.75rem; color: var(--suave); }
 .figura-pregunta { margin: 0 0 16px; text-align: center; }
 .figura-pregunta img { max-width: 100%; max-height: 300px; height: auto; border-radius: 8px; border: 1px solid var(--borde, #d0d7de); background: #fff; }
 

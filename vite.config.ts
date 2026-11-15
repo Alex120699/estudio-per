@@ -44,7 +44,10 @@ export default defineConfig({
     // El banco de preguntas va en su propio fichero: si cambia el código, no hay que volver a descargarlo.
     chunkSizeWarningLimit: 3000,
     rollupOptions: {
-      output: { manualChunks: (id) => (id.includes('/data/preguntas.json') ? 'banco' : undefined) },
+      output: {
+        manualChunks: (id) =>
+          id.includes('/data/preguntas.json') ? 'banco' : id.includes('/data/explicaciones.json') ? 'explicaciones' : undefined,
+      },
     },
   },
   test: {

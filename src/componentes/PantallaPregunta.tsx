@@ -3,6 +3,7 @@ import { tituloSesion, type Sesion } from '../logica/sesion'
 import type { Pregunta } from '../tipos/preguntas'
 import { programa } from '../tipos/programa'
 import Figura from './Figura'
+import Explicacion from './Explicacion'
 import Fuentes from './Fuentes'
 
 interface Props {
@@ -12,7 +13,7 @@ interface Props {
   onIr: (indice: number) => void
   onTerminar: () => void
   onSalir: () => void
-  onApuntes: (unidad: number) => void
+  onApuntes: (unidad: number, seccion?: string) => void
 }
 
 const LETRAS = ['a', 'b', 'c', 'd']
@@ -117,12 +118,7 @@ export default function PantallaPregunta({ sesion, preguntas, onResponder, onIr,
       {corregida && (
         <div className={elegida === p.correcta ? 'feedback bien' : 'feedback mal'}>
           <strong>{elegida === p.correcta ? '¡Correcto!' : `Incorrecto. La respuesta es la ${LETRAS[p.correcta]}).`}</strong>
-          {p.explicacion && <p>{p.explicacion}</p>}
-          {elegida !== p.correcta && (
-            <button className="enlace-apuntes" onClick={() => onApuntes(p.unidad)}>
-              Repasar en los apuntes: UT {p.unidad} · {nombreUnidad(p.unidad)} →
-            </button>
-          )}
+          <Explicacion pregunta={p} enlaceSiempre={elegida !== p.correcta} onApuntes={onApuntes} />
           <Fuentes pregunta={p} />
         </div>
       )}
