@@ -92,8 +92,8 @@ export function parsearBaleares(texto, reparto) {
       ignoradas.push(l)
       continue
     }
-    if (/^\d+-\d+$/.test(l) || /^\d$/.test(l)) {
-      ignoradas.push(l) // número de página «8-9» o restos sueltos
+    if (/^\d+\s*-\s*\d+$/.test(l) || /^\d$/.test(l)) {
+      ignoradas.push(l) // número de página «8-9», «2 - 10» o restos sueltos
       continue
     }
     const r = l.match(/^Respu?ost?a correcta:\s*([A-D])\b/i)
@@ -148,14 +148,22 @@ export function normalizar(s) {
     .trim()
 }
 
-/** Clave de deduplicado: enunciado + conjunto de opciones (sin orden). */
+/** Opciones cuyo sentido depende del orden: «Las respuestas a y c son correctas», «Todas las anteriores». */
+const DEPENDE_DEL_ORDEN = /\b(respuestas?|opci[oó]n(es)?)\s+[a-d]\b|\b[a-d]\)?\s+y\s+[a-d]\)?(?![a-zñáéíóú])|\banteriores?\b/i
+
+/**
+ * Clave de deduplicado: enunciado + conjunto de opciones (sin orden), salvo que alguna
+ * opción remita a otras por su letra o posición: entonces el orden forma parte de la clave.
+ */
 export function claveDedup(p) {
-  return normalizar(p.enunciado) + ' || ' + p.opciones.map(normalizar).sort().join(' | ')
+  const opciones = p.opciones.map(normalizar)
+  const ordenadas = p.opciones.some((o) => DEPENDE_DEL_ORDEN.test(o)) ? opciones : [...opciones].sort()
+  return normalizar(p.enunciado) + ' || ' + ordenadas.join(' | ')
 }
 
 /** Heurística: la pregunta remite a una figura que no está en el texto. */
 export function pideImagen(enunciado) {
-  return /\b(de la|en la|siguiente) (figura|imagen|ilustraci[oó]n|dibujo)\b|\bfigura adjunta\b/i.test(enunciado)
+  return /\b(de|en|seg[uú]n) la (figura|imagen|ilustraci[oó]n|dibujo|fotograf[ií]a)\b|\b(siguiente|esta) (figura|imagen|ilustraci[oó]n|fotograf[ií]a)\b|\b(figura|imagen) adjunta/i.test(enunciado)
 }
 
 /**
@@ -188,4 +196,15 @@ export function validarExamen(preguntas, reparto) {
     }
   }
   return errores
+}
+
+const MESES = { gener: 1, enero: 1, febrer: 2, febrero: 2, marc: 3, marzo: 3, abril: 4, maig: 5, mayo: 5, juny: 6, junio: 6, juliol: 7, julio: 7, agost: 8, agosto: 8, setembre: 9, septiembre: 9, octubre: 10, novembre: 11, noviembre: 11, desembre: 12, diciembre: 12 }
+
+/** «Març-Abril 2017» → «2017-03»; «Abril 2020 (Juliol 2020)» → «2020-07» (la fecha real). */
+export function convocatoria(texto) {
+  const t = texto.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
+  const real = /\(([a-z]+)\s+(\d{4})\)/.exec(t)
+  const m = real ?? /([a-z]+)[^\d]*?(\d{4})/.exec(t)
+  if (!m || !MESES[m[1]]) return null
+  return `${m[2]}-${String(MESES[m[1]]).padStart(2, '0')}`
 }

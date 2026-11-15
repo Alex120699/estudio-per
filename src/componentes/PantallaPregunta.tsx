@@ -1,7 +1,8 @@
 import { useState } from 'react'
-import type { Sesion } from '../logica/sesion'
+import { tituloSesion, type Sesion } from '../logica/sesion'
 import type { Pregunta } from '../tipos/preguntas'
 import { programa } from '../tipos/programa'
+import Figura from './Figura'
 import Fuentes from './Fuentes'
 
 interface Props {
@@ -11,12 +12,13 @@ interface Props {
   onIr: (indice: number) => void
   onTerminar: () => void
   onSalir: () => void
+  onApuntes: (unidad: number) => void
 }
 
 const LETRAS = ['a', 'b', 'c', 'd']
 const nombreUnidad = (n: number) => programa.unidades.find((u) => u.numero === n)?.nombreCuadro ?? ''
 
-export default function PantallaPregunta({ sesion, preguntas, onResponder, onIr, onTerminar, onSalir }: Props) {
+export default function PantallaPregunta({ sesion, preguntas, onResponder, onIr, onTerminar, onSalir, onApuntes }: Props) {
   const [verIndice, setVerIndice] = useState(false)
   const [confirmar, setConfirmar] = useState(false)
   const i = sesion.actual
@@ -27,8 +29,7 @@ export default function PantallaPregunta({ sesion, preguntas, onResponder, onIr,
   const ultima = i === preguntas.length - 1
   const enBlanco = sesion.respuestas.filter((r) => r === null).length
 
-  const titulo =
-    sesion.tipo === 'simulacro' ? (sesion.simulacro === 'complementario' ? 'Simulacro complementario' : 'Simulacro PER') : 'Test por tema'
+  const titulo = tituloSesion(sesion)
 
   function claseOpcion(k: number) {
     if (corregida) {
@@ -85,6 +86,7 @@ export default function PantallaPregunta({ sesion, preguntas, onResponder, onIr,
       </p>
       {p.requiereCarta && <p className="aviso">Necesitas la carta náutica del Estrecho, escuadra, cartabón y compás.</p>}
       <h2 className="enunciado">{p.enunciado}</h2>
+      <Figura pregunta={p} />
 
       <div className="opciones" role="radiogroup">
         {p.opciones.map((o, k) => (
@@ -98,6 +100,16 @@ export default function PantallaPregunta({ sesion, preguntas, onResponder, onIr,
           >
             <span className="letra">{LETRAS[k]}</span>
             <span>{o}</span>
+            {corregida && k === p.correcta && (
+              <span className="marca-estado" aria-label="correcta">
+                ✓
+              </span>
+            )}
+            {corregida && k === elegida && k !== p.correcta && (
+              <span className="marca-estado" aria-label="tu respuesta, incorrecta">
+                ✗
+              </span>
+            )}
           </button>
         ))}
       </div>
@@ -106,6 +118,11 @@ export default function PantallaPregunta({ sesion, preguntas, onResponder, onIr,
         <div className={elegida === p.correcta ? 'feedback bien' : 'feedback mal'}>
           <strong>{elegida === p.correcta ? '¡Correcto!' : `Incorrecto. La respuesta es la ${LETRAS[p.correcta]}).`}</strong>
           {p.explicacion && <p>{p.explicacion}</p>}
+          {elegida !== p.correcta && (
+            <button className="enlace-apuntes" onClick={() => onApuntes(p.unidad)}>
+              Repasar en los apuntes: UT {p.unidad} · {nombreUnidad(p.unidad)} →
+            </button>
+          )}
           <Fuentes pregunta={p} />
         </div>
       )}
@@ -142,9 +159,9 @@ export default function PantallaPregunta({ sesion, preguntas, onResponder, onIr,
           )}
         </div>
       )}
-      {!estudio && !ultima && !confirmar && (
+      {!ultima && !confirmar && (!estudio || sesion.respuestas.some((r) => r !== null)) && (
         <button className="enlace terminar" onClick={pedirTerminar}>
-          Terminar y corregir ahora
+          {estudio ? 'Terminar aquí' : 'Terminar y corregir ahora'}
         </button>
       )}
     </main>

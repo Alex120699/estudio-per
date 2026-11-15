@@ -1,21 +1,32 @@
 import { useState } from 'react'
+import { ACIERTOS_PARA_SALIR, type EntradaCaja } from '../logica/historial'
 import type { ResumenSesion, Sesion } from '../logica/sesion'
 import type { Pregunta } from '../tipos/preguntas'
 import { programa } from '../tipos/programa'
+import Figura from './Figura'
 import Fuentes from './Fuentes'
 
 interface Props {
   sesion: Sesion
   preguntas: Pregunta[]
   resumen: ResumenSesion
+  caja: ReadonlyMap<string, EntradaCaja>
   onInicio: () => void
   onRepetir: () => void
+  onApuntes: (unidad: number) => void
 }
 
 const LETRAS = ['a', 'b', 'c', 'd']
 const unidad = (n: number) => programa.unidades.find((u) => u.numero === n)!
 
-export default function Resultado({ sesion, preguntas, resumen, onInicio, onRepetir }: Props) {
+function estadoCaja(e: EntradaCaja | undefined, repaso: boolean) {
+  if (e) return `En la caja de fallos · ${e.aciertosSeguidos}/${ACIERTOS_PARA_SALIR} aciertos seguidos en días distintos`
+  return repaso ? 'Ha salido de la caja de fallos ✓' : null
+}
+
+export default function Resultado({ sesion, preguntas, resumen, caja, onInicio, onRepetir, onApuntes }: Props) {
+  const repaso = sesion.tipo === 'repaso'
+  const salieron = repaso ? preguntas.filter((p) => !caja.has(p.id)).length : 0
   const [soloFallos, setSoloFallos] = useState(true)
   const sim = resumen.simulacro
   const filas = preguntas.map((p, i) => ({ p, i, elegida: sesion.respuestas[i] })).filter((f) => !soloFallos || f.elegida !== f.p.correcta)
@@ -64,6 +75,11 @@ export default function Resultado({ sesion, preguntas, resumen, onInicio, onRepe
             {Math.round((resumen.aciertos / resumen.preguntas) * 100)}% de aciertos
             {resumen.enBlanco > 0 && ` · ${resumen.enBlanco} en blanco`}
           </p>
+          {repaso && (
+            <p>
+              {salieron} de {preguntas.length} {salieron === 1 ? 'ha salido' : 'han salido'} de la caja de fallos
+            </p>
+          )}
         </section>
       )}
 
@@ -95,7 +111,7 @@ export default function Resultado({ sesion, preguntas, resumen, onInicio, onRepe
 
       <div className="fila-botones">
         <button className="boton primario" onClick={onRepetir}>
-          {sesion.tipo === 'simulacro' ? 'Otro simulacro' : 'Otro test igual'}
+          {sesion.tipo === 'simulacro' ? 'Otro simulacro' : repaso ? 'Seguir repasando' : 'Otro test igual'}
         </button>
         <button className="boton" onClick={onInicio}>
           Inicio
@@ -118,6 +134,7 @@ export default function Resultado({ sesion, preguntas, resumen, onInicio, onRepe
                 {i + 1}. UT {p.unidad} · {unidad(p.unidad).nombreCuadro}
               </p>
               <p className="enunciado-repaso">{p.enunciado}</p>
+              <Figura pregunta={p} />
               <ul className="opciones-repaso">
                 {p.opciones.map((o, k) => (
                   <li key={k} className={k === p.correcta ? 'correcta' : k === elegida ? 'incorrecta' : ''}>
@@ -128,7 +145,13 @@ export default function Resultado({ sesion, preguntas, resumen, onInicio, onRepe
                 ))}
               </ul>
               {elegida === null && <p className="en-blanco">Sin responder</p>}
+              {estadoCaja(caja.get(p.id), repaso) && <p className="estado-caja">{estadoCaja(caja.get(p.id), repaso)}</p>}
               {p.explicacion && <p className="explicacion">{p.explicacion}</p>}
+              {elegida !== p.correcta && (
+                <button className="enlace-apuntes" onClick={() => onApuntes(p.unidad)}>
+                  Repasar en los apuntes: UT {p.unidad} · {unidad(p.unidad).nombreCuadro} →
+                </button>
+              )}
               <Fuentes pregunta={p} />
             </li>
           ))}

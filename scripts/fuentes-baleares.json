@@ -1,0 +1,3111 @@
+{
+  "_comentario": "Generado por scripts/descubrir-baleares.mjs. No editar a mano: las erratas y revisiones van en scripts/revisiones.json.",
+  "examenes": [
+    {
+      "id": "bal-2017-03-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2017-03",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/marzoabril_2017_respuestas_examenes/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/marzoabril_2017_respuestas_examenes/archivopub.do?ctrl=MCRST165ZI225539&id=225539"
+    },
+    {
+      "id": "bal-2017-03-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2017-03",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/marzoabril_2017_respuestas_examenes/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/marzoabril_2017_respuestas_examenes/archivopub.do?ctrl=MCRST165ZI225540&id=225540"
+    },
+    {
+      "id": "bal-2017-03-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2017-03",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/marzoabril_2017_respuestas_examenes/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/marzoabril_2017_respuestas_examenes/archivopub.do?ctrl=MCRST165ZI225537&id=225537"
+    },
+    {
+      "id": "bal-2017-03-F",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2017-03",
+      "modelo": "F",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/marzoabril_2017_respuestas_examenes/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/marzoabril_2017_respuestas_examenes/archivopub.do?ctrl=MCRST165ZI225543&id=225543"
+    },
+    {
+      "id": "bal-2017-03-G",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2017-03",
+      "modelo": "G",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/marzoabril_2017_respuestas_examenes/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/marzoabril_2017_respuestas_examenes/archivopub.do?ctrl=MCRST165ZI225541&id=225541"
+    },
+    {
+      "id": "bal-2017-06-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2017-06",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/julio_2017_respuestas_de_los_examenes/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/julio_2017_respuestas_de_los_examenes/archivopub.do?ctrl=MCRST165ZI230338&id=230338"
+    },
+    {
+      "id": "bal-2017-06-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2017-06",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/julio_2017_respuestas_de_los_examenes/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/julio_2017_respuestas_de_los_examenes/archivopub.do?ctrl=MCRST165ZI230339&id=230339"
+    },
+    {
+      "id": "bal-2017-06-E",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2017-06",
+      "modelo": "E",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/julio_2017_respuestas_de_los_examenes/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/julio_2017_respuestas_de_los_examenes/archivopub.do?ctrl=MCRST165ZI230341&id=230341"
+    },
+    {
+      "id": "bal-2017-06-F",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2017-06",
+      "modelo": "F",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/julio_2017_respuestas_de_los_examenes/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/julio_2017_respuestas_de_los_examenes/archivopub.do?ctrl=MCRST165ZI230337&id=230337"
+    },
+    {
+      "id": "bal-2017-09-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2017-09",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/septiembre_2017_respuestas_examenes/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/septiembre_2017_respuestas_examenes/archivopub.do?ctrl=MCRST165ZI234243&id=234243"
+    },
+    {
+      "id": "bal-2017-09-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2017-09",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/septiembre_2017_respuestas_examenes/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/septiembre_2017_respuestas_examenes/archivopub.do?ctrl=MCRST165ZI234246&id=234246"
+    },
+    {
+      "id": "bal-2017-09-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2017-09",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/septiembre_2017_respuestas_examenes/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/septiembre_2017_respuestas_examenes/archivopub.do?ctrl=MCRST165ZI234241&id=234241"
+    },
+    {
+      "id": "bal-2017-09-E",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2017-09",
+      "modelo": "E",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/septiembre_2017_respuestas_examenes/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/septiembre_2017_respuestas_examenes/archivopub.do?ctrl=MCRST165ZI234247&id=234247"
+    },
+    {
+      "id": "bal-2017-12-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2017-12",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/diciembre_2017_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/diciembre_2017_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI241391&id=241391"
+    },
+    {
+      "id": "bal-2017-12-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2017-12",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/diciembre_2017_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/diciembre_2017_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI241398&id=241398"
+    },
+    {
+      "id": "bal-2017-12-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2017-12",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/diciembre_2017_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/diciembre_2017_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI241392&id=241392"
+    },
+    {
+      "id": "bal-2017-12-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2017-12",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/diciembre_2017_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/diciembre_2017_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI241399&id=241399"
+    },
+    {
+      "id": "bal-2017-12-E",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2017-12",
+      "modelo": "E",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/diciembre_2017_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/diciembre_2017_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI241393&id=241393"
+    },
+    {
+      "id": "bal-2018-04-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2018-04",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/abril_2018_examenes_con_respuestas_/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/abril_2018_examenes_con_respuestas_/archivopub.do?ctrl=MCRST165ZI249658&id=249658"
+    },
+    {
+      "id": "bal-2018-04-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2018-04",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/abril_2018_examenes_con_respuestas_/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/abril_2018_examenes_con_respuestas_/archivopub.do?ctrl=MCRST165ZI249660&id=249660"
+    },
+    {
+      "id": "bal-2018-04-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2018-04",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/abril_2018_examenes_con_respuestas_/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/abril_2018_examenes_con_respuestas_/archivopub.do?ctrl=MCRST165ZI249662&id=249662"
+    },
+    {
+      "id": "bal-2018-04-E",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2018-04",
+      "modelo": "E",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/abril_2018_examenes_con_respuestas_/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/abril_2018_examenes_con_respuestas_/archivopub.do?ctrl=MCRST165ZI249659&id=249659"
+    },
+    {
+      "id": "bal-2018-04-F",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2018-04",
+      "modelo": "F",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/abril_2018_examenes_con_respuestas_/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/abril_2018_examenes_con_respuestas_/archivopub.do?ctrl=MCRST165ZI249661&id=249661"
+    },
+    {
+      "id": "bal-2018-06-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2018-06",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/junio_2018_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/junio_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI255586&id=255586"
+    },
+    {
+      "id": "bal-2018-06-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2018-06",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/junio_2018_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/junio_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI255584&id=255584"
+    },
+    {
+      "id": "bal-2018-06-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2018-06",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/junio_2018_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/junio_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI255589&id=255589"
+    },
+    {
+      "id": "bal-2018-06-H",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2018-06",
+      "modelo": "H",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/junio_2018_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/junio_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI255587&id=255587"
+    },
+    {
+      "id": "bal-2018-06-I",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2018-06",
+      "modelo": "I",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/junio_2018_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/junio_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI255589&id=255590"
+    },
+    {
+      "id": "bal-2018-09-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2018-09",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/septiembre_2018_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/septiembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI260526&id=260526"
+    },
+    {
+      "id": "bal-2018-09-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2018-09",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/septiembre_2018_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/septiembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI260527&id=260527"
+    },
+    {
+      "id": "bal-2018-09-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2018-09",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/septiembre_2018_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/septiembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI260528&id=260528"
+    },
+    {
+      "id": "bal-2018-09-E",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2018-09",
+      "modelo": "E",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/septiembre_2018_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/septiembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI260524&id=260524"
+    },
+    {
+      "id": "bal-2018-12-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2018-12",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/diciembre_2018_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/diciembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI271360&id=271360"
+    },
+    {
+      "id": "bal-2018-12-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2018-12",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/diciembre_2018_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/diciembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI271359&id=271359"
+    },
+    {
+      "id": "bal-2018-12-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2018-12",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/diciembre_2018_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/diciembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI271358&id=271358"
+    },
+    {
+      "id": "bal-2018-12-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2018-12",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/diciembre_2018_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/diciembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI271362&id=271362"
+    },
+    {
+      "id": "bal-2018-12-F",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2018-12",
+      "modelo": "F",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/diciembre_2018_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/diciembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI271361&id=271361"
+    },
+    {
+      "id": "bal-2019-04-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2019-04",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/abril_2019_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/abril_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI282551&id=282551"
+    },
+    {
+      "id": "bal-2019-04-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2019-04",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/abril_2019_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/abril_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI282556&id=282556"
+    },
+    {
+      "id": "bal-2019-04-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2019-04",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/abril_2019_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/abril_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI282552&id=282552"
+    },
+    {
+      "id": "bal-2019-04-F",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2019-04",
+      "modelo": "F",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/abril_2019_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/abril_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI282557&id=282557"
+    },
+    {
+      "id": "bal-2019-04-I",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2019-04",
+      "modelo": "I",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/abril_2019_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/abril_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI282553&id=282553"
+    },
+    {
+      "id": "bal-2019-06-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2019-06",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_junio_2019_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_junio_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI290012&id=290012"
+    },
+    {
+      "id": "bal-2019-06-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2019-06",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_junio_2019_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_junio_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI290010&id=290010"
+    },
+    {
+      "id": "bal-2019-06-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2019-06",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_junio_2019_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_junio_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI290011&id=290011"
+    },
+    {
+      "id": "bal-2019-06-I",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2019-06",
+      "modelo": "I",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_junio_2019_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_junio_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI290013&id=290013"
+    },
+    {
+      "id": "bal-2019-09-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2019-09",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2019_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI296895&id=296895"
+    },
+    {
+      "id": "bal-2019-09-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2019-09",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2019_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI296894&id=296894"
+    },
+    {
+      "id": "bal-2019-09-E",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2019-09",
+      "modelo": "E",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2019_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI296885&id=296885"
+    },
+    {
+      "id": "bal-2019-09-F",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2019-09",
+      "modelo": "F",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2019_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI296891&id=296891"
+    },
+    {
+      "id": "bal-2019-12-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2019-12",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_diciembre_2019_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_diciembre_2019_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI305719&id=305719"
+    },
+    {
+      "id": "bal-2019-12-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2019-12",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_diciembre_2019_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_diciembre_2019_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI305717&id=305717"
+    },
+    {
+      "id": "bal-2019-12-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2019-12",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_diciembre_2019_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_diciembre_2019_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI305716&id=305716"
+    },
+    {
+      "id": "bal-2019-12-F",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2019-12",
+      "modelo": "F",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_diciembre_2019_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_diciembre_2019_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI305720&id=305720"
+    },
+    {
+      "id": "bal-2019-12-G",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2019-12",
+      "modelo": "G",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_diciembre_2019_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_diciembre_2019_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI305721&id=305721"
+    },
+    {
+      "id": "bal-2020-04-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2020-04",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_julio_2020_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_julio_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI325704&id=325704"
+    },
+    {
+      "id": "bal-2020-07-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2020-07",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_julio_2020_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_julio_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI325706&id=325706"
+    },
+    {
+      "id": "bal-2020-07-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2020-07",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_julio_2020_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_julio_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI325708&id=325708"
+    },
+    {
+      "id": "bal-2020-07-E",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2020-07",
+      "modelo": "E",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_julio_2020_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_julio_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI325705&id=325705"
+    },
+    {
+      "id": "bal-2020-07-I",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2020-07",
+      "modelo": "I",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_julio_2020_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_julio_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI325707&id=325707"
+    },
+    {
+      "id": "bal-2020-10-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2020-10",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_octubre_de_2020_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_octubre_de_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI333918&id=333918"
+    },
+    {
+      "id": "bal-2020-10-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2020-10",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_octubre_de_2020_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_octubre_de_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI333922&id=333922"
+    },
+    {
+      "id": "bal-2020-10-E",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2020-10",
+      "modelo": "E",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_octubre_de_2020_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_octubre_de_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI333919&id=333919"
+    },
+    {
+      "id": "bal-2020-10-F",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2020-10",
+      "modelo": "F",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_octubre_de_2020_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_octubre_de_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI333926&id=333926"
+    },
+    {
+      "id": "bal-2020-10-G",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2020-10",
+      "modelo": "G",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_octubre_de_2020_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_octubre_de_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI333921&id=333921"
+    },
+    {
+      "id": "bal-2020-10-H",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2020-10",
+      "modelo": "H",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_octubre_de_2020_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_octubre_de_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI333924&id=333924"
+    },
+    {
+      "id": "bal-2020-10-I",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2020-10",
+      "modelo": "I",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_octubre_de_2020_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_octubre_de_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI333923&id=333923"
+    },
+    {
+      "id": "bal-2020-12-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2020-12",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI341543&id=341543"
+    },
+    {
+      "id": "bal-2020-12-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2020-12",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI341549&id=341549"
+    },
+    {
+      "id": "bal-2020-12-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2020-12",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI341541&id=341541"
+    },
+    {
+      "id": "bal-2020-12-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2020-12",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI341550&id=341550"
+    },
+    {
+      "id": "bal-2020-12-E",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2020-12",
+      "modelo": "E",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI341544&id=341544"
+    },
+    {
+      "id": "bal-2020-12-F",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2020-12",
+      "modelo": "F",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI341548&id=341548"
+    },
+    {
+      "id": "bal-2020-12-G",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2020-12",
+      "modelo": "G",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI341545&id=341545"
+    },
+    {
+      "id": "bal-2020-12-I",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2020-12",
+      "modelo": "I",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI341551&id=341551"
+    },
+    {
+      "id": "bal-2021-03-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-03",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2021_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI351399&id=351399"
+    },
+    {
+      "id": "bal-2021-03-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-03",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2021_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI351394&id=351394"
+    },
+    {
+      "id": "bal-2021-03-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-03",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2021_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI351395&id=351395"
+    },
+    {
+      "id": "bal-2021-03-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-03",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2021_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI351396&id=351396"
+    },
+    {
+      "id": "bal-2021-03-E",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-03",
+      "modelo": "E",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2021_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI351397&id=351397"
+    },
+    {
+      "id": "bal-2021-03-F",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-03",
+      "modelo": "F",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2021_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI351398&id=351398"
+    },
+    {
+      "id": "bal-2021-03-H",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-03",
+      "modelo": "H",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2021_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI351400&id=351400"
+    },
+    {
+      "id": "bal-2021-06-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-06",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2021_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI361967&id=361967"
+    },
+    {
+      "id": "bal-2021-06-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-06",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2021_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI361968&id=361968"
+    },
+    {
+      "id": "bal-2021-06-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-06",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2021_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI361969&id=361969"
+    },
+    {
+      "id": "bal-2021-06-E",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-06",
+      "modelo": "E",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2021_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI361970&id=361970"
+    },
+    {
+      "id": "bal-2021-06-F",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-06",
+      "modelo": "F",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2021_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI361971&id=361971"
+    },
+    {
+      "id": "bal-2021-06-G",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-06",
+      "modelo": "G",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2021_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI361972&id=361972"
+    },
+    {
+      "id": "bal-2021-09-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-09",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2021_examenes_con_respuesta/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2021_examenes_con_respuesta/archivopub.do?ctrl=MCRST165ZI368753&id=368753"
+    },
+    {
+      "id": "bal-2021-09-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-09",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2021_examenes_con_respuesta/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2021_examenes_con_respuesta/archivopub.do?ctrl=MCRST165ZI368752&id=368752"
+    },
+    {
+      "id": "bal-2021-09-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-09",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2021_examenes_con_respuesta/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2021_examenes_con_respuesta/archivopub.do?ctrl=MCRST165ZI368748&id=368748"
+    },
+    {
+      "id": "bal-2021-09-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-09",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2021_examenes_con_respuesta/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2021_examenes_con_respuesta/archivopub.do?ctrl=MCRST165ZI368749&id=368749"
+    },
+    {
+      "id": "bal-2021-09-E",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-09",
+      "modelo": "E",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2021_examenes_con_respuesta/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2021_examenes_con_respuesta/archivopub.do?ctrl=MCRST165ZI368751&id=368751"
+    },
+    {
+      "id": "bal-2021-09-F",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-09",
+      "modelo": "F",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2021_examenes_con_respuesta/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2021_examenes_con_respuesta/archivopub.do?ctrl=MCRST165ZI368754&id=368754"
+    },
+    {
+      "id": "bal-2021-12-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-12",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI375449&id=375449"
+    },
+    {
+      "id": "bal-2021-12-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-12",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI375450&id=375450"
+    },
+    {
+      "id": "bal-2021-12-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-12",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI375451&id=375451"
+    },
+    {
+      "id": "bal-2021-12-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-12",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI375452&id=375452"
+    },
+    {
+      "id": "bal-2021-12-F",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-12",
+      "modelo": "F",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI375454&id=375454"
+    },
+    {
+      "id": "bal-2021-12-I",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2021-12",
+      "modelo": "I",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI375457&id=375457"
+    },
+    {
+      "id": "bal-2022-03-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2022-03",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_abril_de_2022_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_abril_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI385650&id=385650"
+    },
+    {
+      "id": "bal-2022-03-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2022-03",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_abril_de_2022_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_abril_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI385659&id=385659"
+    },
+    {
+      "id": "bal-2022-03-E",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2022-03",
+      "modelo": "E",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_abril_de_2022_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_abril_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI385651&id=385651"
+    },
+    {
+      "id": "bal-2022-03-G",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2022-03",
+      "modelo": "G",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_abril_de_2022_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_abril_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI385652&id=385652"
+    },
+    {
+      "id": "bal-2022-03-H",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2022-03",
+      "modelo": "H",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_abril_de_2022_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_abril_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI385653&id=385653"
+    },
+    {
+      "id": "bal-2022-06-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2022-06",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2022_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI394528&id=394528"
+    },
+    {
+      "id": "bal-2022-06-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2022-06",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2022_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI394526&id=394526"
+    },
+    {
+      "id": "bal-2022-06-E",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2022-06",
+      "modelo": "E",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2022_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI394525&id=394525"
+    },
+    {
+      "id": "bal-2022-06-F",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2022-06",
+      "modelo": "F",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2022_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI394527&id=394527"
+    },
+    {
+      "id": "bal-2022-09-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2022-09",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2022_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI401189&id=401189"
+    },
+    {
+      "id": "bal-2022-09-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2022-09",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2022_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI401196&id=401196"
+    },
+    {
+      "id": "bal-2022-09-N",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2022-09",
+      "modelo": "N",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2022_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI401188&id=401188"
+    },
+    {
+      "id": "bal-2022-12-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2022-12",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2022_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI408506&id=408506"
+    },
+    {
+      "id": "bal-2022-12-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2022-12",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2022_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI408510&id=408510"
+    },
+    {
+      "id": "bal-2022-12-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2022-12",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2022_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI408511&id=408511"
+    },
+    {
+      "id": "bal-2022-12-F",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2022-12",
+      "modelo": "F",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2022_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI408508&id=408508"
+    },
+    {
+      "id": "bal-2023-03-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2023-03",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2023_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI420404&id=420404"
+    },
+    {
+      "id": "bal-2023-03-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2023-03",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2023_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI420392&id=420392"
+    },
+    {
+      "id": "bal-2023-03-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2023-03",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2023_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI420393&id=420393"
+    },
+    {
+      "id": "bal-2023-03-E",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2023-03",
+      "modelo": "E",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2023_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI420406&id=420406"
+    },
+    {
+      "id": "bal-2023-06-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2023-06",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_juny_de_2023_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_juny_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI429195&id=429195"
+    },
+    {
+      "id": "bal-2023-06-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2023-06",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_juny_de_2023_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_juny_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI429194&id=429194"
+    },
+    {
+      "id": "bal-2023-06-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2023-06",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_juny_de_2023_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_juny_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI429192&id=429192"
+    },
+    {
+      "id": "bal-2023-06-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2023-06",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_juny_de_2023_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_juny_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI429196&id=429196"
+    },
+    {
+      "id": "bal-2023-09-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2023-09",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2023_examenes_resueltos_0/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2023_examenes_resueltos_0/archivopub.do?ctrl=MCRST165ZI438605&id=438605"
+    },
+    {
+      "id": "bal-2023-09-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2023-09",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2023_examenes_resueltos_0/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2023_examenes_resueltos_0/archivopub.do?ctrl=MCRST165ZI438601&id=438601"
+    },
+    {
+      "id": "bal-2023-09-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2023-09",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2023_examenes_resueltos_0/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2023_examenes_resueltos_0/archivopub.do?ctrl=MCRST165ZI438604&id=438604"
+    },
+    {
+      "id": "bal-2023-09-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2023-09",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2023_examenes_resueltos_0/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2023_examenes_resueltos_0/archivopub.do?ctrl=MCRST165ZI438602&id=438602"
+    },
+    {
+      "id": "bal-2023-12-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2023-12",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI445769&id=445769"
+    },
+    {
+      "id": "bal-2023-12-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2023-12",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI445767&id=445767"
+    },
+    {
+      "id": "bal-2023-12-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2023-12",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI445772&id=445772"
+    },
+    {
+      "id": "bal-2023-12-E",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2023-12",
+      "modelo": "E",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI445777&id=445777"
+    },
+    {
+      "id": "bal-2024-04-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2024-04",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2024_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI461243&id=461243"
+    },
+    {
+      "id": "bal-2024-04-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2024-04",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2024_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI461244&id=461244"
+    },
+    {
+      "id": "bal-2024-04-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2024-04",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2024_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI461241&id=461241"
+    },
+    {
+      "id": "bal-2024-04-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2024-04",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2024_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI461242&id=461242"
+    },
+    {
+      "id": "bal-2024-07-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2024-07",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2024_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI470669&id=470669"
+    },
+    {
+      "id": "bal-2024-07-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2024-07",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2024_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI470666&id=470666"
+    },
+    {
+      "id": "bal-2024-07-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2024-07",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2024_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI470672&id=470672"
+    },
+    {
+      "id": "bal-2024-07-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2024-07",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2024_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI470668&id=470668"
+    },
+    {
+      "id": "bal-2024-09-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2024-09",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2024_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI479218&id=479218"
+    },
+    {
+      "id": "bal-2024-09-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2024-09",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2024_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI479219&id=479219"
+    },
+    {
+      "id": "bal-2024-09-E",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2024-09",
+      "modelo": "E",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2024_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI479260&id=479260"
+    },
+    {
+      "id": "bal-2024-09-F",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2024-09",
+      "modelo": "F",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2024_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI479248&id=479248"
+    },
+    {
+      "id": "bal-2024-12-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2024-12",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2024_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI490088&id=490088"
+    },
+    {
+      "id": "bal-2024-12-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2024-12",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2024_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI490093&id=490093"
+    },
+    {
+      "id": "bal-2024-12-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2024-12",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2024_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI490087&id=490087"
+    },
+    {
+      "id": "bal-2024-12-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2024-12",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2024_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI490108&id=490108"
+    },
+    {
+      "id": "bal-2025-04-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2025-04",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2025_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI501967&id=501967"
+    },
+    {
+      "id": "bal-2025-04-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2025-04",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2025_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI501980&id=501980"
+    },
+    {
+      "id": "bal-2025-04-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2025-04",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2025_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI501979&id=501979"
+    },
+    {
+      "id": "bal-2025-04-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2025-04",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2025_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI501966&id=501966"
+    },
+    {
+      "id": "bal-2025-07-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2025-07",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2025_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI518801&id=518801"
+    },
+    {
+      "id": "bal-2025-07-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2025-07",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2025_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI518802&id=518802"
+    },
+    {
+      "id": "bal-2025-07-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2025-07",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2025_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI518803&id=518803"
+    },
+    {
+      "id": "bal-2025-07-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2025-07",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2025_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI518787&id=518787"
+    },
+    {
+      "id": "bal-2025-09-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2025-09",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_septiembre_2025_examens_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_septiembre_2025_examens_resueltos/archivopub.do?ctrl=MCRST165ZI529023&id=529023"
+    },
+    {
+      "id": "bal-2025-09-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2025-09",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_septiembre_2025_examens_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_septiembre_2025_examens_resueltos/archivopub.do?ctrl=MCRST165ZI529009&id=529009"
+    },
+    {
+      "id": "bal-2025-09-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2025-09",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_septiembre_2025_examens_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_septiembre_2025_examens_resueltos/archivopub.do?ctrl=MCRST165ZI529010&id=529010"
+    },
+    {
+      "id": "bal-2025-09-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2025-09",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_septiembre_2025_examens_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_septiembre_2025_examens_resueltos/archivopub.do?ctrl=MCRST165ZI529012&id=529012"
+    },
+    {
+      "id": "bal-2025-12-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2025-12",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2025_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI539507&id=539507"
+    },
+    {
+      "id": "bal-2025-12-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2025-12",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2025_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI539509&id=539509"
+    },
+    {
+      "id": "bal-2025-12-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2025-12",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2025_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI539490&id=539490"
+    },
+    {
+      "id": "bal-2025-12-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2025-12",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2025_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI539510&id=539510"
+    },
+    {
+      "id": "bal-2026-03-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2026-03",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2026_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI550126&id=550126"
+    },
+    {
+      "id": "bal-2026-03-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2026-03",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2026_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI550147&id=550147"
+    },
+    {
+      "id": "bal-2026-03-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2026-03",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2026_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI550136&id=550136"
+    },
+    {
+      "id": "bal-2026-03-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2026-03",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2026_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI550137&id=550137"
+    },
+    {
+      "id": "bal-2026-06-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2026-06",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2026_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI562091&id=562091"
+    },
+    {
+      "id": "bal-2026-06-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2026-06",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2026_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI562092&id=562092"
+    },
+    {
+      "id": "bal-2026-06-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2026-06",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2026_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI562093&id=562093"
+    },
+    {
+      "id": "bal-2026-06-D",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2026-06",
+      "modelo": "D",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2026_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI562073&id=562073"
+    },
+    {
+      "id": "bal-2026-09-A",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2026-09",
+      "modelo": "A",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2026_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI569148&id=569148"
+    },
+    {
+      "id": "bal-2026-09-B",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2026-09",
+      "modelo": "B",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2026_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI569107&id=569107"
+    },
+    {
+      "id": "bal-2026-09-C",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2026-09",
+      "modelo": "C",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2026_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI569136&id=569136"
+    },
+    {
+      "id": "bal-2026-09-E",
+      "comunidad": "Illes Balears",
+      "convocatoria": "2026-09",
+      "modelo": "E",
+      "formato": "baleares",
+      "pagina": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2026_examenes_resueltos/",
+      "examen": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI569106&id=569106"
+    }
+  ],
+  "descartados": [
+    {
+      "archivo": "225532",
+      "url": "https://www.caib.es/sites/transportmaritim/es/marzoabril_2017_respuestas_examenes/archivopub.do?ctrl=MCRST165ZI225532&id=225532",
+      "motivo": "no es del PER: «Prova teòrica capità de iot Mallorca»"
+    },
+    {
+      "archivo": "225533",
+      "url": "https://www.caib.es/sites/transportmaritim/es/marzoabril_2017_respuestas_examenes/archivopub.do?ctrl=MCRST165ZI225533&id=225533",
+      "motivo": "no es del PER: «Prova teòrica capità de iot Ibiza y Menorca»"
+    },
+    {
+      "archivo": "225534",
+      "url": "https://www.caib.es/sites/transportmaritim/es/marzoabril_2017_respuestas_examenes/archivopub.do?ctrl=MCRST165ZI225534&id=225534",
+      "motivo": "no es del PER: «Prova teòrica moto nàutica Menorca»"
+    },
+    {
+      "archivo": "225535",
+      "url": "https://www.caib.es/sites/transportmaritim/es/marzoabril_2017_respuestas_examenes/archivopub.do?ctrl=MCRST165ZI225535&id=225535",
+      "motivo": "no es del PER: «Prova teòrica patró de iot Mallorca»"
+    },
+    {
+      "archivo": "225536",
+      "url": "https://www.caib.es/sites/transportmaritim/es/marzoabril_2017_respuestas_examenes/archivopub.do?ctrl=MCRST165ZI225536&id=225536",
+      "motivo": "no es del PER: «Prova teòrica patró de iot Eivissa i Menorca»"
+    },
+    {
+      "archivo": "225538",
+      "url": "https://www.caib.es/sites/transportmaritim/es/marzoabril_2017_respuestas_examenes/archivopub.do?ctrl=MCRST165ZI225538&id=225538",
+      "motivo": "duplicado de bal-2017-03-C"
+    },
+    {
+      "archivo": "225542",
+      "url": "https://www.caib.es/sites/transportmaritim/es/marzoabril_2017_respuestas_examenes/archivopub.do?ctrl=MCRST165ZI225542&id=225542",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014 Ibiza y Menorca»"
+    },
+    {
+      "archivo": "230331",
+      "url": "https://www.caib.es/sites/transportmaritim/es/julio_2017_respuestas_de_los_examenes/archivopub.do?ctrl=MCRST165ZI230331&id=230331",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "230332",
+      "url": "https://www.caib.es/sites/transportmaritim/es/julio_2017_respuestas_de_los_examenes/archivopub.do?ctrl=MCRST165ZI230332&id=230332",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "230333",
+      "url": "https://www.caib.es/sites/transportmaritim/es/julio_2017_respuestas_de_los_examenes/archivopub.do?ctrl=MCRST165ZI230333&id=230333",
+      "motivo": "no es del PER: «Prova teòrica moto nàutica»"
+    },
+    {
+      "archivo": "230334",
+      "url": "https://www.caib.es/sites/transportmaritim/es/julio_2017_respuestas_de_los_examenes/archivopub.do?ctrl=MCRST165ZI230334&id=230334",
+      "motivo": "no es del PER: «Prova teòrica moto nàutica»"
+    },
+    {
+      "archivo": "230335",
+      "url": "https://www.caib.es/sites/transportmaritim/es/julio_2017_respuestas_de_los_examenes/archivopub.do?ctrl=MCRST165ZI230335&id=230335",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "230336",
+      "url": "https://www.caib.es/sites/transportmaritim/es/julio_2017_respuestas_de_los_examenes/archivopub.do?ctrl=MCRST165ZI230336&id=230336",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "230340",
+      "url": "https://www.caib.es/sites/transportmaritim/es/julio_2017_respuestas_de_los_examenes/archivopub.do?ctrl=MCRST165ZI230340&id=230340",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "234238",
+      "url": "https://www.caib.es/sites/transportmaritim/es/septiembre_2017_respuestas_examenes/archivopub.do?ctrl=MCRST165ZI234238&id=234238",
+      "motivo": "no es del PER: «Prova teòrica moto nàutica»"
+    },
+    {
+      "archivo": "234239",
+      "url": "https://www.caib.es/sites/transportmaritim/es/septiembre_2017_respuestas_examenes/archivopub.do?ctrl=MCRST165ZI234239&id=234239",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "234240",
+      "url": "https://www.caib.es/sites/transportmaritim/es/septiembre_2017_respuestas_examenes/archivopub.do?ctrl=MCRST165ZI234240&id=234240",
+      "motivo": "no es del PER: «Prova teòrica moto nàutica»"
+    },
+    {
+      "archivo": "234244",
+      "url": "https://www.caib.es/sites/transportmaritim/es/septiembre_2017_respuestas_examenes/archivopub.do?ctrl=MCRST165ZI234244&id=234244",
+      "motivo": "duplicado de bal-2017-09-D"
+    },
+    {
+      "archivo": "234245",
+      "url": "https://www.caib.es/sites/transportmaritim/es/septiembre_2017_respuestas_examenes/archivopub.do?ctrl=MCRST165ZI234245&id=234245",
+      "motivo": "duplicado de bal-2017-09-A"
+    },
+    {
+      "archivo": "234248",
+      "url": "https://www.caib.es/sites/transportmaritim/es/septiembre_2017_respuestas_examenes/archivopub.do?ctrl=MCRST165ZI234248&id=234248",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "234249",
+      "url": "https://www.caib.es/sites/transportmaritim/es/septiembre_2017_respuestas_examenes/archivopub.do?ctrl=MCRST165ZI234249&id=234249",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "241389",
+      "url": "https://www.caib.es/sites/transportmaritim/es/diciembre_2017_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI241389&id=241389",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "241390",
+      "url": "https://www.caib.es/sites/transportmaritim/es/diciembre_2017_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI241390&id=241390",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "241394",
+      "url": "https://www.caib.es/sites/transportmaritim/es/diciembre_2017_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI241394&id=241394",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "241396",
+      "url": "https://www.caib.es/sites/transportmaritim/es/diciembre_2017_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI241396&id=241396",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "241397",
+      "url": "https://www.caib.es/sites/transportmaritim/es/diciembre_2017_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI241397&id=241397",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "241400",
+      "url": "https://www.caib.es/sites/transportmaritim/es/diciembre_2017_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI241400&id=241400",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "241402",
+      "url": "https://www.caib.es/sites/transportmaritim/es/diciembre_2017_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI241402&id=241402",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "241403",
+      "url": "https://www.caib.es/sites/transportmaritim/es/diciembre_2017_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI241403&id=241403",
+      "motivo": "no es del PER: «Prova teòrica moto nàutica»"
+    },
+    {
+      "archivo": "241404",
+      "url": "https://www.caib.es/sites/transportmaritim/es/diciembre_2017_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI241404&id=241404",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "241405",
+      "url": "https://www.caib.es/sites/transportmaritim/es/diciembre_2017_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI241405&id=241405",
+      "motivo": "duplicado de bal-2017-12-B"
+    },
+    {
+      "archivo": "241406",
+      "url": "https://www.caib.es/sites/transportmaritim/es/diciembre_2017_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI241406&id=241406",
+      "motivo": "duplicado de bal-2017-12-D"
+    },
+    {
+      "archivo": "241407",
+      "url": "https://www.caib.es/sites/transportmaritim/es/diciembre_2017_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI241407&id=241407",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "249651",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2018_examenes_con_respuestas_/archivopub.do?ctrl=MCRST165ZI249651&id=249651",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "249652",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2018_examenes_con_respuestas_/archivopub.do?ctrl=MCRST165ZI249652&id=249652",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "249653",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2018_examenes_con_respuestas_/archivopub.do?ctrl=MCRST165ZI249653&id=249653",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "249654",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2018_examenes_con_respuestas_/archivopub.do?ctrl=MCRST165ZI249654&id=249654",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "249655",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2018_examenes_con_respuestas_/archivopub.do?ctrl=MCRST165ZI249655&id=249655",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "249656",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2018_examenes_con_respuestas_/archivopub.do?ctrl=MCRST165ZI249656&id=249656",
+      "motivo": "no es del PER: «Prova teòrica moto nàutica»"
+    },
+    {
+      "archivo": "249657",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2018_examenes_con_respuestas_/archivopub.do?ctrl=MCRST165ZI249657&id=249657",
+      "motivo": "no es del PER: «Prova teòrica moto nàutica»"
+    },
+    {
+      "archivo": "249663",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2018_examenes_con_respuestas_/archivopub.do?ctrl=MCRST165ZI249663&id=249663",
+      "motivo": "duplicado de bal-2018-04-F"
+    },
+    {
+      "archivo": "249664",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2018_examenes_con_respuestas_/archivopub.do?ctrl=MCRST165ZI249664&id=249664",
+      "motivo": "duplicado de bal-2018-04-D"
+    },
+    {
+      "archivo": "249666",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2018_examenes_con_respuestas_/archivopub.do?ctrl=MCRST165ZI249666&id=249666",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "249667",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2018_examenes_con_respuestas_/archivopub.do?ctrl=MCRST165ZI249667&id=249667",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "249668",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2018_examenes_con_respuestas_/archivopub.do?ctrl=MCRST165ZI249668&id=249668",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "255576",
+      "url": "https://www.caib.es/sites/transportmaritim/es/junio_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI255576&id=255576",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "255577",
+      "url": "https://www.caib.es/sites/transportmaritim/es/junio_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI255577&id=255577",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "255578",
+      "url": "https://www.caib.es/sites/transportmaritim/es/junio_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI255578&id=255578",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "255579",
+      "url": "https://www.caib.es/sites/transportmaritim/es/junio_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI255579&id=255579",
+      "motivo": "no es del PER: «Prova teòrica moto nàutica»"
+    },
+    {
+      "archivo": "255580",
+      "url": "https://www.caib.es/sites/transportmaritim/es/junio_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI255580&id=255580",
+      "motivo": "no es del PER: «Prova teòrica moto nàutica»"
+    },
+    {
+      "archivo": "255581",
+      "url": "https://www.caib.es/sites/transportmaritim/es/junio_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI255581&id=255581",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "255582",
+      "url": "https://www.caib.es/sites/transportmaritim/es/junio_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI255582&id=255582",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "255583",
+      "url": "https://www.caib.es/sites/transportmaritim/es/junio_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI255583&id=255583",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "255585",
+      "url": "https://www.caib.es/sites/transportmaritim/es/junio_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI255585&id=255585",
+      "motivo": "duplicado de bal-2018-06-B"
+    },
+    {
+      "archivo": "255588",
+      "url": "https://www.caib.es/sites/transportmaritim/es/junio_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI255588&id=255588",
+      "motivo": "duplicado de bal-2018-06-A"
+    },
+    {
+      "archivo": "255591",
+      "url": "https://www.caib.es/sites/transportmaritim/es/junio_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI255591&id=255591",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "255592",
+      "url": "https://www.caib.es/sites/transportmaritim/es/junio_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI255592&id=255592",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "255593",
+      "url": "https://www.caib.es/sites/transportmaritim/es/junio_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI255592&id=255593",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "260519",
+      "url": "https://www.caib.es/sites/transportmaritim/es/septiembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI260519&id=260519",
+      "motivo": "no es del PER: «Prova teòrica moto nàutica»"
+    },
+    {
+      "archivo": "260521",
+      "url": "https://www.caib.es/sites/transportmaritim/es/septiembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI260521&id=260521",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "260522",
+      "url": "https://www.caib.es/sites/transportmaritim/es/septiembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI260522&id=260522",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "260523",
+      "url": "https://www.caib.es/sites/transportmaritim/es/septiembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI260523&id=260523",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "260525",
+      "url": "https://www.caib.es/sites/transportmaritim/es/septiembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI260525&id=260525",
+      "motivo": "duplicado de bal-2018-09-E"
+    },
+    {
+      "archivo": "260529",
+      "url": "https://www.caib.es/sites/transportmaritim/es/septiembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI260529&id=260529",
+      "motivo": "duplicado de bal-2018-09-B"
+    },
+    {
+      "archivo": "271349",
+      "url": "https://www.caib.es/sites/transportmaritim/es/diciembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI271349&id=271349",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "271350",
+      "url": "https://www.caib.es/sites/transportmaritim/es/diciembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI271350&id=271350",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "271351",
+      "url": "https://www.caib.es/sites/transportmaritim/es/diciembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI271351&id=271351",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "271352",
+      "url": "https://www.caib.es/sites/transportmaritim/es/diciembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI271352&id=271352",
+      "motivo": "no es del PER: «Prova teòrica moto nàutica»"
+    },
+    {
+      "archivo": "271353",
+      "url": "https://www.caib.es/sites/transportmaritim/es/diciembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI271353&id=271353",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "271354",
+      "url": "https://www.caib.es/sites/transportmaritim/es/diciembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI271354&id=271354",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "271356",
+      "url": "https://www.caib.es/sites/transportmaritim/es/diciembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI271356&id=271356",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "271363",
+      "url": "https://www.caib.es/sites/transportmaritim/es/diciembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI271363&id=271363",
+      "motivo": "duplicado de bal-2018-12-B"
+    },
+    {
+      "archivo": "271364",
+      "url": "https://www.caib.es/sites/transportmaritim/es/diciembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI271364&id=271364",
+      "motivo": "duplicado de bal-2018-12-C"
+    },
+    {
+      "archivo": "271365",
+      "url": "https://www.caib.es/sites/transportmaritim/es/diciembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI271365&id=271365",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "271367",
+      "url": "https://www.caib.es/sites/transportmaritim/es/diciembre_2018_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI271367&id=271367",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "282538",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI282538&id=282538",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "282544",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI282544&id=282544",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "282545",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI282545&id=282545",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "282546",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI282546&id=282546",
+      "motivo": "no es del PER: «Prova teòrica moto nàutica»"
+    },
+    {
+      "archivo": "282547",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI282547&id=282547",
+      "motivo": "no es del PER: «Prova teòrica moto nàutica»"
+    },
+    {
+      "archivo": "282548",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI282548&id=282548",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "282549",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI282549&id=282549",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "282550",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI282550&id=282550",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "282554",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI282554&id=282554",
+      "motivo": "duplicado de bal-2019-04-C"
+    },
+    {
+      "archivo": "282555",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI282555&id=282555",
+      "motivo": "duplicado de bal-2019-04-I"
+    },
+    {
+      "archivo": "282558",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI282558&id=282558",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "282559",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI282559&id=282559",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "282560",
+      "url": "https://www.caib.es/sites/transportmaritim/es/abril_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI282560&id=282560",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "290003",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_junio_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI290003&id=290003",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "290004",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_junio_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI290004&id=290004",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "290005",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_junio_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI290005&id=290005",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "290006",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_junio_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI290006&id=290006",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "290007",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_junio_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI290007&id=290007",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "290008",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_junio_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI290008&id=290008",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "290009",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_junio_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI290009&id=290009",
+      "motivo": "no es del PER: «Prova teòrica moto nàutica»"
+    },
+    {
+      "archivo": "290014",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_junio_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI290014&id=290014",
+      "motivo": "duplicado de bal-2019-06-A"
+    },
+    {
+      "archivo": "290015",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_junio_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI290015&id=290015",
+      "motivo": "duplicado de bal-2019-06-I"
+    },
+    {
+      "archivo": "290016",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_junio_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI290016&id=290016",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "290017",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_junio_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI290017&id=290017",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "290018",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_junio_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI290018&id=290018",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "296892",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI296892&id=296892",
+      "motivo": "duplicado de bal-2019-09-E"
+    },
+    {
+      "archivo": "296893",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI296893&id=296893",
+      "motivo": "duplicado de bal-2019-09-F"
+    },
+    {
+      "archivo": "296896",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI296896&id=296896",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "296897",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI296897&id=296897",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "296898",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2019_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI296898&id=296898",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "305708",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_diciembre_2019_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI305708&id=305708",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "305709",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_diciembre_2019_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI305709&id=305709",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "305712",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_diciembre_2019_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI305712&id=305712",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "305713",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_diciembre_2019_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI305713&id=305713",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "305714",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_diciembre_2019_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI305714&id=305714",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "305715",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_diciembre_2019_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI305715&id=305715",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "305723",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_diciembre_2019_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI305723&id=305723",
+      "motivo": "duplicado de bal-2019-12-F"
+    },
+    {
+      "archivo": "305725",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_diciembre_2019_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI305725&id=305725",
+      "motivo": "duplicado de bal-2019-12-G"
+    },
+    {
+      "archivo": "305731",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_diciembre_2019_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI305731&id=305731",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "305732",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_diciembre_2019_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI305732&id=305732",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "305733",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_diciembre_2019_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI305733&id=305733",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "325700",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_julio_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI325700&id=325700",
+      "motivo": "no es del PER: «Prova teòrica capità de iot Palma (Juliol 2020) RD 875/2014»"
+    },
+    {
+      "archivo": "325701",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_julio_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI325701&id=325701",
+      "motivo": "no es del PER: «Prova teòrica capità de iot Eivissa i Menorca RD 875/2014»"
+    },
+    {
+      "archivo": "325702",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_julio_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI325702&id=325702",
+      "motivo": "no es del PER: «Prova teòrica patró de iot Palma (RD 875/2014)»"
+    },
+    {
+      "archivo": "325709",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_julio_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI325709&id=325709",
+      "motivo": "no es un examen completo válido (0 preguntas (esperadas 45) y 11 más)"
+    },
+    {
+      "archivo": "325710",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_julio_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI325710&id=325710",
+      "motivo": "no es un examen completo válido (0 preguntas (esperadas 45) y 11 más)"
+    },
+    {
+      "archivo": "325712",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_julio_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI325712&id=325712",
+      "motivo": "no es del PER: «Prova teòrica PNB PALMA RD 875/2014»"
+    },
+    {
+      "archivo": "325721",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_julio_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI325721&id=325721",
+      "motivo": "no es del PER: «Prova teòrica PNB EIVISSA I MENORCARD 875/2014»"
+    },
+    {
+      "archivo": "325769",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_julio_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI325769&id=325769",
+      "motivo": "no es del PER: «Prova teòrica patró de iot EIVISSA RD 875/2014»"
+    },
+    {
+      "archivo": "325770",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_julio_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI325770&id=325770",
+      "motivo": "no es del PER: «Prova teòrica patró de iot MENORCA RD 875/2014»"
+    },
+    {
+      "archivo": "333920",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_octubre_de_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI333920&id=333920",
+      "motivo": "duplicado de bal-2020-10-C"
+    },
+    {
+      "archivo": "333925",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_octubre_de_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI333925&id=333925",
+      "motivo": "duplicado de bal-2020-10-H"
+    },
+    {
+      "archivo": "333928",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_octubre_de_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI333928&id=333928",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "333929",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_octubre_de_2020_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI333929&id=333929",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "341538",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI341538&id=341538",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "341539",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI341539&id=341539",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "341540",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI341540&id=341540",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "341542",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI341542&id=341542",
+      "motivo": "duplicado de bal-2020-12-C"
+    },
+    {
+      "archivo": "341546",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI341546&id=341546",
+      "motivo": "duplicado de bal-2020-12-E"
+    },
+    {
+      "archivo": "341547",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI341547&id=341547",
+      "motivo": "duplicado de bal-2020-12-G"
+    },
+    {
+      "archivo": "341552",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI341552&id=341552",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "341553",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI341553&id=341553",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "341554",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI341554&id=341554",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "341557",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI341557&id=341557",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "341599",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI341599&id=341599",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "341600",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_deciembre_de_2020_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI341600&id=341600",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "351390",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI351390&id=351390",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014 Eivissa y Menorca»"
+    },
+    {
+      "archivo": "351391",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI351391&id=351391",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "351392",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI351392&id=351392",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "351393",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI351393&id=351393",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "351401",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI351401&id=351401",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "351402",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI351402&id=351402",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "351403",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI351403&id=351403",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "361963",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI361963&id=361963",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "361964",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI361964&id=361964",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "361965",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI361965&id=361965",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "361966",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI361966&id=361966",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "361973",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI361973&id=361973",
+      "motivo": "no es un examen completo válido (0 preguntas (esperadas 45) y 11 más)"
+    },
+    {
+      "archivo": "361974",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI361974&id=361974",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "361975",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI361975&id=361975",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "368750",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2021_examenes_con_respuesta/archivopub.do?ctrl=MCRST165ZI368750&id=368750",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "368755",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2021_examenes_con_respuesta/archivopub.do?ctrl=MCRST165ZI368755&id=368755",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "368756",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2021_examenes_con_respuesta/archivopub.do?ctrl=MCRST165ZI368756&id=368756",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "375443",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI375443&id=375443",
+      "motivo": "no es del PER: «Prova teòrica capità de iot EIVISSA RD 875/2014»"
+    },
+    {
+      "archivo": "375444",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI375444&id=375444",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "375445",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI375445&id=375445",
+      "motivo": "no es del PER: «Prova teòrica capità de iot MENORCA RD 875/2014»"
+    },
+    {
+      "archivo": "375446",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI375446&id=375446",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "375447",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI375447&id=375447",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "375448",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI375448&id=375448",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "375453",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI375453&id=375453",
+      "motivo": "duplicado de bal-2021-12-A"
+    },
+    {
+      "archivo": "375455",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI375455&id=375455",
+      "motivo": "duplicado de bal-2021-12-B"
+    },
+    {
+      "archivo": "375456",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI375456&id=375456",
+      "motivo": "duplicado de bal-2021-12-C"
+    },
+    {
+      "archivo": "375458",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI375458&id=375458",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "375459",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI375459&id=375459",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "375460",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2021_examenes_con_respuestas/archivopub.do?ctrl=MCRST165ZI375460&id=375460",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "385644",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_abril_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI385644&id=385644",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "385645",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_abril_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI385645&id=385645",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "385646",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_abril_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI385646&id=385646",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "385647",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_abril_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI385647&id=385647",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "385648",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_abril_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI385648&id=385648",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "385649",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_abril_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI385649&id=385649",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "385654",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_abril_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI385654&id=385654",
+      "motivo": "duplicado de bal-2022-03-G"
+    },
+    {
+      "archivo": "385655",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_abril_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI385655&id=385655",
+      "motivo": "duplicado de bal-2022-03-H"
+    },
+    {
+      "archivo": "385656",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_abril_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI385656&id=385656",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "385657",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_abril_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI385657&id=385657",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "385658",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_abril_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI385658&id=385658",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "394519",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI394519&id=394519",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "394520",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI394520&id=394520",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "394521",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI394521&id=394521",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "394522",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI394522&id=394522",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "394523",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI394523&id=394523",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "394524",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI394524&id=394524",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "394529",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI394529&id=394529",
+      "motivo": "duplicado de bal-2022-06-F"
+    },
+    {
+      "archivo": "394531",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI394531&id=394531",
+      "motivo": "duplicado de bal-2022-06-C"
+    },
+    {
+      "archivo": "394532",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI394532&id=394532",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "394533",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI394533&id=394533",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "394534",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI394534&id=394534",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "401190",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI401190&id=401190",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "401191",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI401191&id=401191",
+      "motivo": "duplicado de bal-2022-09-B"
+    },
+    {
+      "archivo": "401192",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI401192&id=401192",
+      "motivo": "duplicado de bal-2022-09-N"
+    },
+    {
+      "archivo": "401194",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI401194&id=401194",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "401195",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI401195&id=401195",
+      "motivo": "no es un examen completo válido (44 preguntas (esperadas 45) y 1 más)"
+    },
+    {
+      "archivo": "401198",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI401198&id=401198",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "408502",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI408502&id=408502",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "408503",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI408503&id=408503",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "408504",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI408504&id=408504",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "408505",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI408505&id=408505",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "408507",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI408507&id=408507",
+      "motivo": "versión en catalán (se usa la castellana)"
+    },
+    {
+      "archivo": "408512",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI408512&id=408512",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "408513",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2022_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI408513&id=408513",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "420389",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI420389&id=420389",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "420391",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI420391&id=420391",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "420396",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI420396&id=420396",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "420397",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI420397&id=420397",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "420400",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI420400&id=420400",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "420403",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI420403&id=420403",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "429186",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_juny_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI429186&id=429186",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "429187",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_juny_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI429187&id=429187",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "429188",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_juny_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI429188&id=429188",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "429189",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_juny_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI429189&id=429189",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "429197",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_juny_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI429197&id=429197",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "429198",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_juny_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI429198&id=429198",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "438603",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2023_examenes_resueltos_0/archivopub.do?ctrl=MCRST165ZI438603&id=438603",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "438606",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2023_examenes_resueltos_0/archivopub.do?ctrl=MCRST165ZI438606&id=438606",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "445756",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI445756&id=445756",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "445757",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI445757&id=445757",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "445759",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI445759&id=445759",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "445760",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI445760&id=445760",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "445761",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI445761&id=445761",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "445762",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI445762&id=445762",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "445763",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI445763&id=445763",
+      "motivo": "sin cabecera de examen"
+    },
+    {
+      "archivo": "445764",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI445764&id=445764",
+      "motivo": "sin cabecera de examen"
+    },
+    {
+      "archivo": "445765",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI445765&id=445765",
+      "motivo": "sin cabecera de examen"
+    },
+    {
+      "archivo": "445768",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI445768&id=445768",
+      "motivo": "sin cabecera de examen"
+    },
+    {
+      "archivo": "445770",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI445770&id=445770",
+      "motivo": "duplicado de bal-2023-12-A"
+    },
+    {
+      "archivo": "445773",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI445773&id=445773",
+      "motivo": "sin cabecera de examen"
+    },
+    {
+      "archivo": "445775",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI445775&id=445775",
+      "motivo": "duplicado de bal-2023-12-B"
+    },
+    {
+      "archivo": "445776",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI445776&id=445776",
+      "motivo": "sin cabecera de examen"
+    },
+    {
+      "archivo": "445778",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI445778&id=445778",
+      "motivo": "sin cabecera de examen"
+    },
+    {
+      "archivo": "445779",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI445779&id=445779",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "445780",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI445780&id=445780",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "445782",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2023_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI445782&id=445782",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "450096",
+      "url": "https://www.caib.es/sites/transportmaritim/es/calendario_de_examenes_2024/archivopub.do?ctrl=MCRST165ZI450096&id=450096",
+      "motivo": "sin cabecera de examen"
+    },
+    {
+      "archivo": "461237",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI461237&id=461237",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "461238",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI461238&id=461238",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "461239",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI461239&id=461239",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "461240",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI461240&id=461240",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "461245",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI461245&id=461245",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "461246",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI461246&id=461246",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "461247",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI461247&id=461247",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "462481",
+      "url": "https://www.caib.es/sites/transportmaritim/es/calendario_de_examenes_2024/archivopub.do?ctrl=MCRST165ZI462481&id=462481",
+      "motivo": "sin cabecera de examen"
+    },
+    {
+      "archivo": "470660",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI470660&id=470660",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "470661",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI470661&id=470661",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "470662",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI470662&id=470662",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "470664",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI470664&id=470664",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "470673",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI470673&id=470673",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "470674",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI470674&id=470674",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "479262",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI479262&id=479262",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "479263",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI479263&id=479263",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "490086",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI490086&id=490086",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "490089",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI490089&id=490089",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "490090",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI490090&id=490090",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "490104",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI490104&id=490104",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "490105",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI490105&id=490105",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "490106",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2024_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI490106&id=490106",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "501964",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI501964&id=501964",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "501965",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI501965&id=501965",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "501968",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI501968&id=501968",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "501977",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI501977&id=501977",
+      "motivo": "sin cabecera de examen"
+    },
+    {
+      "archivo": "501978",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI501978&id=501978",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "501981",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_abril_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI501981&id=501981",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "518788",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI518788&id=518788",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "518799",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI518799&id=518799",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "518800",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI518800&id=518800",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "518804",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_julio_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI518804&id=518804",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "529011",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_septiembre_2025_examens_resueltos/archivopub.do?ctrl=MCRST165ZI529011&id=529011",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "529013",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_septiembre_2025_examens_resueltos/archivopub.do?ctrl=MCRST165ZI529013&id=529013",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "529014",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_septiembre_2025_examens_resueltos/archivopub.do?ctrl=MCRST165ZI529014&id=529014",
+      "motivo": "duplicado de bal-2025-09-B"
+    },
+    {
+      "archivo": "529015",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_septiembre_2025_examens_resueltos/archivopub.do?ctrl=MCRST165ZI529015&id=529015",
+      "motivo": "duplicado de bal-2025-09-C"
+    },
+    {
+      "archivo": "529016",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_septiembre_2025_examens_resueltos/archivopub.do?ctrl=MCRST165ZI529016&id=529016",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "539489",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI539489&id=539489",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "539491",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI539491&id=539491",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "539492",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI539492&id=539492",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "539508",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI539508&id=539508",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "539511",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI539511&id=539511",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "539512",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_diciembre_de_2025_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI539512&id=539512",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "540269",
+      "url": "https://www.caib.es/sites/transportmaritim/es/calendario_de_examenes_2026/archivopub.do?ctrl=MCRST165ZI540269&id=540269",
+      "motivo": "sin cabecera de examen"
+    },
+    {
+      "archivo": "550124",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI550124&id=550124",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "550125",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI550125&id=550125",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "550135",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI550135&id=550135",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "550138",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI550138&id=550138",
+      "motivo": "duplicado de bal-2026-03-C"
+    },
+    {
+      "archivo": "550139",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI550139&id=550139",
+      "motivo": "duplicado de bal-2026-03-D"
+    },
+    {
+      "archivo": "550140",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI550140&id=550140",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "550141",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI550141&id=550141",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "550142",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI550142&id=550142",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "550148",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI550148&id=550148",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "550149",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI550149&id=550149",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "550150",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_marzo_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI550150&id=550150",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "562072",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI562072&id=562072",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "562088",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI562088&id=562088",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "562089",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI562089&id=562089",
+      "motivo": "no es del PER: «Prova teòrica capità de iot RD 875/2014»"
+    },
+    {
+      "archivo": "562090",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI562090&id=562090",
+      "motivo": "no es del PER: «Prova teòrica patró de iot RD 875/2014»"
+    },
+    {
+      "archivo": "562094",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI562094&id=562094",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "562095",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_junio_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI562095&id=562095",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "569135",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI569135&id=569135",
+      "motivo": "duplicado de bal-2026-09-E"
+    },
+    {
+      "archivo": "569149",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI569149&id=569149",
+      "motivo": "duplicado de bal-2026-09-C"
+    },
+    {
+      "archivo": "569150",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI569150&id=569150",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "569151",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI569151&id=569151",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    },
+    {
+      "archivo": "569152",
+      "url": "https://www.caib.es/sites/transportmaritim/es/convocatoria_de_septiembre_de_2026_examenes_resueltos/archivopub.do?ctrl=MCRST165ZI569152&id=569152",
+      "motivo": "no es del PER: «Prova teòrica PNB RD 875/2014»"
+    }
+  ]
+}

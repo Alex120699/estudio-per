@@ -1,26 +1,30 @@
 import { useState } from 'react'
-import type { OpcionesTema } from '../logica/seleccion'
-import { utilizables } from '../logica/seleccion'
+import { candidatasTema, type ContextoHistorial, type FiltroTema, type OpcionesTema } from '../logica/seleccion'
 import type { Modo } from '../logica/sesion'
 import { preguntas } from '../tipos/preguntas'
 import { programa } from '../tipos/programa'
 
 interface Props {
+  contexto: ContextoHistorial
   onEmpezar: (opciones: OpcionesTema, modo: Modo) => void
   onVolver: () => void
 }
 
 const CANTIDADES = [10, 20, 'todas'] as const
+const FILTROS: { valor: FiltroTema; texto: string }[] = [
+  { valor: 'aleatorias', texto: 'Aleatorias' },
+  { valor: 'noVistas', texto: 'No vistas' },
+  { valor: 'falladas', texto: 'Falladas' },
+]
 
-export default function ConfigurarTema({ onEmpezar, onVolver }: Props) {
+export default function ConfigurarTema({ contexto, onEmpezar, onVolver }: Props) {
   const [unidades, setUnidades] = useState<number[]>([])
   const [cantidad, setCantidad] = useState<OpcionesTema['cantidad']>(10)
   const [modo, setModo] = useState<Modo>('estudio')
   const [excluirCarta, setExcluirCarta] = useState(false)
+  const [filtro, setFiltro] = useState<FiltroTema>('aleatorias')
 
-  const disponibles = utilizables(preguntas).filter(
-    (p) => unidades.includes(p.unidad) && !(excluirCarta && p.requiereCarta),
-  ).length
+  const disponibles = candidatasTema(preguntas, { unidades, cantidad, excluirCarta, filtro }, contexto).length
   const alternar = (n: number) => setUnidades((us) => (us.includes(n) ? us.filter((x) => x !== n) : [...us, n].sort((a, b) => a - b)))
   const todas = programa.unidades.map((u) => u.numero)
 
@@ -66,6 +70,19 @@ export default function ConfigurarTema({ onEmpezar, onVolver }: Props) {
       </fieldset>
 
       <fieldset className="grupo">
+        <legend>Qué preguntas</legend>
+        <div className="segmentado">
+          {FILTROS.map((f) => (
+            <button key={f.valor} className={filtro === f.valor ? 'activo' : ''} onClick={() => setFiltro(f.valor)}>
+              {f.texto}
+            </button>
+          ))}
+        </div>
+        {filtro === 'falladas' && <p className="nota">Las que están en tu caja de fallos ({contexto.enCaja.size} en total).</p>}
+        {filtro === 'noVistas' && <p className="nota">Las que no has respondido nunca.</p>}
+      </fieldset>
+
+      <fieldset className="grupo">
         <legend>Corrección</legend>
         <div className="segmentado">
           <button className={modo === 'estudio' ? 'activo' : ''} onClick={() => setModo('estudio')}>
@@ -87,11 +104,13 @@ export default function ConfigurarTema({ onEmpezar, onVolver }: Props) {
       <button
         className="boton primario ancho"
         disabled={disponibles === 0}
-        onClick={() => onEmpezar({ unidades, cantidad, excluirCarta }, modo)}
+        onClick={() => onEmpezar({ unidades, cantidad, excluirCarta, filtro }, modo)}
       >
         {unidades.length === 0
           ? 'Elige al menos una unidad'
-          : `Empezar · ${cantidad === 'todas' ? disponibles : Math.min(cantidad, disponibles)} preguntas`}
+          : disponibles === 0
+            ? 'No hay preguntas con ese filtro'
+            : `Empezar · ${cantidad === 'todas' ? disponibles : Math.min(cantidad, disponibles)} preguntas`}
       </button>
     </main>
   )

@@ -1,0 +1,34 @@
+{
+  "_comentario": "Decisiones manuales sobre preguntas en las que las fuentes oficiales no coinciden. 'enunciado' es el comienzo del enunciado; 'respuesta', el texto exacto de la opción correcta (o 'excluir' con el motivo). 'motivo' se muestra en la app.",
+  "revisiones": [
+    {
+      "enunciado": "Si leemos en un extintor \"eficaz para fuegos clase \"A\"",
+      "respuesta": "Fuegos producidos por combustibles sólidos.",
+      "motivo": "La plantilla de Baleares de junio de 2026 (modelo B) marca «sustancias gaseosas», pero la clase A es la de combustibles sólidos (la de gases es la C), como dicen las convocatorias de 2017 y 2021."
+    },
+    {
+      "enunciado": "Cuando estemos próximos a otro buque, para indicar que caemos a estribor",
+      "respuesta": "Una pitada corta.",
+      "motivo": "La plantilla de Baleares de junio de 2026 (modelo A) marca «dos pitadas cortas», pero según la regla 34 del RIPA una pitada corta indica caída a estribor (dos, a babor), como dicen las demás convocatorias."
+    },
+    {
+      "enunciado": "Cuando la posición esté localizada por una boya que porte la bandera del Código de Señales \"Alfa\"",
+      "respuesta": "50 metros",
+      "motivo": "Baleares 2019 daba 25 m (norma anterior); desde el RD 550/2020 (art. 12.2) la distancia mínima a la zona de buceo es de 50 m, como dicen las convocatorias posteriores."
+    },
+    {
+      "enunciado": "Calcular el rumbo de aguja (Ra) desde la situación con demora verdadera (Dv) = 283º y distancia = 3,2 millas al faro de Punta Carnero",
+      "excluir": "las plantillas oficiales no coinciden (327º en 2020, 329º en 2025) y no se puede comprobar sin la carta"
+    },
+    {
+      "enunciado": "¿Para qué se orinca un ancla?",
+      "respuesta": "Las respuestas a y c son correctas.",
+      "motivo": "Baleares diciembre de 2022 marca solo «para balizarlo», pero el orinque sirve también para desenrocar el ancla; las convocatorias de 2023 y 2024 dan por buena «a y c»."
+    },
+    {
+      "enunciado": "Según el RIPA, una embarcacion pescando con curricán",
+      "respuesta": "Ninguna es correcta",
+      "motivo": "La plantilla de Baleares de diciembre de 2025 marca «un buque fondeado», que no tiene sentido; la regla 3 d) del RIPA excluye la pesca con curricán de «buque dedicado a la pesca», así que ninguna es correcta, como decía la convocatoria de abril de 2024."
+    }
+  ]
+}

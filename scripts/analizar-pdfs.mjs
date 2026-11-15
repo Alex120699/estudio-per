@@ -11,6 +11,7 @@
 import { readFile, writeFile, mkdir, access } from 'node:fs/promises'
 import { execFile } from 'node:child_process'
 import { promisify } from 'node:util'
+import { cargarExamenes } from './lib/examenes.mjs'
 
 const run = promisify(execFile)
 const existe = (p) => access(p).then(() => true, () => false)
@@ -18,7 +19,7 @@ const forzar = process.argv.includes('--forzar')
 const python = process.platform === 'win32' ? '.venv/Scripts/python.exe' : '.venv/bin/python'
 const py = async (script, args) => JSON.parse((await run(python, ['-I', script, ...args])).stdout)
 
-const { examenes } = JSON.parse(await readFile('scripts/fuentes.json', 'utf8'))
+const examenes = await cargarExamenes()
 await mkdir('fuentes/soluciones', { recursive: true })
 await mkdir('fuentes/figuras', { recursive: true })
 
@@ -26,7 +27,7 @@ let problemas = 0
 for (const ex of examenes) {
   const figuras = `fuentes/figuras/${ex.id}.json`
   if (forzar || !(await existe(figuras))) {
-    const res = await py('scripts/detectar_figuras.py', [`fuentes/pdf/${ex.id}.pdf`])
+    const res = await py('scripts/detectar_figuras.py', [`fuentes/pdf/${ex.id}.pdf`, ...(ex.formato === 'andalucia' ? ['--portada'] : [])])
     await writeFile(figuras, JSON.stringify({ id: ex.id, ...res }, null, 2) + '\n')
     console.log(`${ex.id}: figuras en ${JSON.stringify(res.preguntas)}`)
   }

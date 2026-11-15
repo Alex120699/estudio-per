@@ -1,6 +1,7 @@
 import type { Pregunta } from '../tipos/preguntas'
 import type { Programa } from '../tipos/programa'
 import { corregirSimulacro, type RespuestaCorregible, type ResultadoSimulacro } from './correccion'
+import type { RegistroRespuesta, RegistroSesion, TipoSesion } from './historial'
 import type { OpcionesTema, TipoSimulacro } from './seleccion'
 
 /**
@@ -11,7 +12,7 @@ export type Modo = 'estudio' | 'test'
 
 export interface Sesion {
   id: string
-  tipo: 'simulacro' | 'tema'
+  tipo: TipoSesion
   simulacro?: TipoSimulacro
   modo: Modo
   /** Opciones elegidas (tests por tema), para poder repetir un test igual. */
@@ -83,6 +84,55 @@ export function resumir(s: Sesion, preguntas: readonly Pregunta[], programa: Pro
     fallos: rs.length - aciertos - enBlanco,
     enBlanco,
     ...(s.tipo === 'simulacro' && s.simulacro && { simulacro: corregirSimulacro(programa, s.simulacro, rs) }),
+  }
+}
+
+export function tituloSesion(s: Pick<Sesion, 'tipo' | 'simulacro'>): string {
+  if (s.tipo === 'simulacro') return s.simulacro === 'complementario' ? 'Simulacro complementario' : 'Simulacro PER'
+  return s.tipo === 'repaso' ? 'Repaso de fallos' : 'Test por tema'
+}
+
+// --- Paso al historial ---------------------------------------------------------------
+
+/** Registro de una respuesta en modo estudio, en el momento de contestar. */
+export function registroRespuesta(s: Sesion, p: Pregunta, elegida: number, fecha = new Date().toISOString()): RegistroRespuesta {
+  return { preguntaId: p.id, fecha, elegida, acierto: elegida === p.correcta, modo: s.modo, sesionId: s.id }
+}
+
+/**
+ * Registros a guardar al terminar la sesión. En modo estudio ya se guardó cada respuesta
+ * al darla, así que no hay nada más (las no contestadas no se cuentan: no se intentaron).
+ * En modo test se guardan todas, y las que quedan en blanco cuentan como fallo.
+ */
+export function registrosAlTerminar(s: Sesion, preguntas: readonly Pregunta[], fecha = s.fin ?? new Date().toISOString()): RegistroRespuesta[] {
+  if (s.modo === 'estudio') return []
+  return preguntas.map((p, i) => ({
+    preguntaId: p.id,
+    fecha,
+    elegida: s.respuestas[i],
+    acierto: s.respuestas[i] === p.correcta,
+    modo: s.modo,
+    sesionId: s.id,
+  }))
+}
+
+export function registroSesion(s: Sesion, resumen: ResumenSesion): RegistroSesion {
+  const sim = resumen.simulacro
+  return {
+    id: s.id,
+    tipo: s.tipo,
+    ...(s.simulacro && { simulacro: s.simulacro }),
+    modo: s.modo,
+    inicio: s.inicio,
+    fin: s.fin ?? new Date().toISOString(),
+    preguntaIds: s.preguntaIds,
+    respuestas: s.respuestas,
+    resultado: {
+      preguntas: resumen.preguntas,
+      aciertos: resumen.aciertos,
+      enBlanco: resumen.enBlanco,
+      ...(sim && { apto: sim.apto, aptoPNB: sim.aptoPNB, motivos: sim.motivos }),
+    },
   }
 }
 

@@ -32,3 +32,6 @@ dev-dist
 
 # Entorno Python local para scripts
 .venv/
+
+# Caché de descargas de Baleares
+fuentes/caib/

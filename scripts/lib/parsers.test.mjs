@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { claveDedup, normalizar, parsearAndalucia, parsearBaleares, separarEtiquetas, validarExamen } from './parsers.mjs'
+import { claveDedup, convocatoria, normalizar, parsearAndalucia, parsearBaleares, pideImagen, separarEtiquetas, validarExamen } from './parsers.mjs'
 
 const ANDALUCIA = `
      EXAMEN PARA LA OBTENCIÓN DEL TÍTULO DE PATRÓN DE
@@ -128,5 +128,37 @@ describe('validarExamen', () => {
     expect(errs).toContain('pregunta 2: 3 opciones')
     expect(errs).toContain('pregunta 2: sin respuesta correcta')
     expect(errs).toContain('UT2: 0 preguntas (esperadas 1)')
+  })
+})
+
+describe('fase 5: más fuentes', () => {
+  const base = { enunciado: '¿Para qué se orinca un ancla?', opciones: ['Para balizarlo.', 'Para garrear.', 'Para desenrocarlo.', 'Las respuestas a y c son correctas.'] }
+
+  it('el orden de las opciones no cuenta para deduplicar… salvo si una opción remite a otras por su letra', () => {
+    const simple = { enunciado: 'X', opciones: ['uno', 'dos', 'tres', 'cuatro'] }
+    expect(claveDedup(simple)).toBe(claveDedup({ ...simple, opciones: ['cuatro', 'tres', 'dos', 'uno'] }))
+    const otroOrden = { ...base, opciones: [base.opciones[2], base.opciones[1], base.opciones[0], base.opciones[3]] }
+    expect(claveDedup(base)).not.toBe(claveDedup(otroOrden))
+    expect(claveDedup(base)).toBe(claveDedup({ ...base }))
+  })
+
+  it('quita las marcas de página «2 - 10» de Baleares', () => {
+    const txt = '1. Pregunta que sigue en\n\n2 - 10\nla página siguiente?\nA: uno\nB: dos\nC: tres\nD: cuatro\nResposta correcta: A\n'
+    const { preguntas } = parsearBaleares(txt, [[1, 1]])
+    expect(preguntas[0].enunciado).toBe('Pregunta que sigue en la página siguiente?')
+  })
+
+  it('detecta enunciados que remiten a una imagen', () => {
+    expect(pideImagen('¿Según la imagen adjuntada, qué nos puede estar indicando esta marca?')).toBe(true)
+    expect(pideImagen('¿Qué pieza nos indica la flecha de la imagen adjunta?')).toBe(true)
+    expect(pideImagen('¿Cuál de las siguientes señales indica peligro?')).toBe(false)
+  })
+
+  it('lee la convocatoria de la cabecera de Baleares', () => {
+    expect(convocatoria('SETEMBRE 2026')).toBe('2026-09')
+    expect(convocatoria('Març-Abril 2017')).toBe('2017-03')
+    expect(convocatoria('Abril 2020 (Juliol 2020)')).toBe('2020-07')
+    expect(convocatoria('Desembre 2018')).toBe('2018-12')
+    expect(convocatoria('lo que sea')).toBeNull()
   })
 })

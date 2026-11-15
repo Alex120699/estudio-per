@@ -1,11 +1,12 @@
 """Detecta qué preguntas de un cuestionario PDF llevan figura (dibujo vectorial o
 imagen) para marcarlas con `requiereImagen`.
 
-Para cada página (salvo la portada) busca objetos gráficos de tamaño apreciable
+Para cada página (salvo la portada, con --portada) busca objetos gráficos de tamaño apreciable
 fuera de la cabecera y los asigna a la pregunta cuyo número («N.» a principio de
 línea) aparece más cerca por encima, en la misma página.
 
-Uso:  .venv/Scripts/python -I scripts/detectar_figuras.py examen.pdf
+Uso:  .venv/Scripts/python -I scripts/detectar_figuras.py examen.pdf [--portada]
+      --portada: la 1.ª página es una portada sin preguntas (Andalucía) y se ignora.
 Salida: JSON {"preguntas": [19, ...], "detalle": [{"pregunta": 19, "pagina": 6, "caja": [...]}]}
 """
 
@@ -20,6 +21,7 @@ MIN_LADO = 12      # puntos: ignora líneas finas y viñetas
 CABECERA = 110     # puntos desde arriba: logo de la página
 PIE = 40           # puntos desde abajo: numeración
 MARGEN_IZQ = 80    # puntos: objetos que acaban antes son adornos del margen
+MAX_FRACCION = 0.5 # objetos de más de media página son marcos, no figuras
 
 
 def inicios_pregunta(pagina):
@@ -49,17 +51,19 @@ def figuras(pagina):
             continue
         if r < MARGEN_IZQ:  # adornos de la esquina de página
             continue
+        if (r - l) * (t - b) > MAX_FRACCION * pagina.get_width() * alto:  # marco de página
+            continue
         cajas.append([round(l), round(y_sup), round(r), round(y_inf)])
     return cajas
 
 
-def detectar(ruta):
+def detectar(ruta, portada=False):
     pdf = pdfium.PdfDocument(ruta)
     detalle = []
     ultima_pregunta = None
     for num_pag, pagina in enumerate(pdf, start=1):
         inicios = inicios_pregunta(pagina)
-        if num_pag > 1:
+        if num_pag > 1 or not portada:
             for caja in figuras(pagina):
                 previas = [n for n, y in inicios if y <= caja[1] + 5]
                 pregunta = max(previas) if previas else ultima_pregunta
@@ -72,4 +76,4 @@ def detectar(ruta):
 
 if __name__ == '__main__':
     sys.stdout.reconfigure(encoding='utf-8')
-    print(json.dumps(detectar(sys.argv[1]), ensure_ascii=False))
+    print(json.dumps(detectar(sys.argv[1], '--portada' in sys.argv[2:]), ensure_ascii=False))

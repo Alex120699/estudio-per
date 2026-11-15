@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { preguntas } from '../tipos/preguntas'
 import { programa } from '../tipos/programa'
-import { barajar, generarSimulacro, generarTestTema } from './seleccion'
+import { barajar, generarRepaso, generarSimulacro, generarTestTema } from './seleccion'
 
 /** Generador determinista (mulberry32) para tests reproducibles. */
 function rngFijo(semilla: number) {
@@ -66,7 +66,7 @@ describe('generarTestTema', () => {
   })
 
   it('«todas» devuelve todas las de la unidad', () => {
-    const n = preguntas.filter((p) => p.unidad === 2 && !p.requiereImagen).length
+    const n = preguntas.filter((p) => p.unidad === 2 && (!p.requiereImagen || p.imagen)).length
     expect(generarTestTema(preguntas, { unidades: [2], cantidad: 'todas' })).toHaveLength(n)
   })
 
@@ -79,5 +79,27 @@ describe('generarTestTema', () => {
     const t = generarTestTema(preguntas, { unidades: [10, 11], cantidad: 'todas', excluirCarta: true })
     expect(t.some((p) => p.requiereCarta)).toBe(false)
     expect(t.length).toBeGreaterThan(0)
+  })
+})
+
+describe('filtros con historial', () => {
+  const ut2 = preguntas.filter((p) => p.unidad === 2)
+  const vistas = new Set(ut2.slice(0, 3).map((p) => p.id))
+  const enCaja = new Set([ut2[0].id, ut2[5].id])
+
+  it('«no vistas» excluye las ya respondidas', () => {
+    const t = generarTestTema(preguntas, { unidades: [2], cantidad: 'todas', filtro: 'noVistas' }, Math.random, { vistas, enCaja })
+    expect(t).toHaveLength(ut2.length - 3)
+    expect(t.some((p) => vistas.has(p.id))).toBe(false)
+  })
+
+  it('«falladas» solo toma las de la caja de fallos', () => {
+    const t = generarTestTema(preguntas, { unidades: [2], cantidad: 'todas', filtro: 'falladas' }, Math.random, { vistas, enCaja })
+    expect(t.map((p) => p.id).sort()).toEqual([...enCaja].sort())
+  })
+
+  it('generarRepaso devuelve las pedidas que existen en el banco', () => {
+    const r = generarRepaso(preguntas, [ut2[0].id, 'no-existe', ut2[1].id], rngFijo(4))
+    expect(r.map((p) => p.id).sort()).toEqual([ut2[0].id, ut2[1].id].sort())
   })
 })

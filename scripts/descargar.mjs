@@ -1,4 +1,4 @@
-// Descarga los PDFs de scripts/fuentes.json a fuentes/pdf/ y extrae su texto
+// Descarga los PDFs de los exámenes (scripts/fuentes.json y fuentes-baleares.json) a fuentes/pdf/ y extrae su texto
 // con `pdftotext -layout` a fuentes/txt/. No vuelve a descargar lo que ya existe.
 //
 // Uso: node scripts/descargar.mjs
@@ -6,6 +6,7 @@
 import { readFile, writeFile, mkdir, access } from 'node:fs/promises'
 import { execFile } from 'node:child_process'
 import { promisify } from 'node:util'
+import { cargarExamenes } from './lib/examenes.mjs'
 
 const run = promisify(execFile)
 const existe = (p) => access(p).then(() => true, () => false)
@@ -20,7 +21,7 @@ async function bajar(url, destino) {
   console.log('descargado', destino)
 }
 
-const { examenes } = JSON.parse(await readFile('scripts/fuentes.json', 'utf8'))
+const examenes = await cargarExamenes()
 await mkdir('fuentes/pdf', { recursive: true })
 await mkdir('fuentes/txt', { recursive: true })
 

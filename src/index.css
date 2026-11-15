@@ -135,6 +135,13 @@ h2 { font-size: 1.15rem; }
 .confirmar { margin-top: 20px; padding: 4px 14px; border-radius: 12px; background: var(--aviso-fondo); border: 1px solid var(--aviso-borde); }
 .terminar { display: block; margin: 8px auto 0; }
 .fuentes { font-size: 0.8rem; color: var(--suave); margin: 8px 0 0; }
+.fuentes p { margin: 0; }
+.fuentes details { margin-top: 4px; }
+.fuentes summary { cursor: pointer; }
+.fuentes ul { margin: 4px 0 0; padding-left: 18px; }
+.nota-revision { margin-bottom: 6px !important; }
+.figura-pregunta { margin: 0 0 16px; text-align: center; }
+.figura-pregunta img { max-width: 100%; max-height: 300px; height: auto; border-radius: 8px; border: 1px solid var(--borde, #d0d7de); background: #fff; }
 
 /* Resultado */
 .veredicto { text-align: center; padding: 16px; border-radius: 16px; margin: 8px 0 16px; }
@@ -162,3 +169,96 @@ h2 { font-size: 1.15rem; }
 .opciones-repaso .letra { font-weight: 700; }
 .en-blanco { color: var(--mal); font-size: 0.85rem; margin: 6px 0 0; }
 .explicacion { font-size: 0.9rem; }
+.opcion .marca-estado { margin-left: auto; font-weight: 800; font-size: 1.1rem; padding-left: 8px; }
+.estado-caja { font-size: 0.85rem; color: var(--suave); margin: 6px 0 0; }
+
+/* Inicio: caja de fallos y «¿Estoy listo?» */
+.tarjeta-accion.destacada { border: 2px solid var(--marca); }
+.tarjeta-accion.hecho { cursor: default; color: var(--suave); margin: 0; }
+.listo {
+  display: grid; grid-template-columns: auto 1fr; grid-template-areas: 'cifra etiqueta' 'cifra detalle';
+  column-gap: 14px; align-items: center; text-align: left; width: 100%; margin-top: 12px;
+  padding: 12px 16px; border-radius: 14px; border: 1px solid var(--borde); background: var(--tarjeta); cursor: pointer;
+}
+.listo .cifra { grid-area: cifra; font-size: 1.8rem; font-weight: 800; color: var(--marca); }
+.listo .etiqueta { grid-area: etiqueta; font-weight: 700; }
+.listo .detalle { grid-area: detalle; color: var(--suave); font-size: 0.85rem; }
+.aviso.error { border-color: var(--mal); background: var(--mal-fondo); }
+
+/* Estadísticas */
+h3 { font-size: 1rem; margin: 16px 0 4px; color: var(--suave); }
+.resumen-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; margin: 12px 0; }
+.stat { display: grid; gap: 2px; padding: 12px 14px; border-radius: 12px; background: var(--tarjeta); border: 1px solid var(--borde); }
+.stat .cifra { font-size: 1.6rem; font-weight: 800; color: var(--texto); }
+.stat .etiqueta { font-weight: 600; font-size: 0.9rem; }
+.stat .detalle { color: var(--suave); font-size: 0.8rem; }
+
+.grafico { margin: 8px 0 0; }
+.grafico-scroll { overflow-x: auto; }
+.grafico svg { display: block; max-width: none; }
+.grafico .eje { font-size: 10px; fill: var(--suave); }
+.grafico .rejilla { stroke: var(--borde); stroke-width: 1; }
+.grafico .linea-corte { stroke: var(--suave); stroke-width: 1; stroke-dasharray: 4 3; }
+.grafico .marca { cursor: pointer; }
+.grafico .barra-apto { fill: var(--bien); }
+.grafico .barra-no-apto { stroke: var(--mal); stroke-width: 1; }
+.grafico .trama-fondo { fill: var(--mal-fondo); }
+.grafico .trama-linea { stroke: var(--mal); }
+.grafico .icono-apto, .grafico .icono-no-apto { font-size: 11px; font-weight: 800; fill: var(--texto); }
+.leyenda { font-size: 0.8rem; color: var(--suave); min-height: 2.6em; margin-top: 4px; }
+.leyenda strong { color: var(--texto); }
+.muestra { display: inline-block; width: 10px; height: 10px; border-radius: 2px; vertical-align: -1px; margin-left: 6px; }
+.muestra.apto { background: var(--bien); }
+.muestra.no-apto { background: repeating-linear-gradient(45deg, var(--mal) 0 2px, var(--mal-fondo) 2px 4px); border: 1px solid var(--mal); }
+
+.tabla-scroll { overflow-x: auto; }
+.tabla-stats td:last-child { padding-top: 2px; padding-bottom: 2px; }
+.sparkline { display: inline-block; vertical-align: middle; }
+.spark-linea { fill: none; stroke: var(--marca); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.spark-punto { fill: var(--marca); stroke: var(--fondo); stroke-width: 2; }
+
+.lista-sesiones { list-style: none; padding: 0; margin: 0; font-size: 0.9rem; }
+.lista-sesiones li { display: grid; grid-template-columns: 7.5em 1fr auto; gap: 8px; padding: 8px 0; border-bottom: 1px solid var(--borde); }
+.lista-sesiones .fecha { color: var(--suave); }
+.lista-sesiones .res { font-weight: 600; white-space: nowrap; }
+.lista-sesiones li.apto .res { color: var(--bien); }
+.lista-sesiones li.no-apto .res { color: var(--mal); }
+
+.zona-peligro { margin-top: 24px; padding-top: 8px; border-top: 1px solid var(--borde); }
+.boton.peligro { background: var(--mal); border-color: var(--mal); color: var(--fondo); font-weight: 600; }
+.muestra.corte { width: 14px; height: 0; border-radius: 0; border-top: 1px dashed var(--suave); vertical-align: 3px; }
+@media (max-width: 480px) {
+  .tabla-stats { font-size: 0.8rem; }
+  .tabla-stats th, .tabla-stats td { padding: 6px 3px; }
+  .tabla-stats .limite { display: none; }
+}
+
+/* Apuntes */
+.aviso-apuntes { margin: 8px 0 16px; }
+.lista-apuntes { list-style: none; padding: 0; margin: 16px 0; display: grid; gap: 10px; }
+.lista-apuntes .tarjeta-accion { width: 100%; }
+.indice-apunte { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 8px; }
+.indice-apunte button {
+  min-height: 40px; padding: 6px 12px; border-radius: 20px; border: 1px solid var(--borde);
+  background: var(--tarjeta); cursor: pointer; font-size: 0.85rem; text-align: left;
+}
+.indice-apunte .codigo { font-weight: 700; color: var(--marca); }
+.apunte { line-height: 1.55; }
+.apunte h2 { color: var(--marca); margin: 28px 0 8px; padding-top: 12px; border-top: 1px solid var(--borde); scroll-margin-top: 12px; }
+.apunte h3 { margin: 20px 0 6px; color: var(--texto); font-size: 1rem; }
+.apunte ul, .apunte ol { padding-left: 1.3em; }
+.apunte li { margin: 3px 0; }
+.apunte table { border-collapse: collapse; font-size: 0.88rem; min-width: 100%; }
+.apunte th, .apunte td { border: 1px solid var(--borde); padding: 6px 8px; vertical-align: top; text-align: left; }
+.apunte th { background: var(--tarjeta); }
+.apunte .tabla-scroll { margin: 8px 0 12px; }
+.apunte blockquote {
+  margin: 12px 0; padding: 4px 14px; border-left: 4px solid var(--aviso-borde);
+  background: var(--aviso-fondo); border-radius: 0 10px 10px 0;
+}
+.apunte code { font-size: 0.9em; }
+.nav-unidades { justify-content: space-between; margin-top: 28px; }
+.enlace-apuntes {
+  display: block; background: none; border: none; padding: 10px 0 2px; min-height: 44px;
+  color: var(--marca); font-weight: 600; text-align: left; cursor: pointer; text-decoration: underline;
+}

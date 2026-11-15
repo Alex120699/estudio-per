@@ -1,15 +1,23 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
+import Apuntes from './componentes/Apuntes'
 import ConfigurarTema from './componentes/ConfigurarTema'
+import Estadisticas from './componentes/Estadisticas'
 import Inicio from './componentes/Inicio'
 import PantallaPregunta from './componentes/PantallaPregunta'
 import Resultado from './componentes/Resultado'
-import { generarSimulacro, generarTestTema, type OpcionesTema, type TipoSimulacro } from './logica/seleccion'
+import { guardarSesion, registrarRespuestas } from './datos/db'
+import { useHistorial } from './datos/useHistorial'
+import { pendientesHoy } from './logica/historial'
+import { generarRepaso, generarSimulacro, generarTestTema, type OpcionesTema, type TipoSimulacro } from './logica/seleccion'
 import {
   cargarEnCurso,
   guardarEnCurso,
   irA,
   nuevaSesion,
   preguntasDe,
+  registroRespuesta,
+  registroSesion,
+  registrosAlTerminar,
   responder,
   resumir,
   terminar,
@@ -19,7 +27,16 @@ import {
 import { preguntas as banco } from './tipos/preguntas'
 import { programa } from './tipos/programa'
 
-type Pantalla = 'inicio' | 'tema' | 'sesion' | 'resultado'
+type Pantalla = 'inicio' | 'tema' | 'sesion' | 'resultado' | 'estadisticas' | 'apuntes'
+
+const VOLVER_A: Record<Pantalla, string> = {
+  inicio: 'Inicio',
+  tema: 'Test por tema',
+  sesion: 'Volver a la pregunta',
+  resultado: 'Volver al resultado',
+  estadisticas: 'Estadísticas',
+  apuntes: 'Apuntes',
+}
 
 /** Recupera la sesión guardada solo si sus preguntas siguen existiendo en el banco. */
 function sesionGuardada(): Sesion | null {
@@ -30,34 +47,111 @@ function sesionGuardada(): Sesion | null {
 export default function App() {
   const [pantalla, setPantalla] = useState<Pantalla>('inicio')
   const [sesion, setSesion] = useState<Sesion | null>(sesionGuardada)
+  const { historial, contexto, error: errorHistorial, recargar } = useHistorial()
+  const [apuntes, setApuntes] = useState<{ unidad: number | null; volver: Pantalla }>({ unidad: null, volver: 'inicio' })
+  // Al volver de los apuntes se recupera la posición en la pantalla de origen.
+  const scrollGuardado = useRef<number | null>(null)
 
   // Guarda en cada cambio: así se puede cerrar la app a mitad y continuar después.
   useEffect(() => {
     guardarEnCurso(sesion)
   }, [sesion])
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [pantalla, sesion?.actual])
+    const y = pantalla === 'apuntes' ? 0 : (scrollGuardado.current ?? 0)
+    if (pantalla !== 'apuntes') scrollGuardado.current = null
+    window.scrollTo(0, y)
+  }, [pantalla, sesion?.actual, apuntes.unidad])
+
+  function abrirApuntes(unidad: number | null) {
+    if (pantalla !== 'apuntes') {
+      scrollGuardado.current = window.scrollY
+      setApuntes({ unidad, volver: pantalla })
+    } else setApuntes((a) => ({ ...a, unidad }))
+    setPantalla('apuntes')
+  }
 
   const preguntas = useMemo(() => (sesion ? preguntasDe(sesion, banco) : null), [sesion])
+  const pendientes = useMemo(() => pendientesHoy(historial.caja.values()), [historial])
 
-  function empezarSimulacro(tipo: TipoSimulacro) {
-    setSesion(nuevaSesion({ tipo: 'simulacro', simulacro: tipo, modo: 'test', preguntas: generarSimulacro(banco, programa, tipo) }))
+  function abrir(s: Sesion) {
+    setSesion(s)
     setPantalla('sesion')
   }
 
+  function empezarSimulacro(tipo: TipoSimulacro) {
+    abrir(nuevaSesion({ tipo: 'simulacro', simulacro: tipo, modo: 'test', preguntas: generarSimulacro(banco, programa, tipo) }))
+  }
+
   function empezarTema(opcionesTema: OpcionesTema, modo: Modo) {
-    setSesion(nuevaSesion({ tipo: 'tema', modo, opcionesTema, preguntas: generarTestTema(banco, opcionesTema) }))
-    setPantalla('sesion')
+    abrir(nuevaSesion({ tipo: 'tema', modo, opcionesTema, preguntas: generarTestTema(banco, opcionesTema, Math.random, contexto) }))
+  }
+
+  function empezarRepaso() {
+    if (pendientes.length === 0) {
+      setSesion(null)
+      setPantalla('inicio')
+      return
+    }
+    abrir(nuevaSesion({ tipo: 'repaso', modo: 'estudio', preguntas: generarRepaso(banco, pendientes.map((e) => e.preguntaId)) }))
   }
 
   function repetir() {
     if (!sesion) return
     if (sesion.tipo === 'simulacro' && sesion.simulacro) empezarSimulacro(sesion.simulacro)
+    else if (sesion.tipo === 'repaso') empezarRepaso()
     else if (sesion.opcionesTema) empezarTema(sesion.opcionesTema, sesion.modo)
   }
 
-  if (pantalla === 'tema') return <ConfigurarTema onEmpezar={empezarTema} onVolver={() => setPantalla('inicio')} />
+  async function alResponder(i: number, k: number) {
+    if (!sesion || !preguntas) return
+    // En modo estudio la respuesta queda fijada y se guarda en el historial al momento.
+    if (sesion.modo === 'estudio' && sesion.respuestas[i] !== null) return
+    setSesion((s) => s && responder(s, i, k))
+    if (sesion.modo === 'estudio') {
+      try {
+        await registrarRespuestas([registroRespuesta(sesion, preguntas[i], k)])
+      } finally {
+        void recargar()
+      }
+    }
+  }
+
+  async function alTerminar() {
+    if (!sesion || !preguntas) return
+    // En estudio se puede parar a medias: el resultado cuenta solo lo respondido.
+    const hechas = sesion.respuestas.flatMap((r, i) => (r === null ? [] : [i]))
+    const recortada =
+      sesion.modo === 'estudio' && hechas.length < sesion.respuestas.length
+        ? { ...sesion, preguntaIds: hechas.map((i) => sesion.preguntaIds[i]), respuestas: hechas.map((i) => sesion.respuestas[i]), actual: 0 }
+        : sesion
+    const fin = terminar(recortada)
+    const preguntasFin = preguntasDe(fin, banco)!
+    setSesion(fin)
+    setPantalla('resultado')
+    try {
+      await registrarRespuestas(registrosAlTerminar(fin, preguntasFin))
+      await guardarSesion(registroSesion(fin, resumir(fin, preguntasFin, programa)))
+    } finally {
+      void recargar()
+    }
+  }
+
+  if (pantalla === 'tema') return <ConfigurarTema contexto={contexto} onEmpezar={empezarTema} onVolver={() => setPantalla('inicio')} />
+
+  if (pantalla === 'apuntes') {
+    return (
+      <Apuntes
+        unidad={apuntes.unidad}
+        onElegir={abrirApuntes}
+        onVolver={() => setPantalla(apuntes.volver)}
+        textoVolver={VOLVER_A[apuntes.volver]}
+      />
+    )
+  }
+
+  if (pantalla === 'estadisticas') {
+    return <Estadisticas historial={historial} onRecargar={recargar} onVolver={() => setPantalla('inicio')} />
+  }
 
   if (pantalla === 'sesion' && sesion && preguntas) {
     return (
@@ -65,13 +159,11 @@ export default function App() {
         key={sesion.id}
         sesion={sesion}
         preguntas={preguntas}
-        onResponder={(i, k) => setSesion((s) => s && responder(s, i, k))}
+        onResponder={alResponder}
         onIr={(i) => setSesion((s) => s && irA(s, i))}
-        onTerminar={() => {
-          setSesion((s) => s && terminar(s))
-          setPantalla('resultado')
-        }}
+        onTerminar={alTerminar}
         onSalir={() => setPantalla('inicio')}
+        onApuntes={abrirApuntes}
       />
     )
   }
@@ -82,11 +174,13 @@ export default function App() {
         sesion={sesion}
         preguntas={preguntas}
         resumen={resumir(sesion, preguntas, programa)}
+        caja={historial.caja}
         onInicio={() => {
           setSesion(null)
           setPantalla('inicio')
         }}
         onRepetir={repetir}
+        onApuntes={abrirApuntes}
       />
     )
   }
@@ -94,10 +188,16 @@ export default function App() {
   return (
     <Inicio
       enCurso={sesion && !sesion.fin ? sesion : null}
+      historial={historial}
+      pendientes={pendientes.length}
+      errorHistorial={errorHistorial}
       onContinuar={() => setPantalla('sesion')}
       onDescartar={() => setSesion(null)}
       onSimulacro={empezarSimulacro}
       onTema={() => setPantalla('tema')}
+      onRepaso={empezarRepaso}
+      onEstadisticas={() => setPantalla('estadisticas')}
+      onApuntes={() => abrirApuntes(null)}
     />
   )
 }
