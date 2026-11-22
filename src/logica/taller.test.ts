@@ -65,13 +65,13 @@ describe('taller de carta', () => {
       const azar = azarFijo(7 + l.numero)
       for (let i = 0; i < 200; i++)
         for (const p of l.generar(azar).pasos) if (p.tipo === 'numero') {
-          const r = p.clase === 'lat' || p.clase === 'lon' ? Math.round(p.respuesta * 600) / 600 : p.clase === 'hora' || p.clase === 'duracion' ? Math.round(p.respuesta) : Math.round(p.respuesta * 10) / 10
+          const r = p.clase === 'lat' || p.clase === 'lon' ? Math.round(p.respuesta * 600) / 600 : p.clase === 'hora' || p.clase === 'duracion' ? Math.round(p.respuesta) : p.margen < 0.05 ? Math.round(p.respuesta * 100) / 100 : Math.round(p.respuesta * 10) / 10
           expect(esCorrecta(p, r), p.solucion).toBe(true)
         }
     }
   })
 
-  it('hay nueve lecciones con láminas que existen', () => {
-    expect(L.map((l) => l.numero)).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9])
+  it('hay once lecciones con láminas que existen', () => {
+    expect(L.map((l) => l.numero)).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11])
   })
 })

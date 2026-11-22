@@ -78,6 +78,7 @@ function VistaLeccion({ leccion: l, onEmpezar, onVolver }: { leccion: Leccion; o
       <details className="ejemplo-taller">
         <summary>Ejemplo resuelto</summary>
         <p className="enunciado-taller">{ejemplo.enunciado}</p>
+        {ejemplo.tabla && <TablaDatos filas={ejemplo.tabla} />}
         <ol>
           {ejemplo.pasos.map((p, i) => (
             <li key={i}>
@@ -162,6 +163,7 @@ function EjercicioGuiado({ ejercicio: e, onTerminado, onOtro }: { ejercicio: Eje
     <section className="ejercicio-taller">
       {e.carta && <p className="aviso">Necesitas la carta del Estrecho, regla, cartabón y compás.</p>}
       <p className="enunciado-taller">{e.enunciado}</p>
+      {e.tabla && <TablaDatos filas={e.tabla} />}
       <ol className="pasos-taller">
         {hechos.map((h, k) => (
           <li key={k} className={h.estado}>
@@ -219,5 +221,29 @@ function EjercicioGuiado({ ejercicio: e, onTerminado, onOtro }: { ejercicio: Eje
         </div>
       )}
     </section>
+  )
+}
+
+function TablaDatos({ filas }: { filas: string[][] }) {
+  const [cabecera, ...resto] = filas
+  return (
+    <table className="tabla-taller">
+      <thead>
+        <tr>
+          {cabecera.map((c) => (
+            <th key={c}>{c}</th>
+          ))}
+        </tr>
+      </thead>
+      <tbody>
+        {resto.map((f, i) => (
+          <tr key={i}>
+            {f.map((c, j) => (
+              <td key={j}>{c}</td>
+            ))}
+          </tr>
+        ))}
+      </tbody>
+    </table>
   )
 }

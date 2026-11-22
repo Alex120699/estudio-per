@@ -26,6 +26,8 @@ export interface Ejercicio {
   pasos: PasoEjercicio[]
   /** Hace falta medir en la carta de papel. */
   carta?: boolean
+  /** Tabla de datos (primera fila = cabecera), p. ej. el anuario de mareas. */
+  tabla?: string[][]
 }
 
 export interface Leccion {
@@ -959,6 +961,189 @@ function leccion9(puntos: Record<string, PuntoCarta>) {
   }
 }
 
+/* ---------- Lección 10: mareas (sonda momento) ---------- */
+
+/** Puertos y alturas típicas de pleamar y bajamar (m), solo para inventar tablas verosímiles. */
+const PUERTOS: { nombre: string; plea: [number, number]; baja: [number, number] }[] = [
+  { nombre: 'Cádiz', plea: [2.6, 3.6], baja: [0.3, 1.2] },
+  { nombre: 'Barbate', plea: [2.0, 2.9], baja: [0.4, 1.1] },
+  { nombre: 'Tarifa', plea: [1.3, 2.0], baja: [0.3, 0.9] },
+  { nombre: 'Algeciras', plea: [0.8, 1.2], baja: [0.1, 0.4] },
+  { nombre: 'Ceuta', plea: [0.8, 1.1], baja: [0.1, 0.4] },
+  { nombre: 'Huelva', plea: [2.8, 3.6], baja: [0.3, 1.1] },
+]
+
+const m2 = (x: number) => x.toFixed(2).replace('.', ',').replace('-', '−')
+const conSigno = (x: number) => `${x < 0 ? '−' : '+'}${m2(Math.abs(x))}`
+const ORDINAL = ['primera', 'segunda']
+
+type Marea = { tipo: 'pleamar' | 'bajamar'; hora: number; altura: number }
+
+function leccion10(azar: Azar): Ejercicio {
+  const puerto = elige(azar, PUERTOS)
+  const enRango = (r: [number, number]) => Math.round((r[0] + azar() * (r[1] - r[0])) * 100) / 100
+  // Cuatro mareas del día, separadas unas 6 h 12 min
+  let hora = ent(azar, 0, 5 * 60 + 30)
+  let tipo: Marea['tipo'] = azar() < 0.5 ? 'pleamar' : 'bajamar'
+  const mareas: Marea[] = []
+  while (hora < 24 * 60) {
+    mareas.push({ tipo, hora, altura: enRango(tipo === 'pleamar' ? puerto.plea : puerto.baja) })
+    hora += 6 * 60 + 12 + ent(azar, -15, 15)
+    tipo = tipo === 'pleamar' ? 'bajamar' : 'pleamar'
+  }
+  const sc = Math.round((1 + azar() * 6) * 10) / 10
+  const p = ent(azar, 970, 1035)
+  const corr = (1013 - p) / 100
+  const dia = ent(azar, 1, 28)
+  const mes = elige(azar, ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'])
+  const tabla = [['Marea', 'Hora (UT)', 'Altura (m)'], ...mareas.map((x) => [x.tipo === 'pleamar' ? 'Pleamar' : 'Bajamar', reloj(x.hora), m2(x.altura)])]
+  const datos = `Sonda en la carta = ${coma(sc)} m; presión atmosférica = ${p} hPa.`
+  const pasoCorr: PasoEjercicio = {
+    pregunta: '¿Cuánto corrige la presión, en metros y con signo?',
+    tipo: 'numero',
+    clase: 'signo',
+    respuesta: corr,
+    margen: 0.005,
+    pista: 'Cada hPa por debajo de 1013 sube el agua 1 cm (suma); cada hPa por encima la baja 1 cm (resta).',
+    solucion: `1013 − ${p} = ${conSigno(1013 - p).replace(",00", "")} hPa → ${conSigno(corr)} m`,
+  }
+  const pasoSm = (m: Marea, quien: string): PasoEjercicio => ({
+    pregunta: `¿Cuál es la sonda momento ${quien}?`,
+    tipo: 'numero',
+    clase: 'valor',
+    respuesta: sc + m.altura + corr,
+    margen: 0.01,
+    pista: 'Sonda momento = sonda de la carta + altura de la marea + corrección por presión.',
+    solucion: `Sm = ${coma(sc)} + ${m2(m.altura)} ${corr < 0 ? '−' : '+'} ${m2(Math.abs(corr))} = ${m2(sc + m.altura + corr)} m`,
+  })
+  const variante = ent(azar, 0, 2)
+  if (variante === 2) {
+    // Pleamar y bajamar de un ciclo
+    const i = ent(azar, 0, mareas.length - 2)
+    const a = mareas[i]
+    const b = mareas[i + 1]
+    const desde = Math.floor(a.hora / 60) * 60 - 60
+    const hasta = Math.ceil(b.hora / 60) * 60 + 60
+    const plea = a.tipo === 'pleamar' ? a : b
+    const baja = a.tipo === 'bajamar' ? a : b
+    return {
+      tabla,
+      enunciado: `Anuario de mareas de ${puerto.nombre}, ${dia} de ${mes} (datos de práctica). ${datos} Halla la sonda momento en la pleamar y en la bajamar del ciclo comprendido entre las ${reloj(Math.max(0, desde))} y las ${reloj(Math.min(23 * 60 + 59, hasta))} UT.`,
+      pasos: [
+        { pregunta: '¿Qué altura tiene la pleamar de ese ciclo?', tipo: 'numero', clase: 'valor', respuesta: plea.altura, margen: 0.005, pista: 'Busca en la tabla la pleamar cuya hora cae dentro del intervalo.', solucion: `Pleamar a las ${reloj(plea.hora)}: ${m2(plea.altura)} m` },
+        { pregunta: '¿Y la bajamar?', tipo: 'numero', clase: 'valor', respuesta: baja.altura, margen: 0.005, pista: 'La bajamar que cae dentro del mismo intervalo.', solucion: `Bajamar a las ${reloj(baja.hora)}: ${m2(baja.altura)} m` },
+        pasoCorr,
+        pasoSm(plea, 'en la pleamar'),
+        pasoSm(baja, 'en la bajamar'),
+      ],
+    }
+  }
+  let elegida: Marea
+  let pide: string
+  let pista: string
+  if (variante === 0) {
+    const t = azar() < 0.6 ? 'pleamar' : 'bajamar'
+    const delTipo = mareas.filter((x) => x.tipo === t)
+    const n = ent(azar, 0, Math.min(1, delTipo.length - 1))
+    elegida = delTipo[n]
+    pide = `la ${ORDINAL[n]} ${t} del día`
+    pista = `Cuenta en la tabla las ${t === 'pleamar' ? 'pleamares' : 'bajamares'} desde las 00:00.`
+  } else {
+    const plea = mareas.filter((x) => x.tipo === 'pleamar')
+    elegida = elige(azar, plea)
+    const antes = mareas.filter((x) => x.hora < elegida.hora)
+    const desde = antes.length ? antes.at(-1)!.hora + ent(azar, 10, 120) : Math.max(0, elegida.hora - ent(azar, 60, 240))
+    const ahora = Math.min(desde, elegida.hora - 5)
+    pide = `la próxima pleamar: son las ${reloj(ahora)} UT y estamos atracados, queremos zarpar con ella`
+    pista = 'Busca en la tabla la primera pleamar que llega después de la hora actual.'
+  }
+  return {
+    tabla,
+    enunciado: `Anuario de mareas de ${puerto.nombre}, ${dia} de ${mes} (datos de práctica). ${datos} Calcula la sonda momento en ${pide}.`,
+    pasos: [
+      { pregunta: `¿A qué hora es esa ${elegida.tipo}? (UT)`, tipo: 'numero', clase: 'hora', respuesta: elegida.hora, margen: 0, pista, solucion: `${elegida.tipo === 'pleamar' ? 'Pleamar' : 'Bajamar'} a las ${reloj(elegida.hora)} UT` },
+      { pregunta: '¿Qué altura de marea da la tabla para ella?', tipo: 'numero', clase: 'valor', respuesta: elegida.altura, margen: 0.005, pista: 'Es el número de la columna «Altura» en esa fila.', solucion: `${m2(elegida.altura)} m` },
+      pasoCorr,
+      pasoSm(elegida, `en esa ${elegida.tipo}`),
+    ],
+  }
+}
+
+/* ---------- Lección 11: viento y corriente ---------- */
+
+function leccion11(azar: Azar): Ejercicio {
+  const ct = noCero(azar, -8, 8)
+  if (azar() < 0.5) {
+    // Abatimiento
+    const ab = noCero(azar, -8, 8)
+    const banda = ab > 0 ? 'babor' : 'estribor'
+    const pistaAb = 'Viento por babor → el barco cae a estribor → abatimiento + (suma). Viento por estribor → abatimiento − (resta).'
+    if (azar() < 0.5) {
+      const ra = ent(azar, 0, 359)
+      const rv = N.rumboVerdadero(ra, ct)
+      const rs = N.n360(rv + ab)
+      return {
+        enunciado: `Navegamos al Ra = ${g(ra)} con Ct = ${c(ct)}. Recibimos el viento por ${banda} y estimamos un abatimiento de ${Math.abs(ab)}º. ¿Qué rumbo seguimos realmente sobre el agua?`,
+        pasos: [
+          { pregunta: '¿Cuál es el rumbo verdadero (Rv)?', tipo: 'numero', clase: 'rumbo', respuesta: rv, margen: 0.5, pista: PISTA_RV, solucion: `Rv = Ra + Ct = ${g(ra)} ${s(ct)} = ${g(rv)}` },
+          { pregunta: '¿Cuál es el abatimiento, con signo?', tipo: 'numero', clase: 'signo', respuesta: ab, margen: 0.05, pista: pistaAb, solucion: `Viento por ${banda} → abatimiento ${ab > 0 ? '+' : '−'}${Math.abs(ab)}º` },
+          { pregunta: '¿Cuál es el rumbo de superficie (Rs)?', tipo: 'numero', clase: 'rumbo', respuesta: rs, margen: 0.5, pista: 'Rs = Rv + abatimiento (con su signo).', solucion: `Rs = ${g(rv)} ${s(ab)} = ${g(rs)}` },
+        ],
+      }
+    }
+    const rs = ent(azar, 0, 359)
+    const rv = N.n360(rs - ab)
+    const ra = N.rumboAguja(rv, ct)
+    return {
+      enunciado: `Queremos seguir sobre el agua el rumbo Rs = ${g(rs)}. Recibimos el viento por ${banda} con un abatimiento de ${Math.abs(ab)}º, y la Ct es ${c(ct)}. ¿Qué rumbo de aguja damos?`,
+      pasos: [
+        { pregunta: '¿Cuál es el abatimiento, con signo?', tipo: 'numero', clase: 'signo', respuesta: ab, margen: 0.05, pista: pistaAb, solucion: `Viento por ${banda} → abatimiento ${ab > 0 ? '+' : '−'}${Math.abs(ab)}º` },
+        { pregunta: '¿Qué Rv hay que hacer?', tipo: 'numero', clase: 'rumbo', respuesta: rv, margen: 0.5, pista: 'Se deshace el abatimiento: Rv = Rs − abatimiento. Hay que orzar hacia el viento.', solucion: `Rv = ${g(rs)} ${s(-ab)} = ${g(rv)}` },
+        { pregunta: '¿Y el rumbo de aguja (Ra)?', tipo: 'numero', clase: 'rumbo', respuesta: ra, margen: 0.5, pista: PISTA_RA, solucion: `Ra = Rv − Ct = ${g(rv)} ${s(-ct)} = ${g(ra)}` },
+      ],
+    }
+  }
+  // Corriente: rumbo y velocidad efectivos (triángulo de velocidades)
+  const rv = ent(azar, 0, 71) * 5
+  const v = elige(azar, VELOCIDADES)
+  const rc = ent(azar, 0, 35) * 10
+  const ih = elige(azar, [1, 1.5, 2, 2.5, 3])
+  const { rumbo: ref, velocidad: vef } = N.conCorriente(rv, v, rc, ih)
+  const t = elige(azar, [1, 1.5, 2])
+  return {
+    enunciado: `Navegamos al Rv = ${g(rv)} a ${v} nudos en una zona con corriente de rumbo ${g(rc)} e intensidad horaria ${coma(ih)} ${ih === 1 ? "nudo" : "nudos"}. ¿Qué rumbo y velocidad llevamos realmente sobre el fondo?`,
+    pasos: [
+      {
+        pregunta: 'Dibuja el triángulo: ¿cuál es el rumbo efectivo (Ref)?',
+        tipo: 'numero',
+        clase: 'rumbo',
+        respuesta: ref,
+        margen: 2,
+        pista: `Desde un punto, traza el Rv con ${v} millas (una hora de navegación). Desde el extremo, traza la corriente: rumbo ${g(rc)} y ${coma(ih)} millas. La línea del punto de partida al final es el rumbo efectivo.`,
+        solucion: `Ref ≈ ${g(Math.round(ref))} (se admite ±2º)`,
+      },
+      {
+        pregunta: '¿Y la velocidad efectiva (Vef), en nudos?',
+        tipo: 'numero',
+        clase: 'valor',
+        respuesta: vef,
+        margen: 0.3,
+        pista: 'Es la longitud de la línea del rumbo efectivo en ese triángulo de una hora.',
+        solucion: `Vef ≈ ${coma(vef)} nudos (se admite ±0,3)`,
+      },
+      {
+        pregunta: `¿Cuántas millas avanzamos sobre el fondo en ${coma(t)} h?`,
+        tipo: 'numero',
+        clase: 'valor',
+        respuesta: vef * t,
+        margen: 0.5,
+        pista: 'Distancia efectiva = velocidad efectiva × tiempo.',
+        solucion: `${coma(vef)} × ${coma(t)} ≈ ${coma(vef * t)} millas`,
+      },
+    ],
+  }
+}
+
 /* ---------- Lecciones ---------- */
 
 export function lecciones(puntos: Record<string, PuntoCarta>): Leccion[] {
@@ -1088,6 +1273,35 @@ export function lecciones(puntos: Record<string, PuntoCarta>): Leccion[] {
       ],
       laminas: ['ut11-dos-demoras', 'ut11-estima'],
       generar: leccion9(puntos),
+    },
+    {
+      id: 'mareas',
+      numero: 10,
+      titulo: 'Mareas: sonda momento',
+      resumen: 'Sonda de la carta + altura de la marea + corrección por presión',
+      teoria: [
+        'La sonda de la carta (Sc) es la profundidad cuando el agua está en su nivel más bajo (el cero hidrográfico). Encima hay que sumarle lo que ha subido la marea en ese momento.',
+        'El anuario de mareas da, para cada puerto y día, la hora (en UT) y la altura de cada pleamar y bajamar. En el examen se pide siempre la sonda a la hora exacta de una pleamar o de una bajamar: basta leer la altura en la tabla.',
+        'La presión también mueve el agua: cada hPa (milibar) por debajo de 1013 la sube 1 cm, y cada hPa por encima la baja 1 cm. Corrección = (1013 − P) ÷ 100, en metros.',
+        'Sonda momento = Sc + altura de la marea + corrección por presión. Ojo con «primera» o «segunda» pleamar del día, «la próxima» a una hora dada o la del ciclo entre dos horas: lo difícil suele ser elegir bien la fila.',
+        'Las tablas de esta lección son inventadas para practicar; en el examen se usan las del anuario oficial.',
+      ],
+      laminas: ['ut10-mareas'],
+      generar: leccion10,
+    },
+    {
+      id: 'viento-corriente',
+      numero: 11,
+      titulo: 'Viento y corriente',
+      resumen: 'Abatimiento y rumbo efectivo con corriente',
+      teoria: [
+        'En los ejercicios de carta del examen siempre se navega «en ausencia de viento y corriente»: de esto solo se preguntan los conceptos. Esta lección es para entenderlos.',
+        'El viento empuja el barco hacia sotavento: es el abatimiento, el ángulo entre el rumbo verdadero (Rv) y el rumbo de superficie (Rs) que sigue el barco en el agua. Viento por babor → abatimiento + (cae a estribor); viento por estribor → abatimiento −. Rs = Rv + abatimiento.',
+        'La corriente desplaza toda la masa de agua. Se da por su rumbo (hacia dónde va) y su intensidad horaria (nudos). El rumbo y la velocidad sobre el fondo (efectivos) salen del triángulo de velocidades: el vector del barco de una hora y, a continuación, el de la corriente.',
+        'Al desvío que produce la corriente se le llama deriva. Para compensar el abatimiento o la corriente hay que dar un rumbo hacia el lado del que vienen.',
+      ],
+      laminas: ['ut10-abatimiento'],
+      generar: leccion11,
     },
   ]
 }
