@@ -59,6 +59,34 @@
   "ut2-molinete": {
    "titulo": "Molinete: barbotén, embrague y freno",
    "archivo": "img/laminas/ut2-molinete.svg"
+  },
+  "ut3-movimientos": {
+   "titulo": "Balance y cabezada",
+   "archivo": "img/laminas/ut3-movimientos.svg"
+  },
+  "ut3-mar": {
+   "titulo": "Cómo recibir la mar con mal tiempo",
+   "archivo": "img/laminas/ut3-mar.svg"
+  },
+  "ut3-anderson": {
+   "titulo": "Librar la hélice y maniobra de Anderson",
+   "archivo": "img/laminas/ut3-anderson.svg"
+  },
+  "ut3-boutakow": {
+   "titulo": "Maniobra de Boutakow",
+   "archivo": "img/laminas/ut3-boutakow.svg"
+  },
+  "ut3-busqueda": {
+   "titulo": "Búsqueda: espiral cuadrada y sectores",
+   "archivo": "img/laminas/ut3-busqueda.svg"
+  },
+  "ut3-pirotecnia": {
+   "titulo": "Bengala, cohete con paracaídas y fumígena",
+   "archivo": "img/laminas/ut3-pirotecnia.svg"
+  },
+  "ut3-remolque": {
+   "titulo": "Remolque: aproximación y catenaria",
+   "archivo": "img/laminas/ut3-remolque.svg"
   }
  },
  "preguntas": {
@@ -1495,6 +1523,360 @@
   ],
   "bal-2026-09-E-6": [
    "ut2-cabo"
+  ],
+  "and-2025-1-A-10": [
+   "ut3-mar"
+  ],
+  "and-2025-1-A-7": [
+   "ut3-mar"
+  ],
+  "and-2026-1-A-7": [
+   "ut3-mar"
+  ],
+  "and-2026-2-A-10": [
+   "ut3-busqueda"
+  ],
+  "bal-2017-03-A-10": [
+   "ut3-mar"
+  ],
+  "bal-2017-03-B-8": [
+   "ut3-mar"
+  ],
+  "bal-2017-03-G-7": [
+   "ut3-mar"
+  ],
+  "bal-2017-03-G-8": [
+   "ut3-anderson"
+  ],
+  "bal-2017-06-C-8": [
+   "ut3-remolque"
+  ],
+  "bal-2017-06-C-9": [
+   "ut3-remolque"
+  ],
+  "bal-2017-06-E-9": [
+   "ut3-mar"
+  ],
+  "bal-2017-06-F-9": [
+   "ut3-mar"
+  ],
+  "bal-2017-09-A-10": [
+   "ut3-boutakow"
+  ],
+  "bal-2017-09-A-9": [
+   "ut3-mar"
+  ],
+  "bal-2017-09-D-10": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2017-12-B-7": [
+   "ut3-boutakow"
+  ],
+  "bal-2017-12-B-9": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2017-12-C-9": [
+   "ut3-mar"
+  ],
+  "bal-2017-12-E-8": [
+   "ut3-anderson"
+  ],
+  "bal-2018-04-A-9": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2018-04-E-7": [
+   "ut3-remolque"
+  ],
+  "bal-2018-04-E-8": [
+   "ut3-remolque"
+  ],
+  "bal-2018-04-E-9": [
+   "ut3-busqueda"
+  ],
+  "bal-2018-04-F-8": [
+   "ut3-movimientos"
+  ],
+  "bal-2018-06-A-10": [
+   "ut3-remolque"
+  ],
+  "bal-2018-06-A-7": [
+   "ut3-mar"
+  ],
+  "bal-2018-06-B-8": [
+   "ut3-mar"
+  ],
+  "bal-2018-06-C-8": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2018-09-A-10": [
+   "ut3-mar"
+  ],
+  "bal-2018-09-B-7": [
+   "ut3-mar"
+  ],
+  "bal-2018-09-D-10": [
+   "ut3-boutakow"
+  ],
+  "bal-2018-09-E-8": [
+   "ut3-mar"
+  ],
+  "bal-2018-09-E-9": [
+   "ut3-remolque"
+  ],
+  "bal-2018-12-C-7": [
+   "ut3-busqueda"
+  ],
+  "bal-2018-12-F-7": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2018-12-F-8": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2018-12-F-9": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2019-04-A-10": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2019-04-A-7": [
+   "ut3-movimientos"
+  ],
+  "bal-2019-04-A-8": [
+   "ut3-movimientos"
+  ],
+  "bal-2019-04-B-7": [
+   "ut3-mar"
+  ],
+  "bal-2019-04-B-8": [
+   "ut3-movimientos"
+  ],
+  "bal-2019-04-F-8": [
+   "ut3-remolque"
+  ],
+  "bal-2019-06-A-9": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2019-09-A-10": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2019-09-C-8": [
+   "ut3-movimientos"
+  ],
+  "bal-2019-09-F-10": [
+   "ut3-movimientos"
+  ],
+  "bal-2019-09-F-9": [
+   "ut3-mar"
+  ],
+  "bal-2019-12-A-7": [
+   "ut3-remolque"
+  ],
+  "bal-2020-07-D-9": [
+   "ut3-remolque"
+  ],
+  "bal-2020-10-C-9": [
+   "ut3-mar"
+  ],
+  "bal-2020-10-F-7": [
+   "ut3-mar"
+  ],
+  "bal-2020-10-G-10": [
+   "ut3-movimientos"
+  ],
+  "bal-2020-10-G-9": [
+   "ut3-remolque"
+  ],
+  "bal-2020-10-H-10": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2020-12-B-7": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2020-12-B-8": [
+   "ut3-movimientos"
+  ],
+  "bal-2020-12-B-9": [
+   "ut3-remolque"
+  ],
+  "bal-2020-12-C-9": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2020-12-D-7": [
+   "ut3-mar"
+  ],
+  "bal-2020-12-D-8": [
+   "ut3-mar"
+  ],
+  "bal-2020-12-I-10": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2020-12-I-9": [
+   "ut3-mar"
+  ],
+  "bal-2021-03-C-10": [
+   "ut3-busqueda"
+  ],
+  "bal-2021-03-C-8": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2021-03-E-9": [
+   "ut3-remolque"
+  ],
+  "bal-2021-06-E-8": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2021-06-F-9": [
+   "ut3-boutakow"
+  ],
+  "bal-2021-09-D-10": [
+   "ut3-mar"
+  ],
+  "bal-2021-09-F-7": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2021-12-B-8": [
+   "ut3-remolque"
+  ],
+  "bal-2021-12-B-9": [
+   "ut3-movimientos"
+  ],
+  "bal-2021-12-D-10": [
+   "ut3-movimientos"
+  ],
+  "bal-2021-12-F-9": [
+   "ut3-boutakow"
+  ],
+  "bal-2022-06-E-9": [
+   "ut3-busqueda"
+  ],
+  "bal-2022-09-B-7": [
+   "ut3-mar"
+  ],
+  "bal-2022-09-C-10": [
+   "ut3-movimientos"
+  ],
+  "bal-2022-12-A-8": [
+   "ut3-remolque"
+  ],
+  "bal-2022-12-A-9": [
+   "ut3-boutakow"
+  ],
+  "bal-2022-12-B-9": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2022-12-C-9": [
+   "ut3-anderson"
+  ],
+  "bal-2023-03-C-7": [
+   "ut3-mar"
+  ],
+  "bal-2023-06-B-7": [
+   "ut3-movimientos"
+  ],
+  "bal-2023-06-D-10": [
+   "ut3-boutakow"
+  ],
+  "bal-2023-06-D-9": [
+   "ut3-anderson"
+  ],
+  "bal-2023-09-A-7": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2023-09-C-7": [
+   "ut3-movimientos"
+  ],
+  "bal-2023-12-A-7": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2023-12-C-8": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2024-04-A-7": [
+   "ut3-busqueda"
+  ],
+  "bal-2024-04-B-9": [
+   "ut3-anderson"
+  ],
+  "bal-2024-04-D-8": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2024-07-A-10": [
+   "ut3-movimientos"
+  ],
+  "bal-2024-07-B-8": [
+   "ut3-remolque"
+  ],
+  "bal-2024-09-E-10": [
+   "ut3-mar"
+  ],
+  "bal-2024-12-B-7": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2024-12-B-9": [
+   "ut3-movimientos"
+  ],
+  "bal-2024-12-C-7": [
+   "ut3-anderson"
+  ],
+  "bal-2024-12-C-8": [
+   "ut3-movimientos"
+  ],
+  "bal-2025-04-C-9": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2025-04-D-7": [
+   "ut3-mar"
+  ],
+  "bal-2025-07-B-10": [
+   "ut3-remolque"
+  ],
+  "bal-2025-07-C-8": [
+   "ut3-remolque"
+  ],
+  "bal-2025-09-A-10": [
+   "ut3-mar"
+  ],
+  "bal-2025-09-B-9": [
+   "ut3-busqueda"
+  ],
+  "bal-2025-12-B-8": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2025-12-C-9": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2026-03-C-10": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2026-03-C-9": [
+   "ut3-remolque"
+  ],
+  "bal-2026-06-B-7": [
+   "ut3-mar"
+  ],
+  "bal-2026-06-B-8": [
+   "ut3-movimientos"
+  ],
+  "bal-2026-06-C-7": [
+   "ut3-anderson"
+  ],
+  "bal-2026-06-C-9": [
+   "ut3-mar"
+  ],
+  "bal-2026-06-D-8": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2026-09-A-8": [
+   "ut3-movimientos"
+  ],
+  "bal-2026-09-C-7": [
+   "ut3-anderson"
+  ],
+  "bal-2026-09-E-10": [
+   "ut3-mar"
+  ],
+  "bal-2026-09-E-8": [
+   "ut3-remolque"
   ]
  }
 }

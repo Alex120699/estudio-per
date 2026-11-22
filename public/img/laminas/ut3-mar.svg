@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t">
+<title id="t">Cómo recibir la mar con mal tiempo: capear por la amura, no atravesarse, correr el temporal por la aleta o popa</title>
+<style>
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:20px;fill:#14202b}
+.b{font-weight:700}.p{font-size:16px;fill:#4b5b69}
+.h{fill:#eef2f5;stroke:#14202b;stroke-width:2.5;stroke-linejoin:round}
+.ola{fill:none;stroke:#2b7bbd;stroke-width:3}
+</style>
+<defs>
+<marker id="f" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0L10,5L0,10z" fill="#2b7bbd"/></marker>
+<path id="b" d="M0,-60 C14,-44 20,-24 20,0 L18,50 L-18,50 L-20,0 C-20,-24 -14,-44 0,-60 Z"/>
+<path id="o" d="M0,0 q30,-14 60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0"/>
+</defs>
+<rect width="720" height="400" rx="14" fill="#fff"/>
+<rect x="0" y="40" width="720" height="250" fill="#e8f3fb"/>
+<use href="#o" class="ola" x="0" y="70"/><use href="#o" class="ola" x="-30" y="130"/><use href="#o" class="ola" x="0" y="190"/><use href="#o" class="ola" x="-30" y="250"/>
+<line x1="30" y1="20" x2="30" y2="60" stroke="#2b7bbd" stroke-width="4" marker-end="url(#f)"/>
+<text x="44" y="32" class="p" style="fill:#1d5f93">la mar viene de aquí</text>
+<use href="#b" class="h" transform="translate(120 170) rotate(-35)"/>
+<use href="#b" class="h" transform="translate(360 170) rotate(90)" style="fill:#fde2e2;stroke:#b42318"/>
+<use href="#b" class="h" transform="translate(600 170) rotate(160)"/>
+<text x="120" y="320" text-anchor="middle" class="b">Capear</text>
+<text x="120" y="342" text-anchor="middle" class="p">mar por la amura,</text>
+<text x="120" y="362" text-anchor="middle" class="p">poca velocidad</text>
+<text x="360" y="320" text-anchor="middle" class="b" style="fill:#b42318">Atravesado: ¡no!</text>
+<text x="360" y="342" text-anchor="middle" class="p">mar por el través:</text>
+<text x="360" y="362" text-anchor="middle" class="p">balances fuertes, puede volcar</text>
+<text x="600" y="320" text-anchor="middle" class="b">Correr el temporal</text>
+<text x="600" y="342" text-anchor="middle" class="p">mar por la aleta o popa,</text>
+<text x="600" y="362" text-anchor="middle" class="p">sin atravesarse</text>
+<text x="360" y="390" text-anchor="middle" class="p" style="font-size:14px">Visto desde arriba. La costa a sotavento es peligrosa: el viento y la mar empujan hacia ella.</text>
+</svg>

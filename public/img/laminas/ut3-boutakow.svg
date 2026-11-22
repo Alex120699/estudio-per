@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-labelledby="t">
+<title id="t">Maniobra de Boutakow: caer unos 70° a la banda de la caída y luego todo el timón a la contraria hasta el rumbo opuesto</title>
+<style>
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:20px;fill:#14202b}
+.b{font-weight:700}.p{font-size:16px;fill:#4b5b69}
+.ln{stroke:#14202b;stroke-width:1.5;fill:none}
+.tr{fill:none;stroke:#c2410c;stroke-width:3;stroke-dasharray:8 5}
+</style>
+<defs><marker id="f" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#c2410c"/></marker></defs>
+<rect width="600" height="420" rx="14" fill="#fff"/>
+<rect x="10" y="10" width="580" height="350" rx="10" fill="#e8f3fb"/>
+<line x1="260" y1="340" x2="260" y2="60" stroke="#8795a1" stroke-width="2" stroke-dasharray="3 5"/>
+<circle cx="260" cy="300" r="11" fill="#e85d04" stroke="#14202b" stroke-width="2"/><circle cx="260" cy="300" r="4" fill="#14202b"/>
+<text x="246" y="306" text-anchor="end" class="p">caída</text>
+<path class="tr" d="M260,340 L260,250 C260,214 280,196 316,180 C352,164 360,130 340,100 C318,66 268,62 262,100 L260,260" marker-end="url(#f)"/>
+<line class="ln" x1="300" y1="188" x2="420" y2="220"/>
+<text x="424" y="216" class="b" style="font-size:18px">1</text>
+<text x="442" y="216" class="p">timón a la banda</text><text x="442" y="234" class="p">de la caída hasta</text><text x="442" y="252" class="p">caer unos 70°</text>
+<line class="ln" x1="344" y1="104" x2="420" y2="90"/>
+<text x="424" y="86" class="b" style="font-size:18px">2</text>
+<text x="442" y="86" class="p">todo el timón a la</text><text x="442" y="104" class="p">banda contraria</text>
+<line class="ln" x1="258" y1="150" x2="150" y2="150"/>
+<text x="146" y="144" text-anchor="end" class="b" style="font-size:18px">3</text>
+<text x="146" y="164" text-anchor="end" class="p">rumbo opuesto,</text><text x="146" y="182" text-anchor="end" class="p">por la propia estela</text>
+<text x="300" y="388" text-anchor="middle" class="p">Vuelve al punto de caída siguiendo su estela:</text>
+<text x="300" y="408" text-anchor="middle" class="p">útil de noche o con poca visibilidad.</text>
+</svg>

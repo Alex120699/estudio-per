@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t">
+<title id="t">Búsqueda cuando no se ve al náufrago: espiral cuadrada y exploración por sectores</title>
+<style>
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:20px;fill:#14202b}
+.b{font-weight:700}.p{font-size:16px;fill:#4b5b69}
+.tr{fill:none;stroke:#c2410c;stroke-width:3;stroke-linejoin:round}
+</style>
+<defs><marker id="f" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#c2410c"/></marker></defs>
+<rect width="720" height="380" rx="14" fill="#fff"/>
+<rect x="10" y="10" width="340" height="300" rx="10" fill="#e8f3fb"/>
+<rect x="370" y="10" width="340" height="300" rx="10" fill="#e8f3fb"/>
+<path class="tr" d="M180,160 L180,130 L210,130 L210,190 L150,190 L150,100 L240,100 L240,220 L120,220 L120,70 L270,70 L270,250 L90,250 L90,40" marker-end="url(#f)"/>
+<circle cx="180" cy="160" r="8" fill="#e85d04" stroke="#14202b" stroke-width="2"/>
+<g transform="translate(540 160)">
+<path class="tr" d="M0,0 L0,-120 L104,-60 L-104,60 L-104,-60 L104,60 L0,120 L0,0" marker-end="url(#f)"/>
+<circle r="8" fill="#e85d04" stroke="#14202b" stroke-width="2"/>
+</g>
+<text x="180" y="340" text-anchor="middle" class="b">Espiral cuadrada</text>
+<text x="180" y="362" text-anchor="middle" class="p">tramos cada vez más largos</text>
+<text x="540" y="340" text-anchor="middle" class="b">Por sectores</text>
+<text x="540" y="362" text-anchor="middle" class="p">pasadas en estrella por el punto</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t">
+<title id="t">Señales pirotécnicas: bengala de mano, cohete con luz roja y paracaídas, y señal fumígena flotante</title>
+<style>
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:20px;fill:#14202b}
+.b{font-weight:700}.p{font-size:16px;fill:#4b5b69}
+</style>
+<rect width="720" height="360" rx="14" fill="#fff"/>
+<rect x="0" y="220" width="720" height="40" fill="#d7ebf8"/>
+<line x1="0" y1="220" x2="720" y2="220" stroke="#2b7bbd" stroke-width="2"/>
+<g stroke="#e3e8ec" stroke-width="2"><line x1="240" y1="16" x2="240" y2="344"/><line x1="480" y1="16" x2="480" y2="344"/></g>
+<circle cx="120" cy="110" r="34" fill="#ffd2c2"/><circle cx="120" cy="110" r="16" fill="#e11d1d"/>
+<rect x="112" y="124" width="16" height="70" rx="3" fill="#b42318" stroke="#14202b" stroke-width="2"/>
+<rect x="108" y="186" width="24" height="26" rx="4" fill="#5c6b78"/>
+<text x="120" y="288" text-anchor="middle" class="b">Bengala de mano</text>
+<text x="120" y="310" text-anchor="middle" class="p">luz roja; para quien</text>
+<text x="120" y="330" text-anchor="middle" class="p">está cerca, día y noche</text>
+<path d="M360,210 C356,160 356,110 360,70" fill="none" stroke="#8795a1" stroke-width="2" stroke-dasharray="4 4"/>
+<path d="M330,56 Q360,22 390,56 Z" fill="#eef2f5" stroke="#14202b" stroke-width="2"/>
+<line x1="332" y1="56" x2="360" y2="86" stroke="#14202b" stroke-width="1"/><line x1="388" y1="56" x2="360" y2="86" stroke="#14202b" stroke-width="1"/>
+<circle cx="360" cy="92" r="22" fill="#ffd2c2"/><circle cx="360" cy="92" r="10" fill="#e11d1d"/>
+<text x="360" y="288" text-anchor="middle" class="b">Cohete con paracaídas</text>
+<text x="360" y="310" text-anchor="middle" class="p">luz roja alta: se ve a</text>
+<text x="360" y="330" text-anchor="middle" class="p">gran distancia</text>
+<path d="M600,212 C570,180 640,150 600,120 C560,90 630,70 610,40" fill="none" stroke="#f97316" stroke-width="26" stroke-linecap="round" opacity="0.75"/>
+<rect x="584" y="208" width="32" height="18" rx="4" fill="#f97316" stroke="#14202b" stroke-width="2"/>
+<text x="600" y="288" text-anchor="middle" class="b">Fumígena flotante</text>
+<text x="600" y="310" text-anchor="middle" class="p">humo naranja, de día;</text>
+<text x="600" y="330" text-anchor="middle" class="p">se tira al agua a sotavento</text>
+</svg>
