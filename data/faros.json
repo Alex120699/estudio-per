@@ -1,0 +1,21 @@
+{
+  "_nota": "Posiciones de los puntos de la carta 105 del Estrecho usados en los ejercicios. Las de Wikipedia (faros españoles, Europa, Malabata, Espartel, Ceuta) se han cruzado con preguntas de examen; las de Cires, Alcázar, Paloma, Tánger y el espigón de Barbate se han despejado de preguntas resueltas por la plantilla oficial.",
+  "puntos": {
+    "roche": { "nombre": "faro de Cabo Roche", "lat": "36 17,7 N", "lon": "006 08,4 W" },
+    "trafalgar": { "nombre": "faro de Cabo Trafalgar", "lat": "36 11,0 N", "lon": "006 02,1 W" },
+    "barbate": { "nombre": "faro de Barbate", "lat": "36 11,2 N", "lon": "005 55,4 W" },
+    "barbateEspigon": { "nombre": "luz roja del espigón de Barbate", "lat": "36 10,9 N", "lon": "005 55,4 W" },
+    "gracia": { "nombre": "faro de Punta Gracia (Camarinal)", "lat": "36 05,4 N", "lon": "005 48,6 W" },
+    "paloma": { "nombre": "faro de Punta Paloma", "lat": "36 03,9 N", "lon": "005 43,1 W" },
+    "tarifa": { "nombre": "faro de Isla de Tarifa", "lat": "36 00,1 N", "lon": "005 36,6 W" },
+    "carnero": { "nombre": "faro de Punta Carnero", "lat": "36 04,6 N", "lon": "005 25,6 W" },
+    "europa": { "nombre": "faro de Punta Europa", "lat": "36 06,6 N", "lon": "005 20,7 W" },
+    "almina": { "nombre": "faro de Punta Almina", "lat": "35 54,0 N", "lon": "005 16,8 W" },
+    "ceuta": { "nombre": "bocana del puerto de Ceuta", "lat": "35 53,8 N", "lon": "005 18,7 W" },
+    "cires": { "nombre": "faro de Punta Cires", "lat": "35 54,5 N", "lon": "005 29,0 W" },
+    "alcazar": { "nombre": "faro de Punta Alcázar", "lat": "35 51,0 N", "lon": "005 33,6 W" },
+    "malabata": { "nombre": "faro de Punta Malabata", "lat": "35 49,0 N", "lon": "005 44,9 W" },
+    "tanger": { "nombre": "luz del espigón de Tánger", "lat": "35 47,6 N", "lon": "005 47,6 W" },
+    "espartel": { "nombre": "faro de Cabo Espartel", "lat": "35 47,5 N", "lon": "005 55,3 W" }
+  }
+}

@@ -3,6 +3,7 @@ import { laminasDe } from '../datos/laminas'
 import { programa } from '../tipos/programa'
 import type { Pregunta } from '../tipos/preguntas'
 import Lamina from './Lamina'
+import PasoAPaso from './PasoAPaso'
 
 interface Props {
   pregunta: Pregunta
@@ -29,6 +30,7 @@ export default function Explicacion({ pregunta: p, enlaceSiempre, onApuntes }: P
               <strong>Ojo:</strong> {e.duda}
             </p>
           )}
+          <PasoAPaso id={p.id} letraCorrecta={'abcd'[p.correcta]} />
           {laminasDe(p.id).map((l) => (
             <Lamina key={l.id} lamina={l} />
           ))}
