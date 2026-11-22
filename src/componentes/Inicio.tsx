@@ -17,6 +17,7 @@ interface Props {
   onRepaso: () => void
   onEstadisticas: () => void
   onApuntes: () => void
+  onTaller: () => void
 }
 
 const enBanco = (unidad: number) => preguntas.filter((p) => p.unidad === unidad).length
@@ -104,6 +105,10 @@ export default function Inicio(props: Props) {
         <button className="tarjeta-accion" onClick={props.onTema}>
           <span className="titulo">Test por tema</span>
           <span className="detalle">Elige unidades y número de preguntas · solo no vistas o solo falladas</span>
+        </button>
+        <button className="tarjeta-accion" onClick={props.onTaller}>
+          <span className="titulo">Taller de carta</span>
+          <span className="detalle">Ejercicios de carta paso a paso, de menos a más · corrección al momento</span>
         </button>
         <button className="tarjeta-accion" onClick={props.onApuntes}>
           <span className="titulo">Apuntes</span>

@@ -284,3 +284,25 @@ h3 { font-size: 1rem; margin: 16px 0 4px; color: var(--suave); }
 .paso-a-paso li { margin: 0 0 8px; line-height: 1.45; }
 .paso-a-paso li.final { font-weight: 700; }
 .nota-paso { display: block; font-size: 0.8rem; color: var(--suave); margin-top: 2px; }
+
+/* Taller de carta */
+.progreso-taller { font-weight: 600; }
+.teoria-taller p { margin: 0 0 10px; line-height: 1.5; }
+.ejemplo-taller { margin: 16px 0; padding: 12px 14px; border: 1px solid var(--borde); border-radius: 12px; background: var(--tarjeta); }
+.ejemplo-taller summary { font-weight: 700; color: var(--marca); cursor: pointer; }
+.ejemplo-taller ol, .pasos-taller { padding-left: 22px; margin: 10px 0 0; }
+.ejemplo-taller li, .pasos-taller li { margin: 0 0 12px; line-height: 1.45; }
+.enunciado-taller { font-weight: 600; line-height: 1.5; margin: 12px 0; }
+.cuenta { display: block; font-size: 0.9rem; color: var(--suave); margin-top: 2px; }
+.pregunta-paso { display: block; font-weight: 600; }
+.tu-respuesta { display: block; font-size: 0.9rem; }
+.pasos-taller li.bien .tu-respuesta { color: var(--bien); }
+.pasos-taller li.mal .tu-respuesta { color: var(--mal); }
+.pasos-taller li.segunda .tu-respuesta { color: var(--bien); }
+.respuesta-taller { display: flex; gap: 8px; margin: 8px 0 0; }
+.respuesta-taller input { flex: 1; min-width: 0; font: inherit; font-size: 1.05rem; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--borde); background: var(--tarjeta); color: var(--texto); }
+.aviso-paso { margin: 8px 0 0; padding: 8px 10px; border-radius: 10px; background: var(--mal-fondo); color: var(--mal); font-size: 0.9rem; }
+.cierre-taller { margin: 8px 0; padding: 12px 14px; border-radius: 12px; }
+.cierre-taller p { margin: 0; font-weight: 700; }
+.cierre-taller.bien { background: var(--bien-fondo); color: var(--bien); }
+.cierre-taller.mal { background: var(--mal-fondo); color: var(--mal); }

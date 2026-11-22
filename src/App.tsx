@@ -6,6 +6,7 @@ import Estadisticas from './componentes/Estadisticas'
 import Inicio from './componentes/Inicio'
 import PantallaPregunta from './componentes/PantallaPregunta'
 import Resultado from './componentes/Resultado'
+import Taller from './componentes/Taller'
 import { guardarSesion, registrarRespuestas } from './datos/db'
 import { useHistorial } from './datos/useHistorial'
 import { pendientesHoy } from './logica/historial'
@@ -28,7 +29,7 @@ import {
 import { preguntas as banco } from './tipos/preguntas'
 import { programa } from './tipos/programa'
 
-type Pantalla = 'inicio' | 'tema' | 'sesion' | 'resultado' | 'estadisticas' | 'apuntes'
+type Pantalla = 'inicio' | 'tema' | 'sesion' | 'resultado' | 'estadisticas' | 'apuntes' | 'taller'
 
 const VOLVER_A: Record<Pantalla, string> = {
   inicio: 'Inicio',
@@ -37,6 +38,7 @@ const VOLVER_A: Record<Pantalla, string> = {
   resultado: 'Volver al resultado',
   estadisticas: 'Estadísticas',
   apuntes: 'Apuntes',
+  taller: 'Taller de carta',
 }
 
 /** Recupera la sesión guardada solo si sus preguntas siguen existiendo en el banco. */
@@ -157,6 +159,8 @@ export default function App() {
     )
   }
 
+  if (pantalla === 'taller') return <Taller onVolver={() => setPantalla('inicio')} />
+
   if (pantalla === 'estadisticas') {
     return <Estadisticas historial={historial} onRecargar={recargar} onVolver={() => setPantalla('inicio')} />
   }
@@ -206,6 +210,7 @@ export default function App() {
       onRepaso={empezarRepaso}
       onEstadisticas={() => setPantalla('estadisticas')}
       onApuntes={() => abrirApuntes(null)}
+      onTaller={() => setPantalla('taller')}
     />
   )
 }
