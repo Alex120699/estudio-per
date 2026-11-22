@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440" role="img" aria-labelledby="t">
+<title id="t">Partes del ancla sin cepo: arganeo, caña, cruz, brazos y uñas, con el grillete de unión a la cadena</title>
+<style>
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:20px;fill:#14202b}
+.b{font-weight:700}.p{font-size:16px;fill:#4b5b69}
+.ln{stroke:#14202b;stroke-width:1.5;fill:none}
+.m{fill:#6b7a87;stroke:#14202b;stroke-width:2;stroke-linejoin:round}
+</style>
+<rect width="600" height="440" rx="14" fill="#fff"/>
+<g fill="none" stroke="#4b5b69" stroke-width="6">
+<ellipse cx="300" cy="22" rx="9" ry="14"/><ellipse cx="300" cy="-4" rx="9" ry="14"/>
+</g>
+<path d="M286,40 Q286,30 300,30 Q314,30 314,40 L314,52 L286,52 Z" fill="none" stroke="#c2410c" stroke-width="6"/>
+<line x1="280" y1="52" x2="320" y2="52" stroke="#c2410c" stroke-width="6" stroke-linecap="round"/>
+<circle cx="300" cy="72" r="17" fill="none" stroke="#14202b" stroke-width="8"/>
+<rect x="290" y="88" width="20" height="214" class="m"/>
+<path d="M300,300 Q240,316 186,252" fill="none" stroke="#6b7a87" stroke-width="20" stroke-linecap="round"/>
+<path d="M300,300 Q360,316 414,252" fill="none" stroke="#6b7a87" stroke-width="20" stroke-linecap="round"/>
+<path d="M300,300 Q240,316 186,252 M300,300 Q360,316 414,252" fill="none" stroke="#14202b" stroke-width="1.5"/>
+<path d="M186,252 L160,206 L212,236 Z" class="m"/>
+<path d="M414,252 L440,206 L388,236 Z" class="m"/>
+<circle cx="300" cy="302" r="16" class="m"/>
+<line class="ln" x1="322" y1="44" x2="380" y2="44"/><text x="384" y="40">Grillete de unión</text><text x="384" y="62" class="p">(une ancla y cadena)</text>
+<line class="ln" x1="282" y1="72" x2="220" y2="72"/><text x="216" y="78" text-anchor="end">Arganeo</text>
+<line class="ln" x1="312" y1="180" x2="380" y2="180"/><text x="384" y="186">Caña</text>
+<line class="ln" x1="300" y1="320" x2="300" y2="360"/><text x="300" y="382" text-anchor="middle">Cruz</text>
+<line class="ln" x1="232" y1="300" x2="180" y2="330"/><text x="176" y="340" text-anchor="end">Brazo</text>
+<line class="ln" x1="368" y1="300" x2="420" y2="330"/><text x="424" y="340">Brazo</text>
+<line class="ln" x1="166" y1="214" x2="120" y2="190"/><text x="116" y="196" text-anchor="end">Uña</text>
+<line class="ln" x1="434" y1="214" x2="480" y2="190"/><text x="484" y="196">Uña</text>
+<text x="300" y="422" text-anchor="middle" class="p">Ancla sin cepo: las uñas son las puntas que se clavan en el fondo.</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t">
+<title id="t">Ancla a la pendura, a pique y fondeada con la cadena filada; virar y filar</title>
+<style>
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:20px;fill:#14202b}
+.b{font-weight:700}.p{font-size:16px;fill:#4b5b69}
+.cad{fill:none;stroke:#4b5b69;stroke-width:3;stroke-dasharray:6 3}
+.an{fill:#14202b}
+</style>
+<defs>
+<path id="barco" d="M0,0 L120,0 C114,14 104,22 92,24 L14,24 C6,20 2,12 0,0 Z" fill="#eef2f5" stroke="#14202b" stroke-width="2.5" stroke-linejoin="round"/>
+<path id="ancla" d="M0,-12 L0,8 M-10,2 Q0,14 10,2" fill="none" stroke="#14202b" stroke-width="4" stroke-linecap="round"/>
+</defs>
+<rect width="720" height="340" rx="14" fill="#fff"/>
+<rect x="0" y="100" width="720" height="170" fill="#d7ebf8"/>
+<line x1="0" y1="100" x2="720" y2="100" stroke="#2b7bbd" stroke-width="2"/>
+<path d="M0,270 L720,270 L720,280 L0,280 Z" fill="#c8b48c"/>
+<line x1="240" y1="40" x2="240" y2="290" stroke="#c4ccd3" stroke-width="2"/>
+<line x1="480" y1="40" x2="480" y2="290" stroke="#c4ccd3" stroke-width="2"/>
+<use href="#barco" x="40" y="88"/>
+<path d="M158,86 Q168,82 172,78" class="cad"/>
+<use href="#ancla" x="172" y="90"/>
+<use href="#barco" x="270" y="88"/>
+<line x1="390" y1="96" x2="390" y2="252" class="cad"/>
+<use href="#ancla" x="390" y="262"/>
+<use href="#barco" x="500" y="88"/>
+<path d="M620,96 C640,200 660,250 700,262" class="cad"/>
+<use href="#ancla" x="700" y="262" transform="rotate(-70 700 262)"/>
+<text x="120" y="36" text-anchor="middle" class="b">A la pendura</text>
+<text x="120" y="300" text-anchor="middle" class="p">colgando de la proa,</text>
+<text x="120" y="320" text-anchor="middle" class="p">lista para fondear</text>
+<text x="360" y="36" text-anchor="middle" class="b">A pique</text>
+<text x="360" y="300" text-anchor="middle" class="p">cadena vertical, ancla</text>
+<text x="360" y="320" text-anchor="middle" class="p">justo bajo la proa</text>
+<text x="600" y="36" text-anchor="middle" class="b">Fondeado</text>
+<text x="600" y="300" text-anchor="middle" class="p">filar: soltar cadena</text>
+<text x="600" y="320" text-anchor="middle" class="p">virar: recogerla</text>
+</svg>

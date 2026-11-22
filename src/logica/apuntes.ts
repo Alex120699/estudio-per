@@ -31,7 +31,8 @@ const slug = (texto: string) =>
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '')
 
-export function procesarApunte(unidad: number, md: string): Apunte {
+/** base: prefijo de las rutas de las imágenes (import.meta.env.BASE_URL en la app). */
+export function procesarApunte(unidad: number, md: string, base = '/'): Apunte {
   const secciones: SeccionApunte[] = []
   let titulo = `UT ${unidad}`
   const usados = new Set<string>()
@@ -56,6 +57,16 @@ export function procesarApunte(unidad: number, md: string): Apunte {
         }
         usados.add(id)
         return `<h${depth} id="${id}">${contenido}</h${depth}>\n`
+      },
+      // Las imágenes («![título](img/laminas/x.svg)»), como lámina ampliable con su pie.
+      // Un párrafo que solo contiene una imagen se pinta sin <p> (un <figure> no puede ir dentro).
+      paragraph({ tokens }) {
+        const html = this.parser.parseInline(tokens)
+        return tokens.length === 1 && tokens[0].type === 'image' ? `${html}\n` : `<p>${html}</p>\n`
+      },
+      image({ href, text }) {
+        const src = /^(https?:)?\/\//.test(href) ? href : `${base}${href}`
+        return `<figure class="lamina"><a href="${src}" target="_blank" rel="noopener"><img src="${src}" alt="${text}" loading="lazy"></a><figcaption>${text} · toca para ampliar</figcaption></figure>`
       },
       // Las tablas, dentro de un contenedor desplazable para que no rompan el ancho en el móvil.
       table(token) {

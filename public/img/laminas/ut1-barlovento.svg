@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="t">
+<title id="t">Barlovento y sotavento respecto al viento; embarcación escorada y adrizada</title>
+<style>
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:20px;fill:#14202b}
+.b{font-weight:700}.p{font-size:16px;fill:#4b5b69}
+.v{stroke:#2b7bbd;stroke-width:4;fill:none}
+.h{fill:#eef2f5;stroke:#14202b;stroke-width:2.5;stroke-linejoin:round}
+</style>
+<defs><marker id="f" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0L10,5L0,10z" fill="#2b7bbd"/></marker></defs>
+<rect width="720" height="340" rx="14" fill="#fff"/>
+<line x1="360" y1="20" x2="360" y2="320" stroke="#c4ccd3" stroke-width="2"/>
+<line class="v" x1="20" y1="110" x2="80" y2="110" marker-end="url(#f)"/>
+<line class="v" x1="20" y1="160" x2="80" y2="160" marker-end="url(#f)"/>
+<line class="v" x1="20" y1="210" x2="80" y2="210" marker-end="url(#f)"/>
+<text x="50" y="90" text-anchor="middle" class="p">viento</text>
+<path d="M180,60 C200,90 210,120 210,160 L206,250 L154,250 L150,160 C150,120 160,90 180,60 Z" class="h"/>
+<text x="110" y="290" text-anchor="middle" class="b">Barlovento</text>
+<text x="110" y="312" text-anchor="middle" class="p">de donde viene</text>
+<text x="280" y="290" text-anchor="middle" class="b">Sotavento</text>
+<text x="280" y="312" text-anchor="middle" class="p">hacia donde va</text>
+<line x1="128" y1="160" x2="140" y2="160" stroke="#14202b" stroke-width="1.5"/>
+<line x1="220" y1="160" x2="236" y2="160" stroke="#14202b" stroke-width="1.5"/>
+<g transform="translate(450 200)">
+<path d="M-40,0 L40,0 C36,30 18,44 0,48 C-18,44 -36,30 -40,0 Z" class="h"/>
+<line x1="0" y1="0" x2="0" y2="-130" stroke="#14202b" stroke-width="4"/>
+</g>
+<text x="450" y="290" text-anchor="middle" class="b">Adrizado</text>
+<text x="450" y="312" text-anchor="middle" class="p">derecho</text>
+<g transform="translate(620 200) rotate(22)">
+<path d="M-40,0 L40,0 C36,30 18,44 0,48 C-18,44 -36,30 -40,0 Z" class="h"/>
+<line x1="0" y1="0" x2="0" y2="-130" stroke="#14202b" stroke-width="4"/>
+</g>
+<line x1="620" y1="200" x2="620" y2="66" stroke="#8795a1" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="620" y="290" text-anchor="middle" class="b">Escorado</text>
+<text x="620" y="312" text-anchor="middle" class="p">inclinado a una banda</text>
+<text x="535" y="40" text-anchor="middle" class="p">Vistos desde popa</text>
+</svg>

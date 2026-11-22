@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="t">
+<title id="t">Formas de ancla: de arado, Danforth y rezón</title>
+<style>
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:20px;fill:#14202b}
+.b{font-weight:700}.p{font-size:16px;fill:#4b5b69}
+.m{fill:#6b7a87;stroke:#14202b;stroke-width:2;stroke-linejoin:round}
+</style>
+<rect width="720" height="330" rx="14" fill="#fff"/>
+<g>
+<circle cx="120" cy="50" r="10" fill="none" stroke="#14202b" stroke-width="5"/>
+<path d="M114,60 L126,60 L128,170 L112,170 Z" class="m"/>
+<path d="M120,160 C80,170 64,210 70,250 L120,232 L170,250 C176,210 160,170 120,160 Z" class="m"/>
+<path d="M120,166 L120,232" stroke="#14202b" stroke-width="2"/>
+<text x="120" y="290" text-anchor="middle" class="b">De arado (CQR)</text>
+<text x="120" y="312" text-anchor="middle" class="p">reja doble, como un arado</text>
+</g>
+<g>
+<circle cx="360" cy="50" r="10" fill="none" stroke="#14202b" stroke-width="5"/>
+<path d="M354,60 L366,60 L366,236 L354,236 Z" class="m"/>
+<rect x="290" y="232" width="140" height="10" rx="5" class="m"/>
+<path d="M330,236 L318,120 L350,236 Z" class="m"/>
+<path d="M390,236 L402,120 L370,236 Z" class="m"/>
+<text x="360" y="290" text-anchor="middle" class="b">Danforth</text>
+<text x="360" y="312" text-anchor="middle" class="p">dos uñas planas y anchas</text>
+</g>
+<g fill="none" stroke="#14202b" stroke-linecap="round">
+<circle cx="600" cy="50" r="10" stroke-width="5"/>
+<line x1="600" y1="60" x2="600" y2="210" stroke="#6b7a87" stroke-width="12"/>
+<path d="M600,210 C600,240 560,240 548,206" stroke="#6b7a87" stroke-width="10"/>
+<path d="M600,210 C600,240 640,240 652,206" stroke="#6b7a87" stroke-width="10"/>
+<path d="M600,210 C600,232 580,240 576,218" stroke="#4b5b69" stroke-width="8"/>
+<path d="M600,210 C600,232 620,240 624,218" stroke="#4b5b69" stroke-width="8"/>
+</g>
+<text x="600" y="290" text-anchor="middle" class="b">Rezón</text>
+<text x="600" y="312" text-anchor="middle" class="p">pequeña, de 4 o más uñas</text>
+</svg>

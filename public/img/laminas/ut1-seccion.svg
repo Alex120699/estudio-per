@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-labelledby="t">
+<title id="t">Sección transversal del casco: regala, borda, cubierta, bao, cuaderna, plan, sentina, quilla y grifo de fondo</title>
+<style>
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:20px;fill:#14202b}
+.b{font-weight:700}.p{font-size:16px;fill:#4b5b69}
+.ln{stroke:#14202b;stroke-width:1.5;fill:none}
+</style>
+<rect width="600" height="420" rx="14" fill="#fff"/>
+<path d="M120,100 C120,230 200,300 300,320 C400,300 480,230 480,100" fill="#eef2f5" stroke="#14202b" stroke-width="7" stroke-linejoin="round"/>
+<path d="M142,112 C142,224 212,282 300,298 C388,282 458,224 458,112" fill="none" stroke="#a0714f" stroke-width="9"/>
+<path d="M236,292 Q300,312 364,292 Q300,298 236,292 Z" fill="#7fb6dc"/>
+<path d="M244,289 C270,300 330,300 356,289 L356,296 C330,306 270,306 244,296 Z" fill="#7fb6dc"/>
+<rect x="128" y="128" width="344" height="12" fill="#a0714f"/>
+<rect x="122" y="120" width="356" height="8" fill="#5c6b78"/>
+<rect x="110" y="92" width="22" height="9" rx="2" fill="#5c6b78"/>
+<rect x="468" y="92" width="22" height="9" rx="2" fill="#5c6b78"/>
+<rect x="284" y="318" width="32" height="34" fill="#8a5a3b"/>
+<line x1="150" y1="255" x2="190" y2="255" stroke="#14202b" stroke-width="6"/>
+<path d="M190,247 L204,263 L204,247 L190,263 Z" fill="#c2410c" stroke="#14202b" stroke-width="1"/>
+<line class="ln" x1="110" y1="95" x2="80" y2="72"/><text x="76" y="70" text-anchor="end">Regala</text>
+<line class="ln" x1="120" y1="110" x2="80" y2="112"/><text x="76" y="118" text-anchor="end">Borda</text>
+<line class="ln" x1="143" y1="200" x2="80" y2="200"/><text x="76" y="206" text-anchor="end">Cuaderna</text>
+<line class="ln" x1="150" y1="262" x2="120" y2="290"/><text x="116" y="300" text-anchor="end">Grifo de</text><text x="116" y="320" text-anchor="end">fondo</text>
+<line class="ln" x1="478" y1="124" x2="508" y2="104"/><text x="512" y="104">Cubierta</text>
+<line class="ln" x1="470" y1="134" x2="514" y2="148"/><text x="518" y="154">Bao</text>
+<line class="ln" x1="330" y1="285" x2="500" y2="250"/><text x="504" y="256">Plan</text>
+<line class="ln" x1="352" y1="295" x2="500" y2="290"/><text x="504" y="296">Sentina</text>
+<line class="ln" x1="316" y1="340" x2="400" y2="350"/><text x="404" y="356">Quilla</text>
+<text x="300" y="398" text-anchor="middle" class="p">Mamparos: tabiques que dividen el interior.</text>
+</svg>

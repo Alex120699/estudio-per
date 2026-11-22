@@ -1,0 +1,1081 @@
+{
+ "laminas": {
+  "ut1-planta": {
+   "titulo": "Proa, popa, crujía, babor, estribor, amuras, través y aletas",
+   "archivo": "img/laminas/ut1-planta.svg"
+  },
+  "ut1-perfil": {
+   "titulo": "Flotación, obra viva y obra muerta, y elementos del casco",
+   "archivo": "img/laminas/ut1-perfil.svg"
+  },
+  "ut1-seccion": {
+   "titulo": "Estructura del casco en sección",
+   "archivo": "img/laminas/ut1-seccion.svg"
+  },
+  "ut1-ancla": {
+   "titulo": "Partes del ancla sin cepo",
+   "archivo": "img/laminas/ut1-ancla.svg"
+  },
+  "ut1-tipos-ancla": {
+   "titulo": "Ancla de arado, Danforth y rezón",
+   "archivo": "img/laminas/ut1-tipos-ancla.svg"
+  },
+  "ut1-fondeo": {
+   "titulo": "A la pendura, a pique, filar y virar",
+   "archivo": "img/laminas/ut1-fondeo.svg"
+  },
+  "ut1-timon": {
+   "titulo": "Partes del timón",
+   "archivo": "img/laminas/ut1-timon.svg"
+  },
+  "ut1-helice": {
+   "titulo": "Partes de la hélice y sentido de giro",
+   "archivo": "img/laminas/ut1-helice.svg"
+  },
+  "ut1-dimensiones": {
+   "titulo": "Dimensiones de la embarcación",
+   "archivo": "img/laminas/ut1-dimensiones.svg"
+  },
+  "ut1-barlovento": {
+   "titulo": "Barlovento, sotavento, escorar y adrizar",
+   "archivo": "img/laminas/ut1-barlovento.svg"
+  }
+ },
+ "preguntas": {
+  "and-2025-1-A-1": [
+   "ut1-timon"
+  ],
+  "and-2025-1-A-2": [
+   "ut1-seccion"
+  ],
+  "and-2025-1-A-3": [
+   "ut1-fondeo"
+  ],
+  "and-2025-1-A-4": [
+   "ut1-helice"
+  ],
+  "and-2025-2-A-2": [
+   "ut1-fondeo"
+  ],
+  "and-2025-2-A-3": [
+   "ut1-helice"
+  ],
+  "and-2025-2-A-4": [
+   "ut1-seccion"
+  ],
+  "and-2025-3-A-1": [
+   "ut1-dimensiones"
+  ],
+  "and-2025-3-A-3": [
+   "ut1-dimensiones"
+  ],
+  "and-2025-3-A-4": [
+   "ut1-helice"
+  ],
+  "and-2026-1-A-1": [
+   "ut1-perfil"
+  ],
+  "and-2026-1-A-2": [
+   "ut1-helice"
+  ],
+  "and-2026-1-A-3": [
+   "ut1-timon"
+  ],
+  "and-2026-1-A-4": [
+   "ut1-helice"
+  ],
+  "and-2026-2-A-1": [
+   "ut1-perfil"
+  ],
+  "and-2026-2-A-2": [
+   "ut1-helice"
+  ],
+  "and-2026-2-A-3": [
+   "ut1-fondeo"
+  ],
+  "and-2026-2-A-4": [
+   "ut1-dimensiones"
+  ],
+  "bal-2017-03-A-1": [
+   "ut1-dimensiones"
+  ],
+  "bal-2017-03-A-2": [
+   "ut1-timon"
+  ],
+  "bal-2017-03-A-3": [
+   "ut1-seccion"
+  ],
+  "bal-2017-03-A-4": [
+   "ut1-fondeo"
+  ],
+  "bal-2017-03-B-1": [
+   "ut1-helice"
+  ],
+  "bal-2017-03-B-2": [
+   "ut1-seccion"
+  ],
+  "bal-2017-03-B-4": [
+   "ut1-seccion"
+  ],
+  "bal-2017-03-C-1": [
+   "ut1-dimensiones"
+  ],
+  "bal-2017-03-C-2": [
+   "ut1-perfil"
+  ],
+  "bal-2017-03-C-3": [
+   "ut1-dimensiones"
+  ],
+  "bal-2017-03-F-2": [
+   "ut1-timon"
+  ],
+  "bal-2017-03-F-3": [
+   "ut1-perfil"
+  ],
+  "bal-2017-03-F-4": [
+   "ut1-tipos-ancla"
+  ],
+  "bal-2017-03-G-1": [
+   "ut1-fondeo"
+  ],
+  "bal-2017-03-G-3": [
+   "ut1-tipos-ancla"
+  ],
+  "bal-2017-03-G-4": [
+   "ut1-seccion"
+  ],
+  "bal-2017-06-B-1": [
+   "ut1-timon"
+  ],
+  "bal-2017-06-B-2": [
+   "ut1-perfil"
+  ],
+  "bal-2017-06-B-4": [
+   "ut1-planta"
+  ],
+  "bal-2017-06-C-1": [
+   "ut1-timon"
+  ],
+  "bal-2017-06-C-2": [
+   "ut1-dimensiones"
+  ],
+  "bal-2017-06-C-3": [
+   "ut1-barlovento"
+  ],
+  "bal-2017-06-C-4": [
+   "ut1-planta"
+  ],
+  "bal-2017-06-E-1": [
+   "ut1-seccion"
+  ],
+  "bal-2017-06-E-3": [
+   "ut1-seccion"
+  ],
+  "bal-2017-06-E-4": [
+   "ut1-helice"
+  ],
+  "bal-2017-06-F-1": [
+   "ut1-dimensiones"
+  ],
+  "bal-2017-06-F-3": [
+   "ut1-timon"
+  ],
+  "bal-2017-06-F-4": [
+   "ut1-helice"
+  ],
+  "bal-2017-09-A-1": [
+   "ut1-helice"
+  ],
+  "bal-2017-09-A-2": [
+   "ut1-tipos-ancla"
+  ],
+  "bal-2017-09-A-4": [
+   "ut1-fondeo"
+  ],
+  "bal-2017-09-C-1": [
+   "ut1-tipos-ancla"
+  ],
+  "bal-2017-09-C-2": [
+   "ut1-timon"
+  ],
+  "bal-2017-09-C-3": [
+   "ut1-timon"
+  ],
+  "bal-2017-09-C-4": [
+   "ut1-dimensiones"
+  ],
+  "bal-2017-09-D-1": [
+   "ut1-planta"
+  ],
+  "bal-2017-09-D-2": [
+   "ut1-dimensiones"
+  ],
+  "bal-2017-09-D-4": [
+   "ut1-ancla"
+  ],
+  "bal-2017-09-E-2": [
+   "ut1-dimensiones"
+  ],
+  "bal-2017-09-E-3": [
+   "ut1-helice"
+  ],
+  "bal-2017-09-E-4": [
+   "ut1-perfil"
+  ],
+  "bal-2017-12-A-4": [
+   "ut1-perfil"
+  ],
+  "bal-2017-12-B-1": [
+   "ut1-seccion"
+  ],
+  "bal-2017-12-B-4": [
+   "ut1-fondeo"
+  ],
+  "bal-2017-12-C-3": [
+   "ut1-timon"
+  ],
+  "bal-2017-12-C-4": [
+   "ut1-barlovento"
+  ],
+  "bal-2017-12-D-3": [
+   "ut1-dimensiones"
+  ],
+  "bal-2017-12-E-1": [
+   "ut1-seccion"
+  ],
+  "bal-2017-12-E-2": [
+   "ut1-dimensiones"
+  ],
+  "bal-2017-12-E-3": [
+   "ut1-perfil"
+  ],
+  "bal-2018-04-A-1": [
+   "ut1-dimensiones"
+  ],
+  "bal-2018-04-A-2": [
+   "ut1-fondeo"
+  ],
+  "bal-2018-04-A-3": [
+   "ut1-dimensiones"
+  ],
+  "bal-2018-04-A-4": [
+   "ut1-perfil"
+  ],
+  "bal-2018-04-B-1": [
+   "ut1-helice"
+  ],
+  "bal-2018-04-B-2": [
+   "ut1-seccion"
+  ],
+  "bal-2018-04-B-3": [
+   "ut1-ancla"
+  ],
+  "bal-2018-04-B-4": [
+   "ut1-timon"
+  ],
+  "bal-2018-04-E-1": [
+   "ut1-helice"
+  ],
+  "bal-2018-04-E-2": [
+   "ut1-barlovento"
+  ],
+  "bal-2018-04-F-1": [
+   "ut1-tipos-ancla"
+  ],
+  "bal-2018-04-F-2": [
+   "ut1-perfil"
+  ],
+  "bal-2018-04-F-4": [
+   "ut1-helice"
+  ],
+  "bal-2018-06-A-1": [
+   "ut1-dimensiones"
+  ],
+  "bal-2018-06-A-2": [
+   "ut1-ancla"
+  ],
+  "bal-2018-06-A-3": [
+   "ut1-dimensiones"
+  ],
+  "bal-2018-06-A-4": [
+   "ut1-ancla"
+  ],
+  "bal-2018-06-B-2": [
+   "ut1-perfil"
+  ],
+  "bal-2018-06-B-3": [
+   "ut1-ancla"
+  ],
+  "bal-2018-06-B-4": [
+   "ut1-seccion"
+  ],
+  "bal-2018-06-C-1": [
+   "ut1-helice"
+  ],
+  "bal-2018-06-H-4": [
+   "ut1-ancla"
+  ],
+  "bal-2018-06-I-1": [
+   "ut1-fondeo"
+  ],
+  "bal-2018-06-I-4": [
+   "ut1-planta"
+  ],
+  "bal-2018-09-A-2": [
+   "ut1-planta"
+  ],
+  "bal-2018-09-A-3": [
+   "ut1-dimensiones"
+  ],
+  "bal-2018-09-B-1": [
+   "ut1-perfil"
+  ],
+  "bal-2018-09-B-2": [
+   "ut1-helice"
+  ],
+  "bal-2018-09-B-4": [
+   "ut1-helice"
+  ],
+  "bal-2018-09-D-1": [
+   "ut1-barlovento"
+  ],
+  "bal-2018-09-D-2": [
+   "ut1-dimensiones"
+  ],
+  "bal-2018-09-D-3": [
+   "ut1-seccion"
+  ],
+  "bal-2018-09-D-4": [
+   "ut1-fondeo"
+  ],
+  "bal-2018-09-E-1": [
+   "ut1-tipos-ancla"
+  ],
+  "bal-2018-09-E-3": [
+   "ut1-dimensiones"
+  ],
+  "bal-2018-09-E-4": [
+   "ut1-helice"
+  ],
+  "bal-2018-12-A-4": [
+   "ut1-perfil"
+  ],
+  "bal-2018-12-B-1": [
+   "ut1-barlovento"
+  ],
+  "bal-2018-12-B-2": [
+   "ut1-dimensiones"
+  ],
+  "bal-2018-12-C-1": [
+   "ut1-planta"
+  ],
+  "bal-2018-12-C-2": [
+   "ut1-ancla"
+  ],
+  "bal-2018-12-C-3": [
+   "ut1-perfil"
+  ],
+  "bal-2018-12-C-4": [
+   "ut1-planta"
+  ],
+  "bal-2018-12-D-1": [
+   "ut1-dimensiones"
+  ],
+  "bal-2018-12-D-2": [
+   "ut1-dimensiones"
+  ],
+  "bal-2018-12-D-3": [
+   "ut1-perfil"
+  ],
+  "bal-2018-12-D-4": [
+   "ut1-timon"
+  ],
+  "bal-2018-12-F-1": [
+   "ut1-dimensiones"
+  ],
+  "bal-2018-12-F-3": [
+   "ut1-helice"
+  ],
+  "bal-2018-12-F-4": [
+   "ut1-helice"
+  ],
+  "bal-2019-04-A-1": [
+   "ut1-ancla"
+  ],
+  "bal-2019-04-A-3": [
+   "ut1-dimensiones"
+  ],
+  "bal-2019-04-A-4": [
+   "ut1-barlovento"
+  ],
+  "bal-2019-04-B-1": [
+   "ut1-fondeo"
+  ],
+  "bal-2019-04-B-2": [
+   "ut1-helice"
+  ],
+  "bal-2019-04-B-3": [
+   "ut1-perfil"
+  ],
+  "bal-2019-04-B-4": [
+   "ut1-fondeo"
+  ],
+  "bal-2019-04-C-1": [
+   "ut1-perfil"
+  ],
+  "bal-2019-04-C-4": [
+   "ut1-ancla"
+  ],
+  "bal-2019-04-F-1": [
+   "ut1-ancla"
+  ],
+  "bal-2019-04-F-4": [
+   "ut1-planta"
+  ],
+  "bal-2019-04-I-3": [
+   "ut1-perfil"
+  ],
+  "bal-2019-04-I-4": [
+   "ut1-dimensiones"
+  ],
+  "bal-2019-06-A-2": [
+   "ut1-perfil"
+  ],
+  "bal-2019-06-B-2": [
+   "ut1-dimensiones"
+  ],
+  "bal-2019-06-C-1": [
+   "ut1-perfil"
+  ],
+  "bal-2019-06-C-4": [
+   "ut1-tipos-ancla"
+  ],
+  "bal-2019-09-A-1": [
+   "ut1-helice"
+  ],
+  "bal-2019-09-A-2": [
+   "ut1-seccion"
+  ],
+  "bal-2019-09-C-1": [
+   "ut1-planta"
+  ],
+  "bal-2019-09-C-2": [
+   "ut1-planta"
+  ],
+  "bal-2019-09-C-3": [
+   "ut1-seccion"
+  ],
+  "bal-2019-09-F-2": [
+   "ut1-dimensiones"
+  ],
+  "bal-2019-09-F-3": [
+   "ut1-seccion"
+  ],
+  "bal-2019-09-F-4": [
+   "ut1-dimensiones"
+  ],
+  "bal-2019-12-A-2": [
+   "ut1-seccion"
+  ],
+  "bal-2019-12-B-1": [
+   "ut1-planta"
+  ],
+  "bal-2019-12-F-1": [
+   "ut1-dimensiones"
+  ],
+  "bal-2019-12-F-2": [
+   "ut1-helice"
+  ],
+  "bal-2019-12-F-4": [
+   "ut1-dimensiones"
+  ],
+  "bal-2019-12-G-2": [
+   "ut1-seccion"
+  ],
+  "bal-2019-12-G-4": [
+   "ut1-dimensiones"
+  ],
+  "bal-2020-04-C-3": [
+   "ut1-dimensiones"
+  ],
+  "bal-2020-07-A-2": [
+   "ut1-dimensiones"
+  ],
+  "bal-2020-07-A-4": [
+   "ut1-seccion"
+  ],
+  "bal-2020-07-D-1": [
+   "ut1-helice"
+  ],
+  "bal-2020-07-D-3": [
+   "ut1-helice"
+  ],
+  "bal-2020-07-D-4": [
+   "ut1-dimensiones"
+  ],
+  "bal-2020-07-E-1": [
+   "ut1-seccion"
+  ],
+  "bal-2020-07-E-2": [
+   "ut1-timon"
+  ],
+  "bal-2020-07-E-3": [
+   "ut1-perfil"
+  ],
+  "bal-2020-07-E-4": [
+   "ut1-helice"
+  ],
+  "bal-2020-10-C-1": [
+   "ut1-ancla"
+  ],
+  "bal-2020-10-C-2": [
+   "ut1-perfil"
+  ],
+  "bal-2020-10-C-4": [
+   "ut1-helice"
+  ],
+  "bal-2020-10-D-1": [
+   "ut1-planta"
+  ],
+  "bal-2020-10-D-2": [
+   "ut1-fondeo"
+  ],
+  "bal-2020-10-D-3": [
+   "ut1-fondeo"
+  ],
+  "bal-2020-10-D-4": [
+   "ut1-perfil"
+  ],
+  "bal-2020-10-E-1": [
+   "ut1-barlovento"
+  ],
+  "bal-2020-10-E-2": [
+   "ut1-helice"
+  ],
+  "bal-2020-10-E-3": [
+   "ut1-helice"
+  ],
+  "bal-2020-10-E-4": [
+   "ut1-helice"
+  ],
+  "bal-2020-10-F-3": [
+   "ut1-tipos-ancla"
+  ],
+  "bal-2020-10-F-4": [
+   "ut1-helice"
+  ],
+  "bal-2020-10-G-4": [
+   "ut1-seccion"
+  ],
+  "bal-2020-10-H-1": [
+   "ut1-fondeo"
+  ],
+  "bal-2020-12-A-1": [
+   "ut1-helice"
+  ],
+  "bal-2020-12-B-2": [
+   "ut1-seccion"
+  ],
+  "bal-2020-12-C-3": [
+   "ut1-perfil"
+  ],
+  "bal-2020-12-C-4": [
+   "ut1-seccion"
+  ],
+  "bal-2020-12-D-1": [
+   "ut1-seccion"
+  ],
+  "bal-2020-12-D-2": [
+   "ut1-fondeo"
+  ],
+  "bal-2020-12-D-4": [
+   "ut1-tipos-ancla"
+  ],
+  "bal-2020-12-E-1": [
+   "ut1-barlovento"
+  ],
+  "bal-2020-12-E-2": [
+   "ut1-ancla"
+  ],
+  "bal-2020-12-E-4": [
+   "ut1-dimensiones"
+  ],
+  "bal-2020-12-F-2": [
+   "ut1-perfil"
+  ],
+  "bal-2020-12-F-3": [
+   "ut1-dimensiones"
+  ],
+  "bal-2020-12-F-4": [
+   "ut1-fondeo"
+  ],
+  "bal-2020-12-G-2": [
+   "ut1-perfil"
+  ],
+  "bal-2020-12-G-3": [
+   "ut1-seccion"
+  ],
+  "bal-2020-12-I-1": [
+   "ut1-dimensiones"
+  ],
+  "bal-2020-12-I-2": [
+   "ut1-helice"
+  ],
+  "bal-2020-12-I-3": [
+   "ut1-barlovento"
+  ],
+  "bal-2021-03-A-1": [
+   "ut1-barlovento"
+  ],
+  "bal-2021-03-A-3": [
+   "ut1-perfil"
+  ],
+  "bal-2021-03-B-1": [
+   "ut1-perfil"
+  ],
+  "bal-2021-03-B-2": [
+   "ut1-perfil"
+  ],
+  "bal-2021-03-B-4": [
+   "ut1-helice"
+  ],
+  "bal-2021-03-C-4": [
+   "ut1-perfil"
+  ],
+  "bal-2021-03-E-1": [
+   "ut1-dimensiones"
+  ],
+  "bal-2021-03-E-2": [
+   "ut1-seccion"
+  ],
+  "bal-2021-03-E-3": [
+   "ut1-timon"
+  ],
+  "bal-2021-03-F-4": [
+   "ut1-dimensiones"
+  ],
+  "bal-2021-06-B-3": [
+   "ut1-dimensiones"
+  ],
+  "bal-2021-06-C-1": [
+   "ut1-dimensiones"
+  ],
+  "bal-2021-06-C-4": [
+   "ut1-helice"
+  ],
+  "bal-2021-06-D-1": [
+   "ut1-helice"
+  ],
+  "bal-2021-06-D-3": [
+   "ut1-perfil"
+  ],
+  "bal-2021-06-D-4": [
+   "ut1-perfil"
+  ],
+  "bal-2021-06-E-2": [
+   "ut1-dimensiones"
+  ],
+  "bal-2021-06-E-3": [
+   "ut1-helice"
+  ],
+  "bal-2021-06-E-4": [
+   "ut1-perfil"
+  ],
+  "bal-2021-06-F-2": [
+   "ut1-timon"
+  ],
+  "bal-2021-06-F-3": [
+   "ut1-fondeo"
+  ],
+  "bal-2021-06-F-4": [
+   "ut1-perfil"
+  ],
+  "bal-2021-06-G-4": [
+   "ut1-helice"
+  ],
+  "bal-2021-09-A-3": [
+   "ut1-perfil"
+  ],
+  "bal-2021-09-C-4": [
+   "ut1-perfil"
+  ],
+  "bal-2021-09-E-4": [
+   "ut1-fondeo"
+  ],
+  "bal-2021-09-F-1": [
+   "ut1-timon"
+  ],
+  "bal-2021-09-F-2": [
+   "ut1-perfil"
+  ],
+  "bal-2021-09-F-3": [
+   "ut1-seccion"
+  ],
+  "bal-2021-12-B-3": [
+   "ut1-helice"
+  ],
+  "bal-2021-12-C-1": [
+   "ut1-fondeo"
+  ],
+  "bal-2021-12-C-2": [
+   "ut1-ancla"
+  ],
+  "bal-2021-12-C-3": [
+   "ut1-ancla"
+  ],
+  "bal-2021-12-C-4": [
+   "ut1-barlovento"
+  ],
+  "bal-2021-12-D-2": [
+   "ut1-fondeo"
+  ],
+  "bal-2021-12-D-4": [
+   "ut1-perfil"
+  ],
+  "bal-2021-12-F-2": [
+   "ut1-tipos-ancla"
+  ],
+  "bal-2021-12-F-4": [
+   "ut1-perfil"
+  ],
+  "bal-2022-03-A-3": [
+   "ut1-ancla"
+  ],
+  "bal-2022-03-D-4": [
+   "ut1-helice"
+  ],
+  "bal-2022-03-G-4": [
+   "ut1-planta"
+  ],
+  "bal-2022-03-H-4": [
+   "ut1-perfil"
+  ],
+  "bal-2022-06-D-1": [
+   "ut1-barlovento"
+  ],
+  "bal-2022-06-D-3": [
+   "ut1-dimensiones"
+  ],
+  "bal-2022-06-D-4": [
+   "ut1-fondeo"
+  ],
+  "bal-2022-06-E-1": [
+   "ut1-fondeo"
+  ],
+  "bal-2022-06-E-3": [
+   "ut1-barlovento"
+  ],
+  "bal-2022-06-F-1": [
+   "ut1-helice"
+  ],
+  "bal-2022-09-B-4": [
+   "ut1-seccion"
+  ],
+  "bal-2022-09-C-1": [
+   "ut1-seccion"
+  ],
+  "bal-2022-09-C-3": [
+   "ut1-perfil"
+  ],
+  "bal-2022-09-C-4": [
+   "ut1-dimensiones"
+  ],
+  "bal-2022-09-N-1": [
+   "ut1-seccion"
+  ],
+  "bal-2022-09-N-4": [
+   "ut1-helice"
+  ],
+  "bal-2022-12-B-1": [
+   "ut1-dimensiones"
+  ],
+  "bal-2022-12-B-3": [
+   "ut1-timon"
+  ],
+  "bal-2022-12-C-2": [
+   "ut1-barlovento"
+  ],
+  "bal-2022-12-C-3": [
+   "ut1-tipos-ancla"
+  ],
+  "bal-2022-12-C-4": [
+   "ut1-seccion"
+  ],
+  "bal-2022-12-F-1": [
+   "ut1-perfil"
+  ],
+  "bal-2022-12-F-3": [
+   "ut1-ancla"
+  ],
+  "bal-2022-12-F-4": [
+   "ut1-fondeo"
+  ],
+  "bal-2023-03-B-1": [
+   "ut1-helice"
+  ],
+  "bal-2023-03-B-3": [
+   "ut1-perfil"
+  ],
+  "bal-2023-03-C-3": [
+   "ut1-barlovento"
+  ],
+  "bal-2023-06-B-1": [
+   "ut1-planta"
+  ],
+  "bal-2023-06-B-4": [
+   "ut1-helice"
+  ],
+  "bal-2023-06-C-3": [
+   "ut1-ancla"
+  ],
+  "bal-2023-09-A-3": [
+   "ut1-dimensiones"
+  ],
+  "bal-2023-09-A-4": [
+   "ut1-planta"
+  ],
+  "bal-2023-09-B-1": [
+   "ut1-helice"
+  ],
+  "bal-2023-09-C-3": [
+   "ut1-planta"
+  ],
+  "bal-2023-12-A-1": [
+   "ut1-timon"
+  ],
+  "bal-2023-12-A-2": [
+   "ut1-timon"
+  ],
+  "bal-2023-12-A-3": [
+   "ut1-helice"
+  ],
+  "bal-2023-12-B-1": [
+   "ut1-helice"
+  ],
+  "bal-2023-12-B-3": [
+   "ut1-perfil"
+  ],
+  "bal-2023-12-C-2": [
+   "ut1-perfil"
+  ],
+  "bal-2023-12-C-3": [
+   "ut1-dimensiones"
+  ],
+  "bal-2023-12-C-4": [
+   "ut1-ancla"
+  ],
+  "bal-2023-12-E-1": [
+   "ut1-perfil"
+  ],
+  "bal-2023-12-E-2": [
+   "ut1-seccion"
+  ],
+  "bal-2023-12-E-3": [
+   "ut1-barlovento"
+  ],
+  "bal-2024-04-A-2": [
+   "ut1-tipos-ancla"
+  ],
+  "bal-2024-04-A-4": [
+   "ut1-fondeo"
+  ],
+  "bal-2024-04-B-1": [
+   "ut1-helice"
+  ],
+  "bal-2024-04-C-1": [
+   "ut1-helice"
+  ],
+  "bal-2024-04-C-2": [
+   "ut1-perfil"
+  ],
+  "bal-2024-04-C-4": [
+   "ut1-dimensiones"
+  ],
+  "bal-2024-04-D-1": [
+   "ut1-dimensiones"
+  ],
+  "bal-2024-04-D-2": [
+   "ut1-seccion"
+  ],
+  "bal-2024-04-D-3": [
+   "ut1-seccion"
+  ],
+  "bal-2024-04-D-4": [
+   "ut1-planta"
+  ],
+  "bal-2024-07-A-2": [
+   "ut1-barlovento"
+  ],
+  "bal-2024-07-C-2": [
+   "ut1-barlovento"
+  ],
+  "bal-2024-07-C-4": [
+   "ut1-helice"
+  ],
+  "bal-2024-07-D-1": [
+   "ut1-barlovento"
+  ],
+  "bal-2024-07-D-4": [
+   "ut1-timon"
+  ],
+  "bal-2024-09-A-2": [
+   "ut1-perfil"
+  ],
+  "bal-2024-09-A-3": [
+   "ut1-seccion"
+  ],
+  "bal-2024-09-D-4": [
+   "ut1-helice"
+  ],
+  "bal-2024-09-E-1": [
+   "ut1-seccion"
+  ],
+  "bal-2024-12-A-1": [
+   "ut1-planta"
+  ],
+  "bal-2024-12-B-3": [
+   "ut1-dimensiones"
+  ],
+  "bal-2024-12-C-1": [
+   "ut1-perfil"
+  ],
+  "bal-2024-12-C-3": [
+   "ut1-seccion"
+  ],
+  "bal-2024-12-C-4": [
+   "ut1-dimensiones"
+  ],
+  "bal-2025-04-A-1": [
+   "ut1-tipos-ancla"
+  ],
+  "bal-2025-04-A-2": [
+   "ut1-planta"
+  ],
+  "bal-2025-04-C-2": [
+   "ut1-helice"
+  ],
+  "bal-2025-04-D-1": [
+   "ut1-dimensiones"
+  ],
+  "bal-2025-07-A-1": [
+   "ut1-helice"
+  ],
+  "bal-2025-07-A-3": [
+   "ut1-ancla"
+  ],
+  "bal-2025-07-A-4": [
+   "ut1-planta"
+  ],
+  "bal-2025-07-B-3": [
+   "ut1-fondeo"
+  ],
+  "bal-2025-07-B-4": [
+   "ut1-planta"
+  ],
+  "bal-2025-07-C-2": [
+   "ut1-perfil"
+  ],
+  "bal-2025-07-D-2": [
+   "ut1-helice"
+  ],
+  "bal-2025-07-D-4": [
+   "ut1-perfil"
+  ],
+  "bal-2025-09-A-2": [
+   "ut1-helice"
+  ],
+  "bal-2025-09-A-3": [
+   "ut1-dimensiones"
+  ],
+  "bal-2025-09-B-2": [
+   "ut1-dimensiones"
+  ],
+  "bal-2025-09-D-2": [
+   "ut1-helice"
+  ],
+  "bal-2025-12-A-1": [
+   "ut1-perfil"
+  ],
+  "bal-2025-12-A-4": [
+   "ut1-seccion"
+  ],
+  "bal-2025-12-B-1": [
+   "ut1-timon"
+  ],
+  "bal-2025-12-B-2": [
+   "ut1-seccion"
+  ],
+  "bal-2025-12-B-4": [
+   "ut1-helice"
+  ],
+  "bal-2025-12-C-1": [
+   "ut1-perfil"
+  ],
+  "bal-2025-12-C-2": [
+   "ut1-helice"
+  ],
+  "bal-2026-03-A-2": [
+   "ut1-barlovento"
+  ],
+  "bal-2026-03-A-4": [
+   "ut1-perfil"
+  ],
+  "bal-2026-03-B-2": [
+   "ut1-perfil"
+  ],
+  "bal-2026-03-B-3": [
+   "ut1-helice"
+  ],
+  "bal-2026-03-B-4": [
+   "ut1-tipos-ancla"
+  ],
+  "bal-2026-03-C-1": [
+   "ut1-ancla"
+  ],
+  "bal-2026-03-C-3": [
+   "ut1-dimensiones"
+  ],
+  "bal-2026-03-C-4": [
+   "ut1-planta"
+  ],
+  "bal-2026-03-D-2": [
+   "ut1-helice"
+  ],
+  "bal-2026-03-D-4": [
+   "ut1-fondeo"
+  ],
+  "bal-2026-06-A-1": [
+   "ut1-perfil"
+  ],
+  "bal-2026-06-A-3": [
+   "ut1-dimensiones"
+  ],
+  "bal-2026-06-B-3": [
+   "ut1-barlovento"
+  ],
+  "bal-2026-06-B-4": [
+   "ut1-dimensiones"
+  ],
+  "bal-2026-06-C-1": [
+   "ut1-fondeo"
+  ],
+  "bal-2026-06-C-2": [
+   "ut1-timon"
+  ],
+  "bal-2026-06-C-3": [
+   "ut1-dimensiones"
+  ],
+  "bal-2026-06-D-1": [
+   "ut1-perfil"
+  ],
+  "bal-2026-06-D-2": [
+   "ut1-fondeo"
+  ],
+  "bal-2026-09-C-2": [
+   "ut1-tipos-ancla"
+  ],
+  "bal-2026-09-C-3": [
+   "ut1-helice"
+  ]
+ }
+}

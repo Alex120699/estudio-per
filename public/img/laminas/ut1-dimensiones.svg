@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" role="img" aria-labelledby="t">
+<title id="t">Dimensiones: eslora, manga, puntal, francobordo, calados de proa y de popa</title>
+<style>
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:20px;fill:#14202b}
+.b{font-weight:700}.p{font-size:16px;fill:#4b5b69}
+.c{stroke:#c2410c;stroke-width:2;fill:none}
+.g{stroke:#8795a1;stroke-width:1;stroke-dasharray:4 4;fill:none}
+</style>
+<defs><marker id="f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="#c2410c"/></marker></defs>
+<rect width="760" height="400" rx="14" fill="#fff"/>
+<rect x="0" y="200" width="760" height="200" fill="#d7ebf8"/>
+<line x1="0" y1="200" x2="760" y2="200" stroke="#2b7bbd" stroke-width="2" stroke-dasharray="8 5"/>
+<path d="M60,130 L520,120 C512,170 496,230 456,262 L120,272 C90,268 72,240 68,200 Z" fill="#eef2f5" stroke="#14202b" stroke-width="2.5" stroke-linejoin="round"/>
+<line class="g" x1="60" y1="130" x2="60" y2="70"/><line class="g" x1="520" y1="120" x2="520" y2="70"/>
+<line class="c" x1="62" y1="80" x2="518" y2="80" marker-start="url(#f)" marker-end="url(#f)"/>
+<text x="290" y="70" text-anchor="middle" class="b">Eslora</text>
+<line class="c" x1="290" y1="268" x2="290" y2="128" marker-start="url(#f)" marker-end="url(#f)"/>
+<text x="282" y="236" text-anchor="end">Puntal</text>
+<line class="c" x1="330" y1="198" x2="330" y2="128" marker-start="url(#f)" marker-end="url(#f)"/>
+<text x="338" y="170">Francobordo</text>
+<line class="g" x1="456" y1="262" x2="500" y2="262"/>
+<line class="c" x1="490" y1="202" x2="490" y2="260" marker-start="url(#f)" marker-end="url(#f)"/>
+<text x="500" y="236">Calado</text><text x="500" y="256">de proa</text>
+<line class="g" x1="120" y1="272" x2="80" y2="272"/>
+<line class="c" x1="90" y1="202" x2="90" y2="270" marker-start="url(#f)" marker-end="url(#f)"/>
+<text x="20" y="300">Calado de popa</text>
+<g transform="translate(560 0)">
+<path d="M20,120 L180,120 L176,170 C170,230 130,262 100,268 C70,262 30,230 24,170 Z" fill="#eef2f5" stroke="#14202b" stroke-width="2.5" stroke-linejoin="round"/>
+<line class="g" x1="20" y1="120" x2="20" y2="70"/><line class="g" x1="180" y1="120" x2="180" y2="70"/>
+<line class="c" x1="22" y1="80" x2="178" y2="80" marker-start="url(#f)" marker-end="url(#f)"/>
+<text x="100" y="70" text-anchor="middle" class="b">Manga</text>
+<text x="100" y="300" text-anchor="middle" class="p">vista de frente</text>
+</g>
+<text x="380" y="340" text-anchor="middle" class="p">Calado medio = (calado de proa + calado de popa) ÷ 2</text>
+<text x="380" y="364" text-anchor="middle" class="p">Asiento = calado de popa − calado de proa (aquí, apopado)</text>
+</svg>

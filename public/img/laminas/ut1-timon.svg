@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t">
+<title id="t">Partes del timón: caña o rueda, guardines, mecha, limera y pala</title>
+<style>
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:20px;fill:#14202b}
+.b{font-weight:700}.p{font-size:16px;fill:#4b5b69}
+.ln{stroke:#14202b;stroke-width:1.5;fill:none}
+</style>
+<rect width="720" height="380" rx="14" fill="#fff"/>
+<rect x="0" y="170" width="720" height="210" fill="#d7ebf8"/>
+<line x1="360" y1="20" x2="360" y2="340" stroke="#c4ccd3" stroke-width="2"/>
+<g>
+<path d="M330,100 L60,110 L80,214 L330,226 Z" fill="#eef2f5" stroke="#14202b" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="104" y="100" width="22" height="122" fill="#cdd6dd" stroke="#14202b" stroke-width="1.5"/>
+<line x1="115" y1="70" x2="115" y2="240" stroke="#14202b" stroke-width="7"/>
+<line x1="115" y1="72" x2="250" y2="62" stroke="#8a5a3b" stroke-width="9" stroke-linecap="round"/>
+<path d="M115,236 L170,236 Q178,280 160,320 L115,320 Z" fill="#6b7a87" stroke="#14202b" stroke-width="2" stroke-linejoin="round"/>
+<line class="ln" x1="220" y1="64" x2="250" y2="34"/><text x="254" y="36">Caña</text>
+<text x="30" y="60" class="b" style="font-size:18px">Con caña</text>
+<line class="ln" x1="126" y1="150" x2="230" y2="150"/><text x="234" y="156">Limera</text>
+<text x="234" y="176" class="p">(tubo por donde</text><text x="234" y="194" class="p">pasa la mecha)</text>
+<line class="ln" x1="112" y1="90" x2="70" y2="86"/><text x="66" y="92" text-anchor="end">Mecha</text>
+<line class="ln" x1="160" y1="290" x2="230" y2="290"/><text x="234" y="296">Pala</text>
+</g>
+<g>
+<path d="M690,100 L420,110 L440,214 L690,226 Z" fill="#eef2f5" stroke="#14202b" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="475" y1="84" x2="475" y2="240" stroke="#14202b" stroke-width="7"/>
+<path d="M475,236 L530,236 Q538,280 520,320 L475,320 Z" fill="#6b7a87" stroke="#14202b" stroke-width="2" stroke-linejoin="round"/>
+<path d="M460,92 L500,88 L500,100 L460,104 Z" fill="#8a5a3b"/>
+<circle cx="620" cy="58" r="30" fill="none" stroke="#14202b" stroke-width="5"/>
+<line x1="620" y1="28" x2="620" y2="88" stroke="#14202b" stroke-width="3"/><line x1="590" y1="58" x2="650" y2="58" stroke="#14202b" stroke-width="3"/>
+<line x1="620" y1="88" x2="620" y2="102" stroke="#14202b" stroke-width="5"/>
+<path d="M612,100 C590,150 530,140 500,96" fill="none" stroke="#c2410c" stroke-width="3" stroke-dasharray="7 4"/>
+<text x="400" y="60" class="b" style="font-size:18px">Con rueda</text>
+<text x="560" y="166" text-anchor="middle">Guardines</text>
+<text x="560" y="186" text-anchor="middle" class="p">(transmiten el giro</text><text x="560" y="204" text-anchor="middle" class="p">a la mecha)</text>
+<text x="660" y="40">Rueda</text>
+</g>
+<text x="360" y="366" text-anchor="middle" class="p">La pala gira con la mecha; la limera es punto de posible vía de agua.</text>
+</svg>

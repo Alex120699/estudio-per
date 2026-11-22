@@ -24,6 +24,13 @@ describe('procesarApunte', () => {
   it('envuelve las tablas para que se desplacen en el móvil', () => {
     expect(a.html).toMatch(/<div class="tabla-scroll"><table><thead><tr><th>a<\/th><th>b<\/th><\/tr><\/thead><tbody><tr><td>1<\/td><td>2<\/td><\/tr>/)
   })
+
+  it('pinta una imagen sola como lámina ampliable, con la base delante y sin <p>', () => {
+    const h = procesarApunte(1, '# UT 1 · X\n\nTexto.\n\n![Partes](img/laminas/a.svg)\n', '/estudio-per/').html
+    expect(h).toContain('<figure class="lamina"><a href="/estudio-per/img/laminas/a.svg"')
+    expect(h).toContain('<figcaption>Partes · toca para ampliar</figcaption>')
+    expect(h).not.toMatch(/<p>\s*<figure/)
+  })
 })
 
 describe('apuntes del repositorio', () => {

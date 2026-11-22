@@ -15,7 +15,7 @@ export function apunteDe(unidad: number): Apunte | null {
   if (md === undefined) return null
   let a = cache.get(unidad)
   if (!a) {
-    a = procesarApunte(unidad, md)
+    a = procesarApunte(unidad, md, import.meta.env.BASE_URL)
     cache.set(unidad, a)
   }
   return a

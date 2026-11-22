@@ -1,6 +1,8 @@
 import { explicacionDe } from '../datos/explicaciones'
+import { laminasDe } from '../datos/laminas'
 import { programa } from '../tipos/programa'
 import type { Pregunta } from '../tipos/preguntas'
+import Lamina from './Lamina'
 
 interface Props {
   pregunta: Pregunta
@@ -27,6 +29,9 @@ export default function Explicacion({ pregunta: p, enlaceSiempre, onApuntes }: P
               <strong>Ojo:</strong> {e.duda}
             </p>
           )}
+          {laminasDe(p.id).map((l) => (
+            <Lamina key={l.id} lamina={l} />
+          ))}
           <p className="aviso-explicacion">Explicación de elaboración propia, no oficial.</p>
         </div>
       )}
