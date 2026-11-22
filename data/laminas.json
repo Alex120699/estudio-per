@@ -199,6 +199,30 @@
   "ut8-supervivencia": {
    "titulo": "Saltar al agua, postura HELP y grupo",
    "archivo": "img/laminas/ut8-supervivencia.svg"
+  },
+  "ut9-sistemas": {
+   "titulo": "Borrasca, anticiclón e isobaras",
+   "archivo": "img/laminas/ut9-sistemas.svg"
+  },
+  "ut9-barometro": {
+   "titulo": "Barómetro y tendencia de la presión",
+   "archivo": "img/laminas/ut9-barometro.svg"
+  },
+  "ut9-brisas": {
+   "titulo": "Brisas: virazón y terral",
+   "archivo": "img/laminas/ut9-brisas.svg"
+  },
+  "ut9-aparente": {
+   "titulo": "Viento real, relativo y aparente",
+   "archivo": "img/laminas/ut9-aparente.svg"
+  },
+  "ut9-fetch": {
+   "titulo": "Fetch: de qué depende la mar",
+   "archivo": "img/laminas/ut9-fetch.svg"
+  },
+  "ut9-instrumentos": {
+   "titulo": "Anemómetro, veleta y catavientos",
+   "archivo": "img/laminas/ut9-instrumentos.svg"
   }
  },
  "preguntas": {
@@ -6060,6 +6084,672 @@
   ],
   "bal-2026-06-C-32": [
    "ut8-vias"
+  ],
+  "and-2025-1-A-33": [
+   "ut9-sistemas"
+  ],
+  "and-2025-1-A-34": [
+   "ut9-brisas"
+  ],
+  "and-2025-1-A-35": [
+   "ut9-sistemas"
+  ],
+  "and-2025-1-A-36": [
+   "ut9-fetch"
+  ],
+  "and-2025-2-A-33": [
+   "ut9-barometro"
+  ],
+  "and-2025-2-A-35": [
+   "ut9-sistemas"
+  ],
+  "and-2025-3-A-33": [
+   "ut9-barometro"
+  ],
+  "and-2025-3-A-36": [
+   "ut9-brisas"
+  ],
+  "and-2026-1-A-33": [
+   "ut9-brisas"
+  ],
+  "and-2026-1-A-34": [
+   "ut9-sistemas"
+  ],
+  "and-2026-1-A-36": [
+   "ut9-fetch"
+  ],
+  "and-2026-2-A-34": [
+   "ut9-sistemas"
+  ],
+  "and-2026-2-A-35": [
+   "ut9-barometro"
+  ],
+  "and-2026-2-A-36": [
+   "ut9-barometro"
+  ],
+  "bal-2017-03-A-33": [
+   "ut9-aparente"
+  ],
+  "bal-2017-03-A-34": [
+   "ut9-aparente"
+  ],
+  "bal-2017-03-A-36": [
+   "ut9-sistemas"
+  ],
+  "bal-2017-03-B-34": [
+   "ut9-sistemas"
+  ],
+  "bal-2017-03-B-35": [
+   "ut9-sistemas"
+  ],
+  "bal-2017-03-B-36": [
+   "ut9-instrumentos"
+  ],
+  "bal-2017-03-C-33": [
+   "ut9-barometro"
+  ],
+  "bal-2017-03-C-35": [
+   "ut9-barometro"
+  ],
+  "bal-2017-03-C-36": [
+   "ut9-fetch"
+  ],
+  "bal-2017-03-F-33": [
+   "ut9-fetch"
+  ],
+  "bal-2017-03-G-34": [
+   "ut9-instrumentos"
+  ],
+  "bal-2017-03-G-35": [
+   "ut9-aparente"
+  ],
+  "bal-2017-03-G-36": [
+   "ut9-fetch"
+  ],
+  "bal-2017-06-B-33": [
+   "ut9-instrumentos"
+  ],
+  "bal-2017-06-B-34": [
+   "ut9-aparente"
+  ],
+  "bal-2017-06-B-36": [
+   "ut9-brisas"
+  ],
+  "bal-2017-06-C-33": [
+   "ut9-sistemas"
+  ],
+  "bal-2017-06-C-34": [
+   "ut9-barometro"
+  ],
+  "bal-2017-06-C-35": [
+   "ut9-barometro"
+  ],
+  "bal-2017-06-E-35": [
+   "ut9-sistemas"
+  ],
+  "bal-2017-06-F-33": [
+   "ut9-fetch"
+  ],
+  "bal-2017-06-F-35": [
+   "ut9-instrumentos"
+  ],
+  "bal-2017-09-A-33": [
+   "ut9-brisas"
+  ],
+  "bal-2017-09-A-34": [
+   "ut9-barometro"
+  ],
+  "bal-2017-09-A-36": [
+   "ut9-fetch"
+  ],
+  "bal-2017-09-C-33": [
+   "ut9-aparente"
+  ],
+  "bal-2017-09-C-35": [
+   "ut9-fetch"
+  ],
+  "bal-2017-09-C-36": [
+   "ut9-sistemas"
+  ],
+  "bal-2017-09-D-34": [
+   "ut9-sistemas"
+  ],
+  "bal-2017-09-D-36": [
+   "ut9-brisas"
+  ],
+  "bal-2017-09-E-33": [
+   "ut9-sistemas"
+  ],
+  "bal-2017-09-E-34": [
+   "ut9-aparente"
+  ],
+  "bal-2017-12-A-35": [
+   "ut9-brisas"
+  ],
+  "bal-2017-12-A-36": [
+   "ut9-barometro"
+  ],
+  "bal-2017-12-B-35": [
+   "ut9-aparente"
+  ],
+  "bal-2017-12-C-36": [
+   "ut9-sistemas"
+  ],
+  "bal-2017-12-E-34": [
+   "ut9-brisas"
+  ],
+  "bal-2017-12-E-35": [
+   "ut9-barometro"
+  ],
+  "bal-2018-04-A-33": [
+   "ut9-barometro"
+  ],
+  "bal-2018-04-A-34": [
+   "ut9-sistemas"
+  ],
+  "bal-2018-04-A-35": [
+   "ut9-sistemas"
+  ],
+  "bal-2018-04-A-36": [
+   "ut9-brisas"
+  ],
+  "bal-2018-04-D-35": [
+   "ut9-fetch"
+  ],
+  "bal-2018-04-D-36": [
+   "ut9-sistemas"
+  ],
+  "bal-2018-04-E-34": [
+   "ut9-sistemas"
+  ],
+  "bal-2018-04-E-35": [
+   "ut9-aparente"
+  ],
+  "bal-2018-04-F-34": [
+   "ut9-fetch"
+  ],
+  "bal-2018-06-C-34": [
+   "ut9-aparente"
+  ],
+  "bal-2018-06-I-33": [
+   "ut9-aparente"
+  ],
+  "bal-2018-06-I-35": [
+   "ut9-sistemas"
+  ],
+  "bal-2018-09-A-36": [
+   "ut9-fetch"
+  ],
+  "bal-2018-09-B-34": [
+   "ut9-sistemas"
+  ],
+  "bal-2018-09-D-33": [
+   "ut9-brisas"
+  ],
+  "bal-2018-09-D-36": [
+   "ut9-brisas"
+  ],
+  "bal-2018-09-E-36": [
+   "ut9-sistemas"
+  ],
+  "bal-2018-12-A-34": [
+   "ut9-sistemas"
+  ],
+  "bal-2018-12-C-34": [
+   "ut9-instrumentos"
+  ],
+  "bal-2018-12-D-33": [
+   "ut9-barometro"
+  ],
+  "bal-2018-12-D-35": [
+   "ut9-brisas"
+  ],
+  "bal-2019-04-B-34": [
+   "ut9-sistemas"
+  ],
+  "bal-2019-04-B-36": [
+   "ut9-sistemas"
+  ],
+  "bal-2019-04-C-33": [
+   "ut9-aparente"
+  ],
+  "bal-2019-04-C-34": [
+   "ut9-sistemas"
+  ],
+  "bal-2019-04-C-36": [
+   "ut9-barometro"
+  ],
+  "bal-2019-04-F-34": [
+   "ut9-sistemas"
+  ],
+  "bal-2019-04-F-36": [
+   "ut9-instrumentos"
+  ],
+  "bal-2019-04-I-33": [
+   "ut9-fetch"
+  ],
+  "bal-2019-06-A-36": [
+   "ut9-sistemas"
+  ],
+  "bal-2019-06-B-33": [
+   "ut9-fetch"
+  ],
+  "bal-2019-06-C-33": [
+   "ut9-instrumentos"
+  ],
+  "bal-2019-06-C-36": [
+   "ut9-brisas"
+  ],
+  "bal-2019-09-A-35": [
+   "ut9-sistemas"
+  ],
+  "bal-2019-09-C-33": [
+   "ut9-sistemas"
+  ],
+  "bal-2019-09-C-34": [
+   "ut9-sistemas"
+  ],
+  "bal-2019-09-E-33": [
+   "ut9-sistemas"
+  ],
+  "bal-2019-09-E-34": [
+   "ut9-barometro"
+  ],
+  "bal-2019-12-A-36": [
+   "ut9-barometro"
+  ],
+  "bal-2019-12-C-33": [
+   "ut9-barometro"
+  ],
+  "bal-2019-12-C-35": [
+   "ut9-sistemas"
+  ],
+  "bal-2019-12-C-36": [
+   "ut9-brisas"
+  ],
+  "bal-2019-12-F-33": [
+   "ut9-fetch"
+  ],
+  "bal-2019-12-F-36": [
+   "ut9-aparente"
+  ],
+  "bal-2020-04-C-34": [
+   "ut9-fetch"
+  ],
+  "bal-2020-04-C-36": [
+   "ut9-aparente"
+  ],
+  "bal-2020-07-E-36": [
+   "ut9-sistemas"
+  ],
+  "bal-2020-10-C-34": [
+   "ut9-aparente"
+  ],
+  "bal-2020-10-C-35": [
+   "ut9-barometro"
+  ],
+  "bal-2020-10-E-33": [
+   "ut9-sistemas"
+  ],
+  "bal-2020-10-E-35": [
+   "ut9-brisas"
+  ],
+  "bal-2020-10-F-36": [
+   "ut9-sistemas"
+  ],
+  "bal-2020-10-G-35": [
+   "ut9-instrumentos"
+  ],
+  "bal-2020-10-H-35": [
+   "ut9-aparente"
+  ],
+  "bal-2020-10-H-36": [
+   "ut9-sistemas"
+  ],
+  "bal-2020-12-A-33": [
+   "ut9-brisas"
+  ],
+  "bal-2020-12-B-34": [
+   "ut9-instrumentos"
+  ],
+  "bal-2020-12-D-33": [
+   "ut9-aparente"
+  ],
+  "bal-2020-12-D-35": [
+   "ut9-brisas"
+  ],
+  "bal-2020-12-D-36": [
+   "ut9-fetch"
+  ],
+  "bal-2020-12-E-33": [
+   "ut9-fetch"
+  ],
+  "bal-2020-12-E-35": [
+   "ut9-barometro"
+  ],
+  "bal-2020-12-E-36": [
+   "ut9-sistemas"
+  ],
+  "bal-2020-12-F-34": [
+   "ut9-fetch"
+  ],
+  "bal-2020-12-F-35": [
+   "ut9-barometro"
+  ],
+  "bal-2020-12-I-35": [
+   "ut9-fetch"
+  ],
+  "bal-2021-03-B-34": [
+   "ut9-aparente"
+  ],
+  "bal-2021-03-B-36": [
+   "ut9-instrumentos"
+  ],
+  "bal-2021-03-H-36": [
+   "ut9-sistemas"
+  ],
+  "bal-2021-06-B-36": [
+   "ut9-barometro"
+  ],
+  "bal-2021-06-C-34": [
+   "ut9-aparente"
+  ],
+  "bal-2021-06-C-36": [
+   "ut9-sistemas"
+  ],
+  "bal-2021-06-D-33": [
+   "ut9-instrumentos"
+  ],
+  "bal-2021-06-D-35": [
+   "ut9-barometro"
+  ],
+  "bal-2021-06-E-34": [
+   "ut9-fetch"
+  ],
+  "bal-2021-06-F-34": [
+   "ut9-instrumentos"
+  ],
+  "bal-2021-06-F-36": [
+   "ut9-sistemas"
+  ],
+  "bal-2021-06-G-35": [
+   "ut9-sistemas"
+  ],
+  "bal-2021-09-A-35": [
+   "ut9-instrumentos"
+  ],
+  "bal-2021-09-C-35": [
+   "ut9-sistemas"
+  ],
+  "bal-2021-09-D-33": [
+   "ut9-fetch"
+  ],
+  "bal-2021-09-E-34": [
+   "ut9-sistemas"
+  ],
+  "bal-2021-09-E-35": [
+   "ut9-barometro"
+  ],
+  "bal-2021-09-E-36": [
+   "ut9-fetch"
+  ],
+  "bal-2021-09-F-36": [
+   "ut9-aparente"
+  ],
+  "bal-2021-12-A-33": [
+   "ut9-barometro"
+  ],
+  "bal-2021-12-B-33": [
+   "ut9-barometro"
+  ],
+  "bal-2021-12-C-34": [
+   "ut9-instrumentos"
+  ],
+  "bal-2021-12-C-35": [
+   "ut9-brisas"
+  ],
+  "bal-2021-12-D-34": [
+   "ut9-brisas"
+  ],
+  "bal-2021-12-D-36": [
+   "ut9-barometro"
+  ],
+  "bal-2021-12-F-34": [
+   "ut9-barometro"
+  ],
+  "bal-2021-12-F-35": [
+   "ut9-barometro"
+  ],
+  "bal-2021-12-F-36": [
+   "ut9-sistemas"
+  ],
+  "bal-2022-03-G-34": [
+   "ut9-sistemas"
+  ],
+  "bal-2022-06-C-33": [
+   "ut9-barometro"
+  ],
+  "bal-2022-06-D-33": [
+   "ut9-fetch"
+  ],
+  "bal-2022-06-D-34": [
+   "ut9-sistemas"
+  ],
+  "bal-2022-06-E-33": [
+   "ut9-aparente"
+  ],
+  "bal-2022-06-E-34": [
+   "ut9-sistemas"
+  ],
+  "bal-2022-09-C-33": [
+   "ut9-sistemas"
+  ],
+  "bal-2022-09-C-35": [
+   "ut9-sistemas"
+  ],
+  "bal-2022-09-C-36": [
+   "ut9-barometro"
+  ],
+  "bal-2022-09-N-34": [
+   "ut9-fetch"
+  ],
+  "bal-2022-12-C-34": [
+   "ut9-brisas"
+  ],
+  "bal-2022-12-F-33": [
+   "ut9-instrumentos"
+  ],
+  "bal-2023-03-A-33": [
+   "ut9-sistemas"
+  ],
+  "bal-2023-03-A-34": [
+   "ut9-fetch"
+  ],
+  "bal-2023-06-B-33": [
+   "ut9-sistemas"
+  ],
+  "bal-2023-06-B-34": [
+   "ut9-instrumentos"
+  ],
+  "bal-2023-06-B-35": [
+   "ut9-aparente"
+  ],
+  "bal-2023-06-B-36": [
+   "ut9-sistemas"
+  ],
+  "bal-2023-06-C-36": [
+   "ut9-fetch"
+  ],
+  "bal-2023-09-B-34": [
+   "ut9-sistemas"
+  ],
+  "bal-2023-12-A-33": [
+   "ut9-instrumentos"
+  ],
+  "bal-2023-12-B-35": [
+   "ut9-brisas"
+  ],
+  "bal-2023-12-C-33": [
+   "ut9-barometro"
+  ],
+  "bal-2023-12-C-34": [
+   "ut9-fetch"
+  ],
+  "bal-2023-12-C-36": [
+   "ut9-brisas"
+  ],
+  "bal-2023-12-E-34": [
+   "ut9-sistemas"
+  ],
+  "bal-2024-04-A-34": [
+   "ut9-sistemas"
+  ],
+  "bal-2024-04-B-34": [
+   "ut9-aparente"
+  ],
+  "bal-2024-04-B-35": [
+   "ut9-brisas"
+  ],
+  "bal-2024-04-C-35": [
+   "ut9-barometro"
+  ],
+  "bal-2024-04-D-33": [
+   "ut9-sistemas"
+  ],
+  "bal-2024-04-D-34": [
+   "ut9-brisas"
+  ],
+  "bal-2024-04-D-36": [
+   "ut9-brisas"
+  ],
+  "bal-2024-07-A-36": [
+   "ut9-instrumentos"
+  ],
+  "bal-2024-07-D-33": [
+   "ut9-aparente"
+  ],
+  "bal-2024-07-D-35": [
+   "ut9-barometro"
+  ],
+  "bal-2024-07-D-36": [
+   "ut9-fetch"
+  ],
+  "bal-2024-09-D-36": [
+   "ut9-fetch"
+  ],
+  "bal-2024-09-E-33": [
+   "ut9-fetch"
+  ],
+  "bal-2024-09-E-35": [
+   "ut9-brisas"
+  ],
+  "bal-2024-09-E-36": [
+   "ut9-sistemas"
+  ],
+  "bal-2024-12-A-36": [
+   "ut9-sistemas"
+  ],
+  "bal-2024-12-D-33": [
+   "ut9-sistemas"
+  ],
+  "bal-2025-04-A-34": [
+   "ut9-sistemas"
+  ],
+  "bal-2025-07-A-33": [
+   "ut9-sistemas"
+  ],
+  "bal-2025-07-A-35": [
+   "ut9-sistemas"
+  ],
+  "bal-2025-07-B-33": [
+   "ut9-aparente"
+  ],
+  "bal-2025-07-B-35": [
+   "ut9-barometro"
+  ],
+  "bal-2025-07-C-33": [
+   "ut9-sistemas"
+  ],
+  "bal-2025-07-D-33": [
+   "ut9-sistemas"
+  ],
+  "bal-2025-07-D-36": [
+   "ut9-aparente"
+  ],
+  "bal-2025-09-A-33": [
+   "ut9-sistemas"
+  ],
+  "bal-2025-09-C-35": [
+   "ut9-fetch"
+  ],
+  "bal-2025-09-D-34": [
+   "ut9-aparente"
+  ],
+  "bal-2025-12-A-33": [
+   "ut9-sistemas"
+  ],
+  "bal-2025-12-B-34": [
+   "ut9-barometro"
+  ],
+  "bal-2025-12-C-34": [
+   "ut9-sistemas"
+  ],
+  "bal-2025-12-D-33": [
+   "ut9-sistemas"
+  ],
+  "bal-2026-03-A-33": [
+   "ut9-sistemas"
+  ],
+  "bal-2026-03-A-34": [
+   "ut9-instrumentos"
+  ],
+  "bal-2026-03-A-35": [
+   "ut9-instrumentos"
+  ],
+  "bal-2026-03-A-36": [
+   "ut9-aparente"
+  ],
+  "bal-2026-03-B-34": [
+   "ut9-brisas"
+  ],
+  "bal-2026-03-C-34": [
+   "ut9-instrumentos"
+  ],
+  "bal-2026-03-C-35": [
+   "ut9-brisas"
+  ],
+  "bal-2026-03-D-35": [
+   "ut9-sistemas"
+  ],
+  "bal-2026-06-A-33": [
+   "ut9-sistemas"
+  ],
+  "bal-2026-06-B-34": [
+   "ut9-brisas"
+  ],
+  "bal-2026-06-B-35": [
+   "ut9-barometro"
+  ],
+  "bal-2026-06-C-35": [
+   "ut9-aparente"
+  ],
+  "bal-2026-06-D-33": [
+   "ut9-sistemas"
+  ],
+  "bal-2026-06-D-34": [
+   "ut9-brisas"
+  ],
+  "bal-2026-06-D-36": [
+   "ut9-instrumentos"
+  ],
+  "bal-2026-09-A-36": [
+   "ut9-sistemas"
+  ],
+  "bal-2026-09-B-33": [
+   "ut9-sistemas"
+  ],
+  "bal-2026-09-E-36": [
+   "ut9-aparente"
   ]
  }
 }
