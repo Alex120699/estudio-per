@@ -322,3 +322,4 @@ h3 { font-size: 1rem; margin: 16px 0 4px; color: var(--suave); }
   font-weight: 600;
   color: var(--texto-suave, var(--texto));
 }
+.carta-paso { display: block; margin-top: 4px; padding: 6px 10px; border-left: 3px solid var(--marca); background: var(--tarjeta); border-radius: 0 8px 8px 0; font-size: 0.85rem; line-height: 1.45; }

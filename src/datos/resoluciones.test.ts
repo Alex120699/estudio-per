@@ -17,7 +17,10 @@ describe('resoluciones.json', () => {
       const r = resolucionDe(id)!
       expect(r.error, id).toBeUndefined()
       expect(r.lineas.at(-1)?.final, id).toBe(true)
-      for (const l of r.lineas) expect(l.texto, id).not.toMatch(/NaN|undefined|\{|\b[Dd]e S\b/)
+      for (const l of r.lineas) {
+        expect(l.texto, id).not.toMatch(/NaN|undefined|\{|\b[Dd]e S\b/)
+        if (l.carta) expect(l.carta, id).not.toMatch(/NaN|undefined|\{|\b[Dd]e S\b|\b(regla|por|hacia) faro\b/)
+      }
     }
   })
 })

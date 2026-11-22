@@ -19,6 +19,11 @@ export default function PasoAPaso({ id, letraCorrecta }: { id: string; letraCorr
               <li key={i} className={l.final ? 'final' : undefined}>
                 {l.texto}
                 {l.nota && <span className="nota-paso">{l.nota}</span>}
+                {l.carta && (
+                  <span className="carta-paso">
+                    <strong>En la carta:</strong> {l.carta}
+                  </span>
+                )}
               </li>
             ))}
           </ol>

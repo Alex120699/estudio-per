@@ -28,6 +28,8 @@ export interface Punto {
 export interface Linea {
   texto: string
   nota?: string
+  /** Cómo se hace en la carta de papel (regla, cartabón, compás, escalas). */
+  carta?: string
   /** Es la línea con el resultado final. */
   final?: boolean
 }
@@ -52,6 +54,16 @@ function decl(x: number): string {
   const m = Math.round((a - g) * 60)
   return `${g}º${m ? ` ${String(m).padStart(2, '0')}′` : ''} ${x < 0 ? 'W' : 'E'}`
 }
+
+/* ---------- Cómo se hace cada cosa en la carta de papel ---------- */
+
+const LEER_SITUACION = 'Para leer la situación: lleva el punto con la regla en horizontal hasta la escala de los lados (latitud) y en vertical hasta la de arriba o de abajo (longitud).'
+const TRAZAR = (rumbo: string, por: string) =>
+  `Pon el cartabón sobre una rosa con el borde en ${rumbo} pasando por el centro, apoya la regla en otro lado del cartabón y deslízalo sobre ella, sin girarlo, hasta que el borde pase por ${por}: traza ahí la línea.`
+const MEDIR = (de: string, a: string) =>
+  `Une ${de} y ${a} con la regla. Apoya el cartabón en la regla y deslízalo, sin girarlo, hasta que pase por el centro de una rosa; lee el ángulo en el sentido de ${de} hacia ${a}.`
+const COMPAS = (d: string) => `Abre el compás ${d} en la escala de latitudes (los lados de la carta, a la altura de la zona: 1′ = 1 milla).`
+const MEDIR_DISTANCIA = 'Para la distancia, abre el compás entre los dos puntos y llévalo a la escala de latitudes a la misma altura; si no cabe, mide por tramos de 5 o 10 millas.'
 
 export function resolver(pl: Planteamiento, puntos: Record<string, Punto>): Resolucion {
   const vars: Record<string, Valor> = {}
@@ -91,11 +103,15 @@ export function resolver(pl: Planteamiento, puntos: Record<string, Punto>): Reso
       .replace(/(^|[:(–] |\b(?:a|[Dd]e|en|[Dd]esde) )S\b(?! =)/g, '$1la situación')
       .replace(/\bS = /g, 'situación = ')
       .replace(/línea faro/g, 'línea del faro')
-  const linea = (p: Paso, texto: string) => {
+      .replace(/\b(por|[Uu]ne|hacia|y|en|con|regla) faro\b/g, '$1 el faro')
+      .replace(/\b(por|[Uu]ne|hacia|y|con) (luz|bocana)\b/g, '$1 la $2')
+      .replace(/\b([Dd])e el\b/g, '$1el')
+      .replace(/\b([Aa]) el\b/g, '$1l')
+  const linea = (p: Paso, texto: string, carta?: string) => {
     // Los puntos auxiliares (p. ej., uno al sur de un faro para trazar su meridiano) no se cuentan
     if (p.oculto) return
     const t = pulir(texto)
-    lineas.push({ texto: /^[a-záéíóú]{2}/.test(t) ? t[0].toUpperCase() + t.slice(1) : t, nota: p.nota })
+    lineas.push({ texto: /^[a-záéíóú]{2}/.test(t) ? t[0].toUpperCase() + t.slice(1) : t, nota: p.nota, ...(carta ? { carta: pulir(carta) } : {}) })
   }
 
   const fmt = (v: Valor, f?: string): string => {
@@ -189,20 +205,20 @@ export function resolver(pl: Planteamiento, puntos: Record<string, Punto>): Reso
           // Faros en línea: los vemos en la dirección del más cercano al más lejano
           const dv = N.rumboYDistancia(pos(p.a), pos(p.b)).rumbo
           guarda(p, `dv_${p.a}`, dv)
-          linea(p, `Enfilación ${nom(p.a)} – ${nom(p.b)}: los vemos uno detrás de otro, así que la Dv a los dos es el rumbo de uno a otro, medido en la carta: ${N.grados(dv)}`)
+          linea(p, `Enfilación ${nom(p.a)} – ${nom(p.b)}: los vemos uno detrás de otro, así que la Dv a los dos es el rumbo de uno a otro, medido en la carta: ${N.grados(dv)}`, MEDIR(nom(p.a), nom(p.b)))
           break
         }
         case 'oposicion': {
           // Estamos entre los dos: la Dv a «a» es el rumbo de «b» a «a»
           const dv = N.rumboYDistancia(pos(p.b), pos(p.a)).rumbo
           guarda(p, `dv_${p.a}`, dv)
-          linea(p, `Oposición ${nom(p.a)} – ${nom(p.b)}: estamos entre los dos, así que la Dv a ${nom(p.a)} es el rumbo de ${nom(p.b)} a ${nom(p.a)}, medido en la carta: ${N.grados(dv)}`)
+          linea(p, `Oposición ${nom(p.a)} – ${nom(p.b)}: estamos entre los dos, así que la Dv a ${nom(p.a)} es el rumbo de ${nom(p.b)} a ${nom(p.a)}, medido en la carta: ${N.grados(dv)}`, MEDIR(nom(p.b), nom(p.a)))
           break
         }
         case 'punto': {
           const s = { lat: N.leerCoord(String(p.lat)), lon: N.leerCoord(String(p.lon)) }
           const k = guarda(p, 'S', s)
-          linea(p, `${nom(k)}: ${N.situacion(s)}`)
+          linea(p, `${nom(k)}: ${N.situacion(s)}`, 'Busca la latitud en la escala de los lados y traza el paralelo con la regla; busca la longitud en la escala de arriba o de abajo y marca dónde corta. Los minutos se toman con el compás desde la línea de grado más cercana.')
           break
         }
         case 'desde': {
@@ -211,13 +227,13 @@ export function resolver(pl: Planteamiento, puntos: Record<string, Punto>): Reso
           const d = n(p.d)
           const s = N.estima(pos(p.p), r, d)
           const k = guarda(p, 'S', s)
-          linea(p, `${nom(k)}: a ${num(d)} millas de ${nom(p.p)} en la dirección ${N.grados(r)} desde el faro → ${N.situacion(s)}`)
+          linea(p, `${nom(k)}: a ${num(d)} millas de ${nom(p.p)} en la dirección ${N.grados(r)} desde el faro → ${N.situacion(s)}`, `${TRAZAR(N.grados(r), nom(p.p))} ${COMPAS(N.millas(d))} Lleva esa abertura sobre la línea desde el faro.`)
           break
         }
         case 'sit2dv': {
           const s = N.porDosDemoras(pos(p.a), n(p.dva ?? `dv_${p.a}`), pos(p.b), n(p.dvb ?? `dv_${p.b}`))
           const k = guarda(p, 'S', s)
-          linea(p, `Trazando desde cada faro la línea opuesta a su demora, se cortan en ${nom(k)}: ${N.situacion(s)}`)
+          linea(p, `Trazando desde cada faro la línea opuesta a su demora, se cortan en ${nom(k)}: ${N.situacion(s)}`, `Con la Dv de cada faro: ${TRAZAR('esa Dv', 'el faro')} Desde el faro, la línea va hacia el mar (Dv ± 180º), que es donde estamos. Las dos líneas se cortan en la situación. ${LEER_SITUACION}`)
           break
         }
         case 'sitDvD': {
@@ -226,20 +242,20 @@ export function resolver(pl: Planteamiento, puntos: Record<string, Punto>): Reso
           const d = n(p.d)
           const s = N.porDemoraYDistancia(pos(g), n(p.dv ?? `dv_${g}`), pos(f), d, n(p.cual ?? 0))
           const k = guarda(p, 'S', s)
-          linea(p, `Corte de la línea de demora a ${nom(g)} con el círculo de ${num(d)} millas alrededor de ${nom(f)}: ${nom(k)} = ${N.situacion(s)}`)
+          linea(p, `Corte de la línea de demora a ${nom(g)} con el círculo de ${num(d)} millas alrededor de ${nom(f)}: ${nom(k)} = ${N.situacion(s)}`, `${TRAZAR(N.grados(n(p.dv ?? `dv_${g}`)), nom(g))} ${COMPAS(N.millas(d))} Pincha en ${nom(f)} y traza un arco que corte la línea. ${LEER_SITUACION}`)
           break
         }
         case 'sit2d': {
           const s = N.porDosDistancias(pos(p.a), n(p.da), pos(p.b), n(p.db), p.lado as 'N' | 'S' | 'E' | 'W')
           const k = guarda(p, 'S', s)
-          linea(p, `Corte de los círculos de ${num(n(p.da))} millas a ${nom(p.a)} y ${num(n(p.db))} millas a ${nom(p.b)} (el del ${p.lado}): ${nom(k)} = ${N.situacion(s)}`)
+          linea(p, `Corte de los círculos de ${num(n(p.da))} millas a ${nom(p.a)} y ${num(n(p.db))} millas a ${nom(p.b)} (el del ${p.lado}): ${nom(k)} = ${N.situacion(s)}`, `${COMPAS(N.millas(n(p.da)))} Pincha en ${nom(p.a)} y traza un arco por la zona donde estamos. Repite con ${N.millas(n(p.db))} desde ${nom(p.b)}. Los arcos se cortan en dos puntos: quédate con el del ${p.lado}. ${LEER_SITUACION}`)
           break
         }
         case 'rumbo': {
           const { rumbo, distancia } = N.rumboYDistancia(pos(p.de ?? 'S'), pos(p.a))
           guarda(p, 'rv', rumbo)
           vars[(p.d as string) ?? 'd'] = distancia
-          linea(p, `De ${nom(p.de ?? 'S')} a ${nom(p.a)}, en la carta: Rv = ${N.grados(rumbo)} y distancia = ${N.millas(distancia)}`)
+          linea(p, `De ${nom(p.de ?? 'S')} a ${nom(p.a)}, en la carta: Rv = ${N.grados(rumbo)} y distancia = ${N.millas(distancia)}`, `${MEDIR(nom(p.de ?? 'S'), nom(p.a))} ${MEDIR_DISTANCIA}`)
           break
         }
         case 'pasar': {
@@ -251,7 +267,7 @@ export function resolver(pl: Planteamiento, puntos: Record<string, Punto>): Reso
           vars.dt = Math.sqrt(r.distancia ** 2 - d ** 2)
           linea(
             p,
-            `Para pasar a ${num(d)} millas de ${nom(p.a)} (dejándolo por ${banda}): su demora es ${N.grados(r.demora)} a ${N.millas(r.distancia)}; la tangente al círculo de ${num(d)} millas se separa arcsen(${num(d)} / ${num(r.distancia)}) = ${num(r.angulo)}º → Rv = ${N.grados(r.rumbo)}`,
+            `Para pasar a ${num(d)} millas de ${nom(p.a)} (dejándolo por ${banda}): su demora es ${N.grados(r.demora)} a ${N.millas(r.distancia)}; la tangente al círculo de ${num(d)} millas se separa arcsen(${num(d)} / ${num(r.distancia)}) = ${num(r.angulo)}º → Rv = ${N.grados(r.rumbo)}`, `${COMPAS(N.millas(d))} Pincha en ${nom(p.a)} y traza el círculo. Desde la situación, apoya la regla de modo que toque el círculo en un solo punto y deje el faro por ${banda}: esa tangente es la derrota. Lleva su dirección con el cartabón a una rosa para leer el Rv.`,
           )
           break
         }
@@ -292,7 +308,7 @@ export function resolver(pl: Planteamiento, puntos: Record<string, Punto>): Reso
           const de = pos(p.de ?? 'S')
           const s = N.estima(de, r, d)
           const k = guarda(p, 'S', s)
-          linea(p, `Navegando ${N.millas(d)} al Rv ${N.grados(r)} desde ${nom(p.de ?? 'S')} se llega a ${nom(k)}: ${N.situacion(s)}`)
+          linea(p, `Navegando ${N.millas(d)} al Rv ${N.grados(r)} desde ${nom(p.de ?? 'S')} se llega a ${nom(k)}: ${N.situacion(s)}`, `${TRAZAR(N.grados(r), nom(p.de ?? 'S'))} ${COMPAS(N.millas(d))} Llévala sobre la derrota desde el punto de salida. ${LEER_SITUACION}`)
           break
         }
         case 'corte': {
@@ -302,7 +318,7 @@ export function resolver(pl: Planteamiento, puntos: Record<string, Punto>): Reso
           const d = N.rumboYDistancia(de, s).distancia
           const k = guarda(p, 'S', s)
           vars[(p.d as string) ?? 'd'] = d
-          linea(p, `Siguiendo el Rv ${N.grados(r)} cortamos ${p.linea ?? `la línea ${nom(p.a)} – ${nom(p.b)}`} en ${nom(k)}: ${N.situacion(s)}, tras ${N.millas(d)}`)
+          linea(p, `Siguiendo el Rv ${N.grados(r)} cortamos ${p.linea ?? `la línea ${nom(p.a)} – ${nom(p.b)}`} en ${nom(k)}: ${N.situacion(s)}, tras ${N.millas(d)}`, `${TRAZAR(N.grados(r), nom(p.de ?? 'S'))} ${p.linea ? `Traza ${p.linea} con la regla y el cartabón (los meridianos van en vertical; los paralelos, en horizontal)` : `Une con la regla ${nom(p.a)} y ${nom(p.b)}`}: donde esa línea corta la derrota estamos. ${MEDIR_DISTANCIA}`)
           break
         }
         case 'sitDvLinea': {
@@ -310,7 +326,7 @@ export function resolver(pl: Planteamiento, puntos: Record<string, Punto>): Reso
           const dv = n(p.dv ?? `dv_${p.a}`)
           const s = N.corteConRecta(pos(p.a), N.n360(dv + 180), pos(p.l1), pos(p.l2))
           const k = guarda(p, 'S', s)
-          linea(p, `La línea de demora ${N.grados(dv)} a ${nom(p.a)} corta la línea ${nom(p.l1)} – ${nom(p.l2)} en ${nom(k)}: ${N.situacion(s)}`)
+          linea(p, `La línea de demora ${N.grados(dv)} a ${nom(p.a)} corta la línea ${nom(p.l1)} – ${nom(p.l2)} en ${nom(k)}: ${N.situacion(s)}`, `Une con la regla ${nom(p.l1)} y ${nom(p.l2)} y traza la línea. ${TRAZAR(N.grados(dv), nom(p.a))} El corte de las dos líneas es la situación. ${LEER_SITUACION}`)
           break
         }
         case 'cruce': {
@@ -318,7 +334,7 @@ export function resolver(pl: Planteamiento, puntos: Record<string, Punto>): Reso
           const a = pos(p.a)
           const s = N.corteConRecta(a, N.rumboYDistancia(a, pos(p.b)).rumbo, pos(p.c), pos(p.d))
           const k = guarda(p, 'S', s)
-          linea(p, `Corte de ${p.linea ?? `la línea ${nom(p.a)} – ${nom(p.b)}`} con ${p.linea2 ?? `la línea ${nom(p.c)} – ${nom(p.d)}`}: ${nom(k)} = ${N.situacion(s)}`)
+          linea(p, `Corte de ${p.linea ?? `la línea ${nom(p.a)} – ${nom(p.b)}`} con ${p.linea2 ?? `la línea ${nom(p.c)} – ${nom(p.d)}`}: ${nom(k)} = ${N.situacion(s)}`, `Traza con la regla cada línea uniendo sus dos puntos y prolóngalas hacia el mar. Donde se cruzan está la situación. ${LEER_SITUACION}`)
           break
         }
         case 'marcacion': {
@@ -326,7 +342,7 @@ export function resolver(pl: Planteamiento, puntos: Record<string, Punto>): Reso
           const rv = n(p.rv ?? 'rv')
           const m = N.diferencia(rv, dv)
           guarda(p, 'm', m)
-          linea(p, `Dv a ${nom(p.a)} = ${N.grados(dv)}; marcación = Dv − Rv = ${N.grados(dv)} − ${N.grados(rv)} = ${num(Math.abs(m), 0)}º por ${m >= 0 ? 'estribor' : 'babor'}`)
+          linea(p, `Dv a ${nom(p.a)} = ${N.grados(dv)}; marcación = Dv − Rv = ${N.grados(dv)} − ${N.grados(rv)} = ${num(Math.abs(m), 0)}º por ${m >= 0 ? 'estribor' : 'babor'}`, MEDIR(nom(p.de ?? 'S'), nom(p.a)))
           break
         }
         case 'velocidad': {
