@@ -119,6 +119,34 @@
   "ut5-ritmos": {
    "titulo": "Ritmos de las luces",
    "archivo": "img/laminas/ut5-ritmos.svg"
+  },
+  "ut6-sectores": {
+   "titulo": "Arcos de las luces de tope, costado y alcance",
+   "archivo": "img/laminas/ut6-sectores.svg"
+  },
+  "ut6-situaciones": {
+   "titulo": "Vuelta encontrada, cruce y alcance",
+   "archivo": "img/laminas/ut6-situaciones.svg"
+  },
+  "ut6-vela": {
+   "titulo": "Qué velero se aparta (regla 12)",
+   "archivo": "img/laminas/ut6-vela.svg"
+  },
+  "ut6-luces": {
+   "titulo": "Luces de noche más preguntadas",
+   "archivo": "img/laminas/ut6-luces.svg"
+  },
+  "ut6-marcas": {
+   "titulo": "Marcas de día",
+   "archivo": "img/laminas/ut6-marcas.svg"
+  },
+  "ut6-pitadas": {
+   "titulo": "Señales acústicas",
+   "archivo": "img/laminas/ut6-pitadas.svg"
+  },
+  "ut6-dst": {
+   "titulo": "Dispositivo de separación del tráfico",
+   "archivo": "img/laminas/ut6-dst.svg"
   }
  },
  "preguntas": {
@@ -3277,6 +3305,1965 @@
   ],
   "bal-2026-09-E-17": [
    "ut5-otras"
+  ],
+  "and-2025-1-A-18": [
+   "ut6-situaciones"
+  ],
+  "and-2025-1-A-19": [
+   "ut6-marcas"
+  ],
+  "and-2025-1-A-20": [
+   "ut6-dst"
+  ],
+  "and-2025-1-A-21": [
+   "ut6-pitadas"
+  ],
+  "and-2025-1-A-23": [
+   "ut6-vela"
+  ],
+  "and-2025-1-A-24": [
+   "ut6-situaciones"
+  ],
+  "and-2025-1-A-26": [
+   "ut6-marcas"
+  ],
+  "and-2025-2-A-19": [
+   "ut6-pitadas"
+  ],
+  "and-2025-2-A-20": [
+   "ut6-luces"
+  ],
+  "and-2025-2-A-21": [
+   "ut6-situaciones"
+  ],
+  "and-2025-2-A-22": [
+   "ut6-dst"
+  ],
+  "and-2025-2-A-23": [
+   "ut6-situaciones"
+  ],
+  "and-2025-2-A-25": [
+   "ut6-luces"
+  ],
+  "and-2025-2-A-26": [
+   "ut6-situaciones"
+  ],
+  "and-2025-3-A-18": [
+   "ut6-vela"
+  ],
+  "and-2025-3-A-22": [
+   "ut6-situaciones"
+  ],
+  "and-2025-3-A-23": [
+   "ut6-pitadas"
+  ],
+  "and-2025-3-A-27": [
+   "ut6-luces"
+  ],
+  "and-2026-1-A-18": [
+   "ut6-luces"
+  ],
+  "and-2026-1-A-19": [
+   "ut6-vela"
+  ],
+  "and-2026-1-A-20": [
+   "ut6-pitadas"
+  ],
+  "and-2026-1-A-21": [
+   "ut6-luces"
+  ],
+  "and-2026-1-A-22": [
+   "ut6-situaciones"
+  ],
+  "and-2026-1-A-23": [
+   "ut6-vela"
+  ],
+  "and-2026-1-A-24": [
+   "ut6-situaciones"
+  ],
+  "and-2026-1-A-25": [
+   "ut6-marcas"
+  ],
+  "and-2026-1-A-27": [
+   "ut6-dst"
+  ],
+  "and-2026-2-A-18": [
+   "ut6-marcas"
+  ],
+  "and-2026-2-A-19": [
+   "ut6-situaciones"
+  ],
+  "and-2026-2-A-20": [
+   "ut6-situaciones"
+  ],
+  "and-2026-2-A-21": [
+   "ut6-vela"
+  ],
+  "and-2026-2-A-22": [
+   "ut6-vela"
+  ],
+  "and-2026-2-A-23": [
+   "ut6-vela"
+  ],
+  "and-2026-2-A-25": [
+   "ut6-luces"
+  ],
+  "and-2026-2-A-26": [
+   "ut6-dst"
+  ],
+  "and-2026-2-A-27": [
+   "ut6-luces"
+  ],
+  "bal-2017-03-A-19": [
+   "ut6-marcas"
+  ],
+  "bal-2017-03-A-20": [
+   "ut6-sectores"
+  ],
+  "bal-2017-03-A-22": [
+   "ut6-situaciones"
+  ],
+  "bal-2017-03-A-23": [
+   "ut6-dst"
+  ],
+  "bal-2017-03-A-24": [
+   "ut6-pitadas"
+  ],
+  "bal-2017-03-A-27": [
+   "ut6-vela"
+  ],
+  "bal-2017-03-B-20": [
+   "ut6-situaciones"
+  ],
+  "bal-2017-03-B-21": [
+   "ut6-luces"
+  ],
+  "bal-2017-03-B-22": [
+   "ut6-marcas"
+  ],
+  "bal-2017-03-B-24": [
+   "ut6-luces"
+  ],
+  "bal-2017-03-B-26": [
+   "ut6-situaciones"
+  ],
+  "bal-2017-03-B-27": [
+   "ut6-vela"
+  ],
+  "bal-2017-03-C-19": [
+   "ut6-luces"
+  ],
+  "bal-2017-03-C-20": [
+   "ut6-situaciones"
+  ],
+  "bal-2017-03-C-21": [
+   "ut6-vela"
+  ],
+  "bal-2017-03-C-22": [
+   "ut6-luces"
+  ],
+  "bal-2017-03-C-23": [
+   "ut6-luces"
+  ],
+  "bal-2017-03-C-24": [
+   "ut6-luces"
+  ],
+  "bal-2017-03-C-25": [
+   "ut6-sectores"
+  ],
+  "bal-2017-03-C-26": [
+   "ut6-sectores"
+  ],
+  "bal-2017-03-C-27": [
+   "ut6-pitadas"
+  ],
+  "bal-2017-03-F-18": [
+   "ut6-pitadas"
+  ],
+  "bal-2017-03-F-19": [
+   "ut6-situaciones"
+  ],
+  "bal-2017-03-F-21": [
+   "ut6-luces"
+  ],
+  "bal-2017-03-F-23": [
+   "ut6-luces"
+  ],
+  "bal-2017-03-F-24": [
+   "ut6-marcas"
+  ],
+  "bal-2017-03-F-25": [
+   "ut6-situaciones"
+  ],
+  "bal-2017-03-F-26": [
+   "ut6-marcas"
+  ],
+  "bal-2017-03-G-18": [
+   "ut6-pitadas"
+  ],
+  "bal-2017-03-G-19": [
+   "ut6-pitadas"
+  ],
+  "bal-2017-03-G-20": [
+   "ut6-vela"
+  ],
+  "bal-2017-03-G-21": [
+   "ut6-vela"
+  ],
+  "bal-2017-03-G-23": [
+   "ut6-luces"
+  ],
+  "bal-2017-03-G-24": [
+   "ut6-luces"
+  ],
+  "bal-2017-03-G-25": [
+   "ut6-sectores"
+  ],
+  "bal-2017-06-B-18": [
+   "ut6-situaciones"
+  ],
+  "bal-2017-06-B-19": [
+   "ut6-luces"
+  ],
+  "bal-2017-06-B-21": [
+   "ut6-situaciones"
+  ],
+  "bal-2017-06-B-22": [
+   "ut6-pitadas"
+  ],
+  "bal-2017-06-B-24": [
+   "ut6-pitadas"
+  ],
+  "bal-2017-06-B-25": [
+   "ut6-luces"
+  ],
+  "bal-2017-06-B-26": [
+   "ut6-vela"
+  ],
+  "bal-2017-06-B-27": [
+   "ut6-vela"
+  ],
+  "bal-2017-06-C-18": [
+   "ut6-luces"
+  ],
+  "bal-2017-06-C-19": [
+   "ut6-pitadas"
+  ],
+  "bal-2017-06-C-20": [
+   "ut6-marcas"
+  ],
+  "bal-2017-06-C-22": [
+   "ut6-marcas"
+  ],
+  "bal-2017-06-C-24": [
+   "ut6-luces"
+  ],
+  "bal-2017-06-C-25": [
+   "ut6-luces"
+  ],
+  "bal-2017-06-C-26": [
+   "ut6-situaciones"
+  ],
+  "bal-2017-06-E-19": [
+   "ut6-pitadas"
+  ],
+  "bal-2017-06-E-23": [
+   "ut6-luces"
+  ],
+  "bal-2017-06-E-24": [
+   "ut6-marcas"
+  ],
+  "bal-2017-06-E-26": [
+   "ut6-marcas"
+  ],
+  "bal-2017-06-E-27": [
+   "ut6-situaciones"
+  ],
+  "bal-2017-06-F-19": [
+   "ut6-luces"
+  ],
+  "bal-2017-06-F-22": [
+   "ut6-luces"
+  ],
+  "bal-2017-06-F-25": [
+   "ut6-luces"
+  ],
+  "bal-2017-06-F-26": [
+   "ut6-vela"
+  ],
+  "bal-2017-06-F-27": [
+   "ut6-situaciones"
+  ],
+  "bal-2017-09-A-18": [
+   "ut6-luces"
+  ],
+  "bal-2017-09-A-19": [
+   "ut6-marcas"
+  ],
+  "bal-2017-09-A-22": [
+   "ut6-sectores"
+  ],
+  "bal-2017-09-A-23": [
+   "ut6-marcas"
+  ],
+  "bal-2017-09-A-24": [
+   "ut6-luces"
+  ],
+  "bal-2017-09-A-25": [
+   "ut6-pitadas"
+  ],
+  "bal-2017-09-A-27": [
+   "ut6-marcas"
+  ],
+  "bal-2017-09-C-18": [
+   "ut6-luces"
+  ],
+  "bal-2017-09-C-19": [
+   "ut6-pitadas"
+  ],
+  "bal-2017-09-C-20": [
+   "ut6-luces"
+  ],
+  "bal-2017-09-C-21": [
+   "ut6-pitadas"
+  ],
+  "bal-2017-09-C-22": [
+   "ut6-luces"
+  ],
+  "bal-2017-09-C-23": [
+   "ut6-pitadas"
+  ],
+  "bal-2017-09-C-24": [
+   "ut6-situaciones"
+  ],
+  "bal-2017-09-C-25": [
+   "ut6-luces"
+  ],
+  "bal-2017-09-C-26": [
+   "ut6-pitadas"
+  ],
+  "bal-2017-09-C-27": [
+   "ut6-pitadas"
+  ],
+  "bal-2017-09-D-18": [
+   "ut6-luces"
+  ],
+  "bal-2017-09-D-19": [
+   "ut6-pitadas"
+  ],
+  "bal-2017-09-D-23": [
+   "ut6-situaciones"
+  ],
+  "bal-2017-09-D-24": [
+   "ut6-situaciones"
+  ],
+  "bal-2017-09-D-26": [
+   "ut6-luces"
+  ],
+  "bal-2017-09-E-19": [
+   "ut6-luces"
+  ],
+  "bal-2017-09-E-22": [
+   "ut6-situaciones"
+  ],
+  "bal-2017-09-E-23": [
+   "ut6-dst"
+  ],
+  "bal-2017-09-E-24": [
+   "ut6-luces"
+  ],
+  "bal-2017-09-E-25": [
+   "ut6-situaciones"
+  ],
+  "bal-2017-09-E-27": [
+   "ut6-luces"
+  ],
+  "bal-2017-12-A-18": [
+   "ut6-marcas"
+  ],
+  "bal-2017-12-A-21": [
+   "ut6-luces"
+  ],
+  "bal-2017-12-A-22": [
+   "ut6-luces"
+  ],
+  "bal-2017-12-A-25": [
+   "ut6-vela"
+  ],
+  "bal-2017-12-A-26": [
+   "ut6-pitadas"
+  ],
+  "bal-2017-12-B-18": [
+   "ut6-pitadas"
+  ],
+  "bal-2017-12-B-19": [
+   "ut6-vela"
+  ],
+  "bal-2017-12-B-22": [
+   "ut6-luces"
+  ],
+  "bal-2017-12-B-25": [
+   "ut6-sectores"
+  ],
+  "bal-2017-12-B-26": [
+   "ut6-pitadas"
+  ],
+  "bal-2017-12-B-27": [
+   "ut6-marcas"
+  ],
+  "bal-2017-12-C-18": [
+   "ut6-marcas"
+  ],
+  "bal-2017-12-C-24": [
+   "ut6-vela"
+  ],
+  "bal-2017-12-C-26": [
+   "ut6-luces"
+  ],
+  "bal-2017-12-D-18": [
+   "ut6-situaciones"
+  ],
+  "bal-2017-12-D-20": [
+   "ut6-marcas"
+  ],
+  "bal-2017-12-D-22": [
+   "ut6-luces"
+  ],
+  "bal-2017-12-D-23": [
+   "ut6-luces"
+  ],
+  "bal-2017-12-E-20": [
+   "ut6-situaciones"
+  ],
+  "bal-2017-12-E-21": [
+   "ut6-vela"
+  ],
+  "bal-2017-12-E-27": [
+   "ut6-luces"
+  ],
+  "bal-2018-04-A-19": [
+   "ut6-luces"
+  ],
+  "bal-2018-04-A-22": [
+   "ut6-pitadas"
+  ],
+  "bal-2018-04-A-23": [
+   "ut6-vela"
+  ],
+  "bal-2018-04-A-24": [
+   "ut6-luces"
+  ],
+  "bal-2018-04-A-25": [
+   "ut6-marcas"
+  ],
+  "bal-2018-04-A-27": [
+   "ut6-marcas"
+  ],
+  "bal-2018-04-B-23": [
+   "ut6-luces"
+  ],
+  "bal-2018-04-B-24": [
+   "ut6-pitadas"
+  ],
+  "bal-2018-04-B-25": [
+   "ut6-luces"
+  ],
+  "bal-2018-04-D-21": [
+   "ut6-pitadas"
+  ],
+  "bal-2018-04-D-22": [
+   "ut6-pitadas"
+  ],
+  "bal-2018-04-D-23": [
+   "ut6-pitadas"
+  ],
+  "bal-2018-04-D-24": [
+   "ut6-luces"
+  ],
+  "bal-2018-04-D-25": [
+   "ut6-luces"
+  ],
+  "bal-2018-04-E-19": [
+   "ut6-luces"
+  ],
+  "bal-2018-04-E-20": [
+   "ut6-marcas"
+  ],
+  "bal-2018-04-E-22": [
+   "ut6-sectores"
+  ],
+  "bal-2018-04-E-25": [
+   "ut6-marcas"
+  ],
+  "bal-2018-04-F-18": [
+   "ut6-marcas"
+  ],
+  "bal-2018-04-F-19": [
+   "ut6-pitadas"
+  ],
+  "bal-2018-04-F-20": [
+   "ut6-marcas"
+  ],
+  "bal-2018-04-F-21": [
+   "ut6-luces"
+  ],
+  "bal-2018-04-F-22": [
+   "ut6-pitadas"
+  ],
+  "bal-2018-04-F-23": [
+   "ut6-luces"
+  ],
+  "bal-2018-04-F-24": [
+   "ut6-luces"
+  ],
+  "bal-2018-06-A-18": [
+   "ut6-luces"
+  ],
+  "bal-2018-06-A-19": [
+   "ut6-marcas"
+  ],
+  "bal-2018-06-A-20": [
+   "ut6-luces"
+  ],
+  "bal-2018-06-A-21": [
+   "ut6-luces"
+  ],
+  "bal-2018-06-A-22": [
+   "ut6-situaciones"
+  ],
+  "bal-2018-06-A-23": [
+   "ut6-marcas"
+  ],
+  "bal-2018-06-B-19": [
+   "ut6-pitadas"
+  ],
+  "bal-2018-06-B-20": [
+   "ut6-luces"
+  ],
+  "bal-2018-06-B-23": [
+   "ut6-luces"
+  ],
+  "bal-2018-06-B-24": [
+   "ut6-pitadas"
+  ],
+  "bal-2018-06-B-25": [
+   "ut6-luces"
+  ],
+  "bal-2018-06-B-26": [
+   "ut6-pitadas"
+  ],
+  "bal-2018-06-C-20": [
+   "ut6-situaciones"
+  ],
+  "bal-2018-06-C-27": [
+   "ut6-pitadas"
+  ],
+  "bal-2018-06-I-20": [
+   "ut6-situaciones"
+  ],
+  "bal-2018-06-I-24": [
+   "ut6-pitadas"
+  ],
+  "bal-2018-06-I-26": [
+   "ut6-luces"
+  ],
+  "bal-2018-09-A-19": [
+   "ut6-marcas"
+  ],
+  "bal-2018-09-A-22": [
+   "ut6-luces"
+  ],
+  "bal-2018-09-A-23": [
+   "ut6-luces"
+  ],
+  "bal-2018-09-A-25": [
+   "ut6-marcas"
+  ],
+  "bal-2018-09-A-26": [
+   "ut6-luces"
+  ],
+  "bal-2018-09-B-22": [
+   "ut6-pitadas"
+  ],
+  "bal-2018-09-B-23": [
+   "ut6-pitadas"
+  ],
+  "bal-2018-09-B-24": [
+   "ut6-luces"
+  ],
+  "bal-2018-09-D-23": [
+   "ut6-marcas"
+  ],
+  "bal-2018-09-D-24": [
+   "ut6-luces"
+  ],
+  "bal-2018-09-D-25": [
+   "ut6-vela"
+  ],
+  "bal-2018-09-E-18": [
+   "ut6-luces"
+  ],
+  "bal-2018-09-E-19": [
+   "ut6-luces"
+  ],
+  "bal-2018-09-E-21": [
+   "ut6-pitadas"
+  ],
+  "bal-2018-09-E-23": [
+   "ut6-marcas"
+  ],
+  "bal-2018-09-E-25": [
+   "ut6-marcas"
+  ],
+  "bal-2018-09-E-26": [
+   "ut6-vela"
+  ],
+  "bal-2018-09-E-27": [
+   "ut6-luces"
+  ],
+  "bal-2018-12-A-24": [
+   "ut6-marcas"
+  ],
+  "bal-2018-12-A-25": [
+   "ut6-luces"
+  ],
+  "bal-2018-12-A-26": [
+   "ut6-luces"
+  ],
+  "bal-2018-12-B-18": [
+   "ut6-pitadas"
+  ],
+  "bal-2018-12-B-19": [
+   "ut6-luces"
+  ],
+  "bal-2018-12-B-21": [
+   "ut6-marcas"
+  ],
+  "bal-2018-12-B-24": [
+   "ut6-marcas"
+  ],
+  "bal-2018-12-B-26": [
+   "ut6-dst"
+  ],
+  "bal-2018-12-C-21": [
+   "ut6-pitadas"
+  ],
+  "bal-2018-12-C-23": [
+   "ut6-luces"
+  ],
+  "bal-2018-12-C-24": [
+   "ut6-marcas"
+  ],
+  "bal-2018-12-C-27": [
+   "ut6-luces"
+  ],
+  "bal-2018-12-D-20": [
+   "ut6-situaciones"
+  ],
+  "bal-2018-12-D-21": [
+   "ut6-vela"
+  ],
+  "bal-2018-12-D-24": [
+   "ut6-luces"
+  ],
+  "bal-2018-12-D-25": [
+   "ut6-luces"
+  ],
+  "bal-2018-12-D-26": [
+   "ut6-luces"
+  ],
+  "bal-2018-12-F-19": [
+   "ut6-pitadas"
+  ],
+  "bal-2018-12-F-21": [
+   "ut6-pitadas"
+  ],
+  "bal-2018-12-F-23": [
+   "ut6-pitadas"
+  ],
+  "bal-2018-12-F-24": [
+   "ut6-luces"
+  ],
+  "bal-2018-12-F-25": [
+   "ut6-pitadas"
+  ],
+  "bal-2018-12-F-26": [
+   "ut6-pitadas"
+  ],
+  "bal-2019-04-A-19": [
+   "ut6-luces"
+  ],
+  "bal-2019-04-A-23": [
+   "ut6-pitadas"
+  ],
+  "bal-2019-04-A-24": [
+   "ut6-pitadas"
+  ],
+  "bal-2019-04-A-25": [
+   "ut6-pitadas"
+  ],
+  "bal-2019-04-B-19": [
+   "ut6-situaciones"
+  ],
+  "bal-2019-04-B-20": [
+   "ut6-situaciones"
+  ],
+  "bal-2019-04-B-24": [
+   "ut6-luces"
+  ],
+  "bal-2019-04-B-25": [
+   "ut6-luces"
+  ],
+  "bal-2019-04-B-26": [
+   "ut6-marcas"
+  ],
+  "bal-2019-04-B-27": [
+   "ut6-luces"
+  ],
+  "bal-2019-04-C-19": [
+   "ut6-vela"
+  ],
+  "bal-2019-04-C-20": [
+   "ut6-situaciones"
+  ],
+  "bal-2019-04-C-21": [
+   "ut6-situaciones"
+  ],
+  "bal-2019-04-C-22": [
+   "ut6-vela"
+  ],
+  "bal-2019-04-C-27": [
+   "ut6-pitadas"
+  ],
+  "bal-2019-04-F-25": [
+   "ut6-pitadas"
+  ],
+  "bal-2019-04-F-27": [
+   "ut6-luces"
+  ],
+  "bal-2019-04-I-19": [
+   "ut6-sectores"
+  ],
+  "bal-2019-04-I-21": [
+   "ut6-luces"
+  ],
+  "bal-2019-04-I-22": [
+   "ut6-situaciones"
+  ],
+  "bal-2019-04-I-23": [
+   "ut6-luces"
+  ],
+  "bal-2019-06-A-27": [
+   "ut6-situaciones"
+  ],
+  "bal-2019-06-B-18": [
+   "ut6-situaciones"
+  ],
+  "bal-2019-06-B-19": [
+   "ut6-marcas"
+  ],
+  "bal-2019-06-B-20": [
+   "ut6-pitadas"
+  ],
+  "bal-2019-06-B-23": [
+   "ut6-luces"
+  ],
+  "bal-2019-06-B-24": [
+   "ut6-luces"
+  ],
+  "bal-2019-06-C-18": [
+   "ut6-situaciones"
+  ],
+  "bal-2019-06-C-19": [
+   "ut6-situaciones"
+  ],
+  "bal-2019-06-C-23": [
+   "ut6-luces"
+  ],
+  "bal-2019-06-C-26": [
+   "ut6-pitadas"
+  ],
+  "bal-2019-06-I-22": [
+   "ut6-situaciones"
+  ],
+  "bal-2019-09-A-20": [
+   "ut6-pitadas"
+  ],
+  "bal-2019-09-A-23": [
+   "ut6-marcas"
+  ],
+  "bal-2019-09-A-24": [
+   "ut6-pitadas"
+  ],
+  "bal-2019-09-A-27": [
+   "ut6-vela"
+  ],
+  "bal-2019-09-C-19": [
+   "ut6-marcas"
+  ],
+  "bal-2019-09-C-20": [
+   "ut6-marcas"
+  ],
+  "bal-2019-09-C-24": [
+   "ut6-luces"
+  ],
+  "bal-2019-09-C-25": [
+   "ut6-luces"
+  ],
+  "bal-2019-09-C-26": [
+   "ut6-dst"
+  ],
+  "bal-2019-09-C-27": [
+   "ut6-marcas"
+  ],
+  "bal-2019-09-E-18": [
+   "ut6-pitadas"
+  ],
+  "bal-2019-09-E-20": [
+   "ut6-marcas"
+  ],
+  "bal-2019-09-E-22": [
+   "ut6-luces"
+  ],
+  "bal-2019-09-F-19": [
+   "ut6-marcas"
+  ],
+  "bal-2019-09-F-24": [
+   "ut6-luces"
+  ],
+  "bal-2019-09-F-25": [
+   "ut6-pitadas"
+  ],
+  "bal-2019-09-F-27": [
+   "ut6-luces"
+  ],
+  "bal-2019-12-A-18": [
+   "ut6-luces"
+  ],
+  "bal-2019-12-A-27": [
+   "ut6-luces"
+  ],
+  "bal-2019-12-B-23": [
+   "ut6-luces"
+  ],
+  "bal-2019-12-C-26": [
+   "ut6-luces"
+  ],
+  "bal-2019-12-F-18": [
+   "ut6-luces"
+  ],
+  "bal-2019-12-F-20": [
+   "ut6-pitadas"
+  ],
+  "bal-2019-12-F-21": [
+   "ut6-luces"
+  ],
+  "bal-2019-12-F-22": [
+   "ut6-luces"
+  ],
+  "bal-2019-12-F-24": [
+   "ut6-luces"
+  ],
+  "bal-2019-12-F-25": [
+   "ut6-luces"
+  ],
+  "bal-2019-12-F-26": [
+   "ut6-luces"
+  ],
+  "bal-2019-12-G-19": [
+   "ut6-marcas"
+  ],
+  "bal-2019-12-G-20": [
+   "ut6-marcas"
+  ],
+  "bal-2019-12-G-22": [
+   "ut6-pitadas"
+  ],
+  "bal-2019-12-G-25": [
+   "ut6-pitadas"
+  ],
+  "bal-2019-12-G-27": [
+   "ut6-luces"
+  ],
+  "bal-2020-04-C-18": [
+   "ut6-situaciones"
+  ],
+  "bal-2020-04-C-20": [
+   "ut6-luces"
+  ],
+  "bal-2020-04-C-21": [
+   "ut6-luces"
+  ],
+  "bal-2020-04-C-23": [
+   "ut6-luces"
+  ],
+  "bal-2020-07-A-24": [
+   "ut6-luces"
+  ],
+  "bal-2020-07-A-25": [
+   "ut6-pitadas"
+  ],
+  "bal-2020-07-D-18": [
+   "ut6-pitadas"
+  ],
+  "bal-2020-07-D-19": [
+   "ut6-pitadas"
+  ],
+  "bal-2020-07-D-20": [
+   "ut6-dst"
+  ],
+  "bal-2020-07-D-21": [
+   "ut6-dst"
+  ],
+  "bal-2020-07-D-22": [
+   "ut6-pitadas"
+  ],
+  "bal-2020-07-D-24": [
+   "ut6-luces"
+  ],
+  "bal-2020-07-D-26": [
+   "ut6-vela"
+  ],
+  "bal-2020-07-E-22": [
+   "ut6-luces"
+  ],
+  "bal-2020-07-E-25": [
+   "ut6-luces"
+  ],
+  "bal-2020-07-E-26": [
+   "ut6-pitadas"
+  ],
+  "bal-2020-07-I-26": [
+   "ut6-situaciones"
+  ],
+  "bal-2020-10-C-19": [
+   "ut6-pitadas"
+  ],
+  "bal-2020-10-C-21": [
+   "ut6-pitadas"
+  ],
+  "bal-2020-10-D-21": [
+   "ut6-marcas"
+  ],
+  "bal-2020-10-D-27": [
+   "ut6-marcas"
+  ],
+  "bal-2020-10-E-18": [
+   "ut6-luces"
+  ],
+  "bal-2020-10-E-19": [
+   "ut6-luces"
+  ],
+  "bal-2020-10-E-20": [
+   "ut6-marcas"
+  ],
+  "bal-2020-10-E-21": [
+   "ut6-situaciones"
+  ],
+  "bal-2020-10-E-22": [
+   "ut6-vela"
+  ],
+  "bal-2020-10-F-19": [
+   "ut6-pitadas"
+  ],
+  "bal-2020-10-F-21": [
+   "ut6-luces"
+  ],
+  "bal-2020-10-F-22": [
+   "ut6-sectores"
+  ],
+  "bal-2020-10-F-23": [
+   "ut6-dst"
+  ],
+  "bal-2020-10-F-24": [
+   "ut6-luces"
+  ],
+  "bal-2020-10-G-21": [
+   "ut6-marcas"
+  ],
+  "bal-2020-10-G-22": [
+   "ut6-luces"
+  ],
+  "bal-2020-10-G-23": [
+   "ut6-pitadas"
+  ],
+  "bal-2020-10-G-24": [
+   "ut6-marcas"
+  ],
+  "bal-2020-10-H-23": [
+   "ut6-vela"
+  ],
+  "bal-2020-10-H-25": [
+   "ut6-luces"
+  ],
+  "bal-2020-10-I-21": [
+   "ut6-luces"
+  ],
+  "bal-2020-10-I-25": [
+   "ut6-pitadas"
+  ],
+  "bal-2020-10-I-27": [
+   "ut6-situaciones"
+  ],
+  "bal-2020-12-A-19": [
+   "ut6-marcas"
+  ],
+  "bal-2020-12-A-22": [
+   "ut6-luces"
+  ],
+  "bal-2020-12-A-23": [
+   "ut6-situaciones"
+  ],
+  "bal-2020-12-A-24": [
+   "ut6-pitadas"
+  ],
+  "bal-2020-12-A-25": [
+   "ut6-situaciones"
+  ],
+  "bal-2020-12-B-21": [
+   "ut6-marcas"
+  ],
+  "bal-2020-12-B-24": [
+   "ut6-luces"
+  ],
+  "bal-2020-12-B-25": [
+   "ut6-luces"
+  ],
+  "bal-2020-12-B-26": [
+   "ut6-sectores"
+  ],
+  "bal-2020-12-B-27": [
+   "ut6-situaciones"
+  ],
+  "bal-2020-12-C-18": [
+   "ut6-pitadas"
+  ],
+  "bal-2020-12-C-21": [
+   "ut6-pitadas"
+  ],
+  "bal-2020-12-C-23": [
+   "ut6-luces"
+  ],
+  "bal-2020-12-C-24": [
+   "ut6-pitadas"
+  ],
+  "bal-2020-12-C-25": [
+   "ut6-situaciones"
+  ],
+  "bal-2020-12-C-26": [
+   "ut6-luces"
+  ],
+  "bal-2020-12-C-27": [
+   "ut6-luces"
+  ],
+  "bal-2020-12-D-18": [
+   "ut6-pitadas"
+  ],
+  "bal-2020-12-D-19": [
+   "ut6-vela"
+  ],
+  "bal-2020-12-D-25": [
+   "ut6-pitadas"
+  ],
+  "bal-2020-12-E-23": [
+   "ut6-luces"
+  ],
+  "bal-2020-12-F-19": [
+   "ut6-marcas"
+  ],
+  "bal-2020-12-F-24": [
+   "ut6-pitadas"
+  ],
+  "bal-2020-12-F-26": [
+   "ut6-luces"
+  ],
+  "bal-2020-12-G-18": [
+   "ut6-pitadas"
+  ],
+  "bal-2020-12-G-19": [
+   "ut6-pitadas"
+  ],
+  "bal-2020-12-G-26": [
+   "ut6-situaciones"
+  ],
+  "bal-2020-12-I-18": [
+   "ut6-vela"
+  ],
+  "bal-2020-12-I-19": [
+   "ut6-marcas"
+  ],
+  "bal-2020-12-I-21": [
+   "ut6-luces"
+  ],
+  "bal-2020-12-I-22": [
+   "ut6-situaciones"
+  ],
+  "bal-2020-12-I-24": [
+   "ut6-pitadas"
+  ],
+  "bal-2020-12-I-25": [
+   "ut6-dst"
+  ],
+  "bal-2020-12-I-26": [
+   "ut6-vela"
+  ],
+  "bal-2020-12-I-27": [
+   "ut6-luces"
+  ],
+  "bal-2021-03-A-18": [
+   "ut6-pitadas"
+  ],
+  "bal-2021-03-B-22": [
+   "ut6-pitadas"
+  ],
+  "bal-2021-03-C-24": [
+   "ut6-pitadas"
+  ],
+  "bal-2021-03-D-18": [
+   "ut6-luces"
+  ],
+  "bal-2021-03-D-19": [
+   "ut6-luces"
+  ],
+  "bal-2021-03-D-23": [
+   "ut6-marcas"
+  ],
+  "bal-2021-03-E-19": [
+   "ut6-luces"
+  ],
+  "bal-2021-03-E-23": [
+   "ut6-marcas"
+  ],
+  "bal-2021-03-E-25": [
+   "ut6-luces"
+  ],
+  "bal-2021-03-E-26": [
+   "ut6-vela"
+  ],
+  "bal-2021-03-E-27": [
+   "ut6-vela"
+  ],
+  "bal-2021-03-F-20": [
+   "ut6-marcas"
+  ],
+  "bal-2021-03-F-27": [
+   "ut6-situaciones"
+  ],
+  "bal-2021-03-H-21": [
+   "ut6-situaciones"
+  ],
+  "bal-2021-03-H-27": [
+   "ut6-pitadas"
+  ],
+  "bal-2021-06-B-20": [
+   "ut6-luces"
+  ],
+  "bal-2021-06-B-22": [
+   "ut6-luces"
+  ],
+  "bal-2021-06-C-19": [
+   "ut6-pitadas"
+  ],
+  "bal-2021-06-C-23": [
+   "ut6-luces"
+  ],
+  "bal-2021-06-D-19": [
+   "ut6-luces"
+  ],
+  "bal-2021-06-D-23": [
+   "ut6-luces"
+  ],
+  "bal-2021-06-E-18": [
+   "ut6-luces"
+  ],
+  "bal-2021-06-E-21": [
+   "ut6-luces"
+  ],
+  "bal-2021-06-E-23": [
+   "ut6-pitadas"
+  ],
+  "bal-2021-06-E-26": [
+   "ut6-luces"
+  ],
+  "bal-2021-06-F-18": [
+   "ut6-pitadas"
+  ],
+  "bal-2021-06-F-20": [
+   "ut6-vela"
+  ],
+  "bal-2021-06-F-23": [
+   "ut6-dst"
+  ],
+  "bal-2021-06-F-25": [
+   "ut6-luces"
+  ],
+  "bal-2021-06-F-27": [
+   "ut6-luces"
+  ],
+  "bal-2021-06-G-21": [
+   "ut6-pitadas"
+  ],
+  "bal-2021-06-G-22": [
+   "ut6-marcas"
+  ],
+  "bal-2021-06-G-23": [
+   "ut6-luces"
+  ],
+  "bal-2021-06-G-27": [
+   "ut6-pitadas"
+  ],
+  "bal-2021-09-A-18": [
+   "ut6-pitadas"
+  ],
+  "bal-2021-09-A-19": [
+   "ut6-luces"
+  ],
+  "bal-2021-09-A-21": [
+   "ut6-vela"
+  ],
+  "bal-2021-09-A-22": [
+   "ut6-pitadas"
+  ],
+  "bal-2021-09-A-24": [
+   "ut6-marcas"
+  ],
+  "bal-2021-09-B-18": [
+   "ut6-marcas"
+  ],
+  "bal-2021-09-B-20": [
+   "ut6-luces"
+  ],
+  "bal-2021-09-B-21": [
+   "ut6-luces"
+  ],
+  "bal-2021-09-B-24": [
+   "ut6-situaciones"
+  ],
+  "bal-2021-09-B-27": [
+   "ut6-luces"
+  ],
+  "bal-2021-09-C-21": [
+   "ut6-marcas"
+  ],
+  "bal-2021-09-C-26": [
+   "ut6-sectores"
+  ],
+  "bal-2021-09-D-21": [
+   "ut6-pitadas"
+  ],
+  "bal-2021-09-D-24": [
+   "ut6-pitadas"
+  ],
+  "bal-2021-09-D-25": [
+   "ut6-vela"
+  ],
+  "bal-2021-09-E-18": [
+   "ut6-situaciones"
+  ],
+  "bal-2021-09-E-19": [
+   "ut6-vela"
+  ],
+  "bal-2021-09-E-24": [
+   "ut6-luces"
+  ],
+  "bal-2021-09-E-25": [
+   "ut6-luces"
+  ],
+  "bal-2021-09-E-26": [
+   "ut6-luces"
+  ],
+  "bal-2021-09-E-27": [
+   "ut6-sectores"
+  ],
+  "bal-2021-09-F-18": [
+   "ut6-luces"
+  ],
+  "bal-2021-09-F-20": [
+   "ut6-pitadas"
+  ],
+  "bal-2021-09-F-25": [
+   "ut6-pitadas"
+  ],
+  "bal-2021-09-F-27": [
+   "ut6-luces"
+  ],
+  "bal-2021-12-B-21": [
+   "ut6-luces"
+  ],
+  "bal-2021-12-B-27": [
+   "ut6-pitadas"
+  ],
+  "bal-2021-12-C-19": [
+   "ut6-luces"
+  ],
+  "bal-2021-12-C-20": [
+   "ut6-marcas"
+  ],
+  "bal-2021-12-C-21": [
+   "ut6-situaciones"
+  ],
+  "bal-2021-12-C-22": [
+   "ut6-vela"
+  ],
+  "bal-2021-12-D-20": [
+   "ut6-vela"
+  ],
+  "bal-2021-12-D-22": [
+   "ut6-luces"
+  ],
+  "bal-2021-12-D-23": [
+   "ut6-vela"
+  ],
+  "bal-2021-12-D-26": [
+   "ut6-marcas"
+  ],
+  "bal-2021-12-F-18": [
+   "ut6-dst"
+  ],
+  "bal-2021-12-F-21": [
+   "ut6-situaciones"
+  ],
+  "bal-2021-12-F-22": [
+   "ut6-marcas"
+  ],
+  "bal-2021-12-F-26": [
+   "ut6-luces"
+  ],
+  "bal-2022-03-A-19": [
+   "ut6-luces"
+  ],
+  "bal-2022-03-A-22": [
+   "ut6-dst"
+  ],
+  "bal-2022-03-A-26": [
+   "ut6-vela"
+  ],
+  "bal-2022-03-G-23": [
+   "ut6-marcas"
+  ],
+  "bal-2022-03-G-24": [
+   "ut6-luces"
+  ],
+  "bal-2022-03-H-26": [
+   "ut6-pitadas"
+  ],
+  "bal-2022-06-C-24": [
+   "ut6-pitadas"
+  ],
+  "bal-2022-06-D-20": [
+   "ut6-luces"
+  ],
+  "bal-2022-06-D-21": [
+   "ut6-marcas"
+  ],
+  "bal-2022-06-D-24": [
+   "ut6-marcas"
+  ],
+  "bal-2022-06-D-26": [
+   "ut6-situaciones"
+  ],
+  "bal-2022-06-D-27": [
+   "ut6-luces"
+  ],
+  "bal-2022-06-E-18": [
+   "ut6-situaciones"
+  ],
+  "bal-2022-06-E-19": [
+   "ut6-dst"
+  ],
+  "bal-2022-06-E-21": [
+   "ut6-luces"
+  ],
+  "bal-2022-06-E-27": [
+   "ut6-sectores"
+  ],
+  "bal-2022-06-F-25": [
+   "ut6-pitadas"
+  ],
+  "bal-2022-09-B-21": [
+   "ut6-dst"
+  ],
+  "bal-2022-09-B-26": [
+   "ut6-luces"
+  ],
+  "bal-2022-09-C-18": [
+   "ut6-luces"
+  ],
+  "bal-2022-09-C-19": [
+   "ut6-luces"
+  ],
+  "bal-2022-09-C-20": [
+   "ut6-dst"
+  ],
+  "bal-2022-09-C-21": [
+   "ut6-situaciones"
+  ],
+  "bal-2022-09-C-22": [
+   "ut6-vela"
+  ],
+  "bal-2022-09-C-23": [
+   "ut6-situaciones"
+  ],
+  "bal-2022-09-C-24": [
+   "ut6-situaciones"
+  ],
+  "bal-2022-09-C-26": [
+   "ut6-marcas"
+  ],
+  "bal-2022-09-N-18": [
+   "ut6-situaciones"
+  ],
+  "bal-2022-09-N-19": [
+   "ut6-marcas"
+  ],
+  "bal-2022-09-N-20": [
+   "ut6-vela"
+  ],
+  "bal-2022-09-N-21": [
+   "ut6-luces"
+  ],
+  "bal-2022-09-N-23": [
+   "ut6-marcas"
+  ],
+  "bal-2022-09-N-25": [
+   "ut6-luces"
+  ],
+  "bal-2022-09-N-26": [
+   "ut6-sectores"
+  ],
+  "bal-2022-12-A-20": [
+   "ut6-pitadas"
+  ],
+  "bal-2022-12-B-18": [
+   "ut6-vela"
+  ],
+  "bal-2022-12-C-19": [
+   "ut6-luces"
+  ],
+  "bal-2022-12-C-20": [
+   "ut6-pitadas"
+  ],
+  "bal-2022-12-C-22": [
+   "ut6-marcas"
+  ],
+  "bal-2022-12-C-23": [
+   "ut6-luces"
+  ],
+  "bal-2022-12-C-24": [
+   "ut6-luces"
+  ],
+  "bal-2022-12-C-25": [
+   "ut6-pitadas"
+  ],
+  "bal-2022-12-C-27": [
+   "ut6-luces"
+  ],
+  "bal-2022-12-F-20": [
+   "ut6-vela"
+  ],
+  "bal-2022-12-F-22": [
+   "ut6-sectores"
+  ],
+  "bal-2022-12-F-24": [
+   "ut6-situaciones"
+  ],
+  "bal-2022-12-F-25": [
+   "ut6-pitadas"
+  ],
+  "bal-2023-03-A-20": [
+   "ut6-pitadas"
+  ],
+  "bal-2023-03-A-22": [
+   "ut6-sectores"
+  ],
+  "bal-2023-03-A-24": [
+   "ut6-situaciones"
+  ],
+  "bal-2023-03-B-19": [
+   "ut6-luces"
+  ],
+  "bal-2023-03-B-21": [
+   "ut6-marcas"
+  ],
+  "bal-2023-03-B-22": [
+   "ut6-pitadas"
+  ],
+  "bal-2023-03-B-27": [
+   "ut6-situaciones"
+  ],
+  "bal-2023-03-C-18": [
+   "ut6-pitadas"
+  ],
+  "bal-2023-03-C-27": [
+   "ut6-pitadas"
+  ],
+  "bal-2023-06-B-23": [
+   "ut6-vela"
+  ],
+  "bal-2023-06-C-19": [
+   "ut6-vela"
+  ],
+  "bal-2023-06-C-20": [
+   "ut6-sectores"
+  ],
+  "bal-2023-06-C-22": [
+   "ut6-luces"
+  ],
+  "bal-2023-06-C-24": [
+   "ut6-vela"
+  ],
+  "bal-2023-06-C-27": [
+   "ut6-luces"
+  ],
+  "bal-2023-06-D-19": [
+   "ut6-sectores"
+  ],
+  "bal-2023-06-D-27": [
+   "ut6-sectores"
+  ],
+  "bal-2023-09-A-25": [
+   "ut6-dst"
+  ],
+  "bal-2023-09-B-27": [
+   "ut6-marcas"
+  ],
+  "bal-2023-09-C-19": [
+   "ut6-pitadas"
+  ],
+  "bal-2023-09-C-22": [
+   "ut6-luces"
+  ],
+  "bal-2023-09-D-20": [
+   "ut6-pitadas"
+  ],
+  "bal-2023-12-A-25": [
+   "ut6-situaciones"
+  ],
+  "bal-2023-12-B-19": [
+   "ut6-luces"
+  ],
+  "bal-2023-12-B-23": [
+   "ut6-luces"
+  ],
+  "bal-2023-12-B-25": [
+   "ut6-luces"
+  ],
+  "bal-2023-12-C-19": [
+   "ut6-luces"
+  ],
+  "bal-2023-12-C-22": [
+   "ut6-luces"
+  ],
+  "bal-2023-12-C-23": [
+   "ut6-marcas"
+  ],
+  "bal-2023-12-C-24": [
+   "ut6-luces"
+  ],
+  "bal-2023-12-C-25": [
+   "ut6-luces"
+  ],
+  "bal-2023-12-C-27": [
+   "ut6-luces"
+  ],
+  "bal-2023-12-E-23": [
+   "ut6-dst"
+  ],
+  "bal-2023-12-E-24": [
+   "ut6-vela"
+  ],
+  "bal-2023-12-E-27": [
+   "ut6-pitadas"
+  ],
+  "bal-2024-04-A-18": [
+   "ut6-luces"
+  ],
+  "bal-2024-04-A-19": [
+   "ut6-luces"
+  ],
+  "bal-2024-04-A-21": [
+   "ut6-luces"
+  ],
+  "bal-2024-04-A-24": [
+   "ut6-pitadas"
+  ],
+  "bal-2024-04-B-18": [
+   "ut6-luces"
+  ],
+  "bal-2024-04-B-24": [
+   "ut6-pitadas"
+  ],
+  "bal-2024-04-B-25": [
+   "ut6-pitadas"
+  ],
+  "bal-2024-04-C-19": [
+   "ut6-pitadas"
+  ],
+  "bal-2024-04-C-21": [
+   "ut6-luces"
+  ],
+  "bal-2024-04-C-23": [
+   "ut6-luces"
+  ],
+  "bal-2024-04-C-25": [
+   "ut6-marcas"
+  ],
+  "bal-2024-04-C-26": [
+   "ut6-vela"
+  ],
+  "bal-2024-04-D-19": [
+   "ut6-sectores"
+  ],
+  "bal-2024-04-D-21": [
+   "ut6-pitadas"
+  ],
+  "bal-2024-04-D-23": [
+   "ut6-pitadas"
+  ],
+  "bal-2024-07-A-19": [
+   "ut6-luces"
+  ],
+  "bal-2024-07-C-18": [
+   "ut6-luces"
+  ],
+  "bal-2024-07-C-24": [
+   "ut6-marcas"
+  ],
+  "bal-2024-07-C-25": [
+   "ut6-marcas"
+  ],
+  "bal-2024-07-C-26": [
+   "ut6-luces"
+  ],
+  "bal-2024-07-C-27": [
+   "ut6-vela"
+  ],
+  "bal-2024-07-D-20": [
+   "ut6-luces"
+  ],
+  "bal-2024-07-D-21": [
+   "ut6-luces"
+  ],
+  "bal-2024-07-D-26": [
+   "ut6-pitadas"
+  ],
+  "bal-2024-07-D-27": [
+   "ut6-luces"
+  ],
+  "bal-2024-09-D-18": [
+   "ut6-pitadas"
+  ],
+  "bal-2024-09-E-22": [
+   "ut6-vela"
+  ],
+  "bal-2024-09-E-25": [
+   "ut6-pitadas"
+  ],
+  "bal-2024-09-E-26": [
+   "ut6-situaciones"
+  ],
+  "bal-2024-09-F-21": [
+   "ut6-luces"
+  ],
+  "bal-2024-12-A-19": [
+   "ut6-marcas"
+  ],
+  "bal-2024-12-A-21": [
+   "ut6-vela"
+  ],
+  "bal-2024-12-A-22": [
+   "ut6-vela"
+  ],
+  "bal-2024-12-A-24": [
+   "ut6-pitadas"
+  ],
+  "bal-2024-12-B-21": [
+   "ut6-marcas"
+  ],
+  "bal-2024-12-B-23": [
+   "ut6-dst"
+  ],
+  "bal-2024-12-B-26": [
+   "ut6-situaciones"
+  ],
+  "bal-2024-12-C-20": [
+   "ut6-luces"
+  ],
+  "bal-2024-12-C-23": [
+   "ut6-marcas"
+  ],
+  "bal-2024-12-D-20": [
+   "ut6-luces"
+  ],
+  "bal-2024-12-D-23": [
+   "ut6-marcas"
+  ],
+  "bal-2025-04-C-20": [
+   "ut6-sectores"
+  ],
+  "bal-2025-04-C-21": [
+   "ut6-pitadas"
+  ],
+  "bal-2025-04-C-25": [
+   "ut6-luces"
+  ],
+  "bal-2025-04-C-26": [
+   "ut6-luces"
+  ],
+  "bal-2025-04-C-27": [
+   "ut6-marcas"
+  ],
+  "bal-2025-04-D-22": [
+   "ut6-marcas"
+  ],
+  "bal-2025-07-A-19": [
+   "ut6-pitadas"
+  ],
+  "bal-2025-07-A-24": [
+   "ut6-pitadas"
+  ],
+  "bal-2025-07-A-27": [
+   "ut6-marcas"
+  ],
+  "bal-2025-07-B-18": [
+   "ut6-luces"
+  ],
+  "bal-2025-07-B-19": [
+   "ut6-marcas"
+  ],
+  "bal-2025-07-B-20": [
+   "ut6-marcas"
+  ],
+  "bal-2025-07-B-24": [
+   "ut6-pitadas"
+  ],
+  "bal-2025-07-B-26": [
+   "ut6-vela"
+  ],
+  "bal-2025-07-C-20": [
+   "ut6-luces"
+  ],
+  "bal-2025-07-C-22": [
+   "ut6-dst"
+  ],
+  "bal-2025-07-C-23": [
+   "ut6-luces"
+  ],
+  "bal-2025-07-C-27": [
+   "ut6-pitadas"
+  ],
+  "bal-2025-07-D-20": [
+   "ut6-situaciones"
+  ],
+  "bal-2025-07-D-22": [
+   "ut6-marcas"
+  ],
+  "bal-2025-09-A-18": [
+   "ut6-pitadas"
+  ],
+  "bal-2025-09-A-19": [
+   "ut6-pitadas"
+  ],
+  "bal-2025-09-A-20": [
+   "ut6-luces"
+  ],
+  "bal-2025-09-A-23": [
+   "ut6-luces"
+  ],
+  "bal-2025-09-A-24": [
+   "ut6-marcas"
+  ],
+  "bal-2025-09-A-25": [
+   "ut6-pitadas"
+  ],
+  "bal-2025-09-B-18": [
+   "ut6-marcas"
+  ],
+  "bal-2025-09-B-19": [
+   "ut6-situaciones"
+  ],
+  "bal-2025-09-B-20": [
+   "ut6-dst"
+  ],
+  "bal-2025-09-B-22": [
+   "ut6-pitadas"
+  ],
+  "bal-2025-09-B-24": [
+   "ut6-dst"
+  ],
+  "bal-2025-09-B-27": [
+   "ut6-luces"
+  ],
+  "bal-2025-09-C-20": [
+   "ut6-luces"
+  ],
+  "bal-2025-09-C-23": [
+   "ut6-sectores"
+  ],
+  "bal-2025-12-A-22": [
+   "ut6-pitadas"
+  ],
+  "bal-2025-12-A-24": [
+   "ut6-situaciones"
+  ],
+  "bal-2025-12-B-21": [
+   "ut6-luces"
+  ],
+  "bal-2025-12-B-22": [
+   "ut6-marcas"
+  ],
+  "bal-2025-12-B-24": [
+   "ut6-situaciones"
+  ],
+  "bal-2025-12-C-23": [
+   "ut6-marcas"
+  ],
+  "bal-2025-12-C-24": [
+   "ut6-pitadas"
+  ],
+  "bal-2025-12-C-27": [
+   "ut6-luces"
+  ],
+  "bal-2025-12-D-18": [
+   "ut6-pitadas"
+  ],
+  "bal-2025-12-D-19": [
+   "ut6-luces"
+  ],
+  "bal-2025-12-D-20": [
+   "ut6-marcas"
+  ],
+  "bal-2025-12-D-22": [
+   "ut6-pitadas"
+  ],
+  "bal-2025-12-D-26": [
+   "ut6-luces"
+  ],
+  "bal-2026-03-A-18": [
+   "ut6-marcas"
+  ],
+  "bal-2026-03-A-21": [
+   "ut6-luces"
+  ],
+  "bal-2026-03-A-22": [
+   "ut6-sectores"
+  ],
+  "bal-2026-03-A-23": [
+   "ut6-marcas"
+  ],
+  "bal-2026-03-A-24": [
+   "ut6-luces"
+  ],
+  "bal-2026-03-A-25": [
+   "ut6-marcas"
+  ],
+  "bal-2026-03-A-26": [
+   "ut6-pitadas"
+  ],
+  "bal-2026-03-B-20": [
+   "ut6-luces"
+  ],
+  "bal-2026-03-B-23": [
+   "ut6-luces"
+  ],
+  "bal-2026-03-B-26": [
+   "ut6-luces"
+  ],
+  "bal-2026-03-B-27": [
+   "ut6-luces"
+  ],
+  "bal-2026-03-C-18": [
+   "ut6-marcas"
+  ],
+  "bal-2026-03-C-19": [
+   "ut6-marcas"
+  ],
+  "bal-2026-03-C-20": [
+   "ut6-luces"
+  ],
+  "bal-2026-03-C-21": [
+   "ut6-luces"
+  ],
+  "bal-2026-03-C-22": [
+   "ut6-marcas"
+  ],
+  "bal-2026-03-C-24": [
+   "ut6-luces"
+  ],
+  "bal-2026-03-D-18": [
+   "ut6-pitadas"
+  ],
+  "bal-2026-03-D-20": [
+   "ut6-vela"
+  ],
+  "bal-2026-03-D-21": [
+   "ut6-dst"
+  ],
+  "bal-2026-03-D-22": [
+   "ut6-luces"
+  ],
+  "bal-2026-03-D-24": [
+   "ut6-luces"
+  ],
+  "bal-2026-03-D-25": [
+   "ut6-luces"
+  ],
+  "bal-2026-03-D-27": [
+   "ut6-situaciones"
+  ],
+  "bal-2026-06-B-18": [
+   "ut6-pitadas"
+  ],
+  "bal-2026-06-C-18": [
+   "ut6-situaciones"
+  ],
+  "bal-2026-06-C-19": [
+   "ut6-luces"
+  ],
+  "bal-2026-06-C-20": [
+   "ut6-situaciones"
+  ],
+  "bal-2026-06-C-26": [
+   "ut6-luces"
+  ],
+  "bal-2026-06-C-27": [
+   "ut6-pitadas"
+  ],
+  "bal-2026-06-D-20": [
+   "ut6-vela"
+  ],
+  "bal-2026-06-D-25": [
+   "ut6-luces"
+  ],
+  "bal-2026-09-A-27": [
+   "ut6-vela"
+  ],
+  "bal-2026-09-B-18": [
+   "ut6-luces"
+  ],
+  "bal-2026-09-B-20": [
+   "ut6-luces"
+  ],
+  "bal-2026-09-C-19": [
+   "ut6-luces"
+  ],
+  "bal-2026-09-C-21": [
+   "ut6-luces"
+  ],
+  "bal-2026-09-C-24": [
+   "ut6-sectores"
+  ],
+  "bal-2026-09-C-25": [
+   "ut6-luces"
+  ],
+  "bal-2026-09-C-26": [
+   "ut6-luces"
+  ],
+  "bal-2026-09-C-27": [
+   "ut6-vela"
+  ],
+  "bal-2026-09-E-25": [
+   "ut6-pitadas"
   ]
  }
 }

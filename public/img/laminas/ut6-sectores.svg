@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="t">
+<title id="t">Arcos de visibilidad de las luces de tope, costado y alcance</title>
+<style>
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:20px;fill:#14202b}
+.b{font-weight:700}.p{font-size:15px;fill:#4b5b69}.l{font-size:15px;font-weight:600;fill:#14202b}
+.n{font-size:15px;fill:#e5edf5}.nb{font-size:16px;font-weight:700;fill:#fff}
+.h{fill:#eef2f5;stroke:#14202b;stroke-width:2;stroke-linejoin:round}
+.fl{fill:none;stroke:#c2410c;stroke-width:3}
+</style>
+<defs><marker id="f" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#c2410c"/></marker>
+<marker id="fg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0L10,5L0,10z" fill="#5c6b78"/></marker>
+<path id="bq" d="M0,-30 C9,-21 11,-9 11,0 L9,24 L-9,24 L-11,0 C-11,-9 -9,-21 0,-30 Z"/></defs>
+<rect width="720" height="520" rx="14" fill="#fff"/>
+<path d="M360,270 L152.1,356.1 A225,225 0 1 1 567.9,356.1 Z" fill="#fef9c3" stroke="#ca8a04" stroke-width="2" stroke-dasharray="7 5"/><path d="M360,270 L512.4,333.1 A165,165 0 0 1 207.6,333.1 Z" fill="#e5e7eb" stroke="#6b7280" stroke-width="2"/><path d="M360,270 L360,120 A150,150 0 0 1 498.6,327.4 Z" fill="#22c55e" fill-opacity=".35" stroke="#16a34a" stroke-width="2"/><path d="M360,270 L221.4,327.4 A150,150 0 0 1 360,120 Z" fill="#ef4444" fill-opacity=".3" stroke="#dc2626" stroke-width="2"/><line x1="120" y1="270" x2="600" y2="270" stroke="#5c6b78" stroke-width="1.5" stroke-dasharray="4 4"/><text x="612" y="275" class="p">través</text><text x="108" y="275" text-anchor="end" class="p">través</text><g transform="translate(360 270) rotate(0) scale(1.6)"><use href="#bq" class="h"/></g><text x="360" y="70" text-anchor="middle" class="l">Tope (blanca) · 225°</text><text x="430" y="200" text-anchor="middle" class="l">Costado</text><text x="430" y="219" text-anchor="middle" class="l">verde</text><text x="430" y="238" text-anchor="middle" class="l">112,5°</text><text x="290" y="200" text-anchor="middle" class="l">Costado</text><text x="290" y="219" text-anchor="middle" class="l">roja</text><text x="290" y="238" text-anchor="middle" class="l">112,5°</text><text x="360" y="380" text-anchor="middle" class="l">Alcance (blanca)</text><text x="360" y="399" text-anchor="middle" class="l">135°</text><text x="582.3" y="380.8" text-anchor="start" class="p">22,5° a popa</text><text x="582.3" y="399.8" text-anchor="start" class="p">del través</text><text x="104.29999999999995" y="380.8" text-anchor="start" class="p">22,5° a popa</text><text x="104.29999999999995" y="399.8" text-anchor="start" class="p">del través</text><text x="360" y="478" text-anchor="middle" class="p">La luz de remolque (amarilla) tiene el mismo arco que la de alcance.</text><text x="360" y="497" text-anchor="middle" class="p">Visto de proa: verde a nuestra izquierda y roja a nuestra derecha.</text>
+</svg>

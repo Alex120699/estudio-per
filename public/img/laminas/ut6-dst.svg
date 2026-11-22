@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 490" role="img" aria-labelledby="t">
+<title id="t">Dispositivo de separación del tráfico: vías, zona de separación, cruzar e incorporarse</title>
+<style>
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:20px;fill:#14202b}
+.b{font-weight:700}.p{font-size:15px;fill:#4b5b69}.l{font-size:15px;font-weight:600;fill:#14202b}
+.n{font-size:15px;fill:#e5edf5}.nb{font-size:16px;font-weight:700;fill:#fff}
+.h{fill:#eef2f5;stroke:#14202b;stroke-width:2;stroke-linejoin:round}
+.fl{fill:none;stroke:#c2410c;stroke-width:3}
+</style>
+<defs><marker id="f" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#c2410c"/></marker>
+<marker id="fg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0L10,5L0,10z" fill="#5c6b78"/></marker>
+<path id="bq" d="M0,-30 C9,-21 11,-9 11,0 L9,24 L-9,24 L-11,0 C-11,-9 -9,-21 0,-30 Z"/></defs>
+<rect width="720" height="490" rx="14" fill="#fff"/>
+<defs><pattern id="zs" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#fce7f3"/><line x1="0" y1="0" x2="0" y2="10" stroke="#db2777" stroke-width="2"/></pattern></defs><rect x="20" y="70" width="680" height="240" fill="#d7ebf8"/><rect x="20" y="170" width="680" height="40" fill="url(#zs)"/><g stroke="#db2777" stroke-width="2" stroke-dasharray="10 6"><line x1="20" y1="70" x2="700" y2="70"/><line x1="20" y1="310" x2="700" y2="310"/></g><g fill="#93c5fd" opacity=".8"><path d="M300,120 L240,120 L240,104 L200,135 L240,166 L240,150 L300,150 Z"/><path d="M360,230 L420,230 L420,214 L460,245 L420,276 L420,260 L360,260 Z"/></g><text x="120" y="128" text-anchor="middle" class="l">vía hacia el oeste</text><text x="560" y="250" text-anchor="middle" class="l">vía hacia el este</text><text x="360" y="196" text-anchor="middle" class="l">zona de separación</text><path class="fl" d="M640,350 L640,40" marker-end="url(#f)"/><g transform="translate(640 360) rotate(0) scale(0.9)"><use href="#bq" class="h"/></g><text x="626" y="34" text-anchor="end" class="p">cruzar: perpendicular</text><path class="fl" d="M95,370 Q150,300 300,268" marker-end="url(#f)"/><g transform="translate(90 382) rotate(30) scale(0.9)"><use href="#bq" class="h"/></g><text x="128" y="400" text-anchor="start" class="p">incorporarse por un lateral:</text><text x="128" y="419" text-anchor="start" class="p">con el menor ángulo posible</text><path class="fl" d="M30,290 L130,290" marker-end="url(#f)"/><text x="40" y="334" text-anchor="start" class="p">o por los extremos</text><text x="360" y="452" text-anchor="middle" class="p">Por la vía, en el sentido general del tráfico. Menos de 20 m, vela y pesca</text><text x="360" y="471" text-anchor="middle" class="p">no estorbarán a los buques de propulsión mecánica que sigan la vía.</text>
+</svg>
