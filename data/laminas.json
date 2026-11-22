@@ -263,9 +263,1602 @@
   "ut10-cartas": {
    "titulo": "Tipos de carta",
    "archivo": "img/laminas/ut10-cartas.svg"
+  },
+  "ut11-dos-demoras": {
+   "titulo": "Situación por dos demoras",
+   "archivo": "img/laminas/ut11-dos-demoras.svg"
+  },
+  "ut11-circulos": {
+   "titulo": "Situación por distancias",
+   "archivo": "img/laminas/ut11-circulos.svg"
+  },
+  "ut11-estima": {
+   "titulo": "Situación de estima",
+   "archivo": "img/laminas/ut11-estima.svg"
+  },
+  "ut11-ct": {
+   "titulo": "Corrección total por enfilación u oposición",
+   "archivo": "img/laminas/ut11-ct.svg"
+  },
+  "ut11-marcacion": {
+   "titulo": "De marcación a demora verdadera",
+   "archivo": "img/laminas/ut11-marcacion.svg"
+  },
+  "ut11-tangente": {
+   "titulo": "Pasar a una distancia de un faro",
+   "archivo": "img/laminas/ut11-tangente.svg"
   }
  },
  "preguntas": {
+  "and-2025-1-A-42": [
+   "ut11-ct",
+   "ut11-dos-demoras"
+  ],
+  "and-2025-1-A-43": [
+   "ut11-dos-demoras"
+  ],
+  "and-2025-1-A-44": [
+   "ut11-estima"
+  ],
+  "and-2025-1-A-45": [
+   "ut11-marcacion",
+   "ut11-circulos"
+  ],
+  "and-2025-2-A-42": [
+   "ut11-dos-demoras"
+  ],
+  "and-2025-3-A-42": [
+   "ut11-dos-demoras"
+  ],
+  "and-2025-3-A-43": [
+   "ut11-estima"
+  ],
+  "and-2025-3-A-44": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "and-2025-3-A-45": [
+   "ut11-ct",
+   "ut11-dos-demoras"
+  ],
+  "and-2026-1-A-42": [
+   "ut11-ct",
+   "ut11-dos-demoras"
+  ],
+  "and-2026-1-A-43": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "and-2026-1-A-44": [
+   "ut11-dos-demoras",
+   "ut11-tangente"
+  ],
+  "and-2026-1-A-45": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "and-2026-2-A-42": [
+   "ut11-ct",
+   "ut11-dos-demoras"
+  ],
+  "and-2026-2-A-44": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "and-2026-2-A-45": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2017-03-A-42": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2017-03-A-43": [
+   "ut10-mareas"
+  ],
+  "bal-2017-03-A-44": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2017-03-B-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2017-03-B-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2017-03-B-45": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2017-03-C-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2017-03-C-44": [
+   "ut11-marcacion"
+  ],
+  "bal-2017-03-C-45": [
+   "ut10-mareas"
+  ],
+  "bal-2017-03-F-42": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2017-03-F-44": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2017-03-F-45": [
+   "ut11-marcacion"
+  ],
+  "bal-2017-03-G-42": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2017-03-G-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2017-03-G-45": [
+   "ut10-mareas"
+  ],
+  "bal-2017-06-B-42": [
+   "ut11-dos-demoras",
+   "ut11-tangente"
+  ],
+  "bal-2017-06-B-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2017-06-B-45": [
+   "ut11-marcacion",
+   "ut11-tangente"
+  ],
+  "bal-2017-06-C-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2017-06-C-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2017-06-C-44": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2017-06-C-45": [
+   "ut10-mareas"
+  ],
+  "bal-2017-06-E-43": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2017-06-E-44": [
+   "ut11-dos-demoras",
+   "ut11-tangente"
+  ],
+  "bal-2017-06-E-45": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2017-06-F-43": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2017-06-F-44": [
+   "ut11-marcacion",
+   "ut11-circulos"
+  ],
+  "bal-2017-06-F-45": [
+   "ut11-tangente"
+  ],
+  "bal-2017-09-A-44": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2017-09-A-45": [
+   "ut11-marcacion"
+  ],
+  "bal-2017-09-C-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2017-09-C-44": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2017-09-D-43": [
+   "ut10-mareas"
+  ],
+  "bal-2017-09-D-44": [
+   "ut11-marcacion"
+  ],
+  "bal-2017-09-D-45": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2017-09-E-42": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2017-09-E-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2017-09-E-45": [
+   "ut10-mareas"
+  ],
+  "bal-2017-12-A-42": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2017-12-A-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2017-12-A-44": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2017-12-A-45": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2017-12-B-42": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2017-12-C-44": [
+   "ut11-marcacion"
+  ],
+  "bal-2017-12-C-45": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2017-12-D-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2017-12-D-44": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2017-12-E-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2017-12-E-45": [
+   "ut10-mareas"
+  ],
+  "bal-2018-04-A-43": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2018-04-A-44": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2018-04-A-45": [
+   "ut11-tangente",
+   "ut11-circulos"
+  ],
+  "bal-2018-04-B-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2018-04-B-43": [
+   "ut11-marcacion",
+   "ut11-tangente"
+  ],
+  "bal-2018-04-B-44": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2018-04-D-42": [
+   "ut10-mareas"
+  ],
+  "bal-2018-04-D-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2018-04-D-45": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2018-04-E-44": [
+   "ut10-mareas"
+  ],
+  "bal-2018-04-E-45": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2018-04-F-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2018-04-F-44": [
+   "ut11-tangente"
+  ],
+  "bal-2018-04-F-45": [
+   "ut10-mareas"
+  ],
+  "bal-2018-06-A-42": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2018-06-A-44": [
+   "ut11-marcacion"
+  ],
+  "bal-2018-06-A-45": [
+   "ut10-mareas"
+  ],
+  "bal-2018-06-B-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2018-06-B-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2018-06-B-44": [
+   "ut11-marcacion"
+  ],
+  "bal-2018-06-B-45": [
+   "ut10-mareas"
+  ],
+  "bal-2018-06-C-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2018-06-C-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2018-06-C-45": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2018-06-H-43": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2018-06-I-42": [
+   "ut11-ct",
+   "ut11-marcacion"
+  ],
+  "bal-2018-06-I-43": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2018-09-A-42": [
+   "ut10-mareas"
+  ],
+  "bal-2018-09-A-43": [
+   "ut11-ct",
+   "ut11-dos-demoras"
+  ],
+  "bal-2018-09-A-44": [
+   "ut11-dos-demoras",
+   "ut11-estima"
+  ],
+  "bal-2018-09-A-45": [
+   "ut11-marcacion",
+   "ut11-tangente"
+  ],
+  "bal-2018-09-B-42": [
+   "ut10-mareas"
+  ],
+  "bal-2018-09-B-43": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2018-09-B-45": [
+   "ut10-mareas"
+  ],
+  "bal-2018-09-D-42": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2018-09-D-44": [
+   "ut11-marcacion"
+  ],
+  "bal-2018-09-D-45": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2018-09-E-42": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2018-09-E-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2018-09-E-44": [
+   "ut11-tangente"
+  ],
+  "bal-2018-09-E-45": [
+   "ut10-mareas"
+  ],
+  "bal-2018-12-A-43": [
+   "ut11-circulos"
+  ],
+  "bal-2018-12-A-44": [
+   "ut10-mareas"
+  ],
+  "bal-2018-12-A-45": [
+   "ut10-mareas"
+  ],
+  "bal-2018-12-B-42": [
+   "ut11-circulos",
+   "ut11-estima"
+  ],
+  "bal-2018-12-B-43": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2018-12-B-45": [
+   "ut11-dos-demoras",
+   "ut11-tangente"
+  ],
+  "bal-2018-12-C-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2018-12-C-44": [
+   "ut11-marcacion"
+  ],
+  "bal-2018-12-C-45": [
+   "ut10-mareas"
+  ],
+  "bal-2018-12-D-43": [
+   "ut10-mareas"
+  ],
+  "bal-2018-12-D-45": [
+   "ut11-ct",
+   "ut11-dos-demoras"
+  ],
+  "bal-2018-12-F-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2018-12-F-44": [
+   "ut11-marcacion"
+  ],
+  "bal-2019-04-A-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2019-04-A-44": [
+   "ut10-mareas"
+  ],
+  "bal-2019-04-A-45": [
+   "ut10-mareas"
+  ],
+  "bal-2019-04-B-42": [
+   "ut11-estima"
+  ],
+  "bal-2019-04-B-43": [
+   "ut11-tangente"
+  ],
+  "bal-2019-04-B-44": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2019-04-B-45": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2019-04-C-42": [
+   "ut11-dos-demoras",
+   "ut11-tangente"
+  ],
+  "bal-2019-04-C-43": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2019-04-C-45": [
+   "ut11-marcacion",
+   "ut11-tangente"
+  ],
+  "bal-2019-04-F-42": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2019-04-F-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2019-04-F-45": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2019-04-I-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2019-04-I-43": [
+   "ut11-marcacion",
+   "ut11-tangente"
+  ],
+  "bal-2019-06-A-43": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2019-06-A-44": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2019-06-B-42": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2019-06-B-44": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2019-06-B-45": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2019-06-C-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2019-06-C-44": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2019-06-C-45": [
+   "ut11-marcacion"
+  ],
+  "bal-2019-06-I-44": [
+   "ut10-mareas"
+  ],
+  "bal-2019-06-I-45": [
+   "ut11-dos-demoras",
+   "ut11-tangente"
+  ],
+  "bal-2019-09-A-42": [
+   "ut10-mareas"
+  ],
+  "bal-2019-09-A-43": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2019-09-A-44": [
+   "ut11-estima"
+  ],
+  "bal-2019-09-C-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2019-09-C-44": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2019-09-C-45": [
+   "ut11-marcacion"
+  ],
+  "bal-2019-09-E-43": [
+   "ut11-tangente"
+  ],
+  "bal-2019-09-E-44": [
+   "ut11-marcacion"
+  ],
+  "bal-2019-09-E-45": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2019-09-F-43": [
+   "ut11-circulos"
+  ],
+  "bal-2019-09-F-44": [
+   "ut11-marcacion"
+  ],
+  "bal-2019-09-F-45": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2019-12-A-44": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2019-12-A-45": [
+   "ut11-marcacion"
+  ],
+  "bal-2019-12-C-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2019-12-F-42": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2019-12-F-44": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2019-12-G-45": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2020-04-C-42": [
+   "ut11-estima"
+  ],
+  "bal-2020-04-C-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2020-04-C-44": [
+   "ut10-mareas"
+  ],
+  "bal-2020-07-A-42": [
+   "ut10-mareas"
+  ],
+  "bal-2020-07-A-44": [
+   "ut11-marcacion"
+  ],
+  "bal-2020-07-A-45": [
+   "ut11-marcacion"
+  ],
+  "bal-2020-07-D-42": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2020-07-D-44": [
+   "ut11-tangente"
+  ],
+  "bal-2020-07-D-45": [
+   "ut11-estima"
+  ],
+  "bal-2020-07-E-42": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2020-07-E-44": [
+   "ut11-marcacion"
+  ],
+  "bal-2020-07-E-45": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2020-10-C-42": [
+   "ut10-mareas"
+  ],
+  "bal-2020-10-C-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2020-10-C-45": [
+   "ut10-mareas"
+  ],
+  "bal-2020-10-D-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2020-10-D-43": [
+   "ut11-marcacion",
+   "ut11-tangente"
+  ],
+  "bal-2020-10-D-44": [
+   "ut11-estima"
+  ],
+  "bal-2020-10-E-42": [
+   "ut11-circulos",
+   "ut11-estima"
+  ],
+  "bal-2020-10-E-43": [
+   "ut10-mareas"
+  ],
+  "bal-2020-10-E-45": [
+   "ut11-ct",
+   "ut11-dos-demoras"
+  ],
+  "bal-2020-10-F-42": [
+   "ut10-mareas"
+  ],
+  "bal-2020-10-F-43": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2020-10-F-45": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2020-10-G-43": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2020-10-G-44": [
+   "ut10-mareas"
+  ],
+  "bal-2020-10-G-45": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2020-10-H-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2020-10-I-42": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2020-10-I-43": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2020-10-I-44": [
+   "ut11-dos-demoras",
+   "ut11-tangente"
+  ],
+  "bal-2020-12-A-42": [
+   "ut11-ct"
+  ],
+  "bal-2020-12-A-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2020-12-A-45": [
+   "ut10-mareas"
+  ],
+  "bal-2020-12-B-42": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2020-12-B-45": [
+   "ut10-mareas"
+  ],
+  "bal-2020-12-C-42": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2020-12-C-44": [
+   "ut11-estima"
+  ],
+  "bal-2020-12-C-45": [
+   "ut11-dos-demoras",
+   "ut11-tangente"
+  ],
+  "bal-2020-12-D-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2020-12-D-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2020-12-D-44": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2020-12-E-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2020-12-E-45": [
+   "ut11-marcacion"
+  ],
+  "bal-2020-12-F-45": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2020-12-G-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2020-12-G-44": [
+   "ut10-mareas"
+  ],
+  "bal-2020-12-G-45": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2020-12-I-42": [
+   "ut11-tangente",
+   "ut11-circulos"
+  ],
+  "bal-2020-12-I-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2020-12-I-44": [
+   "ut11-estima"
+  ],
+  "bal-2021-03-A-42": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2021-03-A-45": [
+   "ut11-marcacion"
+  ],
+  "bal-2021-03-B-42": [
+   "ut11-tangente",
+   "ut11-circulos"
+  ],
+  "bal-2021-03-B-43": [
+   "ut11-ct",
+   "ut11-marcacion"
+  ],
+  "bal-2021-03-B-44": [
+   "ut11-marcacion"
+  ],
+  "bal-2021-03-C-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2021-03-C-44": [
+   "ut11-marcacion"
+  ],
+  "bal-2021-03-C-45": [
+   "ut11-marcacion",
+   "ut11-tangente"
+  ],
+  "bal-2021-03-D-42": [
+   "ut10-mareas"
+  ],
+  "bal-2021-03-D-44": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2021-03-D-45": [
+   "ut11-tangente",
+   "ut11-circulos"
+  ],
+  "bal-2021-03-E-42": [
+   "ut11-tangente",
+   "ut11-circulos"
+  ],
+  "bal-2021-03-E-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2021-03-E-44": [
+   "ut11-tangente"
+  ],
+  "bal-2021-03-E-45": [
+   "ut10-mareas"
+  ],
+  "bal-2021-03-F-43": [
+   "ut11-circulos"
+  ],
+  "bal-2021-03-H-45": [
+   "ut11-marcacion",
+   "ut11-tangente"
+  ],
+  "bal-2021-06-B-42": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2021-06-B-43": [
+   "ut10-mareas"
+  ],
+  "bal-2021-06-B-44": [
+   "ut11-dos-demoras",
+   "ut11-tangente"
+  ],
+  "bal-2021-06-B-45": [
+   "ut10-mareas"
+  ],
+  "bal-2021-06-C-42": [
+   "ut10-mareas"
+  ],
+  "bal-2021-06-C-43": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2021-06-C-45": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2021-06-D-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2021-06-D-44": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2021-06-E-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2021-06-E-44": [
+   "ut11-dos-demoras",
+   "ut11-tangente"
+  ],
+  "bal-2021-06-E-45": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2021-06-F-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2021-06-F-43": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2021-06-G-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2021-06-G-43": [
+   "ut10-mareas"
+  ],
+  "bal-2021-06-G-44": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2021-09-A-43": [
+   "ut10-mareas"
+  ],
+  "bal-2021-09-A-44": [
+   "ut11-circulos"
+  ],
+  "bal-2021-09-B-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2021-09-B-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2021-09-B-44": [
+   "ut11-marcacion"
+  ],
+  "bal-2021-09-B-45": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2021-09-C-42": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2021-09-D-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2021-09-D-43": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2021-09-D-44": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2021-09-E-42": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2021-09-E-43": [
+   "ut11-dos-demoras",
+   "ut11-tangente"
+  ],
+  "bal-2021-09-E-44": [
+   "ut10-mareas"
+  ],
+  "bal-2021-09-E-45": [
+   "ut11-estima"
+  ],
+  "bal-2021-09-F-42": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2021-09-F-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2021-12-A-45": [
+   "ut10-mareas"
+  ],
+  "bal-2021-12-B-42": [
+   "ut10-mareas"
+  ],
+  "bal-2021-12-B-45": [
+   "ut10-mareas"
+  ],
+  "bal-2021-12-C-42": [
+   "ut11-ct",
+   "ut11-marcacion"
+  ],
+  "bal-2021-12-C-43": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2021-12-C-45": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2021-12-D-43": [
+   "ut11-ct",
+   "ut11-dos-demoras"
+  ],
+  "bal-2021-12-D-45": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2021-12-F-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2021-12-F-43": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2021-12-F-45": [
+   "ut10-mareas"
+  ],
+  "bal-2021-12-I-43": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2022-03-A-44": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2022-03-A-45": [
+   "ut10-mareas"
+  ],
+  "bal-2022-03-D-45": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2022-03-E-43": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2022-03-E-45": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2022-03-G-45": [
+   "ut10-mareas"
+  ],
+  "bal-2022-03-H-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2022-03-H-43": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2022-03-H-45": [
+   "ut10-mareas"
+  ],
+  "bal-2022-06-C-44": [
+   "ut10-mareas"
+  ],
+  "bal-2022-06-D-43": [
+   "ut11-ct"
+  ],
+  "bal-2022-06-D-45": [
+   "ut10-mareas"
+  ],
+  "bal-2022-06-E-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2022-06-E-44": [
+   "ut11-ct"
+  ],
+  "bal-2022-06-E-45": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2022-06-F-44": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2022-09-B-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2022-09-B-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2022-09-B-45": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2022-09-C-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2022-09-C-45": [
+   "ut10-mareas"
+  ],
+  "bal-2022-09-N-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2022-09-N-44": [
+   "ut10-mareas"
+  ],
+  "bal-2022-12-A-42": [
+   "ut11-dos-demoras",
+   "ut11-tangente"
+  ],
+  "bal-2022-12-A-43": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2022-12-A-44": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2022-12-A-45": [
+   "ut11-dos-demoras",
+   "ut11-estima"
+  ],
+  "bal-2022-12-B-42": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2022-12-B-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2022-12-C-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2022-12-C-43": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2022-12-C-45": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2022-12-F-42": [
+   "ut11-tangente",
+   "ut11-circulos"
+  ],
+  "bal-2022-12-F-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2022-12-F-44": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2022-12-F-45": [
+   "ut11-tangente",
+   "ut11-circulos"
+  ],
+  "bal-2023-03-A-42": [
+   "ut11-tangente",
+   "ut11-circulos"
+  ],
+  "bal-2023-03-A-45": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2023-03-B-42": [
+   "ut10-mareas"
+  ],
+  "bal-2023-03-B-43": [
+   "ut10-mareas"
+  ],
+  "bal-2023-03-B-45": [
+   "ut11-dos-demoras",
+   "ut11-estima"
+  ],
+  "bal-2023-03-C-42": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2023-03-C-44": [
+   "ut11-marcacion",
+   "ut11-tangente"
+  ],
+  "bal-2023-03-C-45": [
+   "ut11-dos-demoras",
+   "ut11-tangente"
+  ],
+  "bal-2023-03-E-42": [
+   "ut11-dos-demoras",
+   "ut11-tangente"
+  ],
+  "bal-2023-03-E-43": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2023-03-E-44": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2023-03-E-45": [
+   "ut11-marcacion"
+  ],
+  "bal-2023-06-A-45": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2023-06-B-42": [
+   "ut10-mareas"
+  ],
+  "bal-2023-06-B-43": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2023-06-C-44": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2023-06-C-45": [
+   "ut10-mareas"
+  ],
+  "bal-2023-06-D-42": [
+   "ut11-tangente"
+  ],
+  "bal-2023-06-D-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2023-06-D-44": [
+   "ut10-mareas"
+  ],
+  "bal-2023-09-A-42": [
+   "ut11-estima"
+  ],
+  "bal-2023-09-A-43": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2023-09-A-44": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2023-09-B-43": [
+   "ut10-mareas"
+  ],
+  "bal-2023-09-B-45": [
+   "ut10-mareas"
+  ],
+  "bal-2023-09-C-43": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2023-09-C-44": [
+   "ut10-mareas"
+  ],
+  "bal-2023-12-A-44": [
+   "ut11-marcacion"
+  ],
+  "bal-2023-12-A-45": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2023-12-B-43": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2023-12-B-45": [
+   "ut10-mareas"
+  ],
+  "bal-2023-12-C-42": [
+   "ut10-mareas"
+  ],
+  "bal-2023-12-C-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2023-12-C-45": [
+   "ut11-ct"
+  ],
+  "bal-2023-12-E-42": [
+   "ut11-tangente"
+  ],
+  "bal-2023-12-E-43": [
+   "ut10-mareas"
+  ],
+  "bal-2023-12-E-44": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2023-12-E-45": [
+   "ut10-mareas"
+  ],
+  "bal-2024-04-A-42": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2024-04-A-43": [
+   "ut11-tangente",
+   "ut11-circulos"
+  ],
+  "bal-2024-04-A-44": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2024-04-B-43": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2024-04-B-44": [
+   "ut10-mareas"
+  ],
+  "bal-2024-04-C-42": [
+   "ut11-ct",
+   "ut11-dos-demoras"
+  ],
+  "bal-2024-04-C-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2024-04-C-44": [
+   "ut11-circulos",
+   "ut11-estima"
+  ],
+  "bal-2024-04-C-45": [
+   "ut11-circulos",
+   "ut11-estima"
+  ],
+  "bal-2024-04-D-43": [
+   "ut10-mareas"
+  ],
+  "bal-2024-04-D-45": [
+   "ut11-marcacion"
+  ],
+  "bal-2024-07-A-42": [
+   "ut11-tangente",
+   "ut11-circulos"
+  ],
+  "bal-2024-07-A-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2024-07-A-44": [
+   "ut10-mareas"
+  ],
+  "bal-2024-07-B-42": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2024-07-B-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2024-07-B-44": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2024-07-C-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2024-07-C-43": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2024-07-C-44": [
+   "ut11-ct",
+   "ut11-dos-demoras"
+  ],
+  "bal-2024-07-C-45": [
+   "ut11-tangente"
+  ],
+  "bal-2024-07-D-42": [
+   "ut10-mareas"
+  ],
+  "bal-2024-09-A-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2024-09-A-44": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2024-09-D-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2024-09-D-44": [
+   "ut11-marcacion"
+  ],
+  "bal-2024-09-D-45": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2024-09-E-42": [
+   "ut11-estima"
+  ],
+  "bal-2024-09-E-43": [
+   "ut11-marcacion",
+   "ut11-circulos"
+  ],
+  "bal-2024-09-E-44": [
+   "ut11-ct",
+   "ut11-dos-demoras"
+  ],
+  "bal-2024-09-F-45": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2024-12-A-42": [
+   "ut11-ct"
+  ],
+  "bal-2024-12-A-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2024-12-A-44": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2024-12-A-45": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2024-12-B-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2024-12-B-44": [
+   "ut10-mareas"
+  ],
+  "bal-2024-12-C-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2024-12-C-44": [
+   "ut10-mareas"
+  ],
+  "bal-2024-12-D-42": [
+   "ut10-mareas"
+  ],
+  "bal-2024-12-D-43": [
+   "ut11-ct",
+   "ut11-dos-demoras"
+  ],
+  "bal-2024-12-D-45": [
+   "ut11-marcacion",
+   "ut11-circulos"
+  ],
+  "bal-2025-04-A-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2025-04-A-44": [
+   "ut11-marcacion"
+  ],
+  "bal-2025-04-A-45": [
+   "ut11-marcacion"
+  ],
+  "bal-2025-04-B-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2025-04-B-45": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2025-04-C-42": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2025-04-C-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2025-04-C-45": [
+   "ut11-ct",
+   "ut11-dos-demoras"
+  ],
+  "bal-2025-04-D-44": [
+   "ut11-dos-demoras",
+   "ut11-tangente"
+  ],
+  "bal-2025-04-D-45": [
+   "ut10-mareas"
+  ],
+  "bal-2025-07-A-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2025-07-A-44": [
+   "ut10-mareas"
+  ],
+  "bal-2025-07-A-45": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2025-07-B-42": [
+   "ut10-mareas"
+  ],
+  "bal-2025-07-B-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2025-07-C-42": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2025-07-C-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2025-07-C-44": [
+   "ut10-mareas"
+  ],
+  "bal-2025-07-C-45": [
+   "ut11-ct",
+   "ut11-dos-demoras"
+  ],
+  "bal-2025-07-D-42": [
+   "ut10-mareas"
+  ],
+  "bal-2025-07-D-43": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2025-07-D-44": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2025-09-A-44": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2025-09-A-45": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2025-09-B-42": [
+   "ut11-marcacion"
+  ],
+  "bal-2025-09-B-43": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2025-09-B-44": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2025-09-B-45": [
+   "ut10-mareas"
+  ],
+  "bal-2025-09-C-42": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2025-09-C-43": [
+   "ut11-dos-demoras",
+   "ut11-tangente"
+  ],
+  "bal-2025-09-D-42": [
+   "ut10-mareas"
+  ],
+  "bal-2025-09-D-45": [
+   "ut11-dos-demoras",
+   "ut11-circulos"
+  ],
+  "bal-2025-12-A-42": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2025-12-A-45": [
+   "ut11-marcacion"
+  ],
+  "bal-2025-12-B-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2025-12-B-44": [
+   "ut11-marcacion"
+  ],
+  "bal-2025-12-B-45": [
+   "ut11-marcacion"
+  ],
+  "bal-2025-12-C-43": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2025-12-C-45": [
+   "ut11-marcacion"
+  ],
+  "bal-2025-12-D-42": [
+   "ut11-tangente",
+   "ut11-circulos"
+  ],
+  "bal-2025-12-D-43": [
+   "ut11-marcacion"
+  ],
+  "bal-2025-12-D-44": [
+   "ut11-marcacion"
+  ],
+  "bal-2025-12-D-45": [
+   "ut11-marcacion"
+  ],
+  "bal-2026-03-A-42": [
+   "ut11-tangente"
+  ],
+  "bal-2026-03-A-44": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2026-03-B-42": [
+   "ut10-mareas"
+  ],
+  "bal-2026-03-B-44": [
+   "ut11-marcacion",
+   "ut11-tangente"
+  ],
+  "bal-2026-03-B-45": [
+   "ut11-marcacion",
+   "ut11-tangente"
+  ],
+  "bal-2026-03-C-42": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2026-03-C-44": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2026-03-C-45": [
+   "ut11-tangente",
+   "ut11-circulos"
+  ],
+  "bal-2026-03-D-42": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2026-03-D-43": [
+   "ut11-ct"
+  ],
+  "bal-2026-03-D-45": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2026-06-A-42": [
+   "ut10-mareas"
+  ],
+  "bal-2026-06-A-43": [
+   "ut10-mareas"
+  ],
+  "bal-2026-06-A-44": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2026-06-A-45": [
+   "ut11-estima"
+  ],
+  "bal-2026-06-B-44": [
+   "ut10-mareas"
+  ],
+  "bal-2026-06-B-45": [
+   "ut10-mareas"
+  ],
+  "bal-2026-06-D-42": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2026-06-D-43": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2026-06-D-44": [
+   "ut11-marcacion"
+  ],
+  "bal-2026-06-D-45": [
+   "ut11-dos-demoras"
+  ],
+  "bal-2026-09-A-42": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2026-09-A-43": [
+   "ut11-marcacion",
+   "ut11-dos-demoras"
+  ],
+  "bal-2026-09-A-45": [
+   "ut10-mareas"
+  ],
+  "bal-2026-09-B-44": [
+   "ut11-marcacion",
+   "ut11-tangente"
+  ],
+  "bal-2026-09-C-42": [
+   "ut10-mareas"
+  ],
+  "bal-2026-09-C-43": [
+   "ut11-marcacion",
+   "ut11-tangente"
+  ],
+  "bal-2026-09-C-45": [
+   "ut11-marcacion"
+  ],
+  "bal-2026-09-E-43": [
+   "ut11-tangente"
+  ],
+  "bal-2026-09-E-44": [
+   "ut11-estima"
+  ],
+  "bal-2026-09-E-45": [
+   "ut11-tangente"
+  ],
   "and-2025-1-A-1": [
    "ut1-timon"
   ],
