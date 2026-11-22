@@ -171,6 +171,34 @@
   "ut7-punta": {
    "titulo": "Atraque en punta con muerto",
    "archivo": "img/laminas/ut7-punta.svg"
+  },
+  "ut8-tetraedro": {
+   "titulo": "Tetraedro del fuego y cómo se apaga",
+   "archivo": "img/laminas/ut8-tetraedro.svg"
+  },
+  "ut8-clases": {
+   "titulo": "Clases de fuego",
+   "archivo": "img/laminas/ut8-clases.svg"
+  },
+  "ut8-extintor": {
+   "titulo": "Cómo usar el extintor de polvo",
+   "archivo": "img/laminas/ut8-extintor.svg"
+  },
+  "ut8-socairear": {
+   "titulo": "Socairear el fuego",
+   "archivo": "img/laminas/ut8-socairear.svg"
+  },
+  "ut8-vias": {
+   "titulo": "Puntos de riesgo de vía de agua",
+   "archivo": "img/laminas/ut8-vias.svg"
+  },
+  "ut8-quemaduras": {
+   "titulo": "Grados de las quemaduras",
+   "archivo": "img/laminas/ut8-quemaduras.svg"
+  },
+  "ut8-supervivencia": {
+   "titulo": "Saltar al agua, postura HELP y grupo",
+   "archivo": "img/laminas/ut8-supervivencia.svg"
   }
  },
  "preguntas": {
@@ -5639,6 +5667,399 @@
   ],
   "bal-2026-09-E-29": [
    "ut7-helice"
+  ],
+  "and-2025-1-A-30": [
+   "ut8-clases"
+  ],
+  "and-2025-1-A-31": [
+   "ut8-socairear"
+  ],
+  "and-2025-1-A-32": [
+   "ut8-vias"
+  ],
+  "and-2025-2-A-30": [
+   "ut8-clases"
+  ],
+  "and-2025-2-A-31": [
+   "ut8-vias"
+  ],
+  "and-2025-3-A-30": [
+   "ut8-clases"
+  ],
+  "and-2025-3-A-32": [
+   "ut3-pirotecnia"
+  ],
+  "and-2026-1-A-30": [
+   "ut8-clases"
+  ],
+  "and-2026-2-A-31": [
+   "ut8-vias"
+  ],
+  "and-2026-2-A-32": [
+   "ut8-tetraedro"
+  ],
+  "bal-2017-03-A-30": [
+   "ut8-clases"
+  ],
+  "bal-2017-03-A-32": [
+   "ut8-socairear"
+  ],
+  "bal-2017-03-B-30": [
+   "ut8-clases"
+  ],
+  "bal-2017-03-B-31": [
+   "ut8-clases"
+  ],
+  "bal-2017-03-B-32": [
+   "ut8-supervivencia"
+  ],
+  "bal-2017-03-C-31": [
+   "ut8-tetraedro"
+  ],
+  "bal-2017-03-C-32": [
+   "ut8-clases"
+  ],
+  "bal-2017-03-F-32": [
+   "ut8-supervivencia"
+  ],
+  "bal-2017-06-B-31": [
+   "ut8-clases"
+  ],
+  "bal-2017-06-B-32": [
+   "ut8-extintor"
+  ],
+  "bal-2017-06-C-32": [
+   "ut8-vias"
+  ],
+  "bal-2017-06-E-31": [
+   "ut8-clases"
+  ],
+  "bal-2017-06-F-31": [
+   "ut8-clases"
+  ],
+  "bal-2017-06-F-32": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2017-09-C-31": [
+   "ut8-vias"
+  ],
+  "bal-2017-12-A-30": [
+   "ut8-vias"
+  ],
+  "bal-2017-12-B-31": [
+   "ut8-clases"
+  ],
+  "bal-2017-12-D-30": [
+   "ut8-clases"
+  ],
+  "bal-2017-12-E-31": [
+   "ut8-vias"
+  ],
+  "bal-2017-12-E-32": [
+   "ut8-extintor"
+  ],
+  "bal-2018-04-A-31": [
+   "ut8-clases"
+  ],
+  "bal-2018-04-A-32": [
+   "ut8-vias"
+  ],
+  "bal-2018-04-D-31": [
+   "ut8-quemaduras"
+  ],
+  "bal-2018-04-D-32": [
+   "ut8-extintor"
+  ],
+  "bal-2018-04-E-30": [
+   "ut8-tetraedro"
+  ],
+  "bal-2018-06-A-30": [
+   "ut8-clases"
+  ],
+  "bal-2018-06-A-31": [
+   "ut8-clases"
+  ],
+  "bal-2018-06-C-31": [
+   "ut8-extintor"
+  ],
+  "bal-2018-06-I-30": [
+   "ut8-clases"
+  ],
+  "bal-2018-06-I-31": [
+   "ut8-clases"
+  ],
+  "bal-2018-09-B-31": [
+   "ut8-tetraedro"
+  ],
+  "bal-2018-09-B-32": [
+   "ut8-extintor"
+  ],
+  "bal-2018-09-D-31": [
+   "ut8-vias"
+  ],
+  "bal-2018-09-D-32": [
+   "ut8-tetraedro"
+  ],
+  "bal-2018-09-E-31": [
+   "ut8-tetraedro"
+  ],
+  "bal-2018-09-E-32": [
+   "ut8-vias"
+  ],
+  "bal-2018-12-B-30": [
+   "ut8-tetraedro"
+  ],
+  "bal-2018-12-D-32": [
+   "ut8-quemaduras"
+  ],
+  "bal-2019-04-B-31": [
+   "ut8-quemaduras"
+  ],
+  "bal-2019-04-C-32": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2019-04-I-30": [
+   "ut8-clases"
+  ],
+  "bal-2019-06-C-32": [
+   "ut8-tetraedro"
+  ],
+  "bal-2019-09-C-30": [
+   "ut8-tetraedro"
+  ],
+  "bal-2019-09-E-30": [
+   "ut8-extintor"
+  ],
+  "bal-2019-09-E-32": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2019-12-C-32": [
+   "ut8-supervivencia"
+  ],
+  "bal-2019-12-F-30": [
+   "ut8-extintor"
+  ],
+  "bal-2019-12-F-32": [
+   "ut8-clases"
+  ],
+  "bal-2020-07-A-30": [
+   "ut8-quemaduras"
+  ],
+  "bal-2020-07-D-32": [
+   "ut8-clases"
+  ],
+  "bal-2020-07-E-30": [
+   "ut8-extintor"
+  ],
+  "bal-2020-10-D-30": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2020-10-E-32": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2020-10-H-30": [
+   "ut8-tetraedro"
+  ],
+  "bal-2020-10-I-30": [
+   "ut8-vias"
+  ],
+  "bal-2020-12-A-31": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2020-12-D-30": [
+   "ut8-supervivencia"
+  ],
+  "bal-2020-12-D-32": [
+   "ut8-vias"
+  ],
+  "bal-2020-12-F-31": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2020-12-F-32": [
+   "ut8-vias"
+  ],
+  "bal-2020-12-I-30": [
+   "ut8-clases"
+  ],
+  "bal-2020-12-I-31": [
+   "ut8-tetraedro"
+  ],
+  "bal-2021-03-B-31": [
+   "ut8-extintor"
+  ],
+  "bal-2021-03-C-32": [
+   "ut8-clases"
+  ],
+  "bal-2021-03-H-30": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2021-06-B-31": [
+   "ut8-socairear"
+  ],
+  "bal-2021-06-C-32": [
+   "ut8-clases"
+  ],
+  "bal-2021-06-F-31": [
+   "ut8-clases"
+  ],
+  "bal-2021-06-G-30": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2021-06-G-31": [
+   "ut8-vias"
+  ],
+  "bal-2021-09-A-30": [
+   "ut8-clases"
+  ],
+  "bal-2021-09-C-30": [
+   "ut8-clases"
+  ],
+  "bal-2021-09-E-30": [
+   "ut8-socairear"
+  ],
+  "bal-2021-09-E-31": [
+   "ut8-clases"
+  ],
+  "bal-2021-09-F-30": [
+   "ut8-extintor"
+  ],
+  "bal-2021-12-B-31": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2021-12-F-31": [
+   "ut8-socairear"
+  ],
+  "bal-2022-06-D-31": [
+   "ut8-vias"
+  ],
+  "bal-2022-06-D-32": [
+   "ut8-extintor"
+  ],
+  "bal-2022-06-E-30": [
+   "ut8-clases"
+  ],
+  "bal-2022-09-C-30": [
+   "ut8-tetraedro"
+  ],
+  "bal-2022-09-C-31": [
+   "ut8-vias"
+  ],
+  "bal-2022-09-N-31": [
+   "ut8-clases"
+  ],
+  "bal-2022-12-B-32": [
+   "ut8-socairear"
+  ],
+  "bal-2022-12-C-30": [
+   "ut8-extintor"
+  ],
+  "bal-2022-12-C-32": [
+   "ut8-extintor"
+  ],
+  "bal-2022-12-F-31": [
+   "ut8-clases"
+  ],
+  "bal-2022-12-F-32": [
+   "ut8-tetraedro"
+  ],
+  "bal-2023-03-B-30": [
+   "ut8-clases"
+  ],
+  "bal-2023-03-C-31": [
+   "ut8-clases"
+  ],
+  "bal-2023-09-A-30": [
+   "ut8-extintor"
+  ],
+  "bal-2023-09-A-32": [
+   "ut8-socairear"
+  ],
+  "bal-2024-04-B-31": [
+   "ut8-clases"
+  ],
+  "bal-2024-04-C-32": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2024-04-D-31": [
+   "ut8-clases"
+  ],
+  "bal-2024-04-D-32": [
+   "ut8-tetraedro"
+  ],
+  "bal-2024-07-A-32": [
+   "ut3-pirotecnia"
+  ],
+  "bal-2024-07-D-30": [
+   "ut8-tetraedro"
+  ],
+  "bal-2024-09-D-31": [
+   "ut8-tetraedro"
+  ],
+  "bal-2024-09-F-30": [
+   "ut8-socairear"
+  ],
+  "bal-2024-12-B-30": [
+   "ut8-supervivencia"
+  ],
+  "bal-2024-12-B-32": [
+   "ut8-socairear"
+  ],
+  "bal-2024-12-C-31": [
+   "ut8-clases"
+  ],
+  "bal-2024-12-C-32": [
+   "ut8-tetraedro"
+  ],
+  "bal-2025-04-A-32": [
+   "ut8-tetraedro"
+  ],
+  "bal-2025-07-A-30": [
+   "ut8-vias"
+  ],
+  "bal-2025-07-A-31": [
+   "ut8-clases"
+  ],
+  "bal-2025-07-A-32": [
+   "ut8-quemaduras"
+  ],
+  "bal-2025-07-B-31": [
+   "ut8-clases"
+  ],
+  "bal-2025-07-D-32": [
+   "ut8-socairear"
+  ],
+  "bal-2025-09-A-30": [
+   "ut8-clases"
+  ],
+  "bal-2025-12-D-31": [
+   "ut8-quemaduras"
+  ],
+  "bal-2026-03-A-30": [
+   "ut8-tetraedro"
+  ],
+  "bal-2026-03-A-31": [
+   "ut8-quemaduras"
+  ],
+  "bal-2026-03-B-30": [
+   "ut8-clases"
+  ],
+  "bal-2026-03-C-30": [
+   "ut8-vias"
+  ],
+  "bal-2026-03-C-31": [
+   "ut8-extintor"
+  ],
+  "bal-2026-03-C-32": [
+   "ut8-vias"
+  ],
+  "bal-2026-06-A-30": [
+   "ut8-supervivencia"
+  ],
+  "bal-2026-06-B-32": [
+   "ut8-clases"
+  ],
+  "bal-2026-06-C-32": [
+   "ut8-vias"
   ]
  }
 }

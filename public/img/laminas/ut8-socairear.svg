@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t">
+<title id="t">Socairear el fuego: fuego a proa, popa al viento; fuego a popa, proa al viento</title>
+<style>
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:20px;fill:#14202b}
+.b{font-weight:700}.p{font-size:15px;fill:#4b5b69}.l{font-size:15px;font-weight:600;fill:#14202b}
+.h{fill:#eef2f5;stroke:#14202b;stroke-width:2;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+.k{fill:none;stroke:#14202b;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+</style>
+<defs><marker id="f" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#c2410c"/></marker>
+<marker id="fa" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#1d5f93"/></marker>
+<marker id="fg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0L10,5L0,10z" fill="#5c6b78"/></marker>
+<path id="bq" d="M0,-30 C9,-21 11,-9 11,0 L9,24 L-9,24 L-11,0 C-11,-9 -9,-21 0,-30 Z"/>
+<path id="llama" d="M0,0 C-22,0 -26,-22 -14,-38 C-12,-26 -6,-24 -4,-30 C-8,-44 2,-58 10,-64 C8,-48 22,-40 20,-22 C26,-28 26,-34 24,-38 C34,-24 30,0 0,0 Z"/></defs>
+<rect width="720" height="400" rx="14" fill="#fff"/>
+<line x1="360" y1="16" x2="360" y2="330" stroke="#e3e8ec" stroke-width="2"/><text x="180" y="36" text-anchor="middle" class="b">Fuego a proa</text><path d="M90,60 L90,110" fill="none" stroke="#1d5f93" stroke-width="4" marker-end="url(#fa)"/><text x="102" y="88" class="l" style="fill:#1d5f93">viento</text><g transform="translate(180 190) rotate(180) scale(2.4)"><use href="#bq" class="h"/></g><g transform="translate(180 262) scale(0.7)"><use href="#llama" fill="#f97316" stroke="#9a3412" stroke-width="1.5"/><g transform="translate(2 -2) scale(.55)"><use href="#llama" fill="#fde047"/></g></g><path d="M180,300 L180,330" fill="none" stroke="#5c6b78" stroke-width="3" marker-end="url(#fg)"/><text x="250" y="160" text-anchor="start" class="p">popa al</text><text x="250" y="179" text-anchor="start" class="p">viento</text><text x="540" y="36" text-anchor="middle" class="b">Fuego a popa</text><path d="M450,60 L450,110" fill="none" stroke="#1d5f93" stroke-width="4" marker-end="url(#fa)"/><text x="462" y="88" class="l" style="fill:#1d5f93">viento</text><g transform="translate(540 200) rotate(0) scale(2.4)"><use href="#bq" class="h"/></g><g transform="translate(540 270) scale(0.7)"><use href="#llama" fill="#f97316" stroke="#9a3412" stroke-width="1.5"/><g transform="translate(2 -2) scale(.55)"><use href="#llama" fill="#fde047"/></g></g><path d="M540,124 L540,96" fill="none" stroke="#5c6b78" stroke-width="3" marker-end="url(#fg)"/><text x="610" y="160" text-anchor="start" class="p">proa al</text><text x="610" y="179" text-anchor="start" class="p">viento</text><text x="360" y="360" text-anchor="middle" class="p">Poner un rumbo que deje el fuego a sotavento (o con viento aparente cero):</text><text x="360" y="379" text-anchor="middle" class="p">así el viento no aviva las llamas ni lleva el humo hacia el barco.</text>
+</svg>

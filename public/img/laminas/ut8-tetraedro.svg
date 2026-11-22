@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" role="img" aria-labelledby="t">
+<title id="t">Tetraedro del fuego: combustible, comburente, calor y reacción en cadena, con la técnica que actúa sobre cada uno</title>
+<style>
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:20px;fill:#14202b}
+.b{font-weight:700}.p{font-size:15px;fill:#4b5b69}.l{font-size:15px;font-weight:600;fill:#14202b}
+.h{fill:#eef2f5;stroke:#14202b;stroke-width:2;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+.k{fill:none;stroke:#14202b;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+</style>
+<defs><marker id="f" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#c2410c"/></marker>
+<marker id="fa" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#1d5f93"/></marker>
+<marker id="fg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0L10,5L0,10z" fill="#5c6b78"/></marker>
+<path id="bq" d="M0,-30 C9,-21 11,-9 11,0 L9,24 L-9,24 L-11,0 C-11,-9 -9,-21 0,-30 Z"/>
+<path id="llama" d="M0,0 C-22,0 -26,-22 -14,-38 C-12,-26 -6,-24 -4,-30 C-8,-44 2,-58 10,-64 C8,-48 22,-40 20,-22 C26,-28 26,-34 24,-38 C34,-24 30,0 0,0 Z"/></defs>
+<rect width="720" height="430" rx="14" fill="#fff"/>
+<path d="M360,60 L140,330 L580,330 Z" fill="#ffedd5" stroke="#c2410c" stroke-width="3" stroke-linejoin="round"/><g transform="translate(360 175) scale(1.1)"><use href="#llama" fill="#f97316" stroke="#9a3412" stroke-width="1.5"/><g transform="translate(2 -2) scale(.55)"><use href="#llama" fill="#fde047"/></g></g><text x="360" y="226" text-anchor="middle" class="l">Reacción en cadena</text><text x="360" y="246" text-anchor="middle" class="p">inhibición: polvo químico</text><text x="220" y="180" text-anchor="end" class="l">Combustible</text><text x="220" y="199" text-anchor="end" class="p">dispersión: retirarlo</text><text x="220" y="218" text-anchor="end" class="p">o cortar el suministro</text><text x="505" y="180" text-anchor="start" class="l">Comburente (oxígeno)</text><text x="505" y="199" text-anchor="start" class="p">sofocación: tapar,</text><text x="505" y="218" text-anchor="start" class="p">manta, CO₂, espuma</text><text x="360" y="358" text-anchor="middle" class="l">Calor</text><text x="360" y="377" text-anchor="middle" class="p">enfriamiento: agua</text><text x="360" y="30" text-anchor="middle" class="b">Tetraedro del fuego</text><text x="360" y="412" text-anchor="middle" class="p">Si se quita uno de los cuatro, el fuego se apaga.</text>
+</svg>
