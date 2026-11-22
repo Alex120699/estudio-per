@@ -147,6 +147,30 @@
   "ut6-dst": {
    "titulo": "Dispositivo de separación del tráfico",
    "archivo": "img/laminas/ut6-dst.svg"
+  },
+  "ut7-amarras": {
+   "titulo": "Amarras: largos, traveses y esprines",
+   "archivo": "img/laminas/ut7-amarras.svg"
+  },
+  "ut7-desatracar": {
+   "titulo": "Desatracar sobre un esprín",
+   "archivo": "img/laminas/ut7-desatracar.svg"
+  },
+  "ut7-evolucion": {
+   "titulo": "Curva de evolución y rabeo",
+   "archivo": "img/laminas/ut7-evolucion.svg"
+  },
+  "ut7-helice": {
+   "titulo": "Efecto de la hélice dando atrás",
+   "archivo": "img/laminas/ut7-helice.svg"
+  },
+  "ut7-ciaboga": {
+   "titulo": "Ciaboga con una y con dos hélices",
+   "archivo": "img/laminas/ut7-ciaboga.svg"
+  },
+  "ut7-punta": {
+   "titulo": "Atraque en punta con muerto",
+   "archivo": "img/laminas/ut7-punta.svg"
   }
  },
  "preguntas": {
@@ -5264,6 +5288,357 @@
   ],
   "bal-2026-09-E-25": [
    "ut6-pitadas"
+  ],
+  "and-2025-1-A-28": [
+   "ut7-ciaboga"
+  ],
+  "and-2025-1-A-29": [
+   "ut7-evolucion"
+  ],
+  "and-2025-3-A-28": [
+   "ut7-amarras"
+  ],
+  "and-2025-3-A-29": [
+   "ut7-desatracar"
+  ],
+  "and-2026-1-A-28": [
+   "ut7-helice"
+  ],
+  "and-2026-1-A-29": [
+   "ut7-desatracar"
+  ],
+  "and-2026-2-A-28": [
+   "ut7-amarras"
+  ],
+  "and-2026-2-A-29": [
+   "ut7-ciaboga"
+  ],
+  "bal-2017-03-A-29": [
+   "ut7-desatracar"
+  ],
+  "bal-2017-03-B-29": [
+   "ut7-punta"
+  ],
+  "bal-2017-03-C-29": [
+   "ut7-amarras"
+  ],
+  "bal-2017-03-F-28": [
+   "ut7-helice"
+  ],
+  "bal-2017-03-G-29": [
+   "ut7-amarras"
+  ],
+  "bal-2017-06-C-28": [
+   "ut7-ciaboga"
+  ],
+  "bal-2017-06-C-29": [
+   "ut7-helice"
+  ],
+  "bal-2017-06-F-28": [
+   "ut7-amarras"
+  ],
+  "bal-2017-06-F-29": [
+   "ut7-amarras"
+  ],
+  "bal-2017-09-A-28": [
+   "ut7-desatracar"
+  ],
+  "bal-2017-09-C-28": [
+   "ut7-ciaboga"
+  ],
+  "bal-2017-09-C-29": [
+   "ut7-punta"
+  ],
+  "bal-2017-09-D-29": [
+   "ut7-helice"
+  ],
+  "bal-2017-09-E-29": [
+   "ut7-punta"
+  ],
+  "bal-2017-12-A-28": [
+   "ut7-helice"
+  ],
+  "bal-2018-04-A-29": [
+   "ut7-punta"
+  ],
+  "bal-2018-04-B-28": [
+   "ut7-helice"
+  ],
+  "bal-2018-04-D-29": [
+   "ut7-amarras"
+  ],
+  "bal-2018-04-E-28": [
+   "ut7-amarras"
+  ],
+  "bal-2018-04-E-29": [
+   "ut7-amarras"
+  ],
+  "bal-2018-06-C-28": [
+   "ut7-evolucion"
+  ],
+  "bal-2018-06-H-29": [
+   "ut7-punta"
+  ],
+  "bal-2018-09-B-28": [
+   "ut7-amarras"
+  ],
+  "bal-2018-09-E-29": [
+   "ut7-amarras"
+  ],
+  "bal-2018-12-A-29": [
+   "ut7-amarras"
+  ],
+  "bal-2018-12-D-28": [
+   "ut7-amarras"
+  ],
+  "bal-2018-12-D-29": [
+   "ut7-evolucion"
+  ],
+  "bal-2019-04-B-29": [
+   "ut7-punta"
+  ],
+  "bal-2019-04-F-28": [
+   "ut7-amarras"
+  ],
+  "bal-2019-04-I-28": [
+   "ut7-helice"
+  ],
+  "bal-2019-06-B-28": [
+   "ut7-punta"
+  ],
+  "bal-2019-06-B-29": [
+   "ut7-helice"
+  ],
+  "bal-2019-06-C-28": [
+   "ut7-punta"
+  ],
+  "bal-2019-06-I-28": [
+   "ut7-helice"
+  ],
+  "bal-2019-09-C-28": [
+   "ut7-amarras"
+  ],
+  "bal-2019-12-A-28": [
+   "ut7-amarras"
+  ],
+  "bal-2019-12-A-29": [
+   "ut7-amarras"
+  ],
+  "bal-2019-12-F-28": [
+   "ut7-helice"
+  ],
+  "bal-2019-12-F-29": [
+   "ut7-amarras"
+  ],
+  "bal-2019-12-G-29": [
+   "ut7-helice"
+  ],
+  "bal-2020-04-C-29": [
+   "ut7-helice"
+  ],
+  "bal-2020-07-D-29": [
+   "ut7-amarras"
+  ],
+  "bal-2020-10-D-28": [
+   "ut7-punta"
+  ],
+  "bal-2020-10-D-29": [
+   "ut7-amarras"
+  ],
+  "bal-2020-10-E-28": [
+   "ut7-evolucion"
+  ],
+  "bal-2020-10-G-28": [
+   "ut7-punta"
+  ],
+  "bal-2020-12-A-28": [
+   "ut7-amarras"
+  ],
+  "bal-2020-12-A-29": [
+   "ut7-punta"
+  ],
+  "bal-2020-12-B-28": [
+   "ut7-helice"
+  ],
+  "bal-2020-12-D-28": [
+   "ut7-punta"
+  ],
+  "bal-2020-12-D-29": [
+   "ut7-desatracar"
+  ],
+  "bal-2020-12-E-29": [
+   "ut7-ciaboga"
+  ],
+  "bal-2020-12-F-29": [
+   "ut7-amarras"
+  ],
+  "bal-2020-12-I-28": [
+   "ut7-evolucion"
+  ],
+  "bal-2021-03-A-29": [
+   "ut7-ciaboga"
+  ],
+  "bal-2021-03-D-28": [
+   "ut7-amarras"
+  ],
+  "bal-2021-03-E-28": [
+   "ut7-ciaboga"
+  ],
+  "bal-2021-03-E-29": [
+   "ut7-helice"
+  ],
+  "bal-2021-03-F-28": [
+   "ut7-desatracar"
+  ],
+  "bal-2021-06-B-28": [
+   "ut7-evolucion"
+  ],
+  "bal-2021-06-B-29": [
+   "ut7-amarras"
+  ],
+  "bal-2021-06-G-29": [
+   "ut7-amarras"
+  ],
+  "bal-2021-09-B-28": [
+   "ut7-evolucion"
+  ],
+  "bal-2021-09-E-28": [
+   "ut7-ciaboga"
+  ],
+  "bal-2021-12-A-28": [
+   "ut7-amarras"
+  ],
+  "bal-2021-12-D-28": [
+   "ut7-ciaboga"
+  ],
+  "bal-2021-12-F-29": [
+   "ut7-amarras"
+  ],
+  "bal-2022-03-D-28": [
+   "ut7-helice"
+  ],
+  "bal-2022-03-G-29": [
+   "ut7-amarras"
+  ],
+  "bal-2022-06-D-28": [
+   "ut7-amarras"
+  ],
+  "bal-2022-09-C-29": [
+   "ut7-punta"
+  ],
+  "bal-2022-09-N-28": [
+   "ut7-helice"
+  ],
+  "bal-2022-12-A-28": [
+   "ut7-amarras"
+  ],
+  "bal-2022-12-B-28": [
+   "ut7-evolucion"
+  ],
+  "bal-2022-12-C-28": [
+   "ut7-helice"
+  ],
+  "bal-2022-12-F-28": [
+   "ut7-helice"
+  ],
+  "bal-2023-03-A-28": [
+   "ut7-amarras"
+  ],
+  "bal-2023-03-A-29": [
+   "ut7-helice"
+  ],
+  "bal-2023-03-B-29": [
+   "ut7-ciaboga"
+  ],
+  "bal-2023-03-C-29": [
+   "ut7-punta"
+  ],
+  "bal-2023-06-B-28": [
+   "ut7-desatracar"
+  ],
+  "bal-2023-09-A-28": [
+   "ut7-helice"
+  ],
+  "bal-2023-12-B-28": [
+   "ut7-amarras"
+  ],
+  "bal-2023-12-C-29": [
+   "ut7-amarras"
+  ],
+  "bal-2023-12-E-29": [
+   "ut7-evolucion"
+  ],
+  "bal-2024-04-B-29": [
+   "ut7-punta"
+  ],
+  "bal-2024-04-C-28": [
+   "ut7-ciaboga"
+  ],
+  "bal-2024-04-D-29": [
+   "ut7-helice"
+  ],
+  "bal-2024-07-D-29": [
+   "ut7-amarras"
+  ],
+  "bal-2024-09-E-29": [
+   "ut7-ciaboga"
+  ],
+  "bal-2024-09-F-28": [
+   "ut3-boutakow"
+  ],
+  "bal-2024-12-A-28": [
+   "ut7-amarras"
+  ],
+  "bal-2024-12-D-29": [
+   "ut7-amarras"
+  ],
+  "bal-2025-07-C-29": [
+   "ut7-evolucion"
+  ],
+  "bal-2025-07-D-28": [
+   "ut7-helice"
+  ],
+  "bal-2025-12-A-29": [
+   "ut7-amarras"
+  ],
+  "bal-2025-12-B-28": [
+   "ut7-amarras"
+  ],
+  "bal-2025-12-B-29": [
+   "ut7-evolucion"
+  ],
+  "bal-2026-03-A-28": [
+   "ut7-amarras"
+  ],
+  "bal-2026-03-A-29": [
+   "ut7-amarras"
+  ],
+  "bal-2026-03-B-28": [
+   "ut7-amarras"
+  ],
+  "bal-2026-03-C-28": [
+   "ut7-ciaboga"
+  ],
+  "bal-2026-03-C-29": [
+   "ut7-punta"
+  ],
+  "bal-2026-03-D-28": [
+   "ut7-ciaboga"
+  ],
+  "bal-2026-06-A-29": [
+   "ut7-amarras"
+  ],
+  "bal-2026-06-C-28": [
+   "ut7-evolucion"
+  ],
+  "bal-2026-06-C-29": [
+   "ut7-helice"
+  ],
+  "bal-2026-06-D-28": [
+   "ut7-amarras"
+  ],
+  "bal-2026-09-E-29": [
+   "ut7-helice"
   ]
  }
 }

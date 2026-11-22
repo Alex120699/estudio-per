@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t">
+<title id="t">Desatracar de costado: avante sobre el esprín de proa o atrás sobre el esprín de popa</title>
+<style>
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:20px;fill:#14202b}
+.b{font-weight:700}.p{font-size:15px;fill:#4b5b69}.l{font-size:15px;font-weight:600;fill:#14202b}
+.h{fill:#eef2f5;stroke:#14202b;stroke-width:2;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+</style>
+<defs><marker id="f" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#c2410c"/></marker>
+<marker id="fv" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#15803d"/></marker>
+<marker id="fg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0L10,5L0,10z" fill="#5c6b78"/></marker>
+<path id="bq" d="M0,-30 C9,-21 11,-9 11,0 L9,24 L-9,24 L-11,0 C-11,-9 -9,-21 0,-30 Z"/></defs>
+<rect width="720" height="380" rx="14" fill="#fff"/>
+<line x1="360" y1="16" x2="360" y2="340" stroke="#e3e8ec" stroke-width="2"/><text x="180" y="36" text-anchor="middle" class="b">Avante sobre el esprín de proa</text><rect x="20" y="270" width="320" height="36" fill="#c8b48c" stroke="#8a6d3b" stroke-width="2"/><g transform="translate(185 215) rotate(15)"><path d="M-110,-25 L60,-25 C95,-25 110,-8 113,0 C110,8 95,25 60,25 L-110,25 Z" class="h"/></g><path d="M276,246 L170,272" fill="none" stroke="#c2410c" stroke-width="3" stroke-linecap="round"/><circle cx="170" cy="274" r="5" fill="#14202b"/><path d="M80,186 L60,120" fill="none" stroke="#c2410c" stroke-width="3" marker-end="url(#f)"/><text x="60" y="108" text-anchor="start" class="p">la popa se abre</text><text x="180" y="330" text-anchor="middle" class="p">máquina avante y timón hacia el muelle;</text><text x="180" y="349" text-anchor="middle" class="p">luego se larga y se sale dando atrás</text><text x="540" y="36" text-anchor="middle" class="b">Atrás sobre el esprín de popa</text><rect x="380" y="270" width="320" height="36" fill="#c8b48c" stroke="#8a6d3b" stroke-width="2"/><g transform="translate(545 215) rotate(-15)"><path d="M-110,-25 L60,-25 C95,-25 110,-8 113,0 C110,8 95,25 60,25 L-110,25 Z" class="h"/></g><path d="M448,248 L560,272" fill="none" stroke="#c2410c" stroke-width="3" stroke-linecap="round"/><circle cx="560" cy="274" r="5" fill="#14202b"/><path d="M655,182 L675,118" fill="none" stroke="#c2410c" stroke-width="3" marker-end="url(#f)"/><text x="672" y="106" text-anchor="end" class="p">la proa se abre</text><text x="540" y="330" text-anchor="middle" class="p">máquina atrás: el esprín aguanta</text><text x="540" y="349" text-anchor="middle" class="p">y la proa se separa; luego avante</text>
+</svg>
