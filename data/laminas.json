@@ -99,6 +99,26 @@
   "ut4-vertidos": {
    "titulo": "Dónde se pueden descargar aguas sucias y basuras",
    "archivo": "img/laminas/ut4-vertidos.svg"
+  },
+  "ut5-laterales": {
+   "titulo": "Marcas laterales en la Región A",
+   "archivo": "img/laminas/ut5-laterales.svg"
+  },
+  "ut5-modificadas": {
+   "titulo": "Marcas laterales modificadas: canal principal",
+   "archivo": "img/laminas/ut5-modificadas.svg"
+  },
+  "ut5-cardinales": {
+   "titulo": "Marcas cardinales",
+   "archivo": "img/laminas/ut5-cardinales.svg"
+  },
+  "ut5-otras": {
+   "titulo": "Peligro aislado, aguas navegables, especial y nuevo peligro",
+   "archivo": "img/laminas/ut5-otras.svg"
+  },
+  "ut5-ritmos": {
+   "titulo": "Ritmos de las luces",
+   "archivo": "img/laminas/ut5-ritmos.svg"
   }
  },
  "preguntas": {
@@ -2162,6 +2182,1101 @@
   ],
   "bal-2026-09-A-12": [
    "ut4-vertidos"
+  ],
+  "and-2025-1-A-13": [
+   "ut5-modificadas"
+  ],
+  "and-2025-1-A-14": [
+   "ut5-otras"
+  ],
+  "and-2025-1-A-15": [
+   "ut5-cardinales"
+  ],
+  "and-2025-1-A-16": [
+   "ut5-otras"
+  ],
+  "and-2025-1-A-17": [
+   "ut5-modificadas"
+  ],
+  "and-2025-2-A-13": [
+   "ut5-laterales"
+  ],
+  "and-2025-2-A-14": [
+   "ut5-cardinales"
+  ],
+  "and-2025-2-A-15": [
+   "ut5-otras"
+  ],
+  "and-2025-2-A-16": [
+   "ut5-modificadas"
+  ],
+  "and-2025-2-A-17": [
+   "ut5-otras"
+  ],
+  "and-2025-3-A-13": [
+   "ut5-laterales"
+  ],
+  "and-2025-3-A-14": [
+   "ut5-cardinales"
+  ],
+  "and-2025-3-A-15": [
+   "ut5-modificadas"
+  ],
+  "and-2025-3-A-16": [
+   "ut5-otras"
+  ],
+  "and-2025-3-A-17": [
+   "ut5-modificadas"
+  ],
+  "and-2026-1-A-13": [
+   "ut5-otras"
+  ],
+  "and-2026-1-A-14": [
+   "ut5-cardinales"
+  ],
+  "and-2026-1-A-15": [
+   "ut5-cardinales"
+  ],
+  "and-2026-1-A-16": [
+   "ut5-modificadas"
+  ],
+  "and-2026-1-A-17": [
+   "ut5-cardinales"
+  ],
+  "and-2026-2-A-13": [
+   "ut5-laterales"
+  ],
+  "and-2026-2-A-14": [
+   "ut5-modificadas"
+  ],
+  "and-2026-2-A-15": [
+   "ut5-cardinales"
+  ],
+  "and-2026-2-A-16": [
+   "ut5-otras"
+  ],
+  "and-2026-2-A-17": [
+   "ut5-otras"
+  ],
+  "bal-2017-03-A-13": [
+   "ut5-cardinales"
+  ],
+  "bal-2017-03-A-14": [
+   "ut5-laterales"
+  ],
+  "bal-2017-03-A-15": [
+   "ut5-otras"
+  ],
+  "bal-2017-03-A-16": [
+   "ut5-laterales"
+  ],
+  "bal-2017-03-A-17": [
+   "ut5-otras"
+  ],
+  "bal-2017-03-B-13": [
+   "ut5-otras"
+  ],
+  "bal-2017-03-B-14": [
+   "ut5-laterales"
+  ],
+  "bal-2017-03-B-15": [
+   "ut5-otras"
+  ],
+  "bal-2017-03-B-16": [
+   "ut5-cardinales"
+  ],
+  "bal-2017-03-B-17": [
+   "ut5-otras"
+  ],
+  "bal-2017-03-C-13": [
+   "ut5-otras"
+  ],
+  "bal-2017-03-C-14": [
+   "ut5-laterales"
+  ],
+  "bal-2017-03-C-15": [
+   "ut5-laterales"
+  ],
+  "bal-2017-03-C-16": [
+   "ut5-cardinales"
+  ],
+  "bal-2017-03-C-38": [
+   "ut5-cardinales"
+  ],
+  "bal-2017-03-F-13": [
+   "ut5-laterales"
+  ],
+  "bal-2017-03-F-14": [
+   "ut5-cardinales"
+  ],
+  "bal-2017-03-F-15": [
+   "ut5-cardinales"
+  ],
+  "bal-2017-03-F-16": [
+   "ut5-modificadas"
+  ],
+  "bal-2017-03-F-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2017-03-G-13": [
+   "ut5-otras"
+  ],
+  "bal-2017-03-G-14": [
+   "ut5-otras"
+  ],
+  "bal-2017-03-G-15": [
+   "ut5-otras"
+  ],
+  "bal-2017-03-G-16": [
+   "ut5-laterales"
+  ],
+  "bal-2017-03-G-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2017-06-B-13": [
+   "ut5-laterales"
+  ],
+  "bal-2017-06-B-14": [
+   "ut5-otras"
+  ],
+  "bal-2017-06-B-15": [
+   "ut5-otras"
+  ],
+  "bal-2017-06-B-17": [
+   "ut5-modificadas"
+  ],
+  "bal-2017-06-C-13": [
+   "ut5-otras"
+  ],
+  "bal-2017-06-C-15": [
+   "ut5-cardinales"
+  ],
+  "bal-2017-06-C-16": [
+   "ut5-cardinales"
+  ],
+  "bal-2017-06-C-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2017-06-E-13": [
+   "ut5-laterales"
+  ],
+  "bal-2017-06-E-14": [
+   "ut5-otras"
+  ],
+  "bal-2017-06-E-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2017-06-F-13": [
+   "ut5-otras"
+  ],
+  "bal-2017-06-F-14": [
+   "ut5-otras"
+  ],
+  "bal-2017-09-A-13": [
+   "ut5-otras"
+  ],
+  "bal-2017-09-A-14": [
+   "ut5-cardinales"
+  ],
+  "bal-2017-09-A-16": [
+   "ut5-laterales"
+  ],
+  "bal-2017-09-C-14": [
+   "ut5-cardinales"
+  ],
+  "bal-2017-09-C-17": [
+   "ut5-otras"
+  ],
+  "bal-2017-09-D-13": [
+   "ut5-cardinales"
+  ],
+  "bal-2017-09-D-15": [
+   "ut5-cardinales"
+  ],
+  "bal-2017-09-D-16": [
+   "ut5-laterales"
+  ],
+  "bal-2017-09-D-17": [
+   "ut5-otras"
+  ],
+  "bal-2017-09-E-13": [
+   "ut5-cardinales"
+  ],
+  "bal-2017-09-E-15": [
+   "ut5-cardinales"
+  ],
+  "bal-2017-09-E-16": [
+   "ut5-cardinales"
+  ],
+  "bal-2017-12-A-15": [
+   "ut5-cardinales"
+  ],
+  "bal-2017-12-A-16": [
+   "ut5-otras"
+  ],
+  "bal-2017-12-A-17": [
+   "ut5-modificadas"
+  ],
+  "bal-2017-12-B-15": [
+   "ut5-modificadas"
+  ],
+  "bal-2017-12-B-16": [
+   "ut5-otras"
+  ],
+  "bal-2017-12-C-15": [
+   "ut5-otras"
+  ],
+  "bal-2017-12-E-13": [
+   "ut5-cardinales"
+  ],
+  "bal-2017-12-E-14": [
+   "ut5-cardinales"
+  ],
+  "bal-2017-12-E-15": [
+   "ut5-cardinales"
+  ],
+  "bal-2017-12-E-17": [
+   "ut5-otras"
+  ],
+  "bal-2018-04-A-13": [
+   "ut5-otras"
+  ],
+  "bal-2018-04-A-14": [
+   "ut5-otras"
+  ],
+  "bal-2018-04-B-15": [
+   "ut5-ritmos"
+  ],
+  "bal-2018-04-B-17": [
+   "ut5-otras"
+  ],
+  "bal-2018-04-D-13": [
+   "ut5-cardinales"
+  ],
+  "bal-2018-04-D-14": [
+   "ut5-cardinales"
+  ],
+  "bal-2018-04-D-15": [
+   "ut5-otras"
+  ],
+  "bal-2018-04-D-16": [
+   "ut5-cardinales"
+  ],
+  "bal-2018-04-D-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2018-04-E-15": [
+   "ut5-laterales"
+  ],
+  "bal-2018-04-E-16": [
+   "ut5-laterales"
+  ],
+  "bal-2018-06-A-15": [
+   "ut5-cardinales"
+  ],
+  "bal-2018-06-A-17": [
+   "ut5-modificadas"
+  ],
+  "bal-2018-06-B-17": [
+   "ut5-otras"
+  ],
+  "bal-2018-06-H-16": [
+   "ut5-ritmos"
+  ],
+  "bal-2018-06-I-14": [
+   "ut5-otras"
+  ],
+  "bal-2018-06-I-15": [
+   "ut5-otras"
+  ],
+  "bal-2018-06-I-16": [
+   "ut5-modificadas"
+  ],
+  "bal-2018-09-A-13": [
+   "ut5-laterales"
+  ],
+  "bal-2018-09-A-15": [
+   "ut5-cardinales"
+  ],
+  "bal-2018-09-B-13": [
+   "ut5-modificadas"
+  ],
+  "bal-2018-09-D-13": [
+   "ut5-modificadas"
+  ],
+  "bal-2018-09-D-14": [
+   "ut5-otras"
+  ],
+  "bal-2018-09-D-16": [
+   "ut5-otras"
+  ],
+  "bal-2018-09-E-13": [
+   "ut5-cardinales"
+  ],
+  "bal-2018-09-E-14": [
+   "ut5-cardinales"
+  ],
+  "bal-2018-09-E-15": [
+   "ut5-cardinales"
+  ],
+  "bal-2018-09-E-17": [
+   "ut5-laterales"
+  ],
+  "bal-2018-12-A-14": [
+   "ut5-cardinales"
+  ],
+  "bal-2018-12-B-13": [
+   "ut5-cardinales"
+  ],
+  "bal-2018-12-B-15": [
+   "ut5-otras"
+  ],
+  "bal-2018-12-B-17": [
+   "ut5-otras"
+  ],
+  "bal-2018-12-C-15": [
+   "ut5-ritmos"
+  ],
+  "bal-2018-12-D-13": [
+   "ut5-cardinales"
+  ],
+  "bal-2018-12-D-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2018-12-F-15": [
+   "ut5-cardinales"
+  ],
+  "bal-2018-12-F-16": [
+   "ut5-laterales"
+  ],
+  "bal-2018-12-F-17": [
+   "ut5-laterales"
+  ],
+  "bal-2019-04-A-13": [
+   "ut5-otras"
+  ],
+  "bal-2019-04-B-13": [
+   "ut5-cardinales"
+  ],
+  "bal-2019-04-B-14": [
+   "ut5-modificadas"
+  ],
+  "bal-2019-04-B-15": [
+   "ut5-laterales"
+  ],
+  "bal-2019-04-B-17": [
+   "ut5-laterales"
+  ],
+  "bal-2019-04-C-16": [
+   "ut5-laterales"
+  ],
+  "bal-2019-04-F-13": [
+   "ut5-laterales"
+  ],
+  "bal-2019-04-F-14": [
+   "ut5-cardinales"
+  ],
+  "bal-2019-04-F-17": [
+   "ut5-otras"
+  ],
+  "bal-2019-04-I-13": [
+   "ut5-cardinales"
+  ],
+  "bal-2019-04-I-14": [
+   "ut5-otras"
+  ],
+  "bal-2019-04-I-16": [
+   "ut5-laterales"
+  ],
+  "bal-2019-06-A-14": [
+   "ut5-laterales"
+  ],
+  "bal-2019-06-A-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2019-06-B-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2019-09-A-14": [
+   "ut5-modificadas"
+  ],
+  "bal-2019-09-A-15": [
+   "ut5-laterales"
+  ],
+  "bal-2019-09-A-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2019-09-E-15": [
+   "ut5-modificadas"
+  ],
+  "bal-2019-09-E-17": [
+   "ut5-otras"
+  ],
+  "bal-2019-09-F-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2019-12-F-15": [
+   "ut5-otras"
+  ],
+  "bal-2019-12-G-16": [
+   "ut5-cardinales"
+  ],
+  "bal-2019-12-G-17": [
+   "ut5-otras"
+  ],
+  "bal-2020-04-C-14": [
+   "ut5-modificadas"
+  ],
+  "bal-2020-04-C-15": [
+   "ut5-laterales"
+  ],
+  "bal-2020-04-C-16": [
+   "ut5-cardinales"
+  ],
+  "bal-2020-07-A-15": [
+   "ut5-otras"
+  ],
+  "bal-2020-07-A-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2020-07-D-13": [
+   "ut5-otras"
+  ],
+  "bal-2020-07-D-14": [
+   "ut5-otras"
+  ],
+  "bal-2020-07-D-15": [
+   "ut5-laterales"
+  ],
+  "bal-2020-07-D-16": [
+   "ut5-laterales"
+  ],
+  "bal-2020-07-D-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2020-07-E-15": [
+   "ut5-cardinales"
+  ],
+  "bal-2020-07-I-14": [
+   "ut5-cardinales"
+  ],
+  "bal-2020-10-C-14": [
+   "ut5-laterales"
+  ],
+  "bal-2020-10-C-15": [
+   "ut5-cardinales"
+  ],
+  "bal-2020-10-D-13": [
+   "ut5-otras"
+  ],
+  "bal-2020-10-D-14": [
+   "ut5-laterales"
+  ],
+  "bal-2020-10-D-16": [
+   "ut5-cardinales"
+  ],
+  "bal-2020-10-D-17": [
+   "ut5-otras"
+  ],
+  "bal-2020-10-E-13": [
+   "ut5-otras"
+  ],
+  "bal-2020-10-E-15": [
+   "ut5-otras"
+  ],
+  "bal-2020-10-E-16": [
+   "ut5-laterales"
+  ],
+  "bal-2020-10-E-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2020-10-F-13": [
+   "ut5-otras"
+  ],
+  "bal-2020-10-G-17": [
+   "ut5-otras"
+  ],
+  "bal-2020-10-H-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2020-10-I-13": [
+   "ut5-otras"
+  ],
+  "bal-2020-10-I-14": [
+   "ut5-laterales"
+  ],
+  "bal-2020-12-A-15": [
+   "ut5-cardinales"
+  ],
+  "bal-2020-12-B-17": [
+   "ut5-otras"
+  ],
+  "bal-2020-12-C-13": [
+   "ut5-modificadas"
+  ],
+  "bal-2020-12-C-16": [
+   "ut5-modificadas"
+  ],
+  "bal-2020-12-C-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2020-12-D-13": [
+   "ut5-cardinales"
+  ],
+  "bal-2020-12-D-15": [
+   "ut5-cardinales"
+  ],
+  "bal-2020-12-D-16": [
+   "ut5-modificadas"
+  ],
+  "bal-2020-12-D-17": [
+   "ut5-otras"
+  ],
+  "bal-2020-12-E-15": [
+   "ut5-otras"
+  ],
+  "bal-2020-12-F-15": [
+   "ut5-cardinales"
+  ],
+  "bal-2020-12-I-13": [
+   "ut5-laterales"
+  ],
+  "bal-2020-12-I-14": [
+   "ut5-otras"
+  ],
+  "bal-2020-12-I-15": [
+   "ut5-modificadas"
+  ],
+  "bal-2020-12-I-16": [
+   "ut5-otras"
+  ],
+  "bal-2020-12-I-17": [
+   "ut5-modificadas"
+  ],
+  "bal-2021-03-A-13": [
+   "ut5-cardinales"
+  ],
+  "bal-2021-03-A-17": [
+   "ut5-otras"
+  ],
+  "bal-2021-03-B-14": [
+   "ut5-otras"
+  ],
+  "bal-2021-03-B-15": [
+   "ut5-otras"
+  ],
+  "bal-2021-03-C-17": [
+   "ut5-modificadas"
+  ],
+  "bal-2021-03-D-13": [
+   "ut5-otras"
+  ],
+  "bal-2021-03-E-13": [
+   "ut5-cardinales"
+  ],
+  "bal-2021-03-E-14": [
+   "ut5-cardinales"
+  ],
+  "bal-2021-03-E-15": [
+   "ut5-otras"
+  ],
+  "bal-2021-03-E-16": [
+   "ut5-laterales"
+  ],
+  "bal-2021-03-H-13": [
+   "ut5-cardinales"
+  ],
+  "bal-2021-06-C-16": [
+   "ut5-laterales"
+  ],
+  "bal-2021-06-D-15": [
+   "ut5-otras"
+  ],
+  "bal-2021-06-E-14": [
+   "ut5-cardinales"
+  ],
+  "bal-2021-06-E-16": [
+   "ut5-ritmos"
+  ],
+  "bal-2021-06-F-15": [
+   "ut5-otras"
+  ],
+  "bal-2021-06-F-16": [
+   "ut5-cardinales"
+  ],
+  "bal-2021-06-F-17": [
+   "ut5-laterales"
+  ],
+  "bal-2021-09-A-13": [
+   "ut5-cardinales"
+  ],
+  "bal-2021-09-A-17": [
+   "ut5-laterales"
+  ],
+  "bal-2021-09-C-16": [
+   "ut5-otras"
+  ],
+  "bal-2021-09-E-15": [
+   "ut5-otras"
+  ],
+  "bal-2021-09-E-16": [
+   "ut5-laterales"
+  ],
+  "bal-2021-09-E-17": [
+   "ut5-modificadas"
+  ],
+  "bal-2021-09-F-13": [
+   "ut5-otras"
+  ],
+  "bal-2021-09-F-15": [
+   "ut5-laterales"
+  ],
+  "bal-2021-09-F-16": [
+   "ut5-otras"
+  ],
+  "bal-2021-09-F-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2021-12-A-14": [
+   "ut5-otras"
+  ],
+  "bal-2021-12-B-14": [
+   "ut5-otras"
+  ],
+  "bal-2021-12-B-15": [
+   "ut5-cardinales"
+  ],
+  "bal-2021-12-C-13": [
+   "ut5-otras"
+  ],
+  "bal-2021-12-C-15": [
+   "ut5-cardinales"
+  ],
+  "bal-2021-12-D-13": [
+   "ut5-otras"
+  ],
+  "bal-2021-12-D-14": [
+   "ut5-modificadas"
+  ],
+  "bal-2021-12-D-15": [
+   "ut5-otras"
+  ],
+  "bal-2021-12-D-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2021-12-F-14": [
+   "ut5-cardinales"
+  ],
+  "bal-2021-12-F-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2022-03-A-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2022-03-D-14": [
+   "ut5-cardinales"
+  ],
+  "bal-2022-06-D-16": [
+   "ut5-cardinales"
+  ],
+  "bal-2022-06-E-13": [
+   "ut5-otras"
+  ],
+  "bal-2022-06-E-15": [
+   "ut5-otras"
+  ],
+  "bal-2022-06-E-17": [
+   "ut5-laterales"
+  ],
+  "bal-2022-09-C-13": [
+   "ut5-cardinales"
+  ],
+  "bal-2022-09-C-14": [
+   "ut5-cardinales"
+  ],
+  "bal-2022-09-C-15": [
+   "ut5-modificadas"
+  ],
+  "bal-2022-09-C-16": [
+   "ut5-otras"
+  ],
+  "bal-2022-09-C-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2022-09-N-13": [
+   "ut5-laterales"
+  ],
+  "bal-2022-09-N-15": [
+   "ut5-otras"
+  ],
+  "bal-2022-09-N-16": [
+   "ut5-laterales"
+  ],
+  "bal-2022-09-N-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2022-12-B-13": [
+   "ut5-otras"
+  ],
+  "bal-2022-12-B-16": [
+   "ut5-cardinales"
+  ],
+  "bal-2022-12-C-13": [
+   "ut5-laterales"
+  ],
+  "bal-2022-12-C-14": [
+   "ut5-cardinales"
+  ],
+  "bal-2022-12-C-15": [
+   "ut5-cardinales"
+  ],
+  "bal-2022-12-C-16": [
+   "ut5-cardinales"
+  ],
+  "bal-2022-12-C-17": [
+   "ut5-modificadas"
+  ],
+  "bal-2022-12-F-13": [
+   "ut5-otras"
+  ],
+  "bal-2022-12-F-14": [
+   "ut5-otras"
+  ],
+  "bal-2022-12-F-15": [
+   "ut5-laterales"
+  ],
+  "bal-2022-12-F-16": [
+   "ut5-laterales"
+  ],
+  "bal-2022-12-F-17": [
+   "ut5-modificadas"
+  ],
+  "bal-2023-03-A-16": [
+   "ut5-otras"
+  ],
+  "bal-2023-03-B-16": [
+   "ut5-cardinales"
+  ],
+  "bal-2023-03-C-13": [
+   "ut5-otras"
+  ],
+  "bal-2023-06-A-16": [
+   "ut5-cardinales"
+  ],
+  "bal-2023-06-B-13": [
+   "ut5-otras"
+  ],
+  "bal-2023-06-B-14": [
+   "ut5-laterales"
+  ],
+  "bal-2023-06-B-16": [
+   "ut5-cardinales"
+  ],
+  "bal-2023-06-B-17": [
+   "ut5-otras"
+  ],
+  "bal-2023-06-C-15": [
+   "ut5-laterales"
+  ],
+  "bal-2023-06-C-16": [
+   "ut5-otras"
+  ],
+  "bal-2023-09-A-13": [
+   "ut5-laterales"
+  ],
+  "bal-2023-09-A-14": [
+   "ut5-laterales"
+  ],
+  "bal-2023-09-A-17": [
+   "ut5-otras"
+  ],
+  "bal-2023-09-B-17": [
+   "ut5-otras"
+  ],
+  "bal-2023-09-C-13": [
+   "ut5-cardinales"
+  ],
+  "bal-2023-09-D-14": [
+   "ut5-cardinales"
+  ],
+  "bal-2023-12-A-17": [
+   "ut5-laterales"
+  ],
+  "bal-2023-12-B-13": [
+   "ut5-modificadas"
+  ],
+  "bal-2023-12-B-15": [
+   "ut5-otras"
+  ],
+  "bal-2023-12-B-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2023-12-C-16": [
+   "ut5-otras"
+  ],
+  "bal-2023-12-E-13": [
+   "ut5-cardinales"
+  ],
+  "bal-2023-12-E-15": [
+   "ut5-otras"
+  ],
+  "bal-2023-12-E-16": [
+   "ut5-modificadas"
+  ],
+  "bal-2024-04-A-14": [
+   "ut5-cardinales"
+  ],
+  "bal-2024-04-A-15": [
+   "ut5-modificadas"
+  ],
+  "bal-2024-04-A-16": [
+   "ut5-cardinales"
+  ],
+  "bal-2024-04-A-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2024-04-B-15": [
+   "ut5-otras"
+  ],
+  "bal-2024-04-B-16": [
+   "ut5-otras"
+  ],
+  "bal-2024-04-B-17": [
+   "ut5-otras"
+  ],
+  "bal-2024-04-C-15": [
+   "ut5-otras"
+  ],
+  "bal-2024-04-D-13": [
+   "ut5-otras"
+  ],
+  "bal-2024-04-D-16": [
+   "ut5-laterales"
+  ],
+  "bal-2024-04-D-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2024-07-A-17": [
+   "ut5-otras"
+  ],
+  "bal-2024-07-C-15": [
+   "ut5-otras"
+  ],
+  "bal-2024-07-C-16": [
+   "ut5-modificadas"
+  ],
+  "bal-2024-07-C-17": [
+   "ut5-laterales"
+  ],
+  "bal-2024-07-D-13": [
+   "ut5-cardinales"
+  ],
+  "bal-2024-07-D-16": [
+   "ut5-otras"
+  ],
+  "bal-2024-09-A-16": [
+   "ut5-modificadas"
+  ],
+  "bal-2024-09-D-14": [
+   "ut5-laterales"
+  ],
+  "bal-2024-09-E-14": [
+   "ut5-otras"
+  ],
+  "bal-2024-12-A-13": [
+   "ut5-otras"
+  ],
+  "bal-2024-12-A-15": [
+   "ut5-otras"
+  ],
+  "bal-2024-12-A-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2024-12-C-15": [
+   "ut5-cardinales"
+  ],
+  "bal-2024-12-C-16": [
+   "ut5-laterales"
+  ],
+  "bal-2024-12-C-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2024-12-D-14": [
+   "ut5-cardinales"
+  ],
+  "bal-2024-12-D-16": [
+   "ut5-otras"
+  ],
+  "bal-2024-12-D-17": [
+   "ut5-otras"
+  ],
+  "bal-2025-04-A-13": [
+   "ut5-cardinales"
+  ],
+  "bal-2025-04-A-14": [
+   "ut5-otras"
+  ],
+  "bal-2025-04-A-15": [
+   "ut5-otras"
+  ],
+  "bal-2025-04-A-16": [
+   "ut5-modificadas"
+  ],
+  "bal-2025-04-B-13": [
+   "ut5-otras"
+  ],
+  "bal-2025-04-B-14": [
+   "ut5-otras"
+  ],
+  "bal-2025-04-B-15": [
+   "ut5-otras"
+  ],
+  "bal-2025-04-B-16": [
+   "ut5-otras"
+  ],
+  "bal-2025-04-C-14": [
+   "ut5-cardinales"
+  ],
+  "bal-2025-04-C-15": [
+   "ut5-cardinales"
+  ],
+  "bal-2025-04-C-16": [
+   "ut5-modificadas"
+  ],
+  "bal-2025-04-D-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2025-07-A-14": [
+   "ut5-otras"
+  ],
+  "bal-2025-07-A-17": [
+   "ut5-otras"
+  ],
+  "bal-2025-07-B-15": [
+   "ut5-otras"
+  ],
+  "bal-2025-07-C-14": [
+   "ut5-laterales"
+  ],
+  "bal-2025-07-C-15": [
+   "ut5-otras"
+  ],
+  "bal-2025-07-C-16": [
+   "ut5-otras"
+  ],
+  "bal-2025-07-C-17": [
+   "ut5-otras"
+  ],
+  "bal-2025-07-D-13": [
+   "ut5-laterales"
+  ],
+  "bal-2025-07-D-14": [
+   "ut5-modificadas"
+  ],
+  "bal-2025-07-D-15": [
+   "ut5-cardinales"
+  ],
+  "bal-2025-09-A-14": [
+   "ut5-otras"
+  ],
+  "bal-2025-09-A-15": [
+   "ut5-otras"
+  ],
+  "bal-2025-09-A-16": [
+   "ut5-cardinales"
+  ],
+  "bal-2025-09-A-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2025-09-B-13": [
+   "ut5-cardinales"
+  ],
+  "bal-2025-09-B-15": [
+   "ut5-otras"
+  ],
+  "bal-2025-09-B-16": [
+   "ut5-cardinales"
+  ],
+  "bal-2025-09-B-17": [
+   "ut5-modificadas"
+  ],
+  "bal-2025-09-C-17": [
+   "ut5-otras"
+  ],
+  "bal-2025-12-B-13": [
+   "ut5-cardinales"
+  ],
+  "bal-2025-12-B-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2025-12-C-15": [
+   "ut5-otras"
+  ],
+  "bal-2025-12-D-14": [
+   "ut5-otras"
+  ],
+  "bal-2025-12-D-15": [
+   "ut5-otras"
+  ],
+  "bal-2026-03-A-13": [
+   "ut5-cardinales"
+  ],
+  "bal-2026-03-A-17": [
+   "ut5-otras"
+  ],
+  "bal-2026-03-B-13": [
+   "ut5-modificadas"
+  ],
+  "bal-2026-03-B-15": [
+   "ut5-cardinales"
+  ],
+  "bal-2026-03-B-16": [
+   "ut5-otras"
+  ],
+  "bal-2026-03-B-17": [
+   "ut5-otras"
+  ],
+  "bal-2026-03-C-14": [
+   "ut5-cardinales"
+  ],
+  "bal-2026-03-C-15": [
+   "ut5-otras"
+  ],
+  "bal-2026-03-D-15": [
+   "ut5-cardinales"
+  ],
+  "bal-2026-03-D-17": [
+   "ut5-cardinales"
+  ],
+  "bal-2026-06-A-15": [
+   "ut5-laterales"
+  ],
+  "bal-2026-06-B-17": [
+   "ut5-otras"
+  ],
+  "bal-2026-09-A-16": [
+   "ut5-otras"
+  ],
+  "bal-2026-09-B-15": [
+   "ut5-modificadas"
+  ],
+  "bal-2026-09-B-17": [
+   "ut5-otras"
+  ],
+  "bal-2026-09-C-13": [
+   "ut5-otras"
+  ],
+  "bal-2026-09-C-14": [
+   "ut5-laterales"
+  ],
+  "bal-2026-09-E-14": [
+   "ut5-otras"
+  ],
+  "bal-2026-09-E-16": [
+   "ut5-cardinales"
+  ],
+  "bal-2026-09-E-17": [
+   "ut5-otras"
   ]
  }
 }
