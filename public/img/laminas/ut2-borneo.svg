@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="t">
+<title id="t">Fondeo a la gira: círculo de borneo, longitud de cadena y orinque</title>
+<style>
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:20px;fill:#14202b}
+.b{font-weight:700}.p{font-size:15px;fill:#4b5b69}
+.cad{fill:none;stroke:#4b5b69;stroke-width:3;stroke-dasharray:6 3}
+.h{fill:#eef2f5;stroke:#14202b;stroke-width:2.5;stroke-linejoin:round}
+</style>
+<defs><marker id="f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="#c2410c"/></marker></defs>
+<rect width="720" height="380" rx="14" fill="#fff"/>
+<rect x="10" y="10" width="330" height="330" rx="10" fill="#d7ebf8"/>
+<circle cx="175" cy="180" r="140" fill="none" stroke="#c2410c" stroke-width="2.5" stroke-dasharray="9 6"/>
+<path d="M165,180 L185,180 M175,170 L175,190" stroke="#14202b" stroke-width="4"/>
+<line class="cad" x1="175" y1="180" x2="175" y2="84"/>
+<path d="M175,80 C186,90 190,104 188,140 L162,140 C160,104 164,90 175,80 Z" class="h" transform="translate(0 -40)"/>
+<g opacity="0.45">
+<line class="cad" x1="175" y1="180" x2="243" y2="248"/>
+<path d="M175,80 C186,90 190,104 188,140 L162,140 C160,104 164,90 175,80 Z" class="h" transform="rotate(135 175 180) translate(0 -40)"/>
+</g>
+<line x1="175" y1="180" x2="315" y2="180" stroke="#c2410c" stroke-width="2" marker-end="url(#f)"/>
+<text x="245" y="172" text-anchor="middle" class="p" style="fill:#9a3412">radio</text>
+<text x="175" y="334" text-anchor="middle" class="b" style="font-size:17px">Círculo de borneo</text>
+<text x="175" y="210" text-anchor="middle" class="p">ancla</text>
+<text x="530" y="34" text-anchor="middle" class="b" style="font-size:17px">De perfil</text>
+<rect x="370" y="110" width="340" height="190" fill="#d7ebf8"/>
+<line x1="370" y1="110" x2="710" y2="110" stroke="#2b7bbd" stroke-width="2"/>
+<rect x="370" y="296" width="340" height="10" fill="#c8b48c"/>
+<path d="M380,98 L480,98 C476,110 468,118 458,120 L392,120 C386,116 382,108 380,98 Z" class="h"/>
+<path class="cad" d="M478,104 C520,240 560,290 640,292"/>
+<path d="M640,282 L640,298 M630,292 Q640,302 652,292" fill="none" stroke="#14202b" stroke-width="4"/>
+<path d="M650,296 C668,240 662,160 670,112" fill="none" stroke="#2b7bbd" stroke-width="2"/>
+<circle cx="670" cy="106" r="7" fill="#e85d04" stroke="#14202b" stroke-width="1.5"/>
+<line x1="392" y1="112" x2="392" y2="294" stroke="#c2410c" stroke-width="2" marker-start="url(#f)" marker-end="url(#f)"/>
+<text x="400" y="210" class="p">fondo</text>
+<text x="660" y="88" text-anchor="middle" class="p">orinque</text>
+<text x="560" y="230" class="p">cadena</text>
+<text x="540" y="326" text-anchor="middle" class="p">Cadena: unas 3 veces el fondo (5 si hay cabo)</text>
+<text x="360" y="372" text-anchor="middle" class="p">Radio del círculo de borneo ≈ cadena filada + eslora.</text>
+</svg>

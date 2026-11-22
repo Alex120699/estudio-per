@@ -39,6 +39,26 @@
   "ut1-barlovento": {
    "titulo": "Barlovento, sotavento, escorar y adrizar",
    "archivo": "img/laminas/ut1-barlovento.svg"
+  },
+  "ut2-cabo": {
+   "titulo": "Partes de un cabo: firme, seno, chicote y gaza",
+   "archivo": "img/laminas/ut2-cabo.svg"
+  },
+  "ut2-elementos": {
+   "titulo": "Elementos de amarre",
+   "archivo": "img/laminas/ut2-elementos.svg"
+  },
+  "ut2-nudos": {
+   "titulo": "Para qué sirve cada nudo",
+   "archivo": "img/laminas/ut2-nudos.svg"
+  },
+  "ut2-borneo": {
+   "titulo": "Círculo de borneo, cadena y orinque",
+   "archivo": "img/laminas/ut2-borneo.svg"
+  },
+  "ut2-molinete": {
+   "titulo": "Molinete: barbotén, embrague y freno",
+   "archivo": "img/laminas/ut2-molinete.svg"
   }
  },
  "preguntas": {
@@ -65,6 +85,9 @@
   ],
   "and-2025-3-A-1": [
    "ut1-dimensiones"
+  ],
+  "and-2025-3-A-2": [
+   "ut2-molinete"
   ],
   "and-2025-3-A-3": [
    "ut1-dimensiones"
@@ -151,7 +174,7 @@
    "ut1-perfil"
   ],
   "bal-2017-06-B-4": [
-   "ut1-planta"
+   "ut1-perfil"
   ],
   "bal-2017-06-C-1": [
    "ut1-timon"
@@ -164,6 +187,9 @@
   ],
   "bal-2017-06-C-4": [
    "ut1-planta"
+  ],
+  "bal-2017-06-C-5": [
+   "ut2-elementos"
   ],
   "bal-2017-06-E-1": [
    "ut1-seccion"
@@ -209,6 +235,9 @@
   ],
   "bal-2017-09-D-2": [
    "ut1-dimensiones"
+  ],
+  "bal-2017-09-D-3": [
+   "ut2-molinete"
   ],
   "bal-2017-09-D-4": [
    "ut1-ancla"
@@ -292,7 +321,7 @@
    "ut1-dimensiones"
   ],
   "bal-2018-06-A-2": [
-   "ut1-ancla"
+   "ut2-borneo"
   ],
   "bal-2018-06-A-3": [
    "ut1-dimensiones"
@@ -304,7 +333,7 @@
    "ut1-perfil"
   ],
   "bal-2018-06-B-3": [
-   "ut1-ancla"
+   "ut2-borneo"
   ],
   "bal-2018-06-B-4": [
    "ut1-seccion"
@@ -370,7 +399,7 @@
    "ut1-planta"
   ],
   "bal-2018-12-C-2": [
-   "ut1-ancla"
+   "ut2-borneo"
   ],
   "bal-2018-12-C-3": [
    "ut1-perfil"
@@ -423,6 +452,9 @@
   "bal-2019-04-C-1": [
    "ut1-perfil"
   ],
+  "bal-2019-04-C-2": [
+   "ut2-molinete"
+  ],
   "bal-2019-04-C-4": [
    "ut1-ancla"
   ],
@@ -430,7 +462,7 @@
    "ut1-ancla"
   ],
   "bal-2019-04-F-4": [
-   "ut1-planta"
+   "ut1-perfil"
   ],
   "bal-2019-04-I-3": [
    "ut1-perfil"
@@ -454,7 +486,7 @@
    "ut1-helice"
   ],
   "bal-2019-09-A-2": [
-   "ut1-seccion"
+   "ut1-perfil"
   ],
   "bal-2019-09-C-1": [
    "ut1-planta"
@@ -464,6 +496,9 @@
   ],
   "bal-2019-09-C-3": [
    "ut1-seccion"
+  ],
+  "bal-2019-09-F-1": [
+   "ut2-molinete"
   ],
   "bal-2019-09-F-2": [
    "ut1-dimensiones"
@@ -535,7 +570,7 @@
    "ut1-helice"
   ],
   "bal-2020-10-D-1": [
-   "ut1-planta"
+   "ut1-perfil"
   ],
   "bal-2020-10-D-2": [
    "ut1-fondeo"
@@ -557,6 +592,9 @@
   ],
   "bal-2020-10-E-4": [
    "ut1-helice"
+  ],
+  "bal-2020-10-F-1": [
+   "ut2-molinete"
   ],
   "bal-2020-10-F-3": [
    "ut1-tipos-ancla"
@@ -608,6 +646,9 @@
   ],
   "bal-2020-12-F-4": [
    "ut1-fondeo"
+  ],
+  "bal-2020-12-G-1": [
+   "ut2-molinete"
   ],
   "bal-2020-12-G-2": [
    "ut1-perfil"
@@ -711,17 +752,17 @@
   "bal-2021-09-F-3": [
    "ut1-seccion"
   ],
+  "bal-2021-12-A-3": [
+   "ut2-molinete"
+  ],
   "bal-2021-12-B-3": [
    "ut1-helice"
-  ],
-  "bal-2021-12-C-1": [
-   "ut1-fondeo"
   ],
   "bal-2021-12-C-2": [
    "ut1-ancla"
   ],
   "bal-2021-12-C-3": [
-   "ut1-ancla"
+   "ut1-tipos-ancla"
   ],
   "bal-2021-12-C-4": [
    "ut1-barlovento"
@@ -772,7 +813,7 @@
    "ut1-seccion"
   ],
   "bal-2022-09-C-1": [
-   "ut1-seccion"
+   "ut1-perfil"
   ],
   "bal-2022-09-C-3": [
    "ut1-perfil"
@@ -782,6 +823,9 @@
   ],
   "bal-2022-09-N-1": [
    "ut1-seccion"
+  ],
+  "bal-2022-09-N-2": [
+   "ut2-molinete"
   ],
   "bal-2022-09-N-4": [
    "ut1-helice"
@@ -820,7 +864,7 @@
    "ut1-barlovento"
   ],
   "bal-2023-06-B-1": [
-   "ut1-planta"
+   "ut1-dimensiones"
   ],
   "bal-2023-06-B-4": [
    "ut1-helice"
@@ -854,6 +898,9 @@
   ],
   "bal-2023-12-B-3": [
    "ut1-perfil"
+  ],
+  "bal-2023-12-C-1": [
+   "ut2-molinete"
   ],
   "bal-2023-12-C-2": [
    "ut1-perfil"
@@ -906,6 +953,9 @@
   "bal-2024-07-A-2": [
    "ut1-barlovento"
   ],
+  "bal-2024-07-A-4": [
+   "ut2-elementos"
+  ],
   "bal-2024-07-C-2": [
    "ut1-barlovento"
   ],
@@ -923,6 +973,9 @@
   ],
   "bal-2024-09-A-3": [
    "ut1-seccion"
+  ],
+  "bal-2024-09-D-2": [
+   "ut2-cabo"
   ],
   "bal-2024-09-D-4": [
    "ut1-helice"
@@ -950,6 +1003,9 @@
   ],
   "bal-2025-04-A-2": [
    "ut1-planta"
+  ],
+  "bal-2025-04-B-4": [
+   "ut2-molinete"
   ],
   "bal-2025-04-C-2": [
    "ut1-helice"
@@ -1076,6 +1132,369 @@
   ],
   "bal-2026-09-C-3": [
    "ut1-helice"
+  ],
+  "and-2025-1-A-6": [
+   "ut2-molinete"
+  ],
+  "and-2025-2-A-5": [
+   "ut2-cabo"
+  ],
+  "and-2026-1-A-5": [
+   "ut2-borneo"
+  ],
+  "and-2026-1-A-6": [
+   "ut2-molinete"
+  ],
+  "and-2026-2-A-5": [
+   "ut2-borneo"
+  ],
+  "and-2026-2-A-6": [
+   "ut2-nudos"
+  ],
+  "bal-2017-03-A-5": [
+   "ut2-borneo"
+  ],
+  "bal-2017-03-B-5": [
+   "ut2-elementos"
+  ],
+  "bal-2017-03-C-5": [
+   "ut2-borneo"
+  ],
+  "bal-2017-03-F-5": [
+   "ut2-borneo"
+  ],
+  "bal-2017-03-G-5": [
+   "ut2-borneo"
+  ],
+  "bal-2017-03-G-6": [
+   "ut2-cabo"
+  ],
+  "bal-2017-06-E-5": [
+   "ut2-borneo"
+  ],
+  "bal-2017-06-E-6": [
+   "ut2-cabo"
+  ],
+  "bal-2017-06-F-6": [
+   "ut2-borneo"
+  ],
+  "bal-2017-09-A-5": [
+   "ut2-elementos"
+  ],
+  "bal-2017-09-A-6": [
+   "ut2-nudos"
+  ],
+  "bal-2017-09-C-5": [
+   "ut2-elementos"
+  ],
+  "bal-2017-09-E-5": [
+   "ut2-elementos"
+  ],
+  "bal-2017-12-A-5": [
+   "ut2-cabo"
+  ],
+  "bal-2017-12-B-5": [
+   "ut2-borneo"
+  ],
+  "bal-2017-12-C-5": [
+   "ut2-nudos"
+  ],
+  "bal-2017-12-C-6": [
+   "ut2-cabo"
+  ],
+  "bal-2017-12-D-6": [
+   "ut1-fondeo"
+  ],
+  "bal-2017-12-E-6": [
+   "ut2-elementos"
+  ],
+  "bal-2018-04-A-5": [
+   "ut2-elementos"
+  ],
+  "bal-2018-04-B-6": [
+   "ut1-tipos-ancla"
+  ],
+  "bal-2018-04-E-6": [
+   "ut2-nudos"
+  ],
+  "bal-2018-06-A-5": [
+   "ut2-elementos"
+  ],
+  "bal-2018-06-A-6": [
+   "ut2-borneo"
+  ],
+  "bal-2018-06-B-5": [
+   "ut2-elementos"
+  ],
+  "bal-2018-06-C-5": [
+   "ut2-elementos"
+  ],
+  "bal-2018-06-I-6": [
+   "ut2-nudos"
+  ],
+  "bal-2018-09-A-6": [
+   "ut2-nudos"
+  ],
+  "bal-2018-09-D-6": [
+   "ut1-ancla"
+  ],
+  "bal-2018-09-E-5": [
+   "ut2-borneo"
+  ],
+  "bal-2018-12-D-5": [
+   "ut2-elementos"
+  ],
+  "bal-2018-12-D-6": [
+   "ut2-elementos"
+  ],
+  "bal-2018-12-F-5": [
+   "ut2-cabo"
+  ],
+  "bal-2018-12-F-6": [
+   "ut1-ancla"
+  ],
+  "bal-2019-04-A-6": [
+   "ut2-elementos"
+  ],
+  "bal-2019-04-B-5": [
+   "ut2-nudos"
+  ],
+  "bal-2019-04-C-5": [
+   "ut2-elementos"
+  ],
+  "bal-2019-04-F-6": [
+   "ut2-cabo"
+  ],
+  "bal-2019-06-B-6": [
+   "ut2-cabo"
+  ],
+  "bal-2019-09-A-5": [
+   "ut2-cabo"
+  ],
+  "bal-2019-09-A-6": [
+   "ut2-elementos"
+  ],
+  "bal-2019-09-C-5": [
+   "ut2-elementos"
+  ],
+  "bal-2019-12-B-5": [
+   "ut2-borneo"
+  ],
+  "bal-2019-12-C-5": [
+   "ut2-molinete"
+  ],
+  "bal-2019-12-C-6": [
+   "ut2-borneo"
+  ],
+  "bal-2019-12-G-5": [
+   "ut2-elementos"
+  ],
+  "bal-2020-07-D-6": [
+   "ut2-nudos"
+  ],
+  "bal-2020-07-I-6": [
+   "ut2-nudos"
+  ],
+  "bal-2020-10-E-5": [
+   "ut2-nudos"
+  ],
+  "bal-2020-10-F-5": [
+   "ut2-borneo"
+  ],
+  "bal-2020-10-F-6": [
+   "ut2-elementos"
+  ],
+  "bal-2020-12-B-5": [
+   "ut2-molinete"
+  ],
+  "bal-2020-12-B-6": [
+   "ut2-molinete"
+  ],
+  "bal-2020-12-C-5": [
+   "ut1-fondeo"
+  ],
+  "bal-2020-12-C-6": [
+   "ut2-borneo"
+  ],
+  "bal-2020-12-D-5": [
+   "ut2-borneo"
+  ],
+  "bal-2020-12-E-5": [
+   "ut2-nudos"
+  ],
+  "bal-2020-12-E-6": [
+   "ut1-fondeo"
+  ],
+  "bal-2020-12-I-6": [
+   "ut2-borneo"
+  ],
+  "bal-2021-03-A-5": [
+   "ut2-elementos"
+  ],
+  "bal-2021-03-B-5": [
+   "ut2-elementos"
+  ],
+  "bal-2021-03-B-6": [
+   "ut2-elementos"
+  ],
+  "bal-2021-03-C-6": [
+   "ut2-borneo"
+  ],
+  "bal-2021-06-C-5": [
+   "ut2-nudos"
+  ],
+  "bal-2021-06-D-5": [
+   "ut2-elementos"
+  ],
+  "bal-2021-06-F-5": [
+   "ut2-molinete"
+  ],
+  "bal-2021-06-F-6": [
+   "ut1-ancla"
+  ],
+  "bal-2021-06-G-5": [
+   "ut2-borneo"
+  ],
+  "bal-2021-09-A-6": [
+   "ut2-elementos"
+  ],
+  "bal-2021-09-F-5": [
+   "ut2-cabo"
+  ],
+  "bal-2021-09-F-6": [
+   "ut1-ancla"
+  ],
+  "bal-2021-12-A-6": [
+   "ut2-borneo"
+  ],
+  "bal-2021-12-C-5": [
+   "ut2-nudos"
+  ],
+  "bal-2021-12-D-6": [
+   "ut2-borneo"
+  ],
+  "bal-2021-12-F-5": [
+   "ut2-molinete"
+  ],
+  "bal-2021-12-F-6": [
+   "ut1-fondeo"
+  ],
+  "bal-2022-06-D-6": [
+   "ut2-nudos"
+  ],
+  "bal-2022-06-F-6": [
+   "ut1-fondeo"
+  ],
+  "bal-2022-09-B-6": [
+   "ut2-cabo"
+  ],
+  "bal-2022-09-C-5": [
+   "ut2-borneo"
+  ],
+  "bal-2022-09-N-6": [
+   "ut2-nudos"
+  ],
+  "bal-2022-12-A-5": [
+   "ut2-elementos"
+  ],
+  "bal-2022-12-B-5": [
+   "ut2-elementos"
+  ],
+  "bal-2022-12-C-5": [
+   "ut2-borneo"
+  ],
+  "bal-2022-12-F-6": [
+   "ut2-nudos"
+  ],
+  "bal-2023-06-B-6": [
+   "ut2-cabo"
+  ],
+  "bal-2023-06-C-5": [
+   "ut2-elementos"
+  ],
+  "bal-2023-06-D-6": [
+   "ut2-nudos"
+  ],
+  "bal-2023-09-C-6": [
+   "ut2-elementos"
+  ],
+  "bal-2023-12-A-6": [
+   "ut2-elementos"
+  ],
+  "bal-2023-12-B-5": [
+   "ut2-nudos"
+  ],
+  "bal-2023-12-C-6": [
+   "ut2-borneo"
+  ],
+  "bal-2023-12-E-5": [
+   "ut2-nudos"
+  ],
+  "bal-2024-04-A-5": [
+   "ut2-molinete"
+  ],
+  "bal-2024-04-B-5": [
+   "ut2-molinete"
+  ],
+  "bal-2024-04-B-6": [
+   "ut1-fondeo"
+  ],
+  "bal-2024-04-C-6": [
+   "ut2-elementos"
+  ],
+  "bal-2024-04-D-5": [
+   "ut2-cabo"
+  ],
+  "bal-2024-04-D-6": [
+   "ut2-nudos"
+  ],
+  "bal-2024-09-A-6": [
+   "ut2-elementos"
+  ],
+  "bal-2024-12-B-5": [
+   "ut2-elementos"
+  ],
+  "bal-2024-12-D-6": [
+   "ut1-ancla"
+  ],
+  "bal-2025-04-A-6": [
+   "ut2-borneo"
+  ],
+  "bal-2025-04-C-6": [
+   "ut2-elementos"
+  ],
+  "bal-2025-04-D-6": [
+   "ut2-elementos"
+  ],
+  "bal-2025-09-A-5": [
+   "ut2-nudos"
+  ],
+  "bal-2025-09-A-6": [
+   "ut2-borneo"
+  ],
+  "bal-2025-12-A-6": [
+   "ut2-borneo"
+  ],
+  "bal-2025-12-D-6": [
+   "ut2-borneo"
+  ],
+  "bal-2026-03-B-6": [
+   "ut1-ancla"
+  ],
+  "bal-2026-03-C-5": [
+   "ut2-elementos"
+  ],
+  "bal-2026-03-C-6": [
+   "ut2-cabo"
+  ],
+  "bal-2026-06-D-5": [
+   "ut2-borneo"
+  ],
+  "bal-2026-09-C-5": [
+   "ut2-nudos"
+  ],
+  "bal-2026-09-E-6": [
+   "ut2-cabo"
   ]
  }
 }

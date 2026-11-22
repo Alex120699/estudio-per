@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-labelledby="t">
+<title id="t">Elementos de amarre: noray, bitas, cornamusa, guía-cabos, roldana, defensa, bichero, y muerto con boya</title>
+<style>
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:20px;fill:#14202b}
+.b{font-weight:700}.p{font-size:15px;fill:#4b5b69}
+.m{fill:#6b7a87;stroke:#14202b;stroke-width:2;stroke-linejoin:round}
+.co{fill:none;stroke:#14202b;stroke-width:9;stroke-linecap:round;stroke-linejoin:round}
+.ci{fill:none;stroke:#d9b45a;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
+.base{fill:#c4ccd3}
+</style>
+<rect width="720" height="440" rx="14" fill="#fff"/>
+<g stroke="#e3e8ec" stroke-width="2"><line x1="180" y1="16" x2="180" y2="424"/><line x1="360" y1="16" x2="360" y2="424"/><line x1="540" y1="16" x2="540" y2="424"/><line x1="16" y1="220" x2="704" y2="220"/></g>
+<!-- Noray -->
+<rect x="30" y="140" width="120" height="30" class="base"/>
+<path d="M76,140 L76,100 Q76,92 70,88 L66,80 Q90,70 114,80 L110,88 Q104,92 104,100 L104,140 Z" class="m"/>
+<path class="co" d="M30,120 L60,112 C66,96 114,96 120,112 C116,124 64,124 60,112"/><path class="ci" d="M30,120 L60,112 C66,96 114,96 120,112 C116,124 64,124 60,112"/>
+<text x="90" y="196" text-anchor="middle" class="b">Noray</text><text x="90" y="214" text-anchor="middle" class="p">en el muelle</text>
+<!-- Bitas -->
+<rect x="210" y="150" width="120" height="20" class="base"/>
+<rect x="226" y="132" width="90" height="18" rx="3" class="m"/>
+<rect x="232" y="78" width="26" height="56" rx="6" class="m"/><rect x="284" y="78" width="26" height="56" rx="6" class="m"/>
+<text x="270" y="196" text-anchor="middle" class="b">Bitas</text><text x="270" y="214" text-anchor="middle" class="p">pareja de postes, a bordo</text>
+<!-- Cornamusa -->
+<rect x="390" y="150" width="120" height="20" class="base"/>
+<path d="M420,150 L430,126 L470,126 L480,150 Z" class="m"/>
+<path d="M398,124 Q420,112 450,114 Q480,112 502,124 Q480,128 450,128 Q420,128 398,124 Z" class="m"/>
+<text x="450" y="196" text-anchor="middle" class="b">Cornamusa</text><text x="450" y="214" text-anchor="middle" class="p">para tomar vueltas</text>
+<!-- Guía-cabos -->
+<rect x="570" y="150" width="120" height="20" class="base"/>
+<path d="M588,150 L588,118 Q588,100 612,100 L622,100 L622,112 Q604,112 604,126 L604,150 Z" class="m"/>
+<path d="M692,150 L692,118 Q692,100 668,100 L658,100 L658,112 Q676,112 676,126 L676,150 Z" class="m"/>
+<path class="co" d="M640,60 L640,140"/><path class="ci" d="M640,60 L640,140"/>
+<text x="630" y="196" text-anchor="middle" class="b">Guía-cabos</text><text x="630" y="214" text-anchor="middle" class="p">dirige el cabo</text>
+<!-- Roldana -->
+<path d="M70,250 L110,250 L110,262 L70,262 Z" class="m"/>
+<rect x="62" y="262" width="56" height="76" rx="12" fill="none" stroke="#14202b" stroke-width="3"/>
+<circle cx="90" cy="300" r="26" fill="#cdd6dd" stroke="#14202b" stroke-width="3"/><circle cx="90" cy="300" r="5" fill="#14202b"/>
+<path class="co" d="M64,380 L64,300 A26,26 0 0 1 116,300 L116,380"/><path class="ci" d="M64,380 L64,300 A26,26 0 0 1 116,300 L116,380"/>
+<text x="90" y="404" text-anchor="middle" class="b">Roldana</text><text x="90" y="422" text-anchor="middle" class="p">rueda de polea</text>
+<!-- Defensa -->
+<path d="M200,240 L230,240 L236,380 L200,380 Z" fill="#eef2f5" stroke="#14202b" stroke-width="2"/>
+<line x1="236" y1="250" x2="320" y2="250" stroke="#14202b" stroke-width="3"/>
+<line x1="270" y1="250" x2="270" y2="290" stroke="#14202b" stroke-width="2"/>
+<rect x="244" y="290" width="52" height="84" rx="24" fill="#2b7bbd" stroke="#14202b" stroke-width="2"/>
+<text x="270" y="404" text-anchor="middle" class="b">Defensa</text><text x="270" y="422" text-anchor="middle" class="p">protege el costado</text>
+<!-- Bichero -->
+<line x1="380" y1="380" x2="500" y2="262" stroke="#8a5a3b" stroke-width="8" stroke-linecap="round"/>
+<path d="M496,266 L522,240 M508,254 Q530,262 520,282" fill="none" stroke="#14202b" stroke-width="5" stroke-linecap="round"/>
+<text x="526" y="236" text-anchor="end" class="p">puntera</text>
+<text x="450" y="404" text-anchor="middle" class="b">Bichero</text><text x="450" y="422" text-anchor="middle" class="p">palo con gancho</text>
+<!-- Muerto y boya -->
+<rect x="540" y="270" width="164" height="110" fill="#d7ebf8"/>
+<line x1="540" y1="270" x2="704" y2="270" stroke="#2b7bbd" stroke-width="2"/>
+<rect x="540" y="372" width="164" height="8" fill="#c8b48c"/>
+<circle cx="600" cy="268" r="14" fill="#e85d04" stroke="#14202b" stroke-width="2"/>
+<path d="M600,282 C596,320 610,340 640,352" fill="none" stroke="#4b5b69" stroke-width="3" stroke-dasharray="5 3"/>
+<rect x="620" y="348" width="44" height="26" fill="#8795a1" stroke="#14202b" stroke-width="2"/>
+<text x="642" y="300" class="p">boya</text><text x="672" y="364" class="p">muerto</text>
+<text x="630" y="404" text-anchor="middle" class="b">Muerto y boya</text><text x="630" y="422" text-anchor="middle" class="p">bloque en el fondo</text>
+</svg>

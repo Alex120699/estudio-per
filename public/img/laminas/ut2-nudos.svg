@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t">
+<title id="t">Para qué sirve cada nudo: llano, vuelta de rezón, ballestrinque y as de guía (esquema)</title>
+<style>
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:20px;fill:#14202b}
+.b{font-weight:700}.p{font-size:15px;fill:#4b5b69}
+.m{fill:#6b7a87;stroke:#14202b;stroke-width:2;stroke-linejoin:round}
+.o{fill:none;stroke:#14202b;stroke-width:10;stroke-linecap:round;stroke-linejoin:round}
+.a{fill:none;stroke:#d9b45a;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
+.r{fill:none;stroke:#e07a5f;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
+.z{fill:none;stroke:#4a90c2;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
+</style>
+<rect width="720" height="360" rx="14" fill="#fff"/>
+<g stroke="#e3e8ec" stroke-width="2"><line x1="180" y1="16" x2="180" y2="344"/><line x1="360" y1="16" x2="360" y2="344"/><line x1="540" y1="16" x2="540" y2="344"/></g>
+<!-- Llano: dos senos entrelazados -->
+<path class="o" d="M14,128 L104,128 C124,128 124,160 104,160 L62,160"/><path class="r" d="M14,128 L104,128 C124,128 124,160 104,160 L62,160"/>
+<path class="o" d="M166,160 L76,160 C56,160 56,128 76,128 L118,128"/><path class="z" d="M166,160 L76,160 C56,160 56,128 76,128 L118,128"/>
+<path class="o" d="M96,128 L104,128 C124,128 124,160 104,160 L100,160"/><path class="r" d="M96,128 L104,128 C124,128 124,160 104,160 L100,160"/>
+<text x="90" y="250" text-anchor="middle" class="b">Llano</text>
+<text x="90" y="274" text-anchor="middle" class="p">une por sus chicotes</text>
+<text x="90" y="294" text-anchor="middle" class="p">dos cabos del mismo</text>
+<text x="90" y="314" text-anchor="middle" class="p">grosor (mena)</text>
+<!-- Vuelta de rezón: a la argolla del ancla -->
+<line x1="270" y1="150" x2="270" y2="215" stroke="#6b7a87" stroke-width="12"/>
+<path d="M246,206 Q270,226 294,206" fill="none" stroke="#6b7a87" stroke-width="10" stroke-linecap="round"/>
+<circle cx="270" cy="132" r="18" fill="none" stroke="#14202b" stroke-width="7"/>
+<path class="o" d="M350,70 L300,94 C276,104 254,110 252,128 C250,148 284,150 288,132 C292,114 262,104 250,118"/>
+<path class="a" d="M350,70 L300,94 C276,104 254,110 252,128 C250,148 284,150 288,132 C292,114 262,104 250,118"/>
+<path class="o" d="M290,124 C306,104 318,96 330,92 M314,98 C318,110 330,108 334,96"/><path class="a" d="M290,124 C306,104 318,96 330,92 M314,98 C318,110 330,108 334,96"/>
+<text x="270" y="250" text-anchor="middle" class="b">Vuelta de rezón</text>
+<text x="270" y="274" text-anchor="middle" class="p">cabo a una argolla:</text>
+<text x="270" y="294" text-anchor="middle" class="p">arganeo del ancla</text>
+<text x="270" y="314" text-anchor="middle" class="p">o boya</text>
+<!-- Ballestrinque: en un candelero, colgando una defensa -->
+<line x1="450" y1="40" x2="450" y2="200" stroke="#5c6b78" stroke-width="10" stroke-linecap="round"/>
+<path class="o" d="M420,72 L470,90 M430,98 L470,80 M430,98 L476,110"/><path class="a" d="M420,72 L470,90 M430,98 L470,80 M430,98 L476,110"/>
+<path class="o" d="M476,110 L496,130 L496,150"/><path class="a" d="M476,110 L496,130 L496,150"/>
+<rect x="480" y="150" width="32" height="56" rx="15" fill="#2b7bbd" stroke="#14202b" stroke-width="2"/>
+<text x="450" y="250" text-anchor="middle" class="b">Ballestrinque</text>
+<text x="450" y="274" text-anchor="middle" class="p">cabo a un poste o</text>
+<text x="450" y="294" text-anchor="middle" class="p">candelero; colgar</text>
+<text x="450" y="314" text-anchor="middle" class="p">las defensas</text>
+<!-- As de guía: gaza fija en un noray -->
+<rect x="590" y="176" width="100" height="30" fill="#c4ccd3"/>
+<path d="M628,176 L628,140 Q628,132 622,128 L618,120 Q640,110 662,120 L658,128 Q652,132 652,140 L652,176 Z" class="m"/>
+<path class="o" d="M640,40 L640,86 C600,92 600,150 640,150 C680,150 680,92 640,86"/><path class="a" d="M640,40 L640,86 C600,92 600,150 640,150 C680,150 680,92 640,86"/>
+<circle cx="640" cy="86" r="9" fill="#d9b45a" stroke="#14202b" stroke-width="3"/>
+<text x="630" y="250" text-anchor="middle" class="b">As de guía</text>
+<text x="630" y="274" text-anchor="middle" class="p">gaza fija que no se</text>
+<text x="630" y="294" text-anchor="middle" class="p">corre: encapillar en</text>
+<text x="630" y="314" text-anchor="middle" class="p">un noray o rescatar</text>
+<text x="360" y="346" text-anchor="middle" class="p" style="font-size:13px">Esquemas de uso, no la forma exacta de hacer cada nudo.</text>
+</svg>

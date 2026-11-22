@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" role="img" aria-labelledby="t">
+<title id="t">Molinete: barbotén, embrague y freno, con la cadena saliendo por la gatera</title>
+<style>
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:20px;fill:#14202b}
+.b{font-weight:700}.p{font-size:15px;fill:#4b5b69}
+.ln{stroke:#14202b;stroke-width:1.5;fill:none}
+.m{fill:#6b7a87;stroke:#14202b;stroke-width:2;stroke-linejoin:round}
+</style>
+<rect width="600" height="380" rx="14" fill="#fff"/>
+<rect x="20" y="230" width="560" height="22" fill="#c4ccd3"/>
+<rect x="60" y="150" width="110" height="80" rx="8" class="m"/>
+<text x="115" y="196" text-anchor="middle" style="fill:#fff;font-size:16px">motor</text>
+<rect x="170" y="180" width="260" height="14" fill="#8795a1" stroke="#14202b" stroke-width="1.5"/>
+<path d="M210,170 L240,160 L240,214 L210,204 Z" fill="#c2410c" stroke="#14202b" stroke-width="2"/>
+<line x1="226" y1="164" x2="214" y2="120" stroke="#14202b" stroke-width="5" stroke-linecap="round"/>
+<circle cx="300" cy="187" r="52" fill="#cdd6dd" stroke="#14202b" stroke-width="3"/>
+<g fill="#14202b"><rect x="294" y="131" width="12" height="14"/><rect x="294" y="229" width="12" height="14"/><rect x="244" y="181" width="14" height="12"/><rect x="342" y="181" width="14" height="12"/>
+<rect x="258" y="143" width="12" height="12" transform="rotate(45 264 149)"/><rect x="330" y="143" width="12" height="12" transform="rotate(45 336 149)"/><rect x="258" y="219" width="12" height="12" transform="rotate(45 264 225)"/><rect x="330" y="219" width="12" height="12" transform="rotate(45 336 225)"/></g>
+<circle cx="300" cy="187" r="16" fill="#8795a1" stroke="#14202b" stroke-width="2"/>
+<path d="M300,135 C360,128 400,150 452,232" fill="none" stroke="#4b5b69" stroke-width="5" stroke-dasharray="9 4"/>
+<path d="M452,232 L460,286" fill="none" stroke="#4b5b69" stroke-width="5" stroke-dasharray="9 4"/>
+<rect x="438" y="228" width="30" height="24" fill="#5c6b78"/>
+<circle cx="400" cy="187" r="34" fill="none" stroke="#c9a227" stroke-width="10"/>
+<circle cx="400" cy="187" r="22" fill="#eef2f5" stroke="#14202b" stroke-width="2"/>
+<line x1="400" y1="153" x2="420" y2="96" stroke="#14202b" stroke-width="6" stroke-linecap="round"/>
+<line class="ln" x1="300" y1="120" x2="300" y2="62"/><text x="300" y="54" text-anchor="middle" class="b">Barbotén</text>
+<text x="300" y="34" text-anchor="middle" class="p">rueda con muescas para la cadena</text>
+<text x="200" y="110" text-anchor="end" class="b">Embrague</text>
+<line class="ln" x1="210" y1="112" x2="216" y2="124"/>
+<text x="430" y="92" class="b">Freno</text>
+<line class="ln" x1="484" y1="244" x2="520" y2="270"/><text x="524" y="278">Gatera</text>
+<text x="300" y="318" text-anchor="middle" class="p">Antes de fondear: freno apretado y desembragado;</text>
+<text x="300" y="338" text-anchor="middle" class="p">la cadena se fila soltando el freno poco a poco.</text>
+<text x="300" y="362" text-anchor="middle" class="p">Para levar: embragar, soltar el freno y virar.</text>
+</svg>

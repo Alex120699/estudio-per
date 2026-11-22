@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" role="img" aria-labelledby="t">
+<title id="t">Partes de un cabo: firme, seno y chicote; y una gaza en el extremo</title>
+<style>
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:20px;fill:#14202b}
+.b{font-weight:700}.p{font-size:16px;fill:#4b5b69}
+.ln{stroke:#14202b;stroke-width:1.5;fill:none}
+.co{fill:none;stroke:#14202b;stroke-width:12;stroke-linecap:round;stroke-linejoin:round}
+.ci{fill:none;stroke:#d9b45a;stroke-width:8;stroke-linecap:round;stroke-linejoin:round}
+</style>
+<rect width="600" height="340" rx="14" fill="#fff"/>
+<rect x="20" y="128" width="70" height="60" fill="#c4ccd3"/>
+<rect x="44" y="96" width="22" height="34" fill="#5c6b78"/>
+<rect x="36" y="88" width="38" height="12" rx="5" fill="#5c6b78"/>
+<path class="co" d="M66,110 L280,110 C320,110 330,220 390,220 C450,220 460,110 500,110 L556,110"/>
+<path class="ci" d="M66,110 L280,110 C320,110 330,220 390,220 C450,220 460,110 500,110 L556,110"/>
+<line x1="548" y1="102" x2="548" y2="118" stroke="#14202b" stroke-width="3"/>
+<text x="175" y="92" text-anchor="middle" class="b">Firme</text>
+<text x="175" y="140" text-anchor="middle" class="p">la parte que trabaja</text>
+<text x="390" y="252" text-anchor="middle" class="b">Seno</text>
+<text x="390" y="272" text-anchor="middle" class="p">parte curva entre los extremos</text>
+<line class="ln" x1="556" y1="100" x2="556" y2="72"/><text x="556" y="62" text-anchor="middle" class="b">Chicote</text>
+<text x="556" y="140" text-anchor="middle" class="p">extremo</text>
+<path class="co" d="M40,305 L420,305 C440,272 520,272 520,305 C520,338 440,338 420,305"/>
+<path class="ci" d="M40,305 L420,305 C440,272 520,272 520,305 C520,338 440,338 420,305"/>
+<text x="534" y="300" class="b">Gaza</text>
+<text x="534" y="320" class="p">ojo</text>
+</svg>
