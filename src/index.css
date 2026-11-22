@@ -124,7 +124,12 @@ h2 { font-size: 1.15rem; }
 .opcion.correcta .letra { background: var(--bien); border-color: var(--bien); color: var(--fondo); }
 .opcion.incorrecta { border-color: var(--mal); background: var(--mal-fondo); }
 .opcion.incorrecta .letra { background: var(--mal); border-color: var(--mal); color: var(--fondo); }
-.opcion.apagada { opacity: 0.6; }
+.opcion.apagada { opacity: 0.75; }
+.texto-opcion { display: grid; gap: 4px; }
+.motivo { display: block; font-size: 0.85rem; line-height: 1.35; color: var(--suave); font-weight: 400; text-decoration: none; }
+.opcion.incorrecta .motivo { color: var(--texto); }
+.opciones-repaso .motivo { margin: 2px 0 2px 1.4em; }
+.opciones-repaso .incorrecta .motivo { display: block; }
 .opcion:disabled { cursor: default; }
 .feedback { margin-top: 14px; padding: 12px 14px; border-radius: 12px; }
 .feedback.bien { background: var(--bien-fondo); color: var(--bien); }

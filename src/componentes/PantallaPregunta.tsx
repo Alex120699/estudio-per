@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { tituloSesion, type Sesion } from '../logica/sesion'
 import type { Pregunta } from '../tipos/preguntas'
 import { programa } from '../tipos/programa'
+import { motivoDe } from '../datos/explicaciones'
 import Figura from './Figura'
 import Explicacion from './Explicacion'
 import Fuentes from './Fuentes'
@@ -100,7 +101,12 @@ export default function PantallaPregunta({ sesion, preguntas, onResponder, onIr,
             onClick={() => onResponder(i, k)}
           >
             <span className="letra">{LETRAS[k]}</span>
-            <span>{o}</span>
+            <span className="texto-opcion">
+              {o}
+              {corregida && k !== p.correcta && motivoDe(p.id, k) && (
+                <span className="motivo">{motivoDe(p.id, k)}</span>
+              )}
+            </span>
             {corregida && k === p.correcta && (
               <span className="marca-estado" aria-label="correcta">
                 ✓

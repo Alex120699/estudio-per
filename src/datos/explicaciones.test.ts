@@ -20,6 +20,22 @@ describe('explicaciones.json', () => {
     }
   })
 
+  it('los motivos por opción cuadran con las opciones (correcta vacía, el resto con texto)', () => {
+    for (const id of idsConExplicacion()) {
+      const o = explicacionDe(id)!.opciones
+      if (!o) continue
+      const p = porId.get(id)!
+      expect(o.length, id).toBe(p.opciones.length)
+      o.forEach((m, k) => {
+        if (k === p.correcta) expect(m, id).toBe('')
+        else {
+          expect(m.length, `${id} opción ${k}`).toBeGreaterThan(10)
+          expect(m, id).not.toMatch(/<[a-z]/i)
+        }
+      })
+    }
+  })
+
   it.each([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11])('la UT %i está completa', (unidad) => {
     const lista = preguntas.filter((p) => p.unidad === unidad)
     expect(lista.filter((p) => !explicacionDe(p.id)).map((p) => p.id)).toEqual([])

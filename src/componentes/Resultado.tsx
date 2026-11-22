@@ -5,6 +5,7 @@ import type { Pregunta } from '../tipos/preguntas'
 import { programa } from '../tipos/programa'
 import Figura from './Figura'
 import Explicacion from './Explicacion'
+import { motivoDe } from '../datos/explicaciones'
 import Fuentes from './Fuentes'
 
 interface Props {
@@ -142,6 +143,7 @@ export default function Resultado({ sesion, preguntas, resumen, caja, onInicio, 
                     <span className="letra">{LETRAS[k]})</span> {o}
                     {k === p.correcta && ' ✓'}
                     {k === elegida && k !== p.correcta && ' ✗ tu respuesta'}
+                    {k !== p.correcta && motivoDe(p.id, k) && <span className="motivo">{motivoDe(p.id, k)}</span>}
                   </li>
                 ))}
               </ul>
