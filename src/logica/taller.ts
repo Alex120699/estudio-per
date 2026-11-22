@@ -12,10 +12,10 @@ export interface PasoEjercicio {
   tipo: 'numero' | 'banda'
   /** Para «banda»: +1 estribor, −1 babor. */
   respuesta: number
-  /** Margen admitido (grados o millas). */
+  /** Margen admitido (grados o millas; en minutos para latitud y longitud). */
   margen: number
-  /** Rumbo/demora (0–360, se compara en círculo) o valor con signo (Ct, dm, desvío). */
-  clase: 'rumbo' | 'signo' | 'valor'
+  /** Rumbo/demora (0–360, se compara en círculo), valor con signo (Ct, dm, desvío) o coordenada (grados decimales). */
+  clase: 'rumbo' | 'signo' | 'valor' | 'lat' | 'lon'
   pista: string
   /** La cuenta hecha, para enseñarla al acertar o tras fallar dos veces. */
   solucion: string
@@ -45,7 +45,9 @@ const ent = (azar: Azar, a: number, b: number) => a + Math.floor(azar() * (b - a
 const elige = <T>(azar: Azar, xs: readonly T[]): T => xs[Math.floor(azar() * xs.length)]
 /** Rumbo con tres cifras, y con un decimal solo si lo tiene (241,5º). */
 const g = (a: number) => (Number.isInteger(Math.round(N.n360(a) * 10) / 10) ? N.grados(a) : N.grados(a, 1))
-const coma = (x: number) => String(+x.toFixed(1)).replace('.', ',')
+const coma = (x: number) => String(+x.toFixed(1)).replace('.', ',').replace('-', '−')
+/** Hora de reloj: 16:05. */
+const reloj = (min: number) => `${Math.floor(min / 60)}:${String(min % 60).padStart(2, '0')}`
 /** Ángulo con signo y sentido: «+3º (NE)». */
 const c = (a: number) => N.corr(a)
 /** Sumando para escribir cuentas: «+ 3º» / «− 3º». */
@@ -313,6 +315,315 @@ function leccion3(puntos: Record<string, PuntoCarta>) {
   }
 }
 
+/* ---------- Situaciones en la mar (lecciones 4 a 6) ---------- */
+
+/** Faros que se usan para situarse. */
+const FAROS = ['roche', 'trafalgar', 'barbate', 'gracia', 'paloma', 'tarifa', 'carnero', 'europa', 'almina', 'cires', 'alcazar', 'malabata', 'espartel']
+
+/** Puntos en agua libre del Estrecho (grados, W negativo); se mueven hasta ±1′. */
+const MAR: [number, number][] = [
+  [36 + 8 / 60, -(6 + 8 / 60)],
+  [36 + 3 / 60, -(6 + 5 / 60)],
+  [36 + 6 / 60, -(5 + 59 / 60)],
+  [36 + 1 / 60, -(5 + 50 / 60)],
+  [35 + 57 / 60, -(5 + 42 / 60)],
+  [35 + 55 / 60, -(5 + 36 / 60)],
+  [35 + 58 / 60, -(5 + 30 / 60)],
+  [36 + 1 / 60, -(5 + 22 / 60)],
+  [35 + 58 / 60, -(5 + 16 / 60)],
+  [35 + 52 / 60, -(5 + 56 / 60)],
+  [35 + 53 / 60, -(5 + 47 / 60)],
+]
+
+const redondeaPos = (p: N.Pos): N.Pos => ({ lat: Math.round(p.lat * 600) / 600, lon: Math.round(p.lon * 600) / 600 })
+const enMar = (azar: Azar, punto = elige(azar, MAR)): N.Pos => redondeaPos({ lat: punto[0] + ent(azar, -10, 10) / 600, lon: punto[1] + ent(azar, -10, 10) / 600 })
+/** Distancia en millas entre dos situaciones. */
+const separacion = (a: N.Pos, b: N.Pos) => N.rumboYDistancia(a, b).distancia
+
+const PISTA_LAT = 'La latitud se lee en la escala de los lados de la carta, a la altura de la situación: grados y minutos N.'
+const PISTA_LON = 'La longitud se lee en la escala de arriba o de abajo de la carta: grados y minutos W.'
+
+function pasosSituacion(sit: N.Pos, pistaLat = PISTA_LAT): PasoEjercicio[] {
+  return [
+    { pregunta: '¿Cuál es la latitud de la situación?', tipo: 'numero', clase: 'lat', respuesta: sit.lat, margen: 1, pista: pistaLat, solucion: `l = ${N.latitud(sit.lat)} (se admite ±1′)` },
+    { pregunta: '¿Y la longitud?', tipo: 'numero', clase: 'lon', respuesta: sit.lon, margen: 1.5, pista: PISTA_LON, solucion: `L = ${N.longitud(sit.lon)} (se admite ±1,5′)` },
+  ]
+}
+
+const marcacionTexto = (m: number) =>
+  m === 0 ? 'por la proa' : Math.abs(m) === 180 ? 'por la popa' : Math.abs(m) === 90 ? `por el través de ${m > 0 ? 'estribor' : 'babor'}` : `${Math.abs(m)}º por ${m > 0 ? 'estribor' : 'babor'}`
+
+type Visto = { k: string; rumbo: number; distancia: number }
+
+function faroPorFaro(puntos: Record<string, PuntoCarta>) {
+  const pos = (k: string): N.Pos => ({ lat: N.leerCoord(puntos[k].lat), lon: N.leerCoord(puntos[k].lon) })
+  /** Faros a la vista desde s (entre 2,5 y 14 millas) y parejas que se cortan bien (35º–145º). */
+  const vistos = (desde: N.Pos) => {
+    const v: Visto[] = FAROS.map((k) => ({ k, ...N.rumboYDistancia(desde, pos(k)) })).filter((x) => x.distancia >= 2.5 && x.distancia <= 14)
+    const pares: [Visto, Visto][] = []
+    for (let i = 0; i < v.length; i++)
+      for (let j = i + 1; j < v.length; j++) {
+        const a = Math.abs(N.diferencia(v[i].rumbo, v[j].rumbo))
+        if (a >= 35 && a <= 145) pares.push([v[i], v[j]])
+      }
+    return { v, pares }
+  }
+  const pareja = (azar: Azar, pares: [Visto, Visto][]): [Visto, Visto] => {
+    const [a, b] = elige(azar, pares)
+    return azar() < 0.5 ? [a, b] : [b, a]
+  }
+  return { pos, vistos, pareja }
+}
+
+/* ---------- Lección 4: situación por dos demoras ---------- */
+
+function leccion4(puntos: Record<string, PuntoCarta>) {
+  const { pos, vistos, pareja } = faroPorFaro(puntos)
+  return (azar: Azar): Ejercicio => {
+    for (;;) {
+      const { pares } = vistos(enMar(azar))
+      if (!pares.length) continue
+      const [f1, f2] = pareja(azar, pares)
+      const dv1 = Math.round(f1.rumbo) % 360
+      const dv2 = Math.round(f2.rumbo) % 360
+      const sit = N.porDosDemoras(pos(f1.k), dv1, pos(f2.k), dv2)
+      const n1 = puntos[f1.k].nombre
+      const n2 = puntos[f2.k].nombre
+      const trazar = `Traza desde cada faro su Dv dada la vuelta (Dv ± 180º): la situación es donde se cortan las dos líneas. ${PISTA_LAT}`
+      if (azar() < 0.5) {
+        // Demoras de aguja
+        const separado = azar() < 0.5
+        const dm = noCero(azar, -4, 2)
+        let de = noCero(azar, -5, 5)
+        while (dm + de === 0) de = noCero(azar, -5, 5)
+        const ct = separado ? dm + de : noCero(azar, -9, 9)
+        const da1 = N.n360(dv1 - ct)
+        const da2 = N.n360(dv2 - ct)
+        return {
+          carta: true,
+          enunciado: `${separado ? `Declinación = ${comoDm(azar, dm)}; desvío = ${comoDesvio(azar, de)}.` : `Ct = ${c(ct)}.`} Tomamos al mismo tiempo Da del ${n1} = ${g(da1)} y Da del ${n2} = ${g(da2)}. ¿Cuál es nuestra situación?`,
+          pasos: [
+            ...(separado ? [{ pregunta: '¿Cuál es la corrección total (Ct)?', tipo: 'numero', clase: 'signo', respuesta: ct, margen: 0.05, pista: PISTA_CT, solucion: `Ct = dm + Δ = ${c(dm)} ${s(de)} = ${c(ct)}` } satisfies PasoEjercicio] : []),
+            { pregunta: `¿Qué Dv tiene el ${n1}?`, tipo: 'numero', clase: 'rumbo', respuesta: dv1, margen: 0.5, pista: 'Dv = Da + Ct.', solucion: `Dv = ${g(da1)} ${s(ct)} = ${g(dv1)}` },
+            { pregunta: `¿Y el ${n2}?`, tipo: 'numero', clase: 'rumbo', respuesta: dv2, margen: 0.5, pista: 'Dv = Da + Ct.', solucion: `Dv = ${g(da2)} ${s(ct)} = ${g(dv2)}` },
+            ...pasosSituacion(sit, trazar),
+          ],
+        }
+      }
+      // Marcaciones
+      const ct = noCero(azar, -8, 8)
+      const rv = ent(azar, 0, 359)
+      const ra = N.rumboAguja(rv, ct)
+      const m1 = N.diferencia(rv, dv1)
+      const m2 = N.diferencia(rv, dv2)
+      const pistaM = 'Dv = Rv + marcación por estribor, Rv − marcación por babor.'
+      const cuenta = (m: number, dv: number) => `Dv = ${g(rv)} ${m < 0 ? '−' : '+'} ${Math.abs(m)}º = ${g(dv)}`
+      return {
+        carta: true,
+        enunciado: `Navegando al Ra = ${g(ra)} con Ct = ${c(ct)}, marcamos a la vez el ${n1} ${marcacionTexto(m1)} y el ${n2} ${marcacionTexto(m2)}. ¿Cuál es nuestra situación?`,
+        pasos: [
+          { pregunta: '¿Cuál es el rumbo verdadero (Rv)?', tipo: 'numero', clase: 'rumbo', respuesta: rv, margen: 0.5, pista: PISTA_RV, solucion: `Rv = Ra + Ct = ${g(ra)} ${s(ct)} = ${g(rv)}` },
+          { pregunta: `¿Qué Dv tiene el ${n1}?`, tipo: 'numero', clase: 'rumbo', respuesta: dv1, margen: 0.5, pista: pistaM, solucion: cuenta(m1, dv1) },
+          { pregunta: `¿Y el ${n2}?`, tipo: 'numero', clase: 'rumbo', respuesta: dv2, margen: 0.5, pista: pistaM, solucion: cuenta(m2, dv2) },
+          ...pasosSituacion(sit, trazar),
+        ],
+      }
+    }
+  }
+}
+
+/* ---------- Lección 5: demora y distancia, dos distancias ---------- */
+
+const PISTA_COMPAS = 'Una milla es un minuto de latitud: la distancia se toma en la escala de los lados de la carta (nunca en la de arriba).'
+
+function leccion5(puntos: Record<string, PuntoCarta>) {
+  const { pos, vistos, pareja } = faroPorFaro(puntos)
+  return (azar: Azar): Ejercicio => {
+    for (;;) {
+      const s0 = enMar(azar)
+      const { v, pares } = vistos(s0)
+      if (!v.length) continue
+      const variante = ent(azar, 0, 2)
+      const ct = noCero(azar, -8, 8)
+      if (variante === 0) {
+        // Demora y distancia al mismo faro
+        const f = elige(azar, v)
+        const dv = Math.round(f.rumbo) % 360
+        const d = Math.round(f.distancia * 10) / 10
+        const sit = N.estima(pos(f.k), N.n360(dv + 180), d)
+        const n = puntos[f.k].nombre
+        const da = N.n360(dv - ct)
+        return {
+          carta: true,
+          enunciado: `Con Ct = ${c(ct)} tomamos Da del ${n} = ${g(da)}, y en el radar lo vemos a ${coma(d)} millas. ¿Cuál es nuestra situación?`,
+          pasos: [
+            { pregunta: `¿Qué Dv tiene el ${n}?`, tipo: 'numero', clase: 'rumbo', respuesta: dv, margen: 0.5, pista: 'Dv = Da + Ct.', solucion: `Dv = ${g(da)} ${s(ct)} = ${g(dv)}` },
+            { pregunta: '¿Cuántos minutos de latitud abres con el compás?', tipo: 'numero', clase: 'valor', respuesta: d, margen: 0.05, pista: PISTA_COMPAS, solucion: `${coma(d)} millas = ${coma(d)}′ de latitud` },
+            ...pasosSituacion(sit, `Traza desde el faro la línea a ${g(dv + 180)} (la Dv dada la vuelta) y lleva sobre ella las ${coma(d)} millas con el compás. ${PISTA_LAT}`),
+          ],
+        }
+      }
+      if (!pares.length) continue
+      const [f1, f2] = pareja(azar, pares)
+      const n1 = puntos[f1.k].nombre
+      const n2 = puntos[f2.k].nombre
+      const d2 = Math.round(f2.distancia * 10) / 10
+      if (variante === 1) {
+        // Dos distancias
+        const d1 = Math.round(f1.distancia * 10) / 10
+        let cortes: Record<'N' | 'S' | 'E' | 'W', N.Pos>
+        try {
+          const corte = (lado: 'N' | 'S' | 'E' | 'W') => N.porDosDistancias(pos(f1.k), d1, pos(f2.k), d2, lado)
+          cortes = { N: corte('N'), S: corte('S'), E: corte('E'), W: corte('W') }
+        } catch {
+          continue
+        }
+        const porLat = Math.abs(cortes.N.lat - cortes.S.lat) * 60 >= separacion(cortes.E, cortes.W) * 0.6
+        const [o1, o2] = porLat ? (['N', 'S'] as const) : (['E', 'W'] as const)
+        const lado = separacion(cortes[o1], s0) < separacion(cortes[o2], s0) ? o1 : o2
+        const sit = cortes[lado]
+        if (separacion(sit, s0) > 0.5 || separacion(cortes[o1], cortes[o2]) < 2) continue
+        const nombreLado = { N: 'norte', S: 'sur', E: 'este', W: 'oeste' }[lado]
+        return {
+          carta: true,
+          enunciado: `En el radar vemos el ${n1} a ${coma(d1)} millas y el ${n2} a ${coma(d2)} millas. De los dos puntos donde se cortan los círculos, estamos en el que queda más al ${nombreLado}. ¿Cuál es nuestra situación?`,
+          pasos: [
+            { pregunta: `¿Cuántos minutos de latitud abres con el compás para el ${n1}?`, tipo: 'numero', clase: 'valor', respuesta: d1, margen: 0.05, pista: PISTA_COMPAS, solucion: `${coma(d1)} millas = ${coma(d1)}′ de latitud` },
+            ...pasosSituacion(sit, `Con centro en cada faro, traza un arco con su distancia. Los arcos se cortan en dos puntos: quédate con el más al ${nombreLado}. ${PISTA_LAT}`),
+          ],
+        }
+      }
+      // Demora a un faro y distancia a otro
+      const dv1 = Math.round(f1.rumbo) % 360
+      let a: N.Pos, b: N.Pos
+      try {
+        a = N.porDemoraYDistancia(pos(f1.k), dv1, pos(f2.k), d2, 0)
+        b = N.porDemoraYDistancia(pos(f1.k), dv1, pos(f2.k), d2, 1)
+      } catch {
+        continue
+      }
+      const unico = separacion(a, b) < 0.01
+      if (!unico && separacion(a, b) < 2) continue
+      const cerca = separacion(a, s0) <= separacion(b, s0)
+      const sit = cerca ? a : b
+      if (separacion(sit, s0) > 0.5) continue
+      const da1 = N.n360(dv1 - ct)
+      return {
+        carta: true,
+        enunciado: `Con Ct = ${c(ct)} tomamos Da del ${n1} = ${g(da1)} y, a la vez, vemos en el radar el ${n2} a ${coma(d2)} millas.${unico ? '' : ` La línea de demora corta el círculo en dos puntos: estamos en el más ${cerca ? 'cercano al' : 'alejado del'} ${n1}.`} ¿Cuál es nuestra situación?`,
+        pasos: [
+          { pregunta: `¿Qué Dv tiene el ${n1}?`, tipo: 'numero', clase: 'rumbo', respuesta: dv1, margen: 0.5, pista: 'Dv = Da + Ct.', solucion: `Dv = ${g(da1)} ${s(ct)} = ${g(dv1)}` },
+          ...pasosSituacion(sit, `Traza desde el ${n1} la línea a ${g(dv1 + 180)} y, con centro en el ${n2}, un arco de ${coma(d2)} millas: la situación es el corte. ${PISTA_LAT}`),
+        ],
+      }
+    }
+  }
+}
+
+/* ---------- Lección 6: estima ---------- */
+
+/** Minutos con signo y sentido: «−5,3′ (S)». */
+const minutos = (x: number, mas: string, menos: string, unidad = '′') => `${x < 0 ? '−' : '+'}${coma(Math.abs(x))}${unidad} (${x < 0 ? menos : mas})`
+
+function leccion6(azar: Azar): Ejercicio {
+  for (;;) {
+    const i = ent(azar, 0, MAR.length - 1)
+    const j = ent(azar, 0, MAR.length - 1)
+    if (i === j) continue
+    const p0 = enMar(azar, MAR[i])
+    const { rumbo, distancia } = N.rumboYDistancia(p0, enMar(azar, MAR[j]))
+    if (distancia < 4 || distancia > 13) continue
+    const rv = Math.round(rumbo) % 360
+    const v = elige(azar, [4, 5, 6, 7, 8, 10])
+    const decimas = Math.max(3, Math.round((distancia / v) * 10)) // tiempo en décimas de hora (múltiplos de 6 min)
+    const t = decimas / 10
+    const d = Math.round(v * t * 10) / 10
+    const minTotal = decimas * 6
+    const salida = ent(azar, 7 * 12, 17 * 12) * 5
+    const llegada = salida + minTotal
+    const ct = noCero(azar, -8, 8)
+    const ra = N.rumboAguja(rv, ct)
+    const conRa = azar() < 0.6
+    const rad = (rv * Math.PI) / 180
+    const dl = d * Math.cos(rad)
+    const ap = d * Math.sin(rad)
+    const l1 = p0.lat + dl / 60
+    const lm = (p0.lat + l1) / 2
+    const dL = ap / Math.cos((lm * Math.PI) / 180)
+    const fin = { lat: l1, lon: p0.lon + dL / 60 }
+    const enCarta = azar() < 0.4
+    const pasos: PasoEjercicio[] = []
+    if (conRa) pasos.push({ pregunta: '¿Cuál es el rumbo verdadero (Rv)?', tipo: 'numero', clase: 'rumbo', respuesta: rv, margen: 0.5, pista: PISTA_RV, solucion: `Rv = Ra + Ct = ${g(ra)} ${s(ct)} = ${g(rv)}` })
+    pasos.push(
+      {
+        pregunta: '¿Cuánto tiempo navegamos, en horas con decimales?',
+        tipo: 'numero',
+        clase: 'valor',
+        respuesta: t,
+        margen: 0.02,
+        pista: 'Resta las horas y pasa los minutos a horas dividiendo entre 60 (30 min = 0,5 h; 6 min = 0,1 h).',
+        solucion: `${reloj(llegada)} − ${reloj(salida)} = ${N.duracion(minTotal)} = ${coma(t)} h`,
+      },
+      { pregunta: '¿Cuántas millas navegamos?', tipo: 'numero', clase: 'valor', respuesta: d, margen: 0.1, pista: 'Distancia = velocidad × tiempo (nudos × horas).', solucion: `d = ${v} nudos × ${coma(t)} h = ${coma(d)} millas` },
+    )
+    if (enCarta)
+      pasos.push(...pasosSituacion(fin, `Desde la situación de salida traza el Rv = ${g(rv)} y lleva sobre él ${coma(d)} millas con el compás (tomadas en la escala de latitudes). ${PISTA_LAT}`))
+    else
+      pasos.push(
+        {
+          pregunta: '¿Cuánto cambia la latitud (Δl), en minutos? (+ o N si sube, − o S si baja)',
+          tipo: 'numero',
+          clase: 'signo',
+          respuesta: dl,
+          margen: 0.15,
+          pista: 'Δl = d · cos Rv. Con rumbos entre 090º y 270º el coseno es negativo: vamos al S.',
+          solucion: `Δl = ${coma(d)} · cos ${g(rv)} = ${minutos(dl, 'N', 'S')}`,
+        },
+        {
+          pregunta: '¿Cuál es la latitud de llegada?',
+          tipo: 'numero',
+          clase: 'lat',
+          respuesta: l1,
+          margen: 0.3,
+          pista: 'Latitud de llegada = latitud de salida + Δl. Si los minutos pasan de 60, suma un grado; si bajan de 0, quita uno.',
+          solucion: `l = ${N.latitud(p0.lat)} ${dl < 0 ? '−' : '+'} ${coma(Math.abs(dl))}′ = ${N.latitud(l1)}`,
+        },
+        {
+          pregunta: '¿Cuál es el apartamiento (A), en millas? (+ o E hacia el este, − o W hacia el oeste)',
+          tipo: 'numero',
+          clase: 'signo',
+          respuesta: ap,
+          margen: 0.15,
+          pista: 'A = d · sen Rv. Con rumbos entre 180º y 360º el seno es negativo: vamos al W.',
+          solucion: `A = ${coma(d)} · sen ${g(rv)} = ${minutos(ap, 'E', 'W', ' millas')}`,
+        },
+        {
+          pregunta: '¿Cuánto cambia la longitud (ΔL), en minutos?',
+          tipo: 'numero',
+          clase: 'signo',
+          respuesta: dL,
+          margen: 0.3,
+          pista: 'ΔL = A / cos lm, donde lm es la latitud media entre la de salida y la de llegada.',
+          solucion: `lm = ${N.latitud(lm)} → ΔL = ${coma(ap)} / cos lm = ${minutos(dL, 'E', 'W')}`,
+        },
+        {
+          pregunta: '¿Cuál es la longitud de llegada?',
+          tipo: 'numero',
+          clase: 'lon',
+          respuesta: fin.lon,
+          margen: 0.4,
+          pista: 'Estamos al W de Greenwich: si ΔL es W, los minutos de longitud aumentan; si es E, disminuyen.',
+          solucion: `L = ${N.longitud(p0.lon)} ${dL < 0 ? '+' : '−'} ${coma(Math.abs(dL))}′ = ${N.longitud(fin.lon)}`,
+        },
+      )
+    return {
+      carta: enCarta,
+      enunciado: `A las ${reloj(salida)} estamos en l = ${N.latitud(p0.lat)}, L = ${N.longitud(p0.lon)}. Navegamos ${conRa ? `al Ra = ${g(ra)} con Ct = ${c(ct)}` : `al Rv = ${g(rv)}`} a ${v} nudos hasta las ${reloj(llegada)}. ¿Cuál es la situación de estima a esa hora?${enCarta ? ' Resuélvelo en la carta.' : ''}`,
+      pasos,
+    }
+  }
+}
+
 /* ---------- Lecciones ---------- */
 
 export function lecciones(puntos: Record<string, PuntoCarta>): Leccion[] {
@@ -359,6 +670,49 @@ export function lecciones(puntos: Record<string, PuntoCarta>): Leccion[] {
       laminas: ['ut11-ct'],
       generar: leccion3(puntos),
     },
+    {
+      id: 'dos-demoras',
+      numero: 4,
+      titulo: 'Situación por dos demoras',
+      resumen: 'Dos Dv simultáneas se cortan en la situación · necesitas la carta',
+      teoria: [
+        'Una demora a un faro es una línea de posición: estamos en algún punto de la recta que sale del faro en la dirección contraria a la Dv (Dv ± 180º). Con dos demoras tomadas a la vez, estamos donde se cortan.',
+        'Primero se pasan las demoras a verdaderas: Dv = Da + Ct, o bien Dv = Rv ± marcación si nos dan marcaciones.',
+        'En la carta: lleva la Dv desde una rosa hasta el faro con regla y cartabón y traza la línea por el lado del mar. Haz lo mismo con el segundo faro. El corte es la situación.',
+        'La latitud se lee en las escalas de los lados de la carta; la longitud, en las de arriba y abajo. Se admite ±1′ en latitud y ±1,5′ en longitud.',
+      ],
+      laminas: ['ut11-dos-demoras'],
+      generar: leccion4(puntos),
+    },
+    {
+      id: 'distancias',
+      numero: 5,
+      titulo: 'Demora y distancia, dos distancias',
+      resumen: 'Situación con el compás: círculos de distancia · necesitas la carta',
+      teoria: [
+        'Una distancia a un faro (por radar) es otra línea de posición: un círculo con centro en el faro y radio esa distancia.',
+        'Demora y distancia al mismo faro: traza la línea de la Dv dada la vuelta desde el faro y lleva sobre ella la distancia. Es la forma más rápida de situarse.',
+        'Dos distancias a dos faros: dos arcos que se cortan en dos puntos. El enunciado te dice con cuál quedarte (el otro suele caer en tierra).',
+        'Demora a un faro y distancia a otro: la recta y el círculo también se pueden cortar dos veces; de nuevo, el enunciado dice cuál.',
+        'La distancia se toma siempre en la escala de latitudes (los lados de la carta): 1 milla = 1′ de latitud.',
+      ],
+      laminas: ['ut11-circulos'],
+      generar: leccion5(puntos),
+    },
+    {
+      id: 'estima',
+      numero: 6,
+      titulo: 'Situación de estima',
+      resumen: 'Desde una situación, con rumbo, velocidad y tiempo',
+      teoria: [
+        'La estima es dónde estamos sabiendo de dónde salimos, a qué rumbo y cuánto hemos navegado. Distancia = velocidad × tiempo (nudos × horas).',
+        'En la carta: desde la situación de salida se traza el Rv y se lleva la distancia con el compás. El final es la situación de estima.',
+        'Con números: Δl = d · cos Rv (minutos de latitud, + N / − S) y apartamiento A = d · sen Rv (millas, + E / − W). La latitud de llegada es la de salida + Δl.',
+        'El apartamiento se pasa a minutos de longitud con la latitud media: ΔL = A / cos lm. Al W de Greenwich, ir al W hace crecer los minutos de longitud.',
+      ],
+      laminas: ['ut11-estima'],
+      generar: leccion6,
+    },
   ]
 }
 
@@ -370,15 +724,36 @@ export function lecciones(puntos: Record<string, PuntoCarta>): Leccion[] {
  */
 export function leerRespuesta(texto: string): number | null {
   const t = texto.trim().replace(/[−–]/g, '-').replace(/,/g, '.').replace(/[º°]/g, '').toUpperCase()
-  const m = t.match(/^([+-])?\s*(\d+(?:\.\d+)?)\s*(NE|NW|E|W)?$/)
+  const m = t.match(/^([+-])?\s*(\d+(?:\.\d+)?)\s*(NE|NW|N|S|E|W)?$/)
   if (!m) return null
   let v = +m[2]
-  if (m[1] === '-' || m[3] === 'NW' || m[3] === 'W') v = -v
+  if (m[1] === '-' || m[3] === 'NW' || m[3] === 'W' || m[3] === 'S') v = -v
   return v
 }
 
+/**
+ * Lee una latitud o longitud: «36 02,5», «36º 02,5′ N», «005 41,3 W», «5-41.3».
+ * Sin letra, la latitud es N y la longitud W (estamos en el Estrecho). Grados decimales.
+ */
+export function leerCoordenada(texto: string, clase: 'lat' | 'lon'): number | null {
+  const t = texto.trim().replace(/[−–]/g, '-').replace(/,/g, '.').replace(/[º°'′’"]/g, ' ').toUpperCase()
+  const m = t.match(/^(-)?\s*(\d{1,3})(?:[\s-]+(\d{1,2}(?:\.\d+)?))?\s*([NSEW])?$/)
+  if (!m) return null
+  const min = m[3] ? +m[3] : 0
+  if (min >= 60) return null
+  const v = +m[2] + min / 60
+  const letra = m[4]
+  if (letra && (clase === 'lat') !== (letra === 'N' || letra === 'S')) return null
+  const negativo = clase === 'lat' ? m[1] === '-' || letra === 'S' : letra !== 'E'
+  return negativo ? -v : v
+}
+
+/** Lee la respuesta de un paso según su clase. */
+export const leerPaso = (p: PasoEjercicio, texto: string): number | null => (p.clase === 'lat' || p.clase === 'lon' ? leerCoordenada(texto, p.clase) : leerRespuesta(texto))
+
 export function esCorrecta(p: PasoEjercicio, v: number): boolean {
   if (p.tipo === 'banda') return v === p.respuesta
+  if (p.clase === 'lat' || p.clase === 'lon') return Math.abs(p.respuesta - v) * 60 <= p.margen + 1e-9
   if (p.clase === 'rumbo') return Math.abs(N.diferencia(p.respuesta, v)) <= p.margen + 1e-9
   return Math.abs(p.respuesta - v) <= p.margen + 1e-9
 }

@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import faros from '../../data/faros.json'
 import { todasLasLaminas } from '../datos/laminas'
 import { cargarProgreso, sumarEjercicio, type ProgresoLeccion } from '../datos/tallerProgreso'
-import { azarFijo, esCorrecta, lecciones, leerRespuesta, type Ejercicio, type Leccion, type PuntoCarta } from '../logica/taller'
+import { azarFijo, esCorrecta, lecciones, leerPaso, type Ejercicio, type Leccion, type PasoEjercicio, type PuntoCarta } from '../logica/taller'
 import Lamina from './Lamina'
 
 const LECCIONES = lecciones((faros as { puntos: Record<string, PuntoCarta> }).puntos)
@@ -52,7 +52,7 @@ export default function Taller({ onVolver }: { onVolver: () => void }) {
           )
         })}
       </div>
-      <p className="nota">Próximamente: situación por demoras y por distancias, estima, rumbo y hora de llegada, pasar a una distancia de un faro y ejercicios completos de examen.</p>
+      <p className="nota">Próximamente: rumbo y hora de llegada a un faro, pasar a una distancia de un faro y ejercicios completos de examen.</p>
     </main>
   )
 }
@@ -119,6 +119,8 @@ interface Hecho {
   respuesta: string
 }
 
+const PISTA_ENTRADA: Record<PasoEjercicio['clase'], string> = { signo: 'p. ej. −3 o 3 NW', rumbo: 'grados, p. ej. 045', valor: 'número', lat: 'grados y minutos, p. ej. 36 02,5', lon: 'grados y minutos, p. ej. 5 41,3' }
+
 const ETIQUETA: Record<Hecho['estado'], string> = { bien: '✓ Tu respuesta', segunda: '✓ Bien al segundo intento', mal: '✗ Tu respuesta' }
 
 function EjercicioGuiado({ ejercicio: e, onTerminado, onOtro }: { ejercicio: Ejercicio; onTerminado: (limpio: boolean) => void; onOtro: () => void }) {
@@ -142,7 +144,7 @@ function EjercicioGuiado({ ejercicio: e, onTerminado, onOtro }: { ejercicio: Eje
   function comprobar(valor: number | null, mostrado: string) {
     if (!paso) return
     if (valor === null) {
-      setAviso('Escribe un número (puedes usar coma, signo o NE/NW).')
+      setAviso(paso.clase === 'lat' || paso.clase === 'lon' ? 'Escribe grados y minutos, p. ej. 36 02,5.' : 'Escribe un número (puedes usar coma, signo o NE/NW).')
       return
     }
     if (esCorrecta(paso, valor)) cerrarPaso({ estado: fallos === 0 ? 'bien' : 'segunda', respuesta: mostrado })
@@ -186,14 +188,14 @@ function EjercicioGuiado({ ejercicio: e, onTerminado, onOtro }: { ejercicio: Eje
                 className="respuesta-taller"
                 onSubmit={(ev) => {
                   ev.preventDefault()
-                  comprobar(leerRespuesta(texto), texto.trim())
+                  comprobar(leerPaso(paso, texto), texto.trim())
                 }}
               >
                 <input
                   value={texto}
                   onChange={(ev) => setTexto(ev.target.value)}
-                  inputMode={paso.clase === 'signo' ? 'text' : 'decimal'}
-                  placeholder={paso.clase === 'signo' ? 'p. ej. −3 o 3 NW' : paso.clase === 'rumbo' ? 'grados, p. ej. 045' : 'número'}
+                  inputMode={paso.clase === 'rumbo' || paso.clase === 'valor' ? 'decimal' : 'text'}
+                  placeholder={PISTA_ENTRADA[paso.clase]}
                   aria-label={paso.pregunta}
                   autoComplete="off"
                   autoFocus

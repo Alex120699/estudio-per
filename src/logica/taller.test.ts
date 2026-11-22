@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import faros from '../../data/faros.json'
-import { azarFijo, esCorrecta, leerRespuesta, lecciones, type PuntoCarta } from './taller'
+import { azarFijo, esCorrecta, leerCoordenada, leerRespuesta, lecciones, type PuntoCarta } from './taller'
 
 const L = lecciones((faros as { puntos: Record<string, PuntoCarta> }).puntos)
 
@@ -13,6 +13,17 @@ describe('taller de carta', () => {
     expect(leerRespuesta('+4')).toBe(4)
     expect(leerRespuesta('045')).toBe(45)
     expect(leerRespuesta('hola')).toBeNull()
+    expect(leerRespuesta('5,3 S')).toBe(-5.3)
+  })
+
+  it('lee latitudes y longitudes', () => {
+    expect(leerCoordenada('36 02,5', 'lat')).toBeCloseTo(36 + 2.5 / 60)
+    expect(leerCoordenada("36º 02,5' N", 'lat')).toBeCloseTo(36 + 2.5 / 60)
+    expect(leerCoordenada('005 41,3 W', 'lon')).toBeCloseTo(-(5 + 41.3 / 60))
+    expect(leerCoordenada('5 41.3', 'lon')).toBeCloseTo(-(5 + 41.3 / 60))
+    expect(leerCoordenada('5-41,3', 'lon')).toBeCloseTo(-(5 + 41.3 / 60))
+    expect(leerCoordenada('36 02,5 W', 'lat')).toBeNull()
+    expect(leerCoordenada('36 75', 'lat')).toBeNull()
   })
 
   it('compara rumbos en círculo', () => {
@@ -42,7 +53,14 @@ describe('taller de carta', () => {
     for (const l of L) {
       const azar = azarFijo(7 + l.numero)
       for (let i = 0; i < 200; i++)
-        for (const p of l.generar(azar).pasos) if (p.tipo === 'numero') expect(esCorrecta(p, Math.round(p.respuesta * 10) / 10), p.solucion).toBe(true)
+        for (const p of l.generar(azar).pasos) if (p.tipo === 'numero') {
+          const r = p.clase === 'lat' || p.clase === 'lon' ? Math.round(p.respuesta * 600) / 600 : Math.round(p.respuesta * 10) / 10
+          expect(esCorrecta(p, r), p.solucion).toBe(true)
+        }
     }
+  })
+
+  it('hay seis lecciones con láminas que existen', () => {
+    expect(L.map((l) => l.numero)).toEqual([1, 2, 3, 4, 5, 6])
   })
 })
