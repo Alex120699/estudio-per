@@ -52,7 +52,6 @@ export default function Taller({ onVolver }: { onVolver: () => void }) {
           )
         })}
       </div>
-      <p className="nota">Próximamente: rumbo y hora de llegada a un faro, pasar a una distancia de un faro y ejercicios completos de examen.</p>
     </main>
   )
 }
@@ -119,7 +118,9 @@ interface Hecho {
   respuesta: string
 }
 
-const PISTA_ENTRADA: Record<PasoEjercicio['clase'], string> = { signo: 'p. ej. −3 o 3 NW', rumbo: 'grados, p. ej. 045', valor: 'número', lat: 'grados y minutos, p. ej. 36 02,5', lon: 'grados y minutos, p. ej. 5 41,3' }
+const PISTA_ENTRADA: Record<PasoEjercicio['clase'], string> = { signo: 'p. ej. −3 o 3 NW', rumbo: 'grados, p. ej. 045', valor: 'número', lat: 'grados y minutos, p. ej. 36 02,5', lon: 'grados y minutos, p. ej. 5 41,3', hora: 'p. ej. 11:45', duracion: 'p. ej. 1:25' }
+
+const AVISO_ENTRADA: Partial<Record<PasoEjercicio['clase'], string>> = { lat: 'Escribe grados y minutos, p. ej. 36 02,5.', lon: 'Escribe grados y minutos, p. ej. 5 41,3.', hora: 'Escribe la hora como 11:45.', duracion: 'Escribe horas y minutos como 1:25, o solo minutos.' }
 
 const ETIQUETA: Record<Hecho['estado'], string> = { bien: '✓ Tu respuesta', segunda: '✓ Bien al segundo intento', mal: '✗ Tu respuesta' }
 
@@ -144,7 +145,7 @@ function EjercicioGuiado({ ejercicio: e, onTerminado, onOtro }: { ejercicio: Eje
   function comprobar(valor: number | null, mostrado: string) {
     if (!paso) return
     if (valor === null) {
-      setAviso(paso.clase === 'lat' || paso.clase === 'lon' ? 'Escribe grados y minutos, p. ej. 36 02,5.' : 'Escribe un número (puedes usar coma, signo o NE/NW).')
+      setAviso(AVISO_ENTRADA[paso.clase] ?? 'Escribe un número (puedes usar coma, signo o NE/NW).')
       return
     }
     if (esCorrecta(paso, valor)) cerrarPaso({ estado: fallos === 0 ? 'bien' : 'segunda', respuesta: mostrado })

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import faros from '../../data/faros.json'
-import { azarFijo, esCorrecta, leerCoordenada, leerRespuesta, lecciones, type PuntoCarta } from './taller'
+import { azarFijo, esCorrecta, leerCoordenada, leerHora, leerRespuesta, lecciones, type PuntoCarta } from './taller'
 
 const L = lecciones((faros as { puntos: Record<string, PuntoCarta> }).puntos)
 
@@ -14,6 +14,17 @@ describe('taller de carta', () => {
     expect(leerRespuesta('045')).toBe(45)
     expect(leerRespuesta('hola')).toBeNull()
     expect(leerRespuesta('5,3 S')).toBe(-5.3)
+  })
+
+  it('lee horas y duraciones', () => {
+    for (const h of ['11:45', '1145', '11h 45m', '11.45', '11 45', '11h45']) expect(leerHora(h, 'hora'), h).toBe(705)
+    expect(leerHora('9:05', 'hora')).toBe(545)
+    expect(leerHora('1:25', 'duracion')).toBe(85)
+    expect(leerHora('85 min', 'duracion')).toBe(85)
+    expect(leerHora('85', 'duracion')).toBe(85)
+    expect(leerHora('2h', 'duracion')).toBe(120)
+    expect(leerHora('25:10', 'hora')).toBeNull()
+    expect(leerHora('11:75', 'hora')).toBeNull()
   })
 
   it('lee latitudes y longitudes', () => {
@@ -54,13 +65,13 @@ describe('taller de carta', () => {
       const azar = azarFijo(7 + l.numero)
       for (let i = 0; i < 200; i++)
         for (const p of l.generar(azar).pasos) if (p.tipo === 'numero') {
-          const r = p.clase === 'lat' || p.clase === 'lon' ? Math.round(p.respuesta * 600) / 600 : Math.round(p.respuesta * 10) / 10
+          const r = p.clase === 'lat' || p.clase === 'lon' ? Math.round(p.respuesta * 600) / 600 : p.clase === 'hora' || p.clase === 'duracion' ? Math.round(p.respuesta) : Math.round(p.respuesta * 10) / 10
           expect(esCorrecta(p, r), p.solucion).toBe(true)
         }
     }
   })
 
-  it('hay seis lecciones con láminas que existen', () => {
-    expect(L.map((l) => l.numero)).toEqual([1, 2, 3, 4, 5, 6])
+  it('hay nueve lecciones con láminas que existen', () => {
+    expect(L.map((l) => l.numero)).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9])
   })
 })
