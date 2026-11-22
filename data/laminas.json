@@ -87,6 +87,18 @@
   "ut3-remolque": {
    "titulo": "Remolque: aproximación y catenaria",
    "archivo": "img/laminas/ut3-remolque.svg"
+  },
+  "ut4-costa": {
+   "titulo": "Franjas de 200 m y 50 m, y playas balizadas",
+   "archivo": "img/laminas/ut4-costa.svg"
+  },
+  "ut4-buceo": {
+   "titulo": "Banderas de buceo: Alfa y Bravo modificada",
+   "archivo": "img/laminas/ut4-buceo.svg"
+  },
+  "ut4-vertidos": {
+   "titulo": "Dónde se pueden descargar aguas sucias y basuras",
+   "archivo": "img/laminas/ut4-vertidos.svg"
   }
  },
  "preguntas": {
@@ -1877,6 +1889,279 @@
   ],
   "bal-2026-09-E-8": [
    "ut3-remolque"
+  ],
+  "and-2025-1-A-11": [
+   "ut4-costa"
+  ],
+  "and-2025-1-A-12": [
+   "ut4-vertidos"
+  ],
+  "and-2025-3-A-11": [
+   "ut4-buceo"
+  ],
+  "and-2026-1-A-12": [
+   "ut4-vertidos"
+  ],
+  "and-2026-2-A-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2017-03-B-11": [
+   "ut4-buceo"
+  ],
+  "bal-2017-03-B-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2017-03-C-11": [
+   "ut4-vertidos"
+  ],
+  "bal-2017-03-C-12": [
+   "ut4-buceo"
+  ],
+  "bal-2017-03-F-11": [
+   "ut4-costa"
+  ],
+  "bal-2017-03-F-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2017-06-C-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2017-06-E-11": [
+   "ut4-vertidos"
+  ],
+  "bal-2017-06-F-11": [
+   "ut4-vertidos"
+  ],
+  "bal-2017-06-F-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2017-09-A-11": [
+   "ut4-vertidos"
+  ],
+  "bal-2017-09-C-11": [
+   "ut4-vertidos"
+  ],
+  "bal-2017-09-C-12": [
+   "ut4-costa"
+  ],
+  "bal-2017-09-E-11": [
+   "ut4-buceo"
+  ],
+  "bal-2017-12-B-12": [
+   "ut4-buceo"
+  ],
+  "bal-2017-12-C-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2017-12-D-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2018-04-A-11": [
+   "ut4-vertidos"
+  ],
+  "bal-2018-04-A-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2018-04-B-11": [
+   "ut4-vertidos"
+  ],
+  "bal-2018-04-D-11": [
+   "ut4-vertidos"
+  ],
+  "bal-2018-06-A-11": [
+   "ut4-costa"
+  ],
+  "bal-2018-06-B-11": [
+   "ut4-costa"
+  ],
+  "bal-2018-09-D-11": [
+   "ut4-costa"
+  ],
+  "bal-2018-09-D-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2018-12-C-11": [
+   "ut4-costa"
+  ],
+  "bal-2019-04-A-11": [
+   "ut4-costa"
+  ],
+  "bal-2019-04-A-12": [
+   "ut4-buceo"
+  ],
+  "bal-2019-04-B-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2019-06-A-11": [
+   "ut4-costa"
+  ],
+  "bal-2019-09-E-12": [
+   "ut4-buceo"
+  ],
+  "bal-2020-07-A-11": [
+   "ut4-costa"
+  ],
+  "bal-2020-10-D-11": [
+   "ut4-vertidos"
+  ],
+  "bal-2020-10-F-12": [
+   "ut4-buceo"
+  ],
+  "bal-2020-10-G-12": [
+   "ut4-costa"
+  ],
+  "bal-2020-10-H-11": [
+   "ut4-buceo"
+  ],
+  "bal-2020-10-H-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2020-10-I-11": [
+   "ut4-vertidos"
+  ],
+  "bal-2020-12-C-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2020-12-E-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2020-12-G-12": [
+   "ut4-costa"
+  ],
+  "bal-2020-12-I-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2021-03-B-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2021-03-E-11": [
+   "ut4-vertidos"
+  ],
+  "bal-2021-06-G-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2021-09-A-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2021-09-E-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2021-12-B-12": [
+   "ut4-costa"
+  ],
+  "bal-2021-12-C-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2021-12-F-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2022-03-D-11": [
+   "ut4-buceo"
+  ],
+  "bal-2022-03-E-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2022-03-H-11": [
+   "ut4-costa"
+  ],
+  "bal-2022-06-D-11": [
+   "ut4-vertidos"
+  ],
+  "bal-2022-06-D-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2022-06-E-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2022-12-A-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2022-12-B-12": [
+   "ut4-costa"
+  ],
+  "bal-2022-12-C-12": [
+   "ut4-buceo"
+  ],
+  "bal-2023-06-A-11": [
+   "ut4-vertidos"
+  ],
+  "bal-2023-06-A-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2023-06-C-11": [
+   "ut4-vertidos"
+  ],
+  "bal-2023-06-C-12": [
+   "ut4-costa"
+  ],
+  "bal-2023-09-B-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2023-12-A-11": [
+   "ut4-buceo"
+  ],
+  "bal-2023-12-E-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2024-04-A-12": [
+   "ut4-costa"
+  ],
+  "bal-2024-04-B-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2024-04-D-11": [
+   "ut4-vertidos"
+  ],
+  "bal-2024-04-D-12": [
+   "ut4-costa"
+  ],
+  "bal-2024-07-D-12": [
+   "ut4-costa"
+  ],
+  "bal-2024-12-A-12": [
+   "ut4-costa"
+  ],
+  "bal-2024-12-C-12": [
+   "ut4-costa"
+  ],
+  "bal-2024-12-D-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2025-07-A-11": [
+   "ut4-buceo"
+  ],
+  "bal-2025-07-C-11": [
+   "ut4-vertidos"
+  ],
+  "bal-2025-07-C-12": [
+   "ut4-costa"
+  ],
+  "bal-2025-12-A-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2025-12-B-11": [
+   "ut4-vertidos"
+  ],
+  "bal-2025-12-C-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2026-03-B-11": [
+   "ut4-vertidos"
+  ],
+  "bal-2026-03-B-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2026-03-C-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2026-03-D-11": [
+   "ut4-buceo"
+  ],
+  "bal-2026-06-A-12": [
+   "ut4-vertidos"
+  ],
+  "bal-2026-09-A-12": [
+   "ut4-vertidos"
   ]
  }
 }

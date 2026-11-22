@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" role="img" aria-labelledby="t">
+<title id="t">Distancias para descargar aguas sucias y basuras: puerto y zonas protegidas prohibido, más de 3 millas y más de 12 millas</title>
+<style>
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:20px;fill:#14202b}
+.b{font-weight:700}.p{font-size:15px;fill:#4b5b69}.c{font-size:15px}
+.no{fill:#fde2e2}.si{fill:#dcfce7}.med{fill:#fef3c7}
+</style>
+<rect width="760" height="400" rx="14" fill="#fff"/>
+<rect x="20" y="40" width="140" height="300" fill="#c8b48c"/>
+<text x="90" y="74" text-anchor="middle" class="b">Costa</text>
+<text x="90" y="100" text-anchor="middle" class="p">puertos, rías,</text>
+<text x="90" y="118" text-anchor="middle" class="p">bahías, zonas</text>
+<text x="90" y="136" text-anchor="middle" class="p">protegidas</text>
+<line x1="160" y1="30" x2="160" y2="350" stroke="#14202b" stroke-width="2"/>
+<line x1="350" y1="30" x2="350" y2="350" stroke="#14202b" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="560" y1="30" x2="560" y2="350" stroke="#14202b" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="350" y="24" text-anchor="middle" class="b" style="font-size:17px">3 millas</text>
+<text x="560" y="24" text-anchor="middle" class="b" style="font-size:17px">12 millas</text>
+<text x="170" y="160" class="b" style="font-size:17px">Aguas sucias (aseos)</text>
+<rect x="160" y="170" width="190" height="70" class="no"/>
+<rect x="350" y="170" width="210" height="70" class="med"/>
+<rect x="560" y="170" width="180" height="70" class="si"/>
+<text x="255" y="200" text-anchor="middle" class="c">prohibido</text>
+<text x="255" y="220" text-anchor="middle" class="p">(ni tratadas)</text>
+<text x="455" y="200" text-anchor="middle" class="c">solo desmenuzadas</text>
+<text x="455" y="220" text-anchor="middle" class="c">y desinfectadas</text>
+<text x="650" y="200" text-anchor="middle" class="c">también sin tratar</text>
+<text x="650" y="220" text-anchor="middle" class="p">a más de 4 nudos</text>
+<text x="170" y="270" class="b" style="font-size:17px">Basuras en el Mediterráneo (zona especial, MARPOL V)</text>
+<rect x="160" y="280" width="400" height="60" class="no"/>
+<rect x="560" y="280" width="180" height="60" class="si"/>
+<text x="360" y="316" text-anchor="middle" class="c">prohibido</text>
+<text x="650" y="306" text-anchor="middle" class="c">solo restos de comida</text>
+<text x="650" y="326" text-anchor="middle" class="p">triturados (25 mm), en ruta</text>
+<text x="380" y="372" text-anchor="middle" class="p">Plásticos y aceites: nunca al mar. Fuera de zonas especiales, restos de comida</text>
+<text x="380" y="392" text-anchor="middle" class="p">a más de 3 millas si están triturados y a más de 12 si no lo están.</text>
+</svg>

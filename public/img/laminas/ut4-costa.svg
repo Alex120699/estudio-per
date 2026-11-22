@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t">
+<title id="t">Limitaciones cerca de la costa: 200 metros en playas y 50 metros en el resto de la costa a 3 nudos; playa balizada con canal de acceso</title>
+<style>
+text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:20px;fill:#14202b}
+.b{font-weight:700}.p{font-size:16px;fill:#4b5b69}
+.z{fill:none;stroke:#c2410c;stroke-width:2.5;stroke-dasharray:8 6}
+.am{fill:#facc15;stroke:#14202b;stroke-width:1.5}
+</style>
+<defs><marker id="f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="#c2410c"/></marker></defs>
+<rect width="720" height="420" rx="14" fill="#fff"/>
+<rect x="0" y="0" width="720" height="350" rx="14" fill="#d7ebf8"/>
+<path d="M0,350 L0,250 L120,250 C150,230 160,240 180,250 L360,250 L360,300 L720,300 L720,350 Z" fill="#c8b48c"/>
+<path d="M0,250 L120,250 C150,230 160,240 180,250 L360,250 L360,300 L720,300" fill="none" stroke="#8a6d3b" stroke-width="2"/>
+<rect x="0" y="250" width="180" height="100" fill="#8d8a80"/>
+<text x="90" y="300" text-anchor="middle" style="fill:#fff" class="b">Costa</text>
+<text x="270" y="282" text-anchor="middle" class="b">Playa no balizada</text>
+<text x="540" y="332" text-anchor="middle" class="b">Playa balizada</text>
+<path class="z" d="M0,210 L180,210"/>
+<line x1="60" y1="212" x2="60" y2="248" stroke="#c2410c" stroke-width="2" marker-start="url(#f)" marker-end="url(#f)"/>
+<text x="70" y="236" class="p" style="fill:#9a3412">50 m</text>
+<path class="z" d="M180,210 L180,110 L360,110"/>
+<line x1="300" y1="112" x2="300" y2="248" stroke="#c2410c" stroke-width="2" marker-start="url(#f)" marker-end="url(#f)"/>
+<text x="310" y="184" class="p" style="fill:#9a3412">200 m</text>
+<text x="190" y="140" class="p">máx. 3 nudos</text>
+<g>
+<path d="M380,160 L470,160 M530,160 L700,160" fill="none" stroke="#facc15" stroke-width="3" stroke-dasharray="2 10"/>
+<circle class="am" cx="380" cy="160" r="7"/><circle class="am" cx="420" cy="160" r="7"/><circle class="am" cx="460" cy="160" r="7"/>
+<circle class="am" cx="540" cy="160" r="7"/><circle class="am" cx="580" cy="160" r="7"/><circle class="am" cx="620" cy="160" r="7"/><circle class="am" cx="660" cy="160" r="7"/><circle class="am" cx="700" cy="160" r="7"/>
+<path d="M470,160 L470,296 M530,160 L530,296" fill="none" stroke="#14202b" stroke-width="2" stroke-dasharray="6 5"/>
+<path d="M470,152 L478,166 L462,166 Z" fill="#16a34a" stroke="#14202b" stroke-width="1"/>
+<rect x="524" y="154" width="12" height="12" fill="#e11d1d" stroke="#14202b" stroke-width="1"/>
+<path d="M500,280 L500,186" stroke="#14202b" stroke-width="3" marker-end="url(#f)"/>
+<text x="610" y="230" text-anchor="middle" class="p">zona de baño:</text>
+<text x="610" y="250" text-anchor="middle" class="p">prohibido entrar</text>
+<text x="500" y="130" text-anchor="middle" class="p">canal de acceso</text>
+</g>
+<text x="360" y="378" text-anchor="middle" class="p">Dentro de esas franjas, máximo 3 nudos. En playa balizada, solo por el canal,</text>
+<text x="360" y="400" text-anchor="middle" class="p">perpendicular a la costa. Visto desde arriba; distancias sin escala.</text>
+</svg>
